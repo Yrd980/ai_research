@@ -9,6 +9,7 @@
 - `docs/analysis/`：世界模型、关系网、去噪事实簇
 - `docs/framework/`：方法论与研究框架
 - `docs/reports/`：不确定项与待补字段
+- `task_plan.md` / `findings.md` / `progress.md`：skills `planning-with-files` 的长期演化记录（必须保留）
 
 ## Current Canonical Files
 
