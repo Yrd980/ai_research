@@ -23,6 +23,7 @@ Do not delete these three files during cleanup/refactor.
 ## Working Structure
 
 - Raw ingest: `data/raw/wechat/`
+- Objective wiki: `data/wiki/`
 - Structured data: `data/processed/`
 - Date/link indexes: `data/indexes/`
 - Templates: `data/templates/`
@@ -35,9 +36,10 @@ Do not delete these three files during cleanup/refactor.
 1. Ingest raw text into `data/raw/wechat/YYYY-MM-DD.md`.
 2. Update `data/raw/wechat/ingest_manifest.csv`.
 3. Extract structured events into `data/processed/juya_network_seed.csv`.
-4. Update term lexicon (`data/processed/term_lexicon_*.csv`) with no missing named entities.
-5. Refresh analysis artifacts in `docs/analysis/` using current evidence only.
-6. Update `task_plan.md`, `findings.md`, and `progress.md`.
+4. Sync objective facts to `data/wiki/` (verified facts + pending verification split).
+5. Update term lexicon (`data/processed/term_lexicon_*.csv`) with no missing named entities.
+6. Refresh analysis artifacts in `docs/analysis/` using current evidence only.
+7. Update `task_plan.md`, `findings.md`, and `progress.md`.
 
 ## Research Principles
 
@@ -46,4 +48,4 @@ Do not delete these three files during cleanup/refactor.
 - Preserve source links for every extracted event.
 - Focus on structural relationships (tech layer, protocol layer, distribution layer, capital layer, organization layer).
 - Avoid premature forecasting unless explicitly requested.
-
+- For objective wiki: no evidence => no fact entry.

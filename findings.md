@@ -97,6 +97,19 @@
   - 固化仓库范围工作规范与目录约定
   - 明确 `task_plan.md` / `findings.md` / `progress.md` 为必须保留文件
   - 固化“原文入库→结构化→词典→分析→计划文件更新”的默认流水线
+- 已落地“零猜测 Wiki 模式”（用户要求 100% 准确）：
+  - 新增 `data/wiki/evidence_registry.csv`（来源证据台账）
+  - 新增 `data/wiki/fact_wiki.csv`（仅 verified 事实）
+  - 新增 `data/wiki/company_wiki.csv` / `product_model_wiki.csv` / `funding_ma_wiki.csv` / `person_wiki.csv`
+  - 新增 `data/wiki/pending_verification.csv`（未核验条目隔离）
+- 三天回填结果（2/11→2/09）：
+  - verified facts: `34`
+  - pending verification: `7`
+  - objective companies: `25`
+- 已完成“第一性原理递归”升级：
+  - `docs/framework/world_model_v1_spec.md`
+  - `docs/analysis/world_model_v1_0211_0209.md`
+  - `data/processed/recursive_mechanism_map_0211_0209.csv`
 
 ## Technical Decisions
 | Decision | Rationale |
@@ -127,3 +140,79 @@
 - Perplexity 创始团队线索: https://en.wikipedia.org/wiki/Perplexity_AI
 - Mistral 创始团队线索: https://en.wikipedia.org/wiki/Mistral_AI
 - Helicone 团队线索: https://docs.helicone.ai/helicone-enterprise/our-team
+
+## 2026-02-11 Feishu Sync Task Findings
+- 新需求：为仓库 `/home/yrd/projects/ai_research` 搭建 `GitHub -> 飞书` 的自动同步能力，覆盖 Markdown 与 CSV。
+- 仓库当前不存在 `.github/` 目录，尚未配置 GitHub Actions。
+- 目录内已存在 `task_plan.md`、`findings.md`、`progress.md`，且根据 `AGENTS.md` 必须保留。
+- 命令错误记录：使用 `rg -E` 时触发 `unknown encoding`；后续改为使用 `rg` 基础匹配或管道 `grep -E`，不重复同样写法。
+- 仓库当前以 `data/` 和 `docs/` 为核心目录，存在大量 `.md` 与 `.csv` 文件，适合用“按路径前缀过滤”的同步策略（如 `docs/**/*.md`、`data/**/*.csv`）。
+- `README.md` 未定义任何现有自动化脚本或部署流程，新增 GitHub Actions 不会与既有 CI 冲突。
+- 飞书认证接口可用路径确认：`POST /open-apis/auth/v3/tenant_access_token/internal`。
+- 多维表格记录同步可用路径确认：
+  - `GET /open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records`
+  - `POST /open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/batch_create`
+  - `POST /open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/batch_update`
+- 文档同步可用路径确认：
+  - `GET /open-apis/docx/v1/documents/{document_id}/blocks`
+  - `DELETE /open-apis/docx/v1/documents/{document_id}/blocks/{block_id}/children/batch_delete`
+  - `POST /open-apis/docx/v1/documents/{document_id}/blocks/{block_id}/children`
+- 工具限制记录：`web.open` 对部分 open.feishu.cn 页面触发 safe-url 限制，已改为搜索聚合结果与可访问 API 索引交叉确认，不重复原路径调用。
+- 设计决策：Markdown 先采用“保留 Markdown 原文行 + Docx 段落块写入”的稳妥模式，优先保证自动化稳定性；后续可再升级为富文本块映射。
+- `data/processed/juya_network_seed.csv` 表头已确认为：`issue_seq,date,item_no,source_url,entity_category,entity_name,event_type,event_summary,funding_amount_usd,founder_info,confidence`。
+- CSV 同步默认可使用复合业务键策略：`issue_seq + date + item_no` 组合生成 `row_key` 用于多维表格 upsert（避免依赖飞书自动记录 ID）。
+- 已完成首版落地文件：
+  - `scripts/feishu_sync.py`（统一处理 Markdown/CSV 同步）
+  - `.github/workflows/sync-to-feishu.yml`（push + 手动触发）
+  - `sync/feishu_sync_targets.json`（目标映射模板，默认 `enabled=false` 防误触）
+  - `docs/framework/github_to_feishu_sync.md`（配置说明）
+  - `requirements-feishu-sync.txt`
+- 同步策略关键点：
+  - Markdown：按行写入 Docx 文档块；优先清空旧块，失败则降级追加。
+  - CSV：按 `upsert_key` 做 create/update 分流，支持 `row_key_from` 自动生成业务键。
+- 本地验证通过：`python -m compileall scripts/feishu_sync.py` 与 `--dry-run`。
+- 清理动作：移除同步脚本未使用的 `sys` 导入后再次编译与 dry-run，结果仍通过。
+- 规划检查：`check-complete.sh` 返回 `ALL PHASES COMPLETE (8/8)`。
+- 使用用户提供的真实参数联调后，Docx 接口返回 `code=99991672`，根因是应用未开通文档权限：
+  - `docx:document` 或
+  - `docx:document:readonly`
+- 这不是 ID 填写错误，而是飞书开放平台权限（scope）未授权；需在应用权限页开通并发布后重试。
+- 多维表格接口联调结果：
+  - `records/list` 成功（说明 `app_token/table_id` 正确且具备读取权限）。
+  - 目标表当前仅有一个默认字段 `Text`，没有业务字段（如 `row_key/date/entity_name`）。
+  - 自动创建字段调用 `POST /fields` 返回 `code=91403 Forbidden`，说明当前应用/身份对该表无“结构编辑（建字段）”权限。
+- 进一步探针：`records/batch_create`（仅写默认 `Text`）同样返回 `91403 Forbidden`，说明当前应用对该表是“只读或未授权写入”状态。
+- 因此当前阻塞点有两个：Docx scope 未开通 + Bitable 字段创建权限不足。
+- 已将用户提供的真实资源 ID 写入 `sync/feishu_sync_targets.json` 并启用：
+  - `document_id = V3XfdCr4go4nXqxzddfcOXYmnpd`
+  - `app_token = VUvcb1eOoaErFhsSdXGcgDt2nnf`
+  - `table_id = tbldhAn3lLo4sG5w`
+- 工作流已支持 `FEISHU_APP_ID` 从 GitHub Variables 或 Secrets 读取，便于最小化配置摩擦。
+- 最新联调结果：
+  - Docx：`GET /blocks` 已成功（说明文档可读权限已具备）。
+  - Docx：`POST /children` 与 `DELETE /children/batch_delete` 返回 `1770032 forBidden`（仍缺文档写权限）。
+  - Bitable：字段自动创建 + `records/batch_create` 均成功；`juya_network_seed.csv` 41 行已写入目标表。
+  - Bitable 当前总记录数为 `46`（原有 5 行 + 新增 41 行）。
+- 额外验证结果：
+  - 可通过同一应用 token 成功 `create document` 并成功 `create blocks`（文档 `AQkhdBPAVoyIknxfoNdcpBrmnkM`）。
+  - 使用该可写文档跑全量同步（Markdown + CSV）完全成功，CSV 由 `create=0/update=41` 正常幂等更新。
+  - 因此可确认：API 实现和应用 scope 均可用，阻塞点仅在目标文档 `V3XfdCr4go4nXqxzddfcOXYmnpd` 的写入授权上下文。
+- 已按用户要求将同步文档正式切换为 `AQkhdBPAVoyIknxfoNdcpBrmnkM`（不再使用原云盘文档）。
+- 最新实跑结果：Markdown 清空并重写 `61` 行成功；CSV 保持启用并完成 `41` 条更新（`create=0, update=41`）。
+- 用户提供 `wiki` 链接 `D5mVwTynAih2KNkjFy2cN0nLnkf` 后，已验证：
+  - 该 token 可直接作为 `docx` 文档 ID 使用；
+  - `wiki/v2/spaces/get_node` 返回 `obj_type=docx`、`obj_token=QFIAdgtqgoEzcKxVX66cTjOUn0f`；
+  - 应用在该节点可写（create blocks 成功）。
+- 正式同步目标已切换到 `D5mVwTynAih2KNkjFy2cN0nLnkf` 并全量实跑成功（Markdown + CSV）。
+
+## 2026-02-11 Wiki 导航头增强
+- 用户确认希望在 Wiki 文档首屏自动加入导航头（数据更新时间、表格链接、说明）。
+- 当前源文档 `docs/analysis/world_model_v1_0211_0209.md` 保持纯研究正文，不含导航区块。
+- 当前脚本 `scripts/feishu_sync.py` 中 `sync_markdown_target` 直接同步原文内容，尚无“同步时动态前置头部”的能力。
+- 已实现 `sync_header` 配置能力：在同步时动态拼接导航头（文档链接、表格链接、说明、UTC 同步时间），不改动原始 Markdown 文件。
+- 当前 `sync/feishu_sync_targets.json` 已为主目标启用 `sync_header`，并写入 wiki + 多维表格链接。
+- 实跑验证通过：同步行数由 `61` 增加到 `71`（新增 10 行导航头），Markdown 与 CSV 均成功。
+- 用户反馈“看不到更新”后排查：
+  - API 返回 `revision_id=12`，且能读到 `# AI Research 总览导航` 与 `最近同步` 文本，说明写入已发生。
+  - 发现文档块顺序异常：分批写入时固定 `index=0` 导致每批插入最前，产生“内容顺序错位”体验。
+  - 修复策略：按批次递增写入索引，确保最终显示顺序与源文档一致。

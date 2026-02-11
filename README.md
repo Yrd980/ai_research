@@ -3,6 +3,7 @@
 ## Directory Layout
 
 - `data/raw/wechat/`：公众号原文归档（按日期）
+- `data/wiki/`：客观事实 Wiki（零猜测模式，证据驱动）
 - `data/processed/`：结构化事件、词典、观察清单
 - `data/indexes/`：日期与来源索引
 - `data/templates/`：后续滚动采集模板
@@ -15,11 +16,16 @@
 ## Current Canonical Files
 
 - Raw ingest manifest: `data/raw/wechat/ingest_manifest.csv`
+- Objective wiki evidence: `data/wiki/evidence_registry.csv`
+- Objective wiki facts: `data/wiki/fact_wiki.csv`
 - Event table: `data/processed/juya_network_seed.csv`
 - Term lexicon: `data/processed/term_lexicon_0211_0209.csv`
 - World model (v0): `docs/analysis/world_model_v0_0211_0209.md`
+- World model (v1): `docs/analysis/world_model_v1_0211_0209.md`
 - Entity network (v0): `docs/analysis/entity_relation_network_v0_0211_0209.md`
 - Denoised clusters (v0): `docs/analysis/denoised_fact_clusters_v0_0211_0209.md`
 - Framework: `docs/framework/analysis_network.md`
 - Utilization strategy: `docs/framework/utilization_strategy.md`
+- World model spec (v1): `docs/framework/world_model_v1_spec.md`
+- GitHub → Feishu sync guide: `docs/framework/github_to_feishu_sync.md`
 - Uncertainties: `docs/reports/uncertainties.md`

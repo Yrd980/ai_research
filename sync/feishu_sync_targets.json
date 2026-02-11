@@ -1,0 +1,55 @@
+{
+  "markdown_targets": [
+    {
+      "source": "docs/analysis/world_model_v1_0211_0209.md",
+      "document_id": "D5mVwTynAih2KNkjFy2cN0nLnkf",
+      "title": "World Model v1",
+      "sync_header": {
+        "enabled": true,
+        "title": "AI Research 总览导航",
+        "doc_url": "https://pi3yttnd3us.feishu.cn/wiki/D5mVwTynAih2KNkjFy2cN0nLnkf",
+        "bitable_url": "https://pi3yttnd3us.feishu.cn/base/VUvcb1eOoaErFhsSdXGcgDt2nnf?table=tbldhAn3lLo4sG5w&view=vewJ73PmDZ",
+        "notes": [
+          "本页由 GitHub Actions 自动同步",
+          "结构化事件与字段筛选请在多维表格查看",
+          "正文从分隔线下方开始"
+        ]
+      },
+      "enabled": true
+    },
+    {
+      "source": "docs/analysis/entity_relation_network_v0_0211_0209.md",
+      "document_id": "D5mVwTynAih2KNkjFy2cN0nLnkf",
+      "title": "Entity Relation Network v0",
+      "enabled": false
+    }
+  ],
+  "csv_targets": [
+    {
+      "source": "data/processed/juya_network_seed.csv",
+      "app_token": "VUvcb1eOoaErFhsSdXGcgDt2nnf",
+      "table_id": "tbldhAn3lLo4sG5w",
+      "upsert_key": "row_key",
+      "row_key_from": [
+        "issue_seq",
+        "date",
+        "item_no"
+      ],
+      "field_map": {
+        "issue_seq": "issue_seq",
+        "date": "date",
+        "item_no": "item_no",
+        "source_url": "source_url",
+        "entity_category": "entity_category",
+        "entity_name": "entity_name",
+        "event_type": "event_type",
+        "event_summary": "event_summary",
+        "funding_amount_usd": "funding_amount_usd",
+        "founder_info": "founder_info",
+        "confidence": "confidence",
+        "row_key": "row_key"
+      },
+      "enabled": true
+    }
+  ]
+}
