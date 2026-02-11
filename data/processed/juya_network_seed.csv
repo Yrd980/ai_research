@@ -1,0 +1,42 @@
+issue_seq,date,item_no,source_url,entity_category,entity_name,event_type,event_summary,funding_amount_usd,founder_info,confidence
+1,2026-02-11,1,https://qwen.ai/blog?id=qwen-image-2.0,Company,Qwen Team,ModelRelease,发布 Qwen-Image-2.0 统一图像模型,,Unknown,high
+1,2026-02-11,2,https://github.com/OpenMOSS/MOSS-TTS,Company,MOSI.AI,OpenSourceRelease,与 OpenMOSS 联合发布 MOSS-TTS 家族,,Unknown,high
+1,2026-02-11,2,https://github.com/OpenMOSS/MOSS-TTS,Community,OpenMOSS,OpenSourceRelease,发布 MOSS-TTS 多模型语音家族,,Unknown,high
+1,2026-02-11,3,https://github.com/inclusionAI/LLaDA2.X,Company,Ant Group,ModelRelease,发布 LLaDA2.1 扩散大语言模型,,Unknown,high
+1,2026-02-11,4,https://huggingface.co/AngelSlim/HY-1.8B-2Bit,Company,Tencent Hunyuan,ModelRelease,发布 HY-1.8B-2Bit 端侧量化模型,,Unknown,high
+1,2026-02-11,5,https://x.com/embirico/status/2021376881942200801,Company,OpenAI,RoutingPolicy,高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,,Sam Altman,high
+1,2026-02-11,6,https://x.com/OpenAIDevs/status/2021286050623373500,Company,OpenAI,APIUpdate,Responses API 新增长任务与 Agent Skills,,Sam Altman,high
+1,2026-02-11,7,https://x.com/lydiahallie/status/2021012074160324633,Company,Anthropic,ToolingUpdate,Claude Code Desktop 引入 YOLO 权限跳过模式,,Dario Amodei; Daniela Amodei,high
+1,2026-02-11,8,https://www.warp.dev/blog/oz-orchestration-platform-cloud-agents,Company,Warp,PlatformLaunch,推出 Oz 云原生 Agent 编排平台,,Unknown,high
+1,2026-02-11,9,https://linux.do/t/topic/1589167,Company,Antigravity,ModelAccess,向 Pro 账户提供 Claude Opus 4.6,,Unknown,medium
+1,2026-02-11,10,https://github.com/google-gemini/gemini-skills,Company,Google Gemini,OpenSourceRelease,发布 Gemini API skills 代码库,,Larry Page; Sergey Brin,high
+1,2026-02-11,11,https://entire.io/blog/hello-entire-world,Company,Entire,Funding,成立并完成种子轮融资,60000000,Thomas Dohmke,high
+1,2026-02-11,12,https://x.com/drawio/status/2020918870375370825,Company,draw.io,DeveloperToolLaunch,发布官方 MCP 服务器 @drawio/mcp,,Unknown,high
+1,2026-02-11,13,https://x.com/claudeai/status/2021336313979625910,Company,Anthropic,ProductLaunch,发布 Windows 版 Claude Cowork,,Dario Amodei; Daniela Amodei,high
+1,2026-02-11,14,https://x.com/jenny_wen/status/2021242950139650209,Company,Anthropic,ProductUpdate,Claude App 更新交互回复并开放语音模式,,Dario Amodei; Daniela Amodei,medium
+1,2026-02-11,15,https://x.com/OpenAI/status/2021299935678026168,Company,OpenAI,ProductUpdate,ChatGPT Deep Research 升级至 GPT-5.2,,Sam Altman,high
+1,2026-02-11,16,https://x.com/stitchbygoogle/status/2021320125983621626,Company,Google Stitch,ProductUpdate,支持导出为 Figma 可编辑图层,,Larry Page; Sergey Brin,high
+1,2026-02-11,17,https://help.obsidian.md/cli,Company,Obsidian,DeveloperToolLaunch,发布 Obsidian CLI,,Shida Li; Erica Xu,medium
+1,2026-02-11,18,https://mp.weixin.qq.com/s/LXa1fUQTsjxQuPWITE9oQw,Product,Doubao,CampaignLaunch,上线与央视春晚联名活动,,Zhang Yiming,high
+1,2026-02-11,19,https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models,Company,Runway,Funding,完成 E 轮融资,315000000,Cristobal Valenzuela; Alejandro Matamala; Anastasis Germanidis,high
+1,2026-02-11,20,https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform,Company,Nebius,Acquisition,收购 Tavily 以增强 agentic search 能力,,Arkady Volozh,medium
+1,2026-02-11,20,https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform,Company,Tavily,Acquired,被 Nebius 收购,,Unknown,high
+1,2026-02-11,21,https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en,Company,Anthropic,ResearchReport,发布 2026 Agent 编程趋势报告,,Dario Amodei; Daniela Amodei,high
+1,2026-02-11,22,https://unsloth.ai/docs/new/faster-moe,Company,Unsloth,TrainingOptimization,发布 MoE 训练优化方案,,Unknown,high
+1,2026-02-11,23,https://docs.google.com/document/d/1rtU1fRPS0bMqd9abMG_hc6K9OAI6soUy3Kh00toAgyk/edit,Company,Google Chrome,StandardPreview,Chrome 146 推出 WebMCP 早期预览,,Larry Page; Sergey Brin,high
+1,2026-02-11,24,https://x.com/testingcatalog/status/2021356522853531949,Company,Google Gemini,Rumor,开发 Premium Content 功能,,Larry Page; Sergey Brin,medium
+2,2026-02-10,1,https://openai.com/index/testing-ads-in-chatgpt/,Company,OpenAI,MonetizationTest,在美国对 ChatGPT Free/Go 测试广告,,Sam Altman,high
+2,2026-02-10,2,https://x.com/sama/status/2020986318210420954,Company,OpenAI,PolicyUpdate,Codex 将继续向 Free/Go 用户可用,,Sam Altman,high
+2,2026-02-10,3,https://openrouter.ai/openrouter/aurora-alpha,Company,OpenRouter,ModelRelease,上线 stealth 模型 Aurora Alpha,,Unknown,high
+2,2026-02-10,4,https://cursor.com/cn/blog/composer-1-5,Company,Cursor,ModelRelease,发布编程模型 Composer 1.5,,Unknown,high
+2,2026-02-10,5,https://x.com/OpenAIDevs/status/2020921792941166928,Company,OpenAI,PartnerRollout,逐步向第三方开放 GPT-5.3-Codex,,Sam Altman,high
+2,2026-02-10,6,https://mp.weixin.qq.com/s/tLa2PFvcUP0X7GgZKztwsA,Company,Meituan CatPaw,ToolingOpenAccess,AI 编程工具 CatPaw 全量开放,,Wang Xing,high
+2,2026-02-10,7,https://huggingface.co/blog/transformersjs-v4,Company,Hugging Face,FrameworkRelease,发布 Transformers.js v4 预览版,,Clement Delangue; Julien Chaumond; Thomas Wolf,high
+2,2026-02-10,8,https://mp.weixin.qq.com/s/zpq-GVFuY90DZXw0tC_2NA,Platform,ModelScope,APIPlatformLaunch,推出 OpenAPI 与 OAuth 服务,,Unknown,high
+2,2026-02-10,9,https://x.com/soraofficialapp/status/2021001367033425951,Product,Sora,FeatureLaunch,上线 Extensions 视频续写功能,,Sam Altman,high
+2,2026-02-10,10,https://github.com/huggingface/transformers/pull/43858,Company,Zhipu AI,Rumor,GLM-5 架构细节曝光参数约 700B-800B,,Unknown,medium
+3,2026-02-09,1,https://github.com/huggingface/transformers/pull/43830/,Company,Qwen Team,Rumor,Qwen 3.5 系列模型提交支持 PR 即将发布,,Unknown,high
+3,2026-02-09,2,https://docs.x.ai/developers/model-capabilities/images/generation,Company,xAI,ModelAPIRelease,上线 Grok Imagine Image Pro 与标准版 API,,Elon Musk,high
+3,2026-02-09,3,https://www.codebuddy.cn/work,Product,WorkBuddy,ProductLaunch,CodeBuddy 团队发布 AI 桌面工作台并开放内测,,Unknown,high
+3,2026-02-09,4,https://bytedance.larkoffice.com/wiki/TQyJwfRFiiVMUdkFY84cCb7CncI,Company,ByteDance,PreviewRelease,Seedream 5.0-Preview 文档发布并限免 2K/4K 生图,,Zhang Yiming,high
+3,2026-02-09,5,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,Company,Meta AI,Rumor,官网测试代号 Avocado 等新模型与 Agent 功能,,Mark Zuckerberg,medium
