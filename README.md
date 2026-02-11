@@ -8,8 +8,7 @@
 - `data/templates/`：后续滚动采集模板
 - `docs/analysis/`：世界模型、关系网、去噪事实簇
 - `docs/framework/`：方法论与研究框架
-- `docs/reports/`：覆盖报告与不确定项
-- `task_plan.md` / `findings.md` / `progress.md`：持续规划与会话日志
+- `docs/reports/`：不确定项与待补字段
 
 ## Current Canonical Files
 
@@ -19,4 +18,6 @@
 - World model (v0): `docs/analysis/world_model_v0_0211_0209.md`
 - Entity network (v0): `docs/analysis/entity_relation_network_v0_0211_0209.md`
 - Denoised clusters (v0): `docs/analysis/denoised_fact_clusters_v0_0211_0209.md`
-
+- Framework: `docs/framework/analysis_network.md`
+- Utilization strategy: `docs/framework/utilization_strategy.md`
+- Uncertainties: `docs/reports/uncertainties.md`
