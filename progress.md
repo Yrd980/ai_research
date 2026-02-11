@@ -53,6 +53,8 @@
 - 新增 `docs/analysis/denoised_fact_clusters_v0_0211_0209.md`，完成去噪事实簇分层。
 - 完成项目目录重构：数据迁移至 `data/`，分析迁移至 `docs/`，减少根目录噪音。
 - 新增根目录 `README.md` 说明标准结构与核心入口文件。
+- 根据用户反馈恢复并保留 `task_plan.md`、`findings.md`、`progress.md`。
+- 新增根目录 `AGENTS.md`，固化协作规范与必须保留文件规则。
 
 ### Test Results
 | Test | Expected | Actual | Status |

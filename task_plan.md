@@ -42,6 +42,7 @@ Phase 6
 - [x] 严格按倒序继续接收并结构化新日期正文
 - [x] 每轮补齐公司/产品/融资/创始人缺口字段
 - [x] 每轮更新覆盖报告、不确定项与趋势洞察
+- [x] 固化项目协作规范（AGENTS.md）
 - **Status:** complete
 
 ## Decisions Made
@@ -50,6 +51,7 @@ Phase 6
 | 先确认公众号与文章可抓取性，再做深度分析 | 避免在数据不可得时做无效建模 |
 | 采用倒序（2/11→2/10）并强制按日期引用 | 符合用户“反向传播”研究方式 |
 | 将任务扩展为“2/11 起倒推几十天” | 用户明确希望形成长期研究网络 |
+| 明确保留 `task_plan.md`/`findings.md`/`progress.md` | 这是 planning-with-files 的演化记忆主链 |
 
 ## Errors Encountered
 | Error | Resolution |

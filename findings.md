@@ -93,6 +93,10 @@
   - 根目录仅保留 `task_plan.md`、`findings.md`、`progress.md` 与 `README.md`
   - 数据统一归档至 `data/raw|processed|indexes|templates`
   - 分析文档统一归档至 `docs/analysis|framework|reports`
+- 已新增项目级 `AGENTS.md`：
+  - 固化仓库范围工作规范与目录约定
+  - 明确 `task_plan.md` / `findings.md` / `progress.md` 为必须保留文件
+  - 固化“原文入库→结构化→词典→分析→计划文件更新”的默认流水线
 
 ## Technical Decisions
 | Decision | Rationale |
