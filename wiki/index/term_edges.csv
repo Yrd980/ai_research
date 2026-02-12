@@ -1453,3 +1453,55 @@ TE01451,trm_gh-repo-google-adk-python,GH Repo: google/adk-python,trm_google,Goog
 TE01452,trm_gh-repo-google-rago,GH Repo: google/rago,trm_google,Google,1,ext|github_api|https://github.com/google/rago
 TE01453,trm_gh-repo-google-mobly-bluetooth-ref-validation,GH Repo: google/mobly-bluetooth-ref-validation,trm_google,Google,1,ext|github_api|https://github.com/google/mobly-bluetooth-ref-validation
 TE01454,trm_gh-repo-google-gemma-unity-plugin,GH Repo: google/gemma-unity-plugin,trm_google,Google,1,ext|github_api|https://github.com/google/gemma-unity-plugin
+TE01455,trm_ant-group,Ant Group,trm_jack-ma,Jack Ma,1,ext|wikidata|https://www.wikidata.org/wiki/Q21979415
+TE01456,trm_alibaba-group,Alibaba Group,trm_ant-group,Ant Group,1,ext|wikidata|https://www.wikidata.org/wiki/Q21979415
+TE01457,trm_anthropic,Anthropic,trm_chris-olah,Chris Olah,1,ext|wikidata|https://www.wikidata.org/wiki/Q116758847
+TE01458,trm_anthropic,Anthropic,trm_jared-kaplan,Jared Kaplan,1,ext|wikidata|https://www.wikidata.org/wiki/Q116758847
+TE01459,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,1,ext|wikidata|https://www.wikidata.org/wiki/Q55606242
+TE01460,trm_deepseek,DeepSeek,trm_liang-wenfeng,Liang Wenfeng,1,ext|wikidata|https://www.wikidata.org/wiki/Q131577453
+TE01461,trm_deepseek,DeepSeek,trm_high-flyer,High-Flyer,1,ext|wikidata|https://www.wikidata.org/wiki/Q131577453
+TE01462,trm_google,Google,trm_sergey-brin,Sergey Brin,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
+TE01463,trm_google,Google,trm_larry-page,Larry Page,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
+TE01464,trm_alphabet-inc,Alphabet Inc.,trm_google,Google,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
+TE01465,trm_iflytek,iFlytek,trm_liu-qingfeng,Liu Qingfeng,1,ext|wikidata|https://www.wikidata.org/wiki/Q4764375
+TE01466,trm_jetbrains,JetBrains,trm_sergey-dmitriev,Sergey Dmitriev,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
+TE01467,trm_jetbrains,JetBrains,trm_valentin-kipyatkov,Valentin Kipyatkov,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
+TE01468,trm_jetbrains,JetBrains,trm_jetbrains-n-v,JetBrains N.V.,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
+TE01469,trm_eduardo-saverin,Eduardo Saverin,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01470,trm_dustin-moskovitz,Dustin Moskovitz,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01471,trm_chris-hughes,Chris Hughes,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01472,trm_andrew-mccollum,Andrew McCollum,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01473,trm_mark-zuckerberg,Mark Zuckerberg,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01474,trm_blackrock,BlackRock,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
+TE01475,trm_amc-networks-international-central-europe,AMC Networks International Central Europe,trm_minimax,MiniMax,1,ext|wikidata|https://www.wikidata.org/wiki/Q1058962
+TE01476,trm_guillaume-lample,Guillaume Lample,trm_mistral-ai,Mistral AI,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
+TE01477,trm_mistral-ai,Mistral AI,trm_timoth-e-lacroix,Timothée Lacroix,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
+TE01478,trm_arthur-mensch,Arthur Mensch,trm_mistral-ai,Mistral AI,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
+TE01479,trm_nebius,Nebius,trm_nebius-group,Nebius Group,1,ext|wikidata|https://www.wikidata.org/wiki/Q127688424
+TE01480,trm_elon-musk,Elon Musk,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01481,trm_ilya-sutskever,Ilya Sutskever,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01482,trm_greg-brockman,Greg Brockman,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01483,trm_openai,OpenAI,trm_wojciech-zaremba,Wojciech Zaremba,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01484,trm_andrej-karpathy,Andrej Karpathy,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01485,trm_john-schulman,John Schulman,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01486,trm_openai,OpenAI,trm_trevor-blackwell,Trevor Blackwell,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01487,trm_openai,OpenAI,trm_vicki-cheung,Vicki Cheung,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01488,trm_diederik-p-kingma,Diederik P. Kingma,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01489,trm_openai,OpenAI,trm_pamela-vagata,Pamela Vagata,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
+TE01490,trm_ma-huateng,Ma Huateng,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01491,trm_tencent,Tencent,trm_zhang-zhidong,Zhang Zhidong,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01492,trm_chen-yidan,Chen Yidan,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01493,trm_daniel-xu,Daniel Xu,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01494,trm_tencent,Tencent,trm_zeng-liqing,Zeng Liqing,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01495,trm_myriad-international-holdings,Myriad International Holdings,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01496,trm_jpmorgan-chase,JPMorgan Chase,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01497,trm_naspers,Naspers,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
+TE01498,trm_sebastian-thrun,Sebastian Thrun,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
+TE01499,trm_anthony-levandowski,Anthony Levandowski,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
+TE01500,trm_waymo,Waymo,trm_waymo-holding,Waymo Holding,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
+TE01501,trm_google,Google,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
+TE01502,trm_alphabet-inc,Alphabet Inc.,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
+TE01503,trm_tony-wu,Tony Wu,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
+TE01504,trm_igor-babuschkin,Igor Babuschkin,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
+TE01505,trm_elon-musk,Elon Musk,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
+TE01506,trm_kingdom-holding-company,Kingdom Holding Company,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684

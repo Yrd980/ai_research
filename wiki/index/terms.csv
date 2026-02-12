@@ -34,7 +34,7 @@ trm_alex-graves-computer-scientist,Alex Graves (computer scientist),Concept,acti
 trm_alex-krizhevsky,Alex Krizhevsky,Concept,active,wiki expansion node
 trm_alexnet,AlexNet,Concept,active,wiki expansion node
 trm_alibaba-cloud,Alibaba Cloud,Concept,active,wiki expansion node
-trm_alibaba-group,Alibaba Group,Concept,active,wiki expansion node
+trm_alibaba-group,Alibaba Group,Company,active,wiki expansion node
 trm_alibaba-health,Alibaba Health,Concept,active,wiki expansion node
 trm_aliexpress,AliExpress,Concept,active,wiki expansion node
 trm_aligenie,AliGenie,Concept,active,wiki expansion node
@@ -47,18 +47,23 @@ trm_all-saints-david-bowie-album,All Saints (David Bowie album),Concept,active,w
 trm_all-that-lady,All That (Lady),Concept,active,wiki expansion node
 trm_allen-newell,Allen Newell,Concept,active,wiki expansion node
 trm_allmusic,AllMusic,Concept,active,wiki expansion node
+trm_alphabet-inc,Alphabet Inc.,Company,active,wikidata ownership relation
 trm_always-strapped,Always Strapped,Concept,active,wiki expansion node
+trm_amc-networks-international-central-europe,AMC Networks International Central Europe,Company,active,wikidata ownership relation
 trm_anastasis-germanidis,Anastasis Germanidis,Person,active,Runway联合创始人
 trm_andrej-karpathy,Andrej Karpathy,Person,active,243行GPT实现作者
+trm_andrew-mccollum,Andrew McCollum,Person,active,wikidata founder relation
 trm_angie-bowie,Angie Bowie,Concept,active,wiki expansion node
 trm_annie-leibovitz,Annie Leibovitz,Concept,active,wiki expansion node
 trm_annihilate-song,Annihilate (song),Concept,active,wiki expansion node
 trm_ant-group,Ant Group,Company,active,LLaDA2.1
+trm_anthony-levandowski,Anthony Levandowski,Person,active,wikidata founder relation
 trm_anthropic,Anthropic,Company,active,头部平台公司
 trm_anysphere,Anysphere,Concept,active,wiki expansion node
 trm_arabic,Arabic,Concept,active,wiki expansion node
 trm_aretha-franklin,Aretha Franklin,Concept,active,wiki expansion node
 trm_arnold-corns,Arnold Corns,Concept,active,wiki expansion node
+trm_arthur-mensch,Arthur Mensch,Person,active,wikidata founder relation
 trm_artificial-intelligence,Artificial intelligence,Concept,active,wiki expansion node
 trm_artificial-intelligence-controversies,Artificial intelligence controversies,Concept,active,wiki expansion node
 trm_augment-code,Augment Code,Company,active,Context Engine MCP
@@ -86,6 +91,7 @@ trm_beware-big-sean-song,Beware (Big Sean song),Concept,active,wiki expansion no
 trm_big-brain,Big Brain,Concept,active,Meta多agent并行概念
 trm_billboard-magazine,Billboard (magazine),Concept,active,wiki expansion node
 trm_black-tie-white-noise,Black Tie White Noise,Concept,active,wiki expansion node
+trm_blackrock,BlackRock,Company,active,wikidata ownership relation
 trm_blackstar-album,Blackstar (album),Concept,active,wiki expansion node
 trm_blood-diamond,Blood diamond,Concept,active,wiki expansion node
 trm_bloomberg-news,Bloomberg News,Concept,active,wiki expansion node
@@ -104,7 +110,10 @@ trm_channel-5-british-tv-channel,Channel 5 (British TV channel),Concept,active,w
 trm_character-ai,Character.ai,Concept,active,wiki expansion node
 trm_chatgpt,ChatGPT,Product,active,external expansion from official source
 trm_chatgpt-deep-research,ChatGPT Deep Research,Product,active,升级到GPT-5.2
+trm_chen-yidan,Chen Yidan,Person,active,wikidata founder relation
 trm_china,China,Concept,active,wiki expansion node
+trm_chris-hughes,Chris Hughes,Person,active,wikidata founder relation
+trm_chris-olah,Chris Olah,Person,active,wikidata founder relation
 trm_claude,Claude,Product,active,external expansion from official source
 trm_claude-language-model,Claude (language model),Concept,active,wiki expansion node
 trm_claude-app-voice-mode,Claude App voice mode,Product,active,语音模式分阶段开放
@@ -123,13 +132,17 @@ trm_contextual-ai,Contextual AI,Concept,active,wiki expansion node
 trm_cristobal-valenzuela,Cristobal Valenzuela,Person,active,Runway联合创始人
 trm_cursor,Cursor,Company,active,Composer 1.5
 trm_cursor-code-editor,Cursor (code editor),Concept,active,wiki expansion node
+trm_daniel-xu,Daniel Xu,Person,active,wikidata founder relation
 trm_daniela-amodei,Daniela Amodei,Person,active,Anthropic联合创始人
 trm_dario-amodei,Dario Amodei,Person,active,Anthropic联合创始人
 trm_deepseek,DeepSeek,Company,active,1M上下文模型线
+trm_diederik-p-kingma,Diederik P. Kingma,Person,active,wikidata founder relation
 trm_dime,Dime,Product,active,OpenAI硬件传闻名
 trm_draw-io,draw.io,Company,active,MCP server
 trm_droid-agent,Droid Agent,Product,active,Factory集成Agent
 trm_dsa,DSA,Technique,active,稀疏注意力机制
+trm_dustin-moskovitz,Dustin Moskovitz,Person,active,wikidata founder relation
+trm_eduardo-saverin,Eduardo Saverin,Person,active,wikidata founder relation
 trm_elon-musk,Elon Musk,Person,active,xAI关联人物
 trm_entire,Entire,Company,active,初创+融资
 trm_factory,Factory,Company,active,与JetBrains合作
@@ -382,9 +395,11 @@ trm_google-stitch-figma-export,Google Stitch Figma Export,Product,active,Figma�
 trm_gpt-5-2,GPT-5.2,Model,active,路由/升级目标
 trm_gpt-5-2-instant,GPT-5.2 Instant,Model,active,OpenAI更新型号
 trm_gpt-5-3-codex,GPT-5.3-Codex,Model,active,编程模型
+trm_greg-brockman,Greg Brockman,Person,active,wikidata founder relation
 trm_grok,Grok,Product,active,external expansion from official source
 trm_grok-imagine-image,Grok Imagine Image,Model,active,xAI图像模型标准版
 trm_grok-imagine-image-pro,Grok Imagine Image Pro,Model,active,xAI图像模型
+trm_guillaume-lample,Guillaume Lample,Person,active,wikidata founder relation
 trm_hf-model-1-800-bad-code-xlm-roberta-punctuation-fullstop-truecase,HF Model: 1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase,Model,active,huggingface model from official API
 trm_hf-model-abhishekchohan-gemma-3-12b-it-quantized-w4a16,HF Model: abhishekchohan/gemma-3-12b-it-quantized-W4A16,Model,active,huggingface model from official API
 trm_hf-model-adamcodd-vit-base-nsfw-detector,HF Model: AdamCodd/vit-base-nsfw-detector,Model,active,huggingface model from official API
@@ -1726,19 +1741,32 @@ trm_hf-org-zai-org,HF Org: zai-org,Company,active,huggingface organization from 
 trm_hf-org-zerofata,HF Org: zerofata,Company,active,huggingface organization from official API
 trm_hf-org-zhengpeng7,HF Org: ZhengPeng7,Company,active,huggingface organization from official API
 trm_hf-org-zhihan1996,HF Org: zhihan1996,Company,active,huggingface organization from official API
+trm_high-flyer,High-Flyer,Company,active,wikidata ownership relation
 trm_hugging-face,Hugging Face,Company,active,Transformers相关
 trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,active,HY基座模型
 trm_hy-1-8b-2bit,HY-1.8B-2Bit,Model,active,端侧量化模型
 trm_hybrid-attention,Hybrid Attention,Technique,active,Qwen3.5架构机制
 trm_ideate-agent,Ideate Agent,Product,active,Stitch创意Agent
 trm_iflytek,iFlytek,Company,active,讯飞星火X2发布方
+trm_igor-babuschkin,Igor Babuschkin,Person,active,wikidata founder relation
+trm_ilya-sutskever,Ilya Sutskever,Person,active,wikidata founder relation
+trm_jack-ma,Jack Ma,Person,active,wikidata founder relation
+trm_jared-kaplan,Jared Kaplan,Person,active,wikidata founder relation
 trm_jetbrains,JetBrains,Company,active,IDE厂商
+trm_jetbrains-n-v,JetBrains N.V.,Company,active,wikidata ownership relation
+trm_john-schulman,John Schulman,Person,active,wikidata founder relation
+trm_jpmorgan-chase,JPMorgan Chase,Company,active,wikidata ownership relation
 trm_kilo-code,Kilo Code,Company,active,Pony Alpha联动平台
+trm_kingdom-holding-company,Kingdom Holding Company,Company,active,wikidata ownership relation
+trm_larry-page,Larry Page,Person,active,wikidata founder relation
+trm_liang-wenfeng,Liang Wenfeng,Person,active,wikidata founder relation
+trm_liu-qingfeng,Liu Qingfeng,Person,active,wikidata founder relation
 trm_llada2-1,LLaDA2.1,Model,active,扩散大语言模型
 trm_llada2-1-flash,LLaDA2.1-Flash,Model,active,100B版本
 trm_llada2-1-mini,LLaDA2.1-Mini,Model,active,16B版本
 trm_longcat,LongCat,Product,active,美团智能体品牌
 trm_longcat-flash-lite,LongCat-Flash-Lite,Model,active,美团开源模型
+trm_ma-huateng,Ma Huateng,Person,active,wikidata founder relation
 trm_mark-zuckerberg,Mark Zuckerberg,Person,active,Meta核心人物
 trm_meta,Meta,Company,active,Avocado测试线索
 trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,active,蚂蚁全模态模型
@@ -1758,8 +1786,11 @@ trm_moss-voicegenerator,MOSS-VoiceGenerator,Model,active,音色生成
 trm_mossttsdelay,MossTTSDelay,Model,active,8B长上下文
 trm_mossttslocal,MossTTSLocal,Model,active,1.7B轻量
 trm_mtp,MTP,Technique,active,多标记预测
+trm_myriad-international-holdings,Myriad International Holdings,Company,active,wikidata ownership relation
 trm_nanbeige4-1-3b,Nanbeige4.1-3B,Model,active,开源3B模型
+trm_naspers,Naspers,Company,active,wikidata ownership relation
 trm_nebius,Nebius,Company,active,收购Tavily
+trm_nebius-group,Nebius Group,Company,active,wikidata ownership relation
 trm_obsidian,Obsidian,Company,active,CLI发布
 trm_obsidian-cli,Obsidian CLI,Product,active,Early Access
 trm_omnibar,Omnibar,Product,active,Google AI Studio功能
@@ -1771,6 +1802,7 @@ trm_openbmb,OpenBMB,Company,active,MiniCPM-SALA发布方
 trm_openmoss,OpenMOSS,Community,active,MOSS-TTS
 trm_openrouter,OpenRouter,Company,active,Aurora Alpha
 trm_oz,Oz,Platform,active,Warp云原生Agent平台
+trm_pamela-vagata,Pamela Vagata,Person,active,wikidata founder relation
 trm_perplexity,Perplexity,Company,active,Model Council发布方
 trm_pinea-pi,Pinea Pi,Product,active,面壁AI开发板
 trm_plawbench,PLawBench,Metric,active,法律评测基准
@@ -1784,8 +1816,11 @@ trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,active,PR中出现
 trm_responses-api,Responses API,Product,active,OpenAI API能力更新
 trm_runway,Runway,Company,active,E轮融资
 trm_sam-altman,Sam Altman,Person,active,OpenAI核心人物
+trm_sebastian-thrun,Sebastian Thrun,Person,active,wikidata founder relation
 trm_seedance-2-0,Seedance 2.0,Model,active,字节视频生成模型
 trm_seedream-5-0-preview,Seedream 5.0-Preview,Model,active,字节预览版
+trm_sergey-brin,Sergey Brin,Person,active,wikidata founder relation
+trm_sergey-dmitriev,Sergey Dmitriev,Person,active,wikidata founder relation
 trm_sierra,Sierra,Model,active,Meta browser agent代号
 trm_sim,SIM,Metric,active,相似度指标
 trm_sora,Sora,Product,active,OpenAI视频模型
@@ -1798,16 +1833,26 @@ trm_sugon,Sugon,Company,active,中科曙光英文名
 trm_tavily,Tavily,Company,active,agentic search
 trm_tencent,Tencent,Company,active,混元与CodeBuddy线
 trm_thomas-dohmke,Thomas Dohmke,Person,active,Entire创始人
+trm_timoth-e-lacroix,Timothée Lacroix,Person,active,wikidata founder relation
+trm_tony-wu,Tony Wu,Person,active,wikidata founder relation
 trm_transformers-js-v4,Transformers.js v4,Framework,active,WebGPU Runtime预览
+trm_trevor-blackwell,Trevor Blackwell,Person,active,wikidata founder relation
 trm_unsloth,Unsloth,Company,active,MoE优化
+trm_valentin-kipyatkov,Valentin Kipyatkov,Person,active,wikidata founder relation
+trm_vicki-cheung,Vicki Cheung,Person,active,wikidata founder relation
 trm_warp,Warp,Company,active,Oz平台
 trm_waymo,Waymo,Company,active,自动驾驶公司
+trm_waymo-holding,Waymo Holding,Company,active,wikidata ownership relation
 trm_waymo-world-model,Waymo World Model,Model,active,自动驾驶仿真模型
 trm_webmcp,WebMCP,Standard,active,Chrome 146预览
 trm_wer,WER,Metric,active,识别错误率指标
+trm_wojciech-zaremba,Wojciech Zaremba,Person,active,wikidata founder relation
 trm_workbuddy,WorkBuddy,Product,active,AI桌面工作台
 trm_x-developer-platform,X Developer Platform,Platform,active,X开发者平台
 trm_xai,xAI,Company,active,图像API发布
 trm_xai-api,xAI API,Product,active,external expansion from official source
 trm_z-code,Z Code,Product,active,智谱AI编程工具
+trm_zeng-liqing,Zeng Liqing,Person,active,wikidata founder relation
+trm_zhang-yiming,Zhang Yiming,Person,active,wikidata founder relation
+trm_zhang-zhidong,Zhang Zhidong,Person,active,wikidata founder relation
 trm_zhipu-ai,Zhipu AI,Company,active,GLM-5传闻

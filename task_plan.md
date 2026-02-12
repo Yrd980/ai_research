@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 29 (complete)
+Phase 30 (complete)
 
 ## Phases
 
@@ -268,5 +268,13 @@ Phase 29 (complete)
 - [x] 同步更新 terms/edges/high_value_relations/external_edges
 - [x] 保守补充 M&A/Founder（仅明确来源）
 - [x] 更新 relation queue 与文档日志
+- [x] 安全门禁 + 自动发布
+- **Status:** complete
+
+### Phase 30: 并行关系扩展（Founder + M&A 深挖）
+- [x] 使用 Wikidata 官方 API 批量补充 founded_by
+- [x] 使用 Wikidata 所有权相关属性补充 acquired_by / parent_company
+- [x] 严格去重并保持高质量来源标注
+- [x] 更新 relation queue 与日志
 - [x] 安全门禁 + 自动发布
 - **Status:** complete

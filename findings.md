@@ -744,3 +744,15 @@
   - `terms.csv` = 1812
   - `term_edges.csv` = 1454
   - `high_value_relations.csv` = 1306
+
+## 2026-02-12 Phase 30 并行关系扩展增量（Wikidata Founder + M&A）
+- 使用 Wikidata API（P112 / P127 / P749）对非 HF Org 公司批量回填。
+- 本轮增量：
+  - terms +45
+  - high_value_relations +56
+  - term_edges +52
+  - term_external_edges +56
+- 当前总量：
+  - `terms.csv` = 1857
+  - `term_edges.csv` = 1506
+  - `high_value_relations.csv` = 1362

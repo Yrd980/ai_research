@@ -260,3 +260,5 @@
 - 并行扩展完成：接入 Hugging Face top-1000 模型池，主图提升到 1578 节点，关系提升到 1015。
 - 完成 Phase 28 并行关系扩展：关系总量提升到 1072（含 open_source_model、develops_model、owns_product、founded_by、maintains）。
 - Phase 29 增量完成：并行接入 GitHub 官方组织仓库关系，关系总量提升到 1306。
+- 进入 Phase 30：并行深挖 Founder 与 M&A 关系，目标提升高价值结构关系密度。
+- Phase 30 完成：并行回填 Wikidata Founder + M&A 关系，关系总量提升至 1362。

@@ -1305,3 +1305,59 @@ R1303,open_source_project,trm_google,Google,trm_gh-repo-google-adk-python,GH Rep
 R1304,open_source_project,trm_google,Google,trm_gh-repo-google-rago,GH Repo: google/rago,,https://github.com/google/rago,official_primary,candidate,2026-02-12,from_github_org_api
 R1305,open_source_project,trm_google,Google,trm_gh-repo-google-mobly-bluetooth-ref-validation,GH Repo: google/mobly-bluetooth-ref-validation,,https://github.com/google/mobly-bluetooth-ref-validation,official_primary,candidate,2026-02-12,from_github_org_api
 R1306,open_source_project,trm_google,Google,trm_gh-repo-google-gemma-unity-plugin,GH Repo: google/gemma-unity-plugin,,https://github.com/google/gemma-unity-plugin,official_primary,candidate,2026-02-12,from_github_org_api
+R1307,founded_by,trm_ant-group,Ant Group,trm_jack-ma,Jack Ma,,https://www.wikidata.org/wiki/Q21979415,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1308,acquired_by,trm_ant-group,Ant Group,trm_alibaba-group,Alibaba Group,,https://www.wikidata.org/wiki/Q21979415,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1309,founded_by,trm_anthropic,Anthropic,trm_chris-olah,Chris Olah,,https://www.wikidata.org/wiki/Q116758847,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1310,founded_by,trm_anthropic,Anthropic,trm_jared-kaplan,Jared Kaplan,,https://www.wikidata.org/wiki/Q116758847,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1311,founded_by,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,,https://www.wikidata.org/wiki/Q55606242,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1312,acquired_by,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,,https://www.wikidata.org/wiki/Q55606242,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1313,founded_by,trm_deepseek,DeepSeek,trm_liang-wenfeng,Liang Wenfeng,,https://www.wikidata.org/wiki/Q131577453,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1314,acquired_by,trm_deepseek,DeepSeek,trm_high-flyer,High-Flyer,,https://www.wikidata.org/wiki/Q131577453,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1315,founded_by,trm_google,Google,trm_sergey-brin,Sergey Brin,,https://www.wikidata.org/wiki/Q95,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1316,founded_by,trm_google,Google,trm_larry-page,Larry Page,,https://www.wikidata.org/wiki/Q95,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1317,acquired_by,trm_google,Google,trm_alphabet-inc,Alphabet Inc.,,https://www.wikidata.org/wiki/Q95,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1318,founded_by,trm_iflytek,iFlytek,trm_liu-qingfeng,Liu Qingfeng,,https://www.wikidata.org/wiki/Q4764375,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1319,founded_by,trm_jetbrains,JetBrains,trm_sergey-dmitriev,Sergey Dmitriev,,https://www.wikidata.org/wiki/Q1688472,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1320,founded_by,trm_jetbrains,JetBrains,trm_valentin-kipyatkov,Valentin Kipyatkov,,https://www.wikidata.org/wiki/Q1688472,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1321,acquired_by,trm_jetbrains,JetBrains,trm_jetbrains-n-v,JetBrains N.V.,,https://www.wikidata.org/wiki/Q1688472,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1322,founded_by,trm_meta,Meta,trm_eduardo-saverin,Eduardo Saverin,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1323,founded_by,trm_meta,Meta,trm_dustin-moskovitz,Dustin Moskovitz,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1324,founded_by,trm_meta,Meta,trm_chris-hughes,Chris Hughes,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1325,founded_by,trm_meta,Meta,trm_andrew-mccollum,Andrew McCollum,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1326,acquired_by,trm_meta,Meta,trm_mark-zuckerberg,Mark Zuckerberg,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1327,acquired_by,trm_meta,Meta,trm_dustin-moskovitz,Dustin Moskovitz,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1328,acquired_by,trm_meta,Meta,trm_eduardo-saverin,Eduardo Saverin,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1329,acquired_by,trm_meta,Meta,trm_blackrock,BlackRock,,https://www.wikidata.org/wiki/Q380,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1330,acquired_by,trm_minimax,MiniMax,trm_amc-networks-international-central-europe,AMC Networks International Central Europe,,https://www.wikidata.org/wiki/Q1058962,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1331,founded_by,trm_mistral-ai,Mistral AI,trm_guillaume-lample,Guillaume Lample,,https://www.wikidata.org/wiki/Q119718658,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1332,founded_by,trm_mistral-ai,Mistral AI,trm_timoth-e-lacroix,Timothée Lacroix,,https://www.wikidata.org/wiki/Q119718658,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1333,founded_by,trm_mistral-ai,Mistral AI,trm_arthur-mensch,Arthur Mensch,,https://www.wikidata.org/wiki/Q119718658,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1334,acquired_by,trm_nebius,Nebius,trm_nebius-group,Nebius Group,,https://www.wikidata.org/wiki/Q127688424,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1335,founded_by,trm_openai,OpenAI,trm_elon-musk,Elon Musk,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1336,founded_by,trm_openai,OpenAI,trm_ilya-sutskever,Ilya Sutskever,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1337,founded_by,trm_openai,OpenAI,trm_greg-brockman,Greg Brockman,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1338,founded_by,trm_openai,OpenAI,trm_wojciech-zaremba,Wojciech Zaremba,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1339,founded_by,trm_openai,OpenAI,trm_andrej-karpathy,Andrej Karpathy,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1340,founded_by,trm_openai,OpenAI,trm_john-schulman,John Schulman,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1341,founded_by,trm_openai,OpenAI,trm_trevor-blackwell,Trevor Blackwell,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1342,founded_by,trm_openai,OpenAI,trm_vicki-cheung,Vicki Cheung,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1343,founded_by,trm_openai,OpenAI,trm_diederik-p-kingma,Diederik P. Kingma,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1344,founded_by,trm_openai,OpenAI,trm_pamela-vagata,Pamela Vagata,,https://www.wikidata.org/wiki/Q21708200,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1345,founded_by,trm_tencent,Tencent,trm_ma-huateng,Ma Huateng,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1346,founded_by,trm_tencent,Tencent,trm_zhang-zhidong,Zhang Zhidong,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1347,founded_by,trm_tencent,Tencent,trm_chen-yidan,Chen Yidan,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1348,founded_by,trm_tencent,Tencent,trm_daniel-xu,Daniel Xu,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1349,founded_by,trm_tencent,Tencent,trm_zeng-liqing,Zeng Liqing,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1350,acquired_by,trm_tencent,Tencent,trm_ma-huateng,Ma Huateng,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1351,acquired_by,trm_tencent,Tencent,trm_myriad-international-holdings,Myriad International Holdings,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1352,acquired_by,trm_tencent,Tencent,trm_jpmorgan-chase,JPMorgan Chase,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1353,acquired_by,trm_tencent,Tencent,trm_naspers,Naspers,,https://www.wikidata.org/wiki/Q860580,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1354,founded_by,trm_waymo,Waymo,trm_sebastian-thrun,Sebastian Thrun,,https://www.wikidata.org/wiki/Q15330,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1355,founded_by,trm_waymo,Waymo,trm_anthony-levandowski,Anthony Levandowski,,https://www.wikidata.org/wiki/Q15330,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1356,acquired_by,trm_waymo,Waymo,trm_waymo-holding,Waymo Holding,,https://www.wikidata.org/wiki/Q15330,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1357,acquired_by,trm_waymo,Waymo,trm_google,Google,,https://www.wikidata.org/wiki/Q15330,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1358,acquired_by,trm_waymo,Waymo,trm_alphabet-inc,Alphabet Inc.,,https://www.wikidata.org/wiki/Q15330,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1359,founded_by,trm_xai,xAI,trm_tony-wu,Tony Wu,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1360,founded_by,trm_xai,xAI,trm_igor-babuschkin,Igor Babuschkin,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,candidate,2026-02-12,wikidata_P112
+R1361,acquired_by,trm_xai,xAI,trm_elon-musk,Elon Musk,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
+R1362,acquired_by,trm_xai,xAI,trm_kingdom-holding-company,Kingdom Holding Company,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,candidate,2026-02-12,wikidata_P127_or_P749
