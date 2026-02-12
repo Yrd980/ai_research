@@ -9,8 +9,8 @@
 ## Definition
 - 稀疏注意力机制
 
-## Related Companies/People
-- TBD (factual, source-backed only)
+## Related Entities
+- TBD
 
 ## Sources
-- Add objective source links here
+- TBD

@@ -1,24 +1,30 @@
 # Objective Writing Policy
 
-This wiki accepts factual, source-backed descriptions only.
+本规则用于 `wiki/` 的全部文本与索引字段。
 
-## Rules
+## 基本原则
 
-- Use neutral statements (who/what/when/where).
-- Avoid evaluative wording (e.g., "top", "best", "amazing").
-- Every non-trivial intro or claim should have a source link in the page `Sources` section.
-- If a fact is unknown, keep `TBD` rather than guessing.
+- 只写事实，不写判断。
+- 一条断言只表达一个事实。
+- 每条关键事实都能回溯到来源链接与日期。
+- 不确定就写 `TBD`，不猜测。
 
-## Compression Axioms (v1)
+## 文风约束
 
-- Evidence-first: no source, no assertion.
-- One-fact-one-assertion: split compound claims into atomic assertions.
-- Normalize-before-add: merge synonyms/aliases before adding new entities.
-- Reversible compression: each assertion must trace back to source/date.
-- Time as first-class: key assertions should carry `event_date`.
+- 使用中性表达（who / what / when / where）。
+- 禁用营销词和主观形容词（如“顶级”“领先”“惊艳”）。
+- 禁止把推测语气写成既成事实。
 
-## Intro Standard
+## 实体页最小结构
 
-Use this format for intros:
-- `Objective Intro`: one factual sentence.
-- Add at least one supporting source URL under `Sources`.
+1. `Objective Card`
+2. `Objective Intro`
+3. `Sources`
+
+允许扩展区块，但不得替代以上三项。
+
+## 断言字段约束
+
+- `assertions.csv` 为唯一事实源。
+- `relations.csv`、`history_timeline.csv` 仅做派生视图。
+- 派生视图与事实源冲突时，以 `assertions.csv` 为准。

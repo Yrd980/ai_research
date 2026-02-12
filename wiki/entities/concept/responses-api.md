@@ -9,8 +9,8 @@
 ## Definition
 - OpenAI API能力更新
 
-## Related Companies/People
-- TBD (factual, source-backed only)
+## Related Entities
+- TBD
 
 ## Sources
-- Add objective source links here
+- TBD

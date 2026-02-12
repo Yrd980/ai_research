@@ -1,0 +1,138 @@
+candidate_id,event_date,subject_text,subject_entity_id,event_title,source_domain,source_url,promotion_score,promotion_bucket,status,notes
+C00005,2026-02-03,OpenAI,cmp_openai,OpenAI 发布 Codex App,openai.com,https://openai.com/index/introducing-the-codex-app/,6,high,candidate,from_ai_daily_primary_link
+C00008,2026-02-03,OpenAI,cmp_openai,Snowflake与OpenAI达成2亿美元模型集成合作,openai.com,https://openai.com/index/snowflake-partnership/,6,high,candidate,from_ai_daily_primary_link
+C00015,2026-02-05,Hugging Face,cmp_hugging-face,上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro,huggingface.co,https://huggingface.co/internlm/Intern-S1-Pro,6,high,candidate,from_ai_daily_primary_link
+C00016,2026-02-05,OpenAI,cmp_openai,上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro,huggingface.co,https://huggingface.co/internlm/Intern-S1-Pro,6,high,candidate,from_ai_daily_primary_link
+C00022,2026-02-06,Anthropic,cmp_anthropic,Anthropic发布Claude Opus 4.6,anthropic.com,https://www.anthropic.com/news/claude-opus-4-6,6,high,candidate,from_ai_daily_primary_link
+C00023,2026-02-06,Claude Opus 4.6,cpt_claude-opus-4-6,Anthropic发布Claude Opus 4.6,anthropic.com,https://www.anthropic.com/news/claude-opus-4-6,6,high,candidate,from_ai_daily_primary_link
+C00024,2026-02-06,GPT-5.3-Codex,cpt_gpt-5-3-codex,OpenAI发布GPT-5.3-Codex,openai.com,https://openai.com/index/introducing-gpt-5-3-codex/,6,high,candidate,from_ai_daily_primary_link
+C00025,2026-02-06,OpenAI,cmp_openai,OpenAI发布GPT-5.3-Codex,openai.com,https://openai.com/index/introducing-gpt-5-3-codex/,6,high,candidate,from_ai_daily_primary_link
+C00026,2026-02-06,OpenAI,cmp_openai,OpenAI 推出企业 AI Agent平台 Frontier,openai.com,https://openai.com/index/introducing-openai-frontier/,6,high,candidate,from_ai_daily_primary_link
+C00027,2026-02-06,GPT-5.3-Codex,cpt_gpt-5-3-codex,OpenAI 推出 Trusted Access for Cyber 试点项目,openai.com,https://openai.com/index/trusted-access-for-cyber/,6,high,candidate,from_ai_daily_primary_link
+C00028,2026-02-06,OpenAI,cmp_openai,OpenAI 推出 Trusted Access for Cyber 试点项目,openai.com,https://openai.com/index/trusted-access-for-cyber/,6,high,candidate,from_ai_daily_primary_link
+C00031,2026-02-06,OpenAI,cmp_openai,OpenAI揭晓Codex核心架构,github.com,https://github.com/openai/codex/discussions/9956,6,high,candidate,from_ai_daily_primary_link
+C00033,2026-02-06,Anthropic,cmp_anthropic,Anthropic揭示基础设施配置影响 Agent 评估,anthropic.com,https://www.anthropic.com/engineering/infrastructure-noise,6,high,candidate,from_ai_daily_primary_link
+C00034,2026-02-06,OpenAI,cmp_openai,OpenAI与Ginkgo合作推出AI实验室降低合成成本40%,openai.com,https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/,6,high,candidate,from_ai_daily_primary_link
+C00035,2026-02-07,LongCat,cpt_longcat,美团推出LongCat-Flash-Lite模型,huggingface.co,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite,6,high,candidate,from_ai_daily_primary_link
+C00036,2026-02-07,LongCat-Flash-Lite,cpt_longcat-flash-lite,美团推出LongCat-Flash-Lite模型,huggingface.co,https://huggingface.co/meituan-longcat/LongCat-Flash-Lite,6,high,candidate,from_ai_daily_primary_link
+C00053,2026-02-08,OpenAI,cmp_openai,OpenAI 推进AI模型本土化策略,openai.com,https://openai.com/index/our-approach-to-localization/,6,high,candidate,from_ai_daily_primary_link
+C00054,2026-02-08,OpenAI for Countries,cpt_openai-for-countries,OpenAI 推进AI模型本土化策略,openai.com,https://openai.com/index/our-approach-to-localization/,6,high,candidate,from_ai_daily_primary_link
+C00055,2026-02-08,PLawBench,cpt_plawbench,千问Qwen等联合推出法律评测基准PLawBench,arxiv.org,https://arxiv.org/abs/2601.16669,6,high,candidate,from_ai_daily_primary_link
+C00057,2026-02-09,Gated DeltaNet,cpt_gated-deltanet,Qwen 3.5系列模型即将发布（原文）,github.com,https://github.com/huggingface/transformers/pull/43830/,6,high,candidate,from_ai_daily_primary_link
+C00058,2026-02-09,Hugging Face,cmp_hugging-face,Qwen 3.5系列模型即将发布（原文）,github.com,https://github.com/huggingface/transformers/pull/43830/,6,high,candidate,from_ai_daily_primary_link
+C00059,2026-02-09,Qwen 3.5,cpt_qwen-3-5,Qwen 3.5系列模型即将发布（原文）,github.com,https://github.com/huggingface/transformers/pull/43830/,6,high,candidate,from_ai_daily_primary_link
+C00060,2026-02-09,Qwen3.5-35B-A3B-Instruct,cpt_qwen3-5-35b-a3b-instruct,Qwen 3.5系列模型即将发布（原文）,github.com,https://github.com/huggingface/transformers/pull/43830/,6,high,candidate,from_ai_daily_primary_link
+C00061,2026-02-09,Qwen3.5-9B-Instruct,cpt_qwen3-5-9b-instruct,Qwen 3.5系列模型即将发布（原文）,github.com,https://github.com/huggingface/transformers/pull/43830/,6,high,candidate,from_ai_daily_primary_link
+C00071,2026-02-10,OpenAI,cmp_openai,OpenAI正式启动ChatGPT广告测试,openai.com,https://openai.com/index/testing-ads-in-chatgpt/,6,high,candidate,from_ai_daily_primary_link
+C00076,2026-02-10,Hugging Face,cmp_hugging-face,Hugging Face发布Transformers.js v4预览版,huggingface.co,https://huggingface.co/blog/transformersjs-v4,6,high,candidate,from_ai_daily_primary_link
+C00077,2026-02-10,Transformers.js v4,cpt_transformers-js-v4,Hugging Face发布Transformers.js v4预览版,huggingface.co,https://huggingface.co/blog/transformersjs-v4,6,high,candidate,from_ai_daily_primary_link
+C00078,2026-02-10,DSA,cpt_dsa,智谱GLM-5架构细节曝光总参数或达700B,github.com,https://github.com/huggingface/transformers/pull/43858,6,high,candidate,from_ai_daily_primary_link
+C00079,2026-02-10,GLM-5,cpt_glm-5,智谱GLM-5架构细节曝光总参数或达700B,github.com,https://github.com/huggingface/transformers/pull/43858,6,high,candidate,from_ai_daily_primary_link
+C00080,2026-02-10,MTP,cpt_mtp,智谱GLM-5架构细节曝光总参数或达700B,github.com,https://github.com/huggingface/transformers/pull/43858,6,high,candidate,from_ai_daily_primary_link
+C00082,2026-02-11,MOSI.AI,cmp_mosi-ai,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00083,2026-02-11,MOSS-SoundEffect,cpt_moss-soundeffect,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00084,2026-02-11,MOSS-TTS,cpt_moss-tts,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00085,2026-02-11,MOSS-TTS-Realtime,cpt_moss-tts-realtime,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00086,2026-02-11,MOSS-TTSD v1.0,cpt_moss-ttsd-v1-0,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00087,2026-02-11,MOSS-VoiceGenerator,cpt_moss-voicegenerator,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00088,2026-02-11,MossTTSDelay,cpt_mossttsdelay,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00089,2026-02-11,MossTTSLocal,cpt_mossttslocal,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00090,2026-02-11,OpenMOSS,cpt_openmoss,MOSI.AI与OpenMOSS发布MOSS-TTS家族,github.com,https://github.com/OpenMOSS/MOSS-TTS,6,high,candidate,from_ai_daily_primary_link
+C00091,2026-02-11,LLaDA2.1,cpt_llada2-1,蚂蚁集团发布LLaDA2.1扩散大语言模型,github.com,https://github.com/inclusionAI/LLaDA2.X,6,high,candidate,from_ai_daily_primary_link
+C00092,2026-02-11,Hunyuan-1.8B-Instruct,cpt_hunyuan-1-8b-instruct,腾讯混元发布HY-1.8B-2Bit端侧量化模型,huggingface.co,https://huggingface.co/AngelSlim/HY-1.8B-2Bit,6,high,candidate,from_ai_daily_primary_link
+C00093,2026-02-11,HY-1.8B-2Bit,cpt_hy-1-8b-2bit,腾讯混元发布HY-1.8B-2Bit端侧量化模型,huggingface.co,https://huggingface.co/AngelSlim/HY-1.8B-2Bit,6,high,candidate,from_ai_daily_primary_link
+C00094,2026-02-11,GPT-5.2,cpt_gpt-5-2,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,openai.com,https://openai.com,6,high,candidate,from_ai_daily_primary_link
+C00095,2026-02-11,GPT-5.3-Codex,cpt_gpt-5-3-codex,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,openai.com,https://openai.com,6,high,candidate,from_ai_daily_primary_link
+C00096,2026-02-11,OpenAI,cmp_openai,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,openai.com,https://openai.com,6,high,candidate,from_ai_daily_primary_link
+C00097,2026-02-11,OpenAI,cmp_openai,OpenAI更新Responses API支持Agent任务,developers.openai.com,https://developers.openai.com/api/docs/guides/tools-shell,6,high,candidate,from_ai_daily_primary_link
+C00098,2026-02-11,Responses API,cpt_responses-api,OpenAI更新Responses API支持Agent任务,developers.openai.com,https://developers.openai.com/api/docs/guides/tools-shell,6,high,candidate,from_ai_daily_primary_link
+C00101,2026-02-11,gemini-skills,cpt_gemini-skills,Gemini 发布 Gemini API skills,github.com,https://github.com/google-gemini/gemini-skills,6,high,candidate,from_ai_daily_primary_link
+C00102,2026-02-11,Google,cmp_google,Gemini 发布 Gemini API skills,github.com,https://github.com/google-gemini/gemini-skills,6,high,candidate,from_ai_daily_primary_link
+C00103,2026-02-11,Entire,cmp_entire,Entire成立并获6000万美元种子融资,github.com,https://github.com/entireio/cli,6,high,candidate,from_ai_daily_primary_link
+C00104,2026-02-11,Thomas Dohmke,prs_thomas-dohmke,Entire成立并获6000万美元种子融资,github.com,https://github.com/entireio/cli,6,high,candidate,from_ai_daily_primary_link
+C00113,2026-02-12,GLM-5,cpt_glm-5,智谱AI发布并开源GLM-5模型,github.com,https://github.com/zai-org/GLM-5,6,high,candidate,from_ai_daily_primary_link
+C00116,2026-02-12,Ming-flash-omni 2.0,cpt_ming-flash-omni-2-0,蚂蚁集团发布全模态大模型Ming-flash-omni 2.0,huggingface.co,https://huggingface.co/inclusionAI/Ming-flash-omni-2.0,6,high,candidate,from_ai_daily_primary_link
+C00117,2026-02-12,MiniCPM-SALA,cpt_minicpm-sala,OpenBMB发布MiniCPM-SALA百万上下文模型,huggingface.co,https://huggingface.co/openbmb/MiniCPM-SALA,6,high,candidate,from_ai_daily_primary_link
+C00118,2026-02-12,OpenBMB,cmp_openbmb,OpenBMB发布MiniCPM-SALA百万上下文模型,huggingface.co,https://huggingface.co/openbmb/MiniCPM-SALA,6,high,candidate,from_ai_daily_primary_link
+C00119,2026-02-12,Nanbeige4.1-3B,cpt_nanbeige4-1-3b,BOSS直聘推出Nanbeige4.1-3B模型,huggingface.co,https://huggingface.co/Nanbeige/Nanbeige4.1-3B,6,high,candidate,from_ai_daily_primary_link
+C00120,2026-02-12,Soul-AILab,cmp_soul-ailab,Soul推出SoulX-Singer歌声合成模型,arxiv.org,https://arxiv.org/abs/2602.07803,6,high,candidate,from_ai_daily_primary_link
+C00121,2026-02-12,SoulX-Singer,cpt_soulx-singer,Soul推出SoulX-Singer歌声合成模型,arxiv.org,https://arxiv.org/abs/2602.07803,6,high,candidate,from_ai_daily_primary_link
+C00134,2026-02-12,Anthropic,cmp_anthropic,Anthropic发布Claude Opus 4.6破坏风险报告,anthropic.com,https://anthropic.com/claude-opus-4-6-risk-report,6,high,candidate,from_ai_daily_primary_link
+C00135,2026-02-12,Claude Opus 4.6,cpt_claude-opus-4-6,Anthropic发布Claude Opus 4.6破坏风险报告,anthropic.com,https://anthropic.com/claude-opus-4-6-risk-report,6,high,candidate,from_ai_daily_primary_link
+C00136,2026-02-12,Codex Alpha,cpt_codex-alpha,OpenAI开放Windows版Codex Alpha候补,openai.com,https://openai.com/form/codex-app/,6,high,candidate,from_ai_daily_primary_link
+C00137,2026-02-12,OpenAI,cmp_openai,OpenAI开放Windows版Codex Alpha候补,openai.com,https://openai.com/form/codex-app/,6,high,candidate,from_ai_daily_primary_link
+C00010,2026-02-03,Google,cmp_google,Google Gemini研究揭示数学猜想新解法,arxiv.org,https://arxiv.org/abs/2601.22401,5,high,candidate,from_ai_daily_primary_link
+C00011,2026-02-04,OpenBMB,cmp_openbmb,OpenBMB发布多模态模型MiniCPM-o 4.5,github.com,https://github.com/OpenBMB/MiniCPM-o,5,high,candidate,from_ai_daily_primary_link
+C00013,2026-02-04,Anthropic,cmp_anthropic,Anthropic研究：AI错误随难度增加而不连贯,arxiv.org,https://arxiv.org/abs/2601.23045,5,high,candidate,from_ai_daily_primary_link
+C00017,2026-02-05,Mistral AI,cmp_mistral-ai,Mistral AI开源40亿参数实时语音模型Voxtral Mini 4B Realtime 2602,huggingface.co,https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602,5,high,candidate,from_ai_daily_primary_link
+C00019,2026-02-05,Anthropic,cmp_anthropic,Anthropic宣布Claude保持无广告,anthropic.com,https://www.anthropic.com/news/claude-is-a-space-to-think,5,high,candidate,from_ai_daily_primary_link
+C00020,2026-02-05,Meta,cmp_meta,Meta AI发布EB-JEPA开源库,github.com,https://github.com/facebookresearch/eb_jepa,5,high,candidate,from_ai_daily_primary_link
+C00002,2026-02-01,Anthropic,cmp_anthropic,LM Studio更新支持本地运行Claude Code,lmstudio.ai,https://lmstudio.ai/blog/claudecode,4,medium,candidate,from_ai_daily_primary_link
+C00007,2026-02-03,xAI,cmp_xai,xAI正式发布Grok Imagine 1.0视频模型,grok.com,http://grok.com/imagine,4,medium,candidate,from_ai_daily_primary_link
+C00009,2026-02-03,Google,cmp_google,谷歌 Game Arena 新增狼人杀和扑克基准测试,blog.google,https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/,4,medium,candidate,from_ai_daily_primary_link
+C00029,2026-02-06,JetBrains,cmp_jetbrains,Kiro CLI 引入 Agent Client Protocol 支持,kiro.dev,https://kiro.dev/blog/kiro-adopts-acp/,4,medium,candidate,from_ai_daily_primary_link
+C00030,2026-02-06,Google,cmp_google,Google推出原生自适应无障碍框架,blog.google,https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/,4,medium,candidate,from_ai_daily_primary_link
+C00032,2026-02-06,Cursor,cmp_cursor,Cursor发布多智能体编程研究框架,cursor.com,https://cursor.com/cn/blog/self-driving-codebases,4,medium,candidate,from_ai_daily_primary_link
+C00037,2026-02-07,Seedance 2.0,cpt_seedance-2-0,字节跳动发布视频生成模型 Seedance 2.0,bytedance.larkoffice.com,https://bytedance.larkoffice.com/wiki/A5RHwWhoBiOnjukIIw6cu5ybnXQ,4,medium,candidate,from_ai_daily_primary_link
+C00038,2026-02-07,Kilo Code,cmp_kilo-code,OpenRouter与Kilo Code上线 Pony Alpha 模型,openrouter.ai,https://openrouter.ai/openrouter/pony-alpha,4,medium,candidate,from_ai_daily_primary_link
+C00039,2026-02-07,OpenRouter,cmp_openrouter,OpenRouter与Kilo Code上线 Pony Alpha 模型,openrouter.ai,https://openrouter.ai/openrouter/pony-alpha,4,medium,candidate,from_ai_daily_primary_link
+C00040,2026-02-07,Pony Alpha,cpt_pony-alpha,OpenRouter与Kilo Code上线 Pony Alpha 模型,openrouter.ai,https://openrouter.ai/openrouter/pony-alpha,4,medium,candidate,from_ai_daily_primary_link
+C00041,2026-02-07,Waymo,cmp_waymo,Waymo推出Waymo World Model,waymo.com,https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation,4,medium,candidate,from_ai_daily_primary_link
+C00042,2026-02-07,Waymo World Model,cpt_waymo-world-model,Waymo推出Waymo World Model,waymo.com,https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation,4,medium,candidate,from_ai_daily_primary_link
+C00045,2026-02-07,Model Council,cpt_model-council,Perplexity推出多模型聚合问答功能,perplexity.ai,https://www.perplexity.ai/hub/blog/introducing-model-council,4,medium,candidate,from_ai_daily_primary_link
+C00046,2026-02-07,Perplexity,cmp_perplexity,Perplexity推出多模型聚合问答功能,perplexity.ai,https://www.perplexity.ai/hub/blog/introducing-model-council,4,medium,candidate,from_ai_daily_primary_link
+C00047,2026-02-08,Anthropic,cmp_anthropic,Anthropic推出Claude Opus 4.6快速模式,code.claude.com,https://code.claude.com/docs/en/fast-mode,4,medium,candidate,from_ai_daily_primary_link
+C00048,2026-02-08,Claude Opus 4.6,cpt_claude-opus-4-6,Anthropic推出Claude Opus 4.6快速模式,code.claude.com,https://code.claude.com/docs/en/fast-mode,4,medium,candidate,from_ai_daily_primary_link
+C00049,2026-02-08,Augment Code,cmp_augment-code,Augment Code正式上线Context Engine MCP,augmentcode.com,https://www.augmentcode.com/blog/context-engine-mcp-now-live,4,medium,candidate,from_ai_daily_primary_link
+C00050,2026-02-08,Context Engine MCP,cpt_context-engine-mcp,Augment Code正式上线Context Engine MCP,augmentcode.com,https://www.augmentcode.com/blog/context-engine-mcp-now-live,4,medium,candidate,from_ai_daily_primary_link
+C00051,2026-02-08,Brendan Gregg,prs_brendan-gregg,OpenAI引入性能专家优化数据中心成本,brendangregg.com,https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html,4,medium,candidate,from_ai_daily_primary_link
+C00052,2026-02-08,OpenAI,cmp_openai,OpenAI引入性能专家优化数据中心成本,brendangregg.com,https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html,4,medium,candidate,from_ai_daily_primary_link
+C00062,2026-02-09,Grok Imagine Image,cpt_grok-imagine-image,xAI上线Grok Imagine Image Pro 模型 API（原文）,docs.x.ai,https://docs.x.ai/developers/model-capabilities/images/generation,4,medium,candidate,from_ai_daily_primary_link
+C00063,2026-02-09,Grok Imagine Image Pro,cpt_grok-imagine-image-pro,xAI上线Grok Imagine Image Pro 模型 API（原文）,docs.x.ai,https://docs.x.ai/developers/model-capabilities/images/generation,4,medium,candidate,from_ai_daily_primary_link
+C00064,2026-02-09,xAI,cmp_xai,xAI上线Grok Imagine Image Pro 模型 API（原文）,docs.x.ai,https://docs.x.ai/developers/model-capabilities/images/generation,4,medium,candidate,from_ai_daily_primary_link
+C00065,2026-02-09,WorkBuddy,cpt_workbuddy,CodeBuddy团队发布AI桌面工作台WorkBuddy（原文）,codebuddy.cn,https://www.codebuddy.cn/work,4,medium,candidate,from_ai_daily_primary_link
+C00066,2026-02-09,Avocado,cpt_avocado,Meta AI 已在官网测试最新模型 Avocado（原文）,testingcatalog.com,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,4,medium,candidate,from_ai_daily_primary_link
+C00067,2026-02-09,Avocado Thinking,cpt_avocado-thinking,Meta AI 已在官网测试最新模型 Avocado（原文）,testingcatalog.com,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,4,medium,candidate,from_ai_daily_primary_link
+C00068,2026-02-09,Big Brain,cpt_big-brain,Meta AI 已在官网测试最新模型 Avocado（原文）,testingcatalog.com,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,4,medium,candidate,from_ai_daily_primary_link
+C00069,2026-02-09,Meta,cmp_meta,Meta AI 已在官网测试最新模型 Avocado（原文）,testingcatalog.com,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,4,medium,candidate,from_ai_daily_primary_link
+C00070,2026-02-09,Sierra,cpt_sierra,Meta AI 已在官网测试最新模型 Avocado（原文）,testingcatalog.com,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,4,medium,candidate,from_ai_daily_primary_link
+C00072,2026-02-10,Aurora Alpha,cpt_aurora-alpha,OpenRouter上线 stealth 模型 Aurora Alpha,openrouter.ai,https://openrouter.ai/openrouter/aurora-alpha,4,medium,candidate,from_ai_daily_primary_link
+C00073,2026-02-10,OpenRouter,cmp_openrouter,OpenRouter上线 stealth 模型 Aurora Alpha,openrouter.ai,https://openrouter.ai/openrouter/aurora-alpha,4,medium,candidate,from_ai_daily_primary_link
+C00074,2026-02-10,Composer 1.5,cpt_composer-1-5,Cursor 上线编程模型 Composer 1.5,cursor.com,https://cursor.com/cn/blog/composer-1-5,4,medium,candidate,from_ai_daily_primary_link
+C00075,2026-02-10,Cursor,cmp_cursor,Cursor 上线编程模型 Composer 1.5,cursor.com,https://cursor.com/cn/blog/composer-1-5,4,medium,candidate,from_ai_daily_primary_link
+C00081,2026-02-11,Qwen-Image-2.0,cpt_qwen-image-2-0,千问推出Qwen-Image-2.0统一图像模型,qwen.ai,https://qwen.ai/blog?id=qwen-image-2.0,4,medium,candidate,from_ai_daily_primary_link
+C00099,2026-02-11,Oz,cpt_oz,Warp推出Oz云原生Agent编排平台,warp.dev,https://www.warp.dev/blog/oz-orchestration-platform-cloud-agents,4,medium,candidate,from_ai_daily_primary_link
+C00100,2026-02-11,Warp,cmp_warp,Warp推出Oz云原生Agent编排平台,warp.dev,https://www.warp.dev/blog/oz-orchestration-platform-cloud-agents,4,medium,candidate,from_ai_daily_primary_link
+C00105,2026-02-11,Obsidian,cmp_obsidian,Obsidian发布Obsidian CLI,help.obsidian.md,https://help.obsidian.md/cli,4,medium,candidate,from_ai_daily_primary_link
+C00106,2026-02-11,Obsidian CLI,cpt_obsidian-cli,Obsidian发布Obsidian CLI,help.obsidian.md,https://help.obsidian.md/cli,4,medium,candidate,from_ai_daily_primary_link
+C00107,2026-02-11,Runway,cmp_runway,Runway完成3.15亿美元E轮融资,techcrunch.com,https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models,4,medium,candidate,from_ai_daily_primary_link
+C00108,2026-02-11,Nebius,cmp_nebius,Nebius收购Tavily,nebius.com,https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform,4,medium,candidate,from_ai_daily_primary_link
+C00109,2026-02-11,Tavily,cmp_tavily,Nebius收购Tavily,nebius.com,https://nebius.com/newsroom/nebius-announces-agreement-to-acquire-tavily-to-add-agentic-search-to-its-ai-cloud-platform,4,medium,candidate,from_ai_daily_primary_link
+C00110,2026-02-11,Anthropic,cmp_anthropic,Anthropic发布2026 Agent编程趋势报告,resources.anthropic.com,https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en,4,medium,candidate,from_ai_daily_primary_link
+C00111,2026-02-11,Unsloth,cmp_unsloth,Unsloth发布MoE训练优化,unsloth.ai,https://unsloth.ai/docs/new/faster-moe,4,medium,candidate,from_ai_daily_primary_link
+C00112,2026-02-11,WebMCP,cpt_webmcp,Chrome 146 推出 WebMCP 早期预览,docs.google.com,https://docs.google.com/document/d/1rtU1fRPS0bMqd9abMG_hc6K9OAI6soUy3Kh00toAgyk/edit,4,medium,candidate,from_ai_daily_primary_link
+C00114,2026-02-12,MiniMax,cmp_minimax,MiniMax上线MiniMax M2.5,agent.minimax.io,https://agent.minimax.io/,4,medium,candidate,from_ai_daily_primary_link
+C00115,2026-02-12,MiniMax M2.5,cpt_minimax-m2-5,MiniMax上线MiniMax M2.5,agent.minimax.io,https://agent.minimax.io/,4,medium,candidate,from_ai_daily_primary_link
+C00122,2026-02-12,Z Code,cpt_z-code,智谱正式发布AI编程工具 Z Code,zcode-ai.com,https://zcode-ai.com/,4,medium,candidate,from_ai_daily_primary_link
+C00123,2026-02-12,Droid Agent,cpt_droid-agent,Factory与JetBrains合作集成Droid Agent,docs.google.com,https://docs.google.com/forms/d/e/1FAIpQLSdCLNQ_0uPgRwOu7L4vhkPYhznK1cO7M5FyvrCOXUzOCkjabw/viewform,4,medium,candidate,from_ai_daily_primary_link
+C00124,2026-02-12,Factory,cmp_factory,Factory与JetBrains合作集成Droid Agent,docs.google.com,https://docs.google.com/forms/d/e/1FAIpQLSdCLNQ_0uPgRwOu7L4vhkPYhznK1cO7M5FyvrCOXUzOCkjabw/viewform,4,medium,candidate,from_ai_daily_primary_link
+C00125,2026-02-12,JetBrains,cmp_jetbrains,Factory与JetBrains合作集成Droid Agent,docs.google.com,https://docs.google.com/forms/d/e/1FAIpQLSdCLNQ_0uPgRwOu7L4vhkPYhznK1cO7M5FyvrCOXUzOCkjabw/viewform,4,medium,candidate,from_ai_daily_primary_link
+C00126,2026-02-12,GLM in Excel,cpt_glm-in-excel,智谱发布GLM in Excel插件,docs.bigmodel.cn,https://docs.bigmodel.cn/cn/guide/tools/glm-in-excel,4,medium,candidate,from_ai_daily_primary_link
+C00129,2026-02-12,xAI,cmp_xai,xAI进行重组与人事变动,techcrunch.com,https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands,4,medium,candidate,from_ai_daily_primary_link
+C00130,2026-02-12,Prime Intellect,cmp_prime-intellect,Prime Intellect推出全栈agentic训练平台,primeintellect.ai,https://www.primeintellect.ai/blog/lab,4,medium,candidate,from_ai_daily_primary_link
+C00131,2026-02-12,Gemini Deep Think,cpt_gemini-deep-think,Gemini Deep Think 攻克科研级难题,deepmind.google,https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/,4,medium,candidate,from_ai_daily_primary_link
+C00132,2026-02-12,Google,cmp_google,Gemini Deep Think 攻克科研级难题,deepmind.google,https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/,4,medium,candidate,from_ai_daily_primary_link
+C00133,2026-02-12,Andrej Karpathy,prs_andrej-karpathy,Karpathy开源243行纯 Python GPT 实现,gist.github.com,https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95,4,medium,candidate,from_ai_daily_primary_link
+C00001,2026-02-01,Google,cmp_google,Gemini正在测试从ChatGPT等平台导入对话历史的功能,testingcatalog.com,https://www.testingcatalog.com/google-will-make-it-easier-to-import-chatgpt-conversations-to-gemini/,3,medium,candidate,from_ai_daily_primary_link
+C00003,2026-02-01,OpenAI,cmp_openai,Nvidia据称搁置OpenAI千亿协议,wsj.com,https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3,3,medium,candidate,from_ai_daily_primary_link
+C00004,2026-02-01,Meta,cmp_meta,苹果AI核心团队动荡，多人转投Meta谷歌,bloomberg.com,https://www.bloomberg.com/news/articles/2026-01-30/apple-loses-more-ai-researchers-and-a-siri-executive-in-latest-departures,3,medium,candidate,from_ai_daily_primary_link
+C00006,2026-02-03,xAI,cmp_xai,SpaceX正式收购xAI,spacex.com,https://www.spacex.com/updates#xai-joins-spacex,3,medium,candidate,from_ai_daily_primary_link
+C00012,2026-02-04,OpenRouter,cmp_openrouter,OpenRouter推出免费模型路由,openrouter.ai,https://openrouter.ai/openrouter/free,3,medium,candidate,from_ai_daily_primary_link
+C00014,2026-02-04,Anthropic,cmp_anthropic,Anthropic被曝开发图像生成模型,arena.ai,https://arena.ai/zh/c/new,3,medium,candidate,from_ai_daily_primary_link
+C00018,2026-02-05,Google,cmp_google,Google财报披露AI业务推动营收创新高,blog.google,https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/#full-stack-approach-ai,3,medium,candidate,from_ai_daily_primary_link
+C00021,2026-02-05,OpenAI,cmp_openai,传英伟达准备投资OpenAI 200亿美元,bloomberg.com,https://www.bloomberg.com/news/articles/2026-02-03/nvidia-nears-deal-to-invest-20-billion-in-openai-round,3,medium,candidate,from_ai_daily_primary_link
+C00043,2026-02-07,OpenAI,cmp_openai,OpenAI开放Sora真人角色视频生成功能,help.openai.com,https://help.openai.com/en/articles/12593142-sora-release-notes#image-2-video-with-people,3,medium,candidate,from_ai_daily_primary_link
+C00044,2026-02-07,Sora,cpt_sora,OpenAI开放Sora真人角色视频生成功能,help.openai.com,https://help.openai.com/en/articles/12593142-sora-release-notes#image-2-video-with-people,3,medium,candidate,from_ai_daily_primary_link
+C00056,2026-02-08,CarPlay,cpt_carplay,苹果计划为CarPlay引入第三方AI语音,bloomberg.com,https://www.bloomberg.com/news/articles/2026-02-06/apple-plans-to-allow-outside-voice-controlled-ai-chatbots-in-carplay,3,medium,candidate,from_ai_daily_primary_link
+C00127,2026-02-12,Mistral AI,cmp_mistral-ai,Mistral AI投资12亿欧元瑞典数据中心,reuters.com,https://www.reuters.com/sustainability/boards-policy-regulation/france-ai-company-mistral-invests-14-billion-data-centres-sweden-2026-02-11/,3,medium,candidate,from_ai_daily_primary_link
+C00128,2026-02-12,OpenAI,cmp_openai,OpenAI解散任务对齐团队,openaiglobalaffairs.substack.com,https://openaiglobalaffairs.substack.com/p/introducing-our-chief-futurist,3,medium,candidate,from_ai_daily_primary_link

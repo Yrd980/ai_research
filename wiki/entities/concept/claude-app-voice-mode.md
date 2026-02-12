@@ -9,8 +9,8 @@
 ## Definition
 - 语音模式分阶段开放
 
-## Related Companies/People
-- TBD (factual, source-backed only)
+## Related Entities
+- TBD
 
 ## Sources
-- Add objective source links here
+- TBD

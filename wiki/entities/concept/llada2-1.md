@@ -9,8 +9,8 @@
 ## Definition
 - 扩散大语言模型
 
-## Related Companies/People
-- TBD (factual, source-backed only)
+## Related Entities
+- TBD
 
 ## Sources
-- Add objective source links here
+- TBD

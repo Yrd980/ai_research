@@ -1,35 +1,44 @@
 # AI Research Workspace
 
-## Directory Layout
+面向每日 "AI 早报" 的 agentic 维护仓库。
 
-- `data/raw/wechat/`：公众号原文归档（按日期）
-- `data/processed/`：原语主表 + 出现记录 + 超边
-- `data/templates/`：原语与 wiki 候选模板
-- `wiki/`：independent objective extension wiki（full-history, query-oriented）
-- `task_plan.md` / `findings.md` / `progress.md`：skills `planning-with-files` 的长期演化记录（必须保留）
-- `AGENTS.md`：仓库级协作规范与执行流程
+## 目标
 
-## Current Canonical Files
+- 主目标：抽取不可再分名词原语。
+- 次目标：生成 wiki 候选断言并人工晋升。
 
-- Raw ingest manifest: `data/raw/wechat/ingest_manifest.csv`
-- Primitive table: `data/processed/primitives.csv`
-- Primitive occurrences (1元): `data/processed/primitive_occurrences.csv`
-- Primitive hyperedges (N元): `data/processed/primitive_hyperedges.csv`
-- Primitive template: `data/templates/primitives_template.csv`
-- Occurrences template: `data/templates/primitive_occurrences_template.csv`
-- Hyperedges template: `data/templates/primitive_hyperedges_template.csv`
-- Wiki assertion candidates template: `data/templates/wiki_assertions_candidates_template.csv`
-- Wiki registry: `wiki/index/entity_registry.csv`
-- Wiki assertions (source of truth): `wiki/index/assertions.csv`
-- Wiki assertion candidates: `wiki/index/assertions_candidates.csv`
-- Wiki relations: `wiki/index/relations.csv`
-- Wiki timeline: `wiki/index/history_timeline.csv`
-- Startup profiles: `wiki/index/startup_profiles.csv`
+## 核心目录
 
-## Rebuild Command
+- `data/raw/wechat/`：日报原文
+- `data/processed/`：原语与共现结果
+- `data/templates/`：CSV 模板
+- `wiki/index/`：wiki 索引与断言层
 
-```bash
-python3 scripts/build_primitive_cooccurrence.py
-python3 scripts/build_wiki_assertion_candidates.py
-python3 scripts/build_wiki_views.py
-```
+## 必须维护的产物
+
+- `data/raw/wechat/ingest_manifest.csv`
+- `data/processed/primitives.csv`
+- `data/processed/primitive_occurrences.csv`
+- `data/processed/primitive_hyperedges.csv`
+- `wiki/index/assertions.csv`
+- `wiki/index/assertions_candidates.csv`
+- `wiki/index/assertions_review_queue.csv`
+- `wiki/index/relations.csv`
+- `wiki/index/history_timeline.csv`
+
+## Agentic 日常流程
+
+1. 新增或更新 `data/raw/wechat/YYYY-MM-DD.md`。
+2. 更新 `data/raw/wechat/ingest_manifest.csv`。
+3. 维护 `data/processed/primitives.csv`（只保留名词原语）。
+4. 同步更新 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`。
+5. 同步更新 `assertions_candidates.csv` 与 `assertions_review_queue.csv`。
+6. 人工审核后将通过项写入 `wiki/index/assertions.csv`。
+7. 同步 `wiki/index/relations.csv` 与 `wiki/index/history_timeline.csv`。
+
+## 约束
+
+- 全程客观、原子化、可追溯。
+- 优先第一手链接；去除社媒转述噪声。
+- 默认不新增本地构建脚本；直接在 agentic 编辑中维护结果。
+- 详细规则以 `AGENTS.md` 为准。

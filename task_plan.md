@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 16 (complete)
+Phase 23 (complete)
 
 ## Phases
 
@@ -122,6 +122,59 @@ Phase 16 (complete)
 - [x] 补充新日期涉及的原语到 `data/processed/primitives.csv`
 - [x] 重建 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`
 - [x] 验证新日期在 occurrences/hyperedges 中可检索
+- **Status:** complete
+
+### Phase 17: Wiki 候选断言审阅队列化
+- [x] 重建 `wiki/index/assertions_candidates.csv`（包含补录日期）
+- [x] 生成 `wiki/index/assertions_review_queue.csv` 审阅排序视图
+- [x] 新增可重复执行脚本 `scripts/build_wiki_assertion_review_queue.py`
+- [x] 新增审阅模板 `data/templates/wiki_assertions_review_queue_template.csv`
+- [x] 更新 README/AGENTS/wiki README 的命令与流程说明
+- **Status:** complete
+
+### Phase 18: 日报补录（2026-02-06 + 2026-02-05 + 2026-02-04 + 2026-02-03）
+- [x] 将四天原文归档到 `data/raw/wechat/YYYY-MM-DD.md`
+- [x] 更新 `data/raw/wechat/ingest_manifest.csv`
+- [x] 重建 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`
+- [x] 重建 `wiki/index/assertions_candidates.csv`
+- [x] 核对新增日期覆盖统计并记录
+- **Status:** complete
+
+### Phase 19: 日报补录（2026-02-02 + 2026-02-01）
+- [x] 将两天原文归档到 `data/raw/wechat/YYYY-MM-DD.md`
+- [x] 更新 `data/raw/wechat/ingest_manifest.csv`
+- [x] 重建 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`
+- [x] 重建 `wiki/index/assertions_candidates.csv`
+- [x] 核对新增日期覆盖统计并记录
+- **Status:** complete
+
+### Phase 20: 去脚本化（Agentic-only）
+- [x] 删除本地构建脚本（`scripts/`）
+- [x] 清理 `README.md` / `wiki/README.md` 的脚本命令引用
+- [x] 更新 `AGENTS.md` 为默认 agentic 维护口径
+- [x] 验证仓库核心文档无 `python3 scripts/*` 残留
+- **Status:** complete
+
+### Phase 21: 文档全量规整（含 wiki）
+- [x] 统一重写仓库核心文档为 agentic 口径
+- [x] 清理 wiki 规则文档中的历史脚本叙述
+- [x] 对齐 raw 层 README 与当前下游流程
+- [x] 执行文档残留引用检查并确认无脚本命令残留
+- **Status:** complete
+
+### Phase 22: Wiki 实体页模板规整
+- [x] 统一 company/person/concept 页面占位与节标题
+- [x] 清理历史冗余提示文案（sources/timeline）
+- [x] 新增 `wiki/entities/README.md` 说明边界与维护规则
+- [x] 全量扫描确认无旧模板残留
+- **Status:** complete
+
+### Phase 23: Wiki Registry 对齐与候选映射回填
+- [x] 审计 `entity_registry` 与实体页路径/类型一致性
+- [x] 识别 `assertions_candidates` 空 `subject_entity_id` 清单
+- [x] 增补缺失实体到 `entity_registry` 并生成实体页
+- [x] 批量回填候选 `subject_entity_id` 并重算 review queue
+- [x] 复核回填后统计与分桶结果
 - **Status:** complete
 
 ## Decisions Made

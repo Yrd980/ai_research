@@ -1,48 +1,79 @@
 entity_id,entity_name,entity_type,first_seen_date,source_scope,page_path,status,last_updated
-cpt_doubao-new-year-campaign,豆包过年,Campaign,2026-02-11,2/11,wiki/entities/concept/doubao-new-year-campaign.md,seeded,2026-02-12
-cpt_openmoss,OpenMOSS,Community,2026-02-11,2/11,wiki/entities/concept/openmoss.md,seeded,2026-02-12
 cmp_ant-group,Ant Group,Company,2026-02-11,2/11,wiki/entities/company/ant-group.md,seeded,2026-02-12
 cmp_anthropic,Anthropic,Company,2026-02-11,2/11,wiki/entities/company/anthropic.md,seeded,2026-02-12
+cmp_augment-code,Augment Code,Company,2026-02-08,2/08,wiki/entities/company/augment-code.md,seeded,2026-02-12
 cmp_bytedance,ByteDance,Company,2026-02-11,2/11-2/09,wiki/entities/company/bytedance.md,seeded,2026-02-12
 cmp_cursor,Cursor,Company,2026-02-10,2/10,wiki/entities/company/cursor.md,seeded,2026-02-12
 cmp_draw-io,draw.io,Company,2026-02-11,2/11,wiki/entities/company/draw-io.md,seeded,2026-02-12
 cmp_entire,Entire,Company,2026-02-11,2/11,wiki/entities/company/entire.md,seeded,2026-02-12
+cmp_factory,Factory,Company,2026-02-12,2/12,wiki/entities/company/factory.md,seeded,2026-02-12
 cmp_google,Google,Company,2026-02-11,2/11-2/10,wiki/entities/company/google.md,seeded,2026-02-12
 cmp_hugging-face,Hugging Face,Company,2026-02-10,2/10-2/09,wiki/entities/company/hugging-face.md,seeded,2026-02-12
+cmp_jetbrains,JetBrains,Company,2026-02-12,2/12,wiki/entities/company/jetbrains.md,seeded,2026-02-12
+cmp_kilo-code,Kilo Code,Company,2026-02-07,2/07,wiki/entities/company/kilo-code.md,seeded,2026-02-12
 cmp_meta,Meta,Company,2026-02-09,2/09,wiki/entities/company/meta.md,seeded,2026-02-12
+cmp_minimax,MiniMax,Company,2026-02-12,2/12,wiki/entities/company/minimax.md,seeded,2026-02-12
+cmp_mistral-ai,Mistral AI,Company,2026-02-12,2/12,wiki/entities/company/mistral-ai.md,seeded,2026-02-12
 cmp_modelscope,ModelScope,Company,2026-02-10,2/10,wiki/entities/company/modelscope.md,seeded,2026-02-12
 cmp_mosi-ai,MOSI.AI,Company,2026-02-11,2/11,wiki/entities/company/mosi-ai.md,seeded,2026-02-12
 cmp_nebius,Nebius,Company,2026-02-11,2/11,wiki/entities/company/nebius.md,seeded,2026-02-12
 cmp_obsidian,Obsidian,Company,2026-02-11,2/11,wiki/entities/company/obsidian.md,seeded,2026-02-12
 cmp_openai,OpenAI,Company,2026-02-11,2/11-2/10,wiki/entities/company/openai.md,seeded,2026-02-12
+cmp_openbmb,OpenBMB,Company,2026-02-12,2/12,wiki/entities/company/openbmb.md,seeded,2026-02-12
 cmp_openrouter,OpenRouter,Company,2026-02-10,2/10,wiki/entities/company/openrouter.md,seeded,2026-02-12
+cmp_perplexity,Perplexity,Company,2026-02-07,2/07,wiki/entities/company/perplexity.md,seeded,2026-02-12
+cmp_prime-intellect,Prime Intellect,Company,2026-02-12,2/12,wiki/entities/company/prime-intellect.md,seeded,2026-02-12
 cmp_runway,Runway,Company,2026-02-11,2/11,wiki/entities/company/runway.md,seeded,2026-02-12
+cmp_soul-ailab,Soul-AILab,Company,2026-02-12,2/12,wiki/entities/company/soul-ailab.md,seeded,2026-02-12
 cmp_tavily,Tavily,Company,2026-02-11,2/11,wiki/entities/company/tavily.md,seeded,2026-02-12
 cmp_tencent,Tencent,Company,2026-02-11,2/11,wiki/entities/company/tencent.md,seeded,2026-02-12
 cmp_unsloth,Unsloth,Company,2026-02-11,2/11,wiki/entities/company/unsloth.md,seeded,2026-02-12
 cmp_warp,Warp,Company,2026-02-11,2/11,wiki/entities/company/warp.md,seeded,2026-02-12
+cmp_waymo,Waymo,Company,2026-02-07,2/07,wiki/entities/company/waymo.md,seeded,2026-02-12
 cmp_xai,xAI,Company,2026-02-09,2/09,wiki/entities/company/xai.md,seeded,2026-02-12
 cmp_zhipu-ai,Zhipu AI,Company,2026-02-10,2/10,wiki/entities/company/zhipu-ai.md,seeded,2026-02-12
-cpt_big-brain,Big Brain,Concept,2026-02-09,2/09,wiki/entities/concept/big-brain.md,seeded,2026-02-12
-cpt_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,2026-02-11,2/11,wiki/entities/concept/dangerously-skip-permissions.md,seeded,2026-02-12
-cpt_transformers-js-v4,Transformers.js v4,Framework,2026-02-10,2/10,wiki/entities/concept/transformers-js-v4.md,seeded,2026-02-12
 cpt_acc,ACC,Metric,2026-02-11,2/11,wiki/entities/concept/acc.md,seeded,2026-02-12
-cpt_sim,SIM,Metric,2026-02-11,2/11,wiki/entities/concept/sim.md,seeded,2026-02-12
-cpt_wer,WER,Metric,2026-02-11,2/11,wiki/entities/concept/wer.md,seeded,2026-02-12
 cpt_aurora-alpha,Aurora Alpha,Model,2026-02-10,2/10,wiki/entities/concept/aurora-alpha.md,seeded,2026-02-12
 cpt_avocado,Avocado,Model,2026-02-09,2/09,wiki/entities/concept/avocado.md,seeded,2026-02-12
 cpt_avocado-thinking,Avocado Thinking,Model,2026-02-09,2/09,wiki/entities/concept/avocado-thinking.md,seeded,2026-02-12
+cpt_big-brain,Big Brain,Concept,2026-02-09,2/09,wiki/entities/concept/big-brain.md,seeded,2026-02-12
+cpt_carplay,CarPlay,Product,2026-02-08,2/08,wiki/entities/concept/carplay.md,seeded,2026-02-12
+cpt_catpaw,CatPaw,Product,2026-02-10,2/10,wiki/entities/concept/catpaw.md,seeded,2026-02-12
+cpt_chatgpt-ads-test,ChatGPT Ads Test,Product,2026-02-10,2/10,wiki/entities/concept/chatgpt-ads-test.md,seeded,2026-02-12
+cpt_chatgpt-deep-research,ChatGPT Deep Research,Product,2026-02-11,2/11,wiki/entities/concept/chatgpt-deep-research.md,seeded,2026-02-12
+cpt_claude-app-voice-mode,Claude App voice mode,Product,2026-02-11,2/11,wiki/entities/concept/claude-app-voice-mode.md,seeded,2026-02-12
+cpt_claude-code-desktop,Claude Code Desktop,Product,2026-02-11,2/11,wiki/entities/concept/claude-code-desktop.md,seeded,2026-02-12
+cpt_claude-cowork,Claude Cowork,Product,2026-02-11,2/11,wiki/entities/concept/claude-cowork.md,seeded,2026-02-12
+cpt_claude-opus-4-6,Claude Opus 4.6,Product,2026-02-11,2/11,wiki/entities/concept/claude-opus-4-6.md,seeded,2026-02-12
+cpt_codex-alpha,Codex Alpha,Product,2026-02-12,2/12,wiki/entities/concept/codex-alpha.md,seeded,2026-02-12
 cpt_composer-1-5,Composer 1.5,Model,2026-02-10,2/10,wiki/entities/concept/composer-1-5.md,seeded,2026-02-12
+cpt_context-engine-mcp,Context Engine MCP,Product,2026-02-08,2/08,wiki/entities/concept/context-engine-mcp.md,seeded,2026-02-12
+cpt_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,2026-02-11,2/11,wiki/entities/concept/dangerously-skip-permissions.md,seeded,2026-02-12
+cpt_doubao-new-year-campaign,豆包过年,Campaign,2026-02-11,2/11,wiki/entities/concept/doubao-new-year-campaign.md,seeded,2026-02-12
+cpt_droid-agent,Droid Agent,Product,2026-02-12,2/12,wiki/entities/concept/droid-agent.md,seeded,2026-02-12
+cpt_dsa,DSA,Technique,2026-02-10,2/10,wiki/entities/concept/dsa.md,seeded,2026-02-12
+cpt_gated-deltanet,Gated DeltaNet,Technique,2026-02-09,2/09,wiki/entities/concept/gated-deltanet.md,seeded,2026-02-12
+cpt_gemini-deep-think,Gemini Deep Think,Model,2026-02-12,2/12,wiki/entities/concept/gemini-deep-think.md,seeded,2026-02-12
+cpt_gemini-skills,gemini-skills,Project,2026-02-11,2/11,wiki/entities/concept/gemini-skills.md,seeded,2026-02-12
 cpt_glm-5,GLM-5,Model,2026-02-10,2/10,wiki/entities/concept/glm-5.md,seeded,2026-02-12
+cpt_glm-in-excel,GLM in Excel,Product,2026-02-12,2/12,wiki/entities/concept/glm-in-excel.md,seeded,2026-02-12
+cpt_google-stitch-figma-export,Google Stitch Figma Export,Product,2026-02-11,2/11,wiki/entities/concept/google-stitch-figma-export.md,seeded,2026-02-12
 cpt_gpt-5-2,GPT-5.2,Model,2026-02-11,2/11-2/10,wiki/entities/concept/gpt-5-2.md,seeded,2026-02-12
 cpt_gpt-5-3-codex,GPT-5.3-Codex,Model,2026-02-11,2/11-2/10,wiki/entities/concept/gpt-5-3-codex.md,seeded,2026-02-12
 cpt_grok-imagine-image,Grok Imagine Image,Model,2026-02-09,2/09,wiki/entities/concept/grok-imagine-image.md,seeded,2026-02-12
 cpt_grok-imagine-image-pro,Grok Imagine Image Pro,Model,2026-02-09,2/09,wiki/entities/concept/grok-imagine-image-pro.md,seeded,2026-02-12
 cpt_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,2026-02-11,2/11,wiki/entities/concept/hunyuan-1-8b-instruct.md,seeded,2026-02-12
 cpt_hy-1-8b-2bit,HY-1.8B-2Bit,Model,2026-02-11,2/11,wiki/entities/concept/hy-1-8b-2bit.md,seeded,2026-02-12
+cpt_hybrid-attention,Hybrid Attention,Technique,2026-02-09,2/09,wiki/entities/concept/hybrid-attention.md,seeded,2026-02-12
 cpt_llada2-1,LLaDA2.1,Model,2026-02-11,2/11,wiki/entities/concept/llada2-1.md,seeded,2026-02-12
 cpt_llada2-1-flash,LLaDA2.1-Flash,Model,2026-02-11,2/11,wiki/entities/concept/llada2-1-flash.md,seeded,2026-02-12
 cpt_llada2-1-mini,LLaDA2.1-Mini,Model,2026-02-11,2/11,wiki/entities/concept/llada2-1-mini.md,seeded,2026-02-12
+cpt_longcat,LongCat,Product,2026-02-12,2/12,wiki/entities/concept/longcat.md,seeded,2026-02-12
+cpt_longcat-flash-lite,LongCat-Flash-Lite,Model,2026-02-07,2/07,wiki/entities/concept/longcat-flash-lite.md,seeded,2026-02-12
+cpt_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,2026-02-12,2/12,wiki/entities/concept/ming-flash-omni-2-0.md,seeded,2026-02-12
+cpt_minicpm-sala,MiniCPM-SALA,Model,2026-02-12,2/12,wiki/entities/concept/minicpm-sala.md,seeded,2026-02-12
+cpt_minimax-m2-5,MiniMax M2.5,Model,2026-02-12,2/12,wiki/entities/concept/minimax-m2-5.md,seeded,2026-02-12
+cpt_model-council,Model Council,Product,2026-02-07,2/07,wiki/entities/concept/model-council.md,seeded,2026-02-12
 cpt_moss-audio-tokenizer,MOSS-Audio-Tokenizer,Model,2026-02-11,2/11,wiki/entities/concept/moss-audio-tokenizer.md,seeded,2026-02-12
 cpt_moss-soundeffect,MOSS-SoundEffect,Model,2026-02-11,2/11,wiki/entities/concept/moss-soundeffect.md,seeded,2026-02-12
 cpt_moss-tts,MOSS-TTS,Model,2026-02-11,2/11,wiki/entities/concept/moss-tts.md,seeded,2026-02-12
@@ -51,12 +82,36 @@ cpt_moss-ttsd-v1-0,MOSS-TTSD v1.0,Model,2026-02-11,2/11,wiki/entities/concept/mo
 cpt_moss-voicegenerator,MOSS-VoiceGenerator,Model,2026-02-11,2/11,wiki/entities/concept/moss-voicegenerator.md,seeded,2026-02-12
 cpt_mossttsdelay,MossTTSDelay,Model,2026-02-11,2/11,wiki/entities/concept/mossttsdelay.md,seeded,2026-02-12
 cpt_mossttslocal,MossTTSLocal,Model,2026-02-11,2/11,wiki/entities/concept/mossttslocal.md,seeded,2026-02-12
+cpt_mtp,MTP,Technique,2026-02-10,2/10,wiki/entities/concept/mtp.md,seeded,2026-02-12
+cpt_nanbeige4-1-3b,Nanbeige4.1-3B,Model,2026-02-12,2/12,wiki/entities/concept/nanbeige4-1-3b.md,seeded,2026-02-12
+cpt_obsidian-cli,Obsidian CLI,Product,2026-02-11,2/11,wiki/entities/concept/obsidian-cli.md,seeded,2026-02-12
+cpt_openai-for-countries,OpenAI for Countries,Project,2026-02-08,2/08,wiki/entities/concept/openai-for-countries.md,seeded,2026-02-12
+cpt_openmoss,OpenMOSS,Community,2026-02-11,2/11,wiki/entities/concept/openmoss.md,seeded,2026-02-12
+cpt_oz,Oz,Platform,2026-02-11,2/11,wiki/entities/concept/oz.md,seeded,2026-02-12
+cpt_plawbench,PLawBench,Metric,2026-02-08,2/08,wiki/entities/concept/plawbench.md,seeded,2026-02-12
+cpt_pony-alpha,Pony Alpha,Model,2026-02-07,2/07,wiki/entities/concept/pony-alpha.md,seeded,2026-02-12
+cpt_qwen-3-5,Qwen 3.5,Product,2026-02-09,2/09,wiki/entities/concept/qwen-3-5.md,seeded,2026-02-12
+cpt_qwen-image-2-0,Qwen-Image-2.0,Product,2026-02-11,2/11,wiki/entities/concept/qwen-image-2-0.md,seeded,2026-02-12
 cpt_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,Model,2026-02-09,2/09,wiki/entities/concept/qwen3-5-35b-a3b-instruct.md,seeded,2026-02-12
 cpt_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,2026-02-09,2/09,wiki/entities/concept/qwen3-5-9b-instruct.md,seeded,2026-02-12
+cpt_responses-api,Responses API,Product,2026-02-11,2/11,wiki/entities/concept/responses-api.md,seeded,2026-02-12
+cpt_seedance-2-0,Seedance 2.0,Model,2026-02-07,2/07,wiki/entities/concept/seedance-2-0.md,seeded,2026-02-12
 cpt_seedream-5-0-preview,Seedream 5.0-Preview,Model,2026-02-09,2/09,wiki/entities/concept/seedream-5-0-preview.md,seeded,2026-02-12
 cpt_sierra,Sierra,Model,2026-02-09,2/09,wiki/entities/concept/sierra.md,seeded,2026-02-12
+cpt_sim,SIM,Metric,2026-02-11,2/11,wiki/entities/concept/sim.md,seeded,2026-02-12
+cpt_sora,Sora,Product,2026-02-07,2/07,wiki/entities/concept/sora.md,seeded,2026-02-12
+cpt_sora-extensions,Sora Extensions,Product,2026-02-10,2/10,wiki/entities/concept/sora-extensions.md,seeded,2026-02-12
+cpt_soulx-singer,SoulX-Singer,Model,2026-02-12,2/12,wiki/entities/concept/soulx-singer.md,seeded,2026-02-12
+cpt_transformers-js-v4,Transformers.js v4,Framework,2026-02-10,2/10,wiki/entities/concept/transformers-js-v4.md,seeded,2026-02-12
+cpt_waymo-world-model,Waymo World Model,Model,2026-02-07,2/07,wiki/entities/concept/waymo-world-model.md,seeded,2026-02-12
+cpt_webmcp,WebMCP,Standard,2026-02-11,2/11,wiki/entities/concept/webmcp.md,seeded,2026-02-12
+cpt_wer,WER,Metric,2026-02-11,2/11,wiki/entities/concept/wer.md,seeded,2026-02-12
+cpt_workbuddy,WorkBuddy,Product,2026-02-09,2/09,wiki/entities/concept/workbuddy.md,seeded,2026-02-12
+cpt_z-code,Z Code,Product,2026-02-12,2/12,wiki/entities/concept/z-code.md,seeded,2026-02-12
 prs_alejandro-matamala,Alejandro Matamala,Person,2026-02-11,2/11,wiki/entities/person/alejandro-matamala.md,seeded,2026-02-12
 prs_anastasis-germanidis,Anastasis Germanidis,Person,2026-02-11,2/11,wiki/entities/person/anastasis-germanidis.md,seeded,2026-02-12
+prs_andrej-karpathy,Andrej Karpathy,Person,2026-02-12,2/12,wiki/entities/person/andrej-karpathy.md,seeded,2026-02-12
+prs_brendan-gregg,Brendan Gregg,Person,2026-02-08,2/08,wiki/entities/person/brendan-gregg.md,seeded,2026-02-12
 prs_cristobal-valenzuela,Cristobal Valenzuela,Person,2026-02-11,2/11,wiki/entities/person/cristobal-valenzuela.md,seeded,2026-02-12
 prs_daniela-amodei,Daniela Amodei,Person,2026-02-11,2/11,wiki/entities/person/daniela-amodei.md,seeded,2026-02-12
 prs_dario-amodei,Dario Amodei,Person,2026-02-11,2/11,wiki/entities/person/dario-amodei.md,seeded,2026-02-12
@@ -64,24 +119,3 @@ prs_elon-musk,Elon Musk,Person,2026-02-09,2/09,wiki/entities/person/elon-musk.md
 prs_mark-zuckerberg,Mark Zuckerberg,Person,2026-02-09,2/09,wiki/entities/person/mark-zuckerberg.md,seeded,2026-02-12
 prs_sam-altman,Sam Altman,Person,2026-02-11,2/11-2/10,wiki/entities/person/sam-altman.md,seeded,2026-02-12
 prs_thomas-dohmke,Thomas Dohmke,Person,2026-02-11,2/11,wiki/entities/person/thomas-dohmke.md,seeded,2026-02-12
-cpt_oz,Oz,Platform,2026-02-11,2/11,wiki/entities/concept/oz.md,seeded,2026-02-12
-cpt_catpaw,CatPaw,Product,2026-02-10,2/10,wiki/entities/concept/catpaw.md,seeded,2026-02-12
-cpt_chatgpt-ads-test,ChatGPT Ads Test,Product,2026-02-10,2/10,wiki/entities/concept/chatgpt-ads-test.md,seeded,2026-02-12
-cpt_chatgpt-deep-research,ChatGPT Deep Research,Product,2026-02-11,2/11,wiki/entities/concept/chatgpt-deep-research.md,seeded,2026-02-12
-cpt_claude-app-voice-mode,Claude App voice mode,Product,2026-02-11,2/11,wiki/entities/concept/claude-app-voice-mode.md,seeded,2026-02-12
-cpt_claude-code-desktop,Claude Code Desktop,Product,2026-02-11,2/11,wiki/entities/concept/claude-code-desktop.md,seeded,2026-02-12
-cpt_claude-cowork,Claude Cowork,Product,2026-02-11,2/11,wiki/entities/concept/claude-cowork.md,seeded,2026-02-12
-cpt_claude-opus-4-6,Claude Opus 4.6,Product,2026-02-11,2/11,wiki/entities/concept/claude-opus-4-6.md,seeded,2026-02-12
-cpt_google-stitch-figma-export,Google Stitch Figma Export,Product,2026-02-11,2/11,wiki/entities/concept/google-stitch-figma-export.md,seeded,2026-02-12
-cpt_obsidian-cli,Obsidian CLI,Product,2026-02-11,2/11,wiki/entities/concept/obsidian-cli.md,seeded,2026-02-12
-cpt_qwen-3-5,Qwen 3.5,Product,2026-02-09,2/09,wiki/entities/concept/qwen-3-5.md,seeded,2026-02-12
-cpt_qwen-image-2-0,Qwen-Image-2.0,Product,2026-02-11,2/11,wiki/entities/concept/qwen-image-2-0.md,seeded,2026-02-12
-cpt_responses-api,Responses API,Product,2026-02-11,2/11,wiki/entities/concept/responses-api.md,seeded,2026-02-12
-cpt_sora-extensions,Sora Extensions,Product,2026-02-10,2/10,wiki/entities/concept/sora-extensions.md,seeded,2026-02-12
-cpt_workbuddy,WorkBuddy,Product,2026-02-09,2/09,wiki/entities/concept/workbuddy.md,seeded,2026-02-12
-cpt_gemini-skills,gemini-skills,Project,2026-02-11,2/11,wiki/entities/concept/gemini-skills.md,seeded,2026-02-12
-cpt_webmcp,WebMCP,Standard,2026-02-11,2/11,wiki/entities/concept/webmcp.md,seeded,2026-02-12
-cpt_dsa,DSA,Technique,2026-02-10,2/10,wiki/entities/concept/dsa.md,seeded,2026-02-12
-cpt_gated-deltanet,Gated DeltaNet,Technique,2026-02-09,2/09,wiki/entities/concept/gated-deltanet.md,seeded,2026-02-12
-cpt_hybrid-attention,Hybrid Attention,Technique,2026-02-09,2/09,wiki/entities/concept/hybrid-attention.md,seeded,2026-02-12
-cpt_mtp,MTP,Technique,2026-02-10,2/10,wiki/entities/concept/mtp.md,seeded,2026-02-12

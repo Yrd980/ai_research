@@ -9,8 +9,8 @@
 ## Definition
 - 端侧量化模型
 
-## Related Companies/People
-- TBD (factual, source-backed only)
+## Related Entities
+- TBD
 
 ## Sources
-- Add objective source links here
+- TBD

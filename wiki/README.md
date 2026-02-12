@@ -1,28 +1,37 @@
-# Wiki Knowledge Extension
+# Wiki Layer
 
-This folder is an objective extension layer outside the daily-report pipeline.
+独立于日报抽取链路的客观知识层。
 
-## Purpose
+## 作用
 
-- Extend nouns from daily primitives into broader entity knowledge cards.
-- Keep this layer independent from `data/processed/*` daily extraction outputs.
-- Support expansion links (company, founder, product/model, techniques) without polluting daily edges.
+- 承接日报原语，形成可查询的断言索引。
+- 不反向污染 `data/processed/*`。
 
-## Structure
+## 关键索引
 
-- `wiki/entities/company/`: one file per company.
-- `wiki/entities/person/`: one file per person/founder.
-- `wiki/entities/concept/`: one file per extended noun (model/product/tech/etc.).
-- `wiki/index/assertions.csv`: single source of truth for objective facts.
-- `wiki/index/entity_registry.csv`: all entities index.
-- `wiki/index/relations.csv`: derived relation view from assertions.
-- `wiki/index/history_timeline.csv`: derived timeline view from assertions.
-- `wiki/index/startup_profiles.csv`: startup introduction index for unfamiliar companies.
+- `wiki/index/assertions.csv`：唯一事实源（authoritative）
+- `wiki/index/assertions_candidates.csv`：日报筛出的候选断言
+- `wiki/index/assertions_review_queue.csv`：候选审阅排序队列
+- `wiki/index/entity_registry.csv`：实体注册表
+- `wiki/index/relations.csv`：派生关系视图
+- `wiki/index/history_timeline.csv`：派生时间线视图
 
-## Rules
+## 实体页
 
-- Objective only, source-backed updates only.
-- Daily extraction files remain unchanged by wiki edits.
-- Prefer one-entity-one-file + CSV indexes for both readability and computability.
-- Follow `wiki/index/objective_writing_policy.md` for intro and wording standards.
-- Edit `assertions.csv` first, then rebuild views via `python3 scripts/build_wiki_views.py`.
+- `wiki/entities/company/`
+- `wiki/entities/person/`
+- `wiki/entities/concept/`
+
+实体页用于客观介绍，不作为事实主账本。
+
+## Agentic 维护顺序
+
+1. 先更新 `assertions_candidates.csv` 与 `assertions_review_queue.csv`。
+2. 人工审核后写入 `assertions.csv`。
+3. 在同一次编辑中同步 `relations.csv` 与 `history_timeline.csv`。
+4. 必要时补充实体页与 `Sources`。
+
+## 写作规则
+
+- `wiki/index/objective_writing_policy.md`
+- `wiki/index/primary_source_filter.md`
