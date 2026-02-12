@@ -1,6 +1,6 @@
 queue_id,lane,objective,status,last_updated,notes
 QREL001,M&A lane,Verify and expand acquisitions/investments among AI companies.,in_progress,2026-02-12,high_quality_relation_research
 QREL002,Founder lane,Backfill founder relationships with official company pages.,in_progress,2026-02-12,high_quality_relation_research
-QREL003,Open-source lane,Map company/community to flagship open-source projects.,in_progress,2026-02-12,high_quality_relation_research
+QREL003,Open-source lane,Map company/community to flagship open-source projects.,in_progress,2026-02-12,high_quality_relation_research; hf_top_models_batch_done
 QREL004,Product ownership lane,Map company to flagship products and APIs.,in_progress,2026-02-12,high_quality_relation_research
 QREL005,Startup lane,"Track notable startup launches, founders, and major partnerships.",queued,2026-02-12,high_quality_relation_research

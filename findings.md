@@ -713,3 +713,15 @@
   - `wiki/index/high_value_relations.csv`（16 条）
   - `wiki/index/relation_research_queue.csv`（5 条）
 - 可视化已默认聚焦高价值类型，噪声词不再默认显示。
+
+## 2026-02-12 并行扩展（Open-source lane）
+- 使用 Hugging Face 官方 API（top 1000 downloaded models）进行高质量批量扩展。
+- 本轮增量：
+  - terms +1341
+  - edges +999
+  - high_value_relations +999 (`open_source_model`)
+- 当前规模：
+  - `terms.csv` = 1578
+  - `term_edges.csv` = 1220
+  - `high_value_relations.csv` = 1015
+- 可视化已做标签简化：`HF Model:` / `HF Org:` 前缀在节点标签中自动隐藏（tooltip 保留全名）。

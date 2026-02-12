@@ -277,10 +277,15 @@
           const t = termById.get(id);
           const type = t?.term_type || "Unknown";
           const d = deg.get(id) || 1;
+          const fullLabel = t?.term || id;
+          const shortLabel =
+            fullLabel.startsWith("HF Model: ") ? fullLabel.replace("HF Model: ", "") :
+            fullLabel.startsWith("HF Org: ") ? fullLabel.replace("HF Org: ", "") :
+            fullLabel;
           return {
             id,
-            label: t?.term || id,
-            title: `${t?.term || id}\n${type}\nweighted_degree=${d}`,
+            label: shortLabel,
+            title: `${fullLabel}\n${type}\nweighted_degree=${d}`,
             value: Math.max(8, Math.min(40, 8 + Math.log2(1 + d) * 6)),
             color: colorByType[type] || colorByType.Unknown,
             font: {
