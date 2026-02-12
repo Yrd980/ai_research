@@ -1,0 +1,87 @@
+primitive,primitive_type,first_seen_date,source_scope,notes
+OpenAI,Company,2026-02-11,2/11-2/10,头部平台公司
+Anthropic,Company,2026-02-11,2/11,头部平台公司
+Google,Company,2026-02-11,2/11-2/10,含Gemini/Stitch/Chrome线
+ByteDance,Company,2026-02-11,2/11-2/09,含豆包与Seedream线
+xAI,Company,2026-02-09,2/09,图像API发布
+Meta,Company,2026-02-09,2/09,Avocado测试线索
+Ant Group,Company,2026-02-11,2/11,LLaDA2.1
+Tencent,Company,2026-02-11,2/11,混元与CodeBuddy线
+Runway,Company,2026-02-11,2/11,E轮融资
+Nebius,Company,2026-02-11,2/11,收购Tavily
+Tavily,Company,2026-02-11,2/11,agentic search
+Entire,Company,2026-02-11,2/11,初创+融资
+Warp,Company,2026-02-11,2/11,Oz平台
+OpenRouter,Company,2026-02-10,2/10,Aurora Alpha
+Hugging Face,Company,2026-02-10,2/10-2/09,Transformers相关
+Obsidian,Company,2026-02-11,2/11,CLI发布
+ModelScope,Company,2026-02-10,2/10,OpenAPI
+draw.io,Company,2026-02-11,2/11,MCP server
+Unsloth,Company,2026-02-11,2/11,MoE优化
+Zhipu AI,Company,2026-02-10,2/10,GLM-5传闻
+MOSI.AI,Company,2026-02-11,2/11,MOSS-TTS
+OpenMOSS,Community,2026-02-11,2/11,MOSS-TTS
+Cursor,Company,2026-02-10,2/10,Composer 1.5
+Qwen-Image-2.0,Product,2026-02-11,2/11,图像生成与编辑统一模型
+Qwen 3.5,Product,2026-02-09,2/09,待发布系列
+Qwen3.5-9B-Instruct,Model,2026-02-09,2/09,PR中出现
+Qwen3.5-35B-A3B-Instruct,Model,2026-02-09,2/09,PR中出现
+Grok Imagine Image Pro,Model,2026-02-09,2/09,xAI图像模型
+Grok Imagine Image,Model,2026-02-09,2/09,xAI图像模型标准版
+WorkBuddy,Product,2026-02-09,2/09,AI桌面工作台
+Seedream 5.0-Preview,Model,2026-02-09,2/09,字节预览版
+Avocado,Model,2026-02-09,2/09,Meta测试代号
+Avocado Thinking,Model,2026-02-09,2/09,Meta测试代号
+Sierra,Model,2026-02-09,2/09,Meta browser agent代号
+Big Brain,Concept,2026-02-09,2/09,Meta多agent并行概念
+LLaDA2.1,Model,2026-02-11,2/11,扩散大语言模型
+LLaDA2.1-Mini,Model,2026-02-11,2/11,16B版本
+LLaDA2.1-Flash,Model,2026-02-11,2/11,100B版本
+HY-1.8B-2Bit,Model,2026-02-11,2/11,端侧量化模型
+Hunyuan-1.8B-Instruct,Model,2026-02-11,2/11,HY基座模型
+GPT-5.3-Codex,Model,2026-02-11,2/11-2/10,编程模型
+GPT-5.2,Model,2026-02-11,2/11-2/10,路由/升级目标
+Responses API,Product,2026-02-11,2/11,OpenAI API能力更新
+Claude Code Desktop,Product,2026-02-11,2/11,YOLO模式
+--dangerously-skip-permissions,Flag,2026-02-11,2/11,Claude Code参数
+Oz,Platform,2026-02-11,2/11,Warp云原生Agent平台
+Claude Opus 4.6,Product,2026-02-11,2/11,Antigravity可用
+gemini-skills,Project,2026-02-11,2/11,Gemini技能库
+Claude Cowork,Product,2026-02-11,2/11,Windows版
+Claude App voice mode,Product,2026-02-11,2/11,语音模式分阶段开放
+ChatGPT Deep Research,Product,2026-02-11,2/11,升级到GPT-5.2
+Google Stitch Figma Export,Product,2026-02-11,2/11,Figma导出
+Obsidian CLI,Product,2026-02-11,2/11,Early Access
+豆包过年,Campaign,2026-02-11,2/11,春晚联名活动
+WebMCP,Standard,2026-02-11,2/11,Chrome 146预览
+MOSS-TTS,Model,2026-02-11,2/11,语音模型家族
+MossTTSDelay,Model,2026-02-11,2/11,8B长上下文
+MossTTSLocal,Model,2026-02-11,2/11,1.7B轻量
+MOSS-TTSD v1.0,Model,2026-02-11,2/11,多说话人对话
+MOSS-VoiceGenerator,Model,2026-02-11,2/11,音色生成
+MOSS-TTS-Realtime,Model,2026-02-11,2/11,实时语音体
+MOSS-SoundEffect,Model,2026-02-11,2/11,可控音效
+MOSS-Audio-Tokenizer,Model,2026-02-11,2/11,统一音频tokenizer
+WER,Metric,2026-02-11,2/11,识别错误率指标
+SIM,Metric,2026-02-11,2/11,相似度指标
+ACC,Metric,2026-02-11,2/11,准确率指标
+ChatGPT Ads Test,Product,2026-02-10,2/10,广告商业化测试
+Aurora Alpha,Model,2026-02-10,2/10,OpenRouter stealth模型
+Composer 1.5,Model,2026-02-10,2/10,Cursor编程模型
+CatPaw,Product,2026-02-10,2/10,美团AI编程工具
+Transformers.js v4,Framework,2026-02-10,2/10,WebGPU Runtime预览
+Sora Extensions,Product,2026-02-10,2/10,视频续写
+GLM-5,Model,2026-02-10,2/10,智谱新模型传闻
+DSA,Technique,2026-02-10,2/10,稀疏注意力机制
+MTP,Technique,2026-02-10,2/10,多标记预测
+Gated DeltaNet,Technique,2026-02-09,2/09,Qwen3.5架构机制
+Hybrid Attention,Technique,2026-02-09,2/09,Qwen3.5架构机制
+Sam Altman,Person,2026-02-11,2/11-2/10,OpenAI核心人物
+Dario Amodei,Person,2026-02-11,2/11,Anthropic联合创始人
+Daniela Amodei,Person,2026-02-11,2/11,Anthropic联合创始人
+Thomas Dohmke,Person,2026-02-11,2/11,Entire创始人
+Cristobal Valenzuela,Person,2026-02-11,2/11,Runway联合创始人
+Alejandro Matamala,Person,2026-02-11,2/11,Runway联合创始人
+Anastasis Germanidis,Person,2026-02-11,2/11,Runway联合创始人
+Elon Musk,Person,2026-02-09,2/09,xAI关联人物
+Mark Zuckerberg,Person,2026-02-09,2/09,Meta核心人物

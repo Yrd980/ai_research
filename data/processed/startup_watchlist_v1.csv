@@ -1,7 +1,0 @@
-priority,entity,category,signal_window,core_signal,underwater_hypothesis,key_risks,next_check
-A,Entire,Startup,2026-02-11,6000万美元种子轮+开源CLI接入Git工作流,开发者行为数据层将成为Agent时代新基础设施,与现有IDE/CI集成深度不足,跟踪企业客户案例与生态插件数
-A,Warp,Growth,2026-02-11,推出Oz云原生Agent编排平台,企业会优先采购“可审计可编排”而非单模型能力,稳定性与权限治理落地难度,跟踪Oz API/SDK采用与案例
-A,Tavily,Startup(acquired),2026-02-11,被Nebius收购,实时检索验证能力成为Agent刚需并被云平台内化,被并购后独立产品路线不确定,跟踪Nebius整合进度与功能上线
-B,OpenRouter,Platform,2026-02-10,上线Aurora Alpha stealth模型,模型路由分发层仍有机会做差异化体验,同质化竞争与定价压力,跟踪调用量与开发者留存
-B,WorkBuddy,Product,2026-02-09,发布AI桌面工作台并开放内测,桌面Agent会成为通用职场入口,本地权限安全与任务成功率,跟踪公开可用性和成功任务场景
-B,MOSI.AI/OpenMOSS,OpenSource,2026-02-11,发布MOSS-TTS开源家族,语音Agent链路将从ASR/TTS走向端到端多说话人系统,商业变现路径与行业渗透速度,跟踪企业部署案例与社区活跃

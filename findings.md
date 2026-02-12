@@ -1,5 +1,116 @@
 # Findings & Decisions
 
+## 2026-02-12 用户新指令（Primitive-only）
+- 输入是日报，输出应只做一件事：提取“不可再分的原语（名词）”。
+- 暂不需要资金/预测/机制分析等扩展层。
+- 用户允许激进清理无关文件（仓库由 git 托底）。
+
+## 2026-02-12 当前仓库与新目标冲突点
+- 仍存在多条与“只抽原语”无关链路：`data/wiki/*`、`docs/*`、`sync/*`、`scripts/feishu_sync.py`。
+- `data/processed/juya_network_seed.csv` 与 `data/processed/entity_relationship_graph.csv` 属于事件/关系层，超出“仅原语”目标。
+- 可直接复用 `data/processed/term_lexicon_0211_0209.csv` 作为原语抽取初始基底，再统一为单一 canonical 文件。
+
+## 2026-02-12 原语基底核查
+- `data/processed/term_lexicon_0211_0209.csv` 共 87 条，覆盖 `Company/Model/Product/Person/Technique/...` 等原语类别。
+- 当前词典已满足“名词原语清单”核心需求，可直接升级为唯一主表。
+- 现有术语中未发现必须再拆分的组合项（未出现 `A/B` 合并项），可保留逐项原子形式。
+
+## 2026-02-12 Primitive-only 重构执行结果
+- 新增唯一原语主表：`data/processed/primitives.csv`（由历史词典重排为 canonical）。
+- 新增模板：`data/templates/primitives_template.csv`。
+- 已激进删除无关链路：
+  - `data/wiki/` 整目录
+  - `docs/` 整目录
+  - `sync/` 整目录
+  - `.github/workflows/sync-to-feishu.yml`
+  - `scripts/feishu_sync.py`
+  - `requirements-feishu-sync.txt`
+  - 事件/关系中间表（`juya_network_seed.csv`、`entity_relationship_graph.csv` 等）
+- 已重写 `AGENTS.md`、`README.md`、`data/raw/wechat/README.md` 为“日报 -> 原语”单流程。
+
+## 2026-02-12 验证结论（Primitive-only）
+- 现存工作文件已收敛为：
+  - 原文层：`data/raw/wechat/*`
+  - 原语层：`data/processed/primitives.csv`
+  - 模板层：`data/templates/primitives_template.csv`
+  - 记忆层：`task_plan.md`、`findings.md`、`progress.md`
+- `primitives.csv` 当前行数：87（含表头）。
+- 关键残留检索结果：未发现旧数据链路引用；命中项仅来自原文正文 URL（非流程配置）。
+- `check-complete.sh` 结果：`ALL PHASES COMPLETE (10/10)`。
+
+## 2026-02-12 用户结构重置要求（本轮）
+- `data/indexes/` 的 B 站公开索引应移除（用户当前走手动输入，不再需要公开索引页）。
+- `data/raw/wechat/ingest_manifest.csv` 的 `source_url` 需要从旧微信链接模式调整为手动粘贴来源语义。
+- `data/wiki/` 应回归“百科式客观名词页”：只保留公司/产品/创始人等客观信息，不承载去噪过程材料。
+- 用户不希望在仓库文件中出现显式过程字段与过程文件：如 `evidence`、`verified`、`confidence` 等。
+- 关系网络（类似 Obsidian 光联图）应放在 Wiki 之外，作为独立且持续演进的关系层。
+- 公司结构倾向层级归属（例如阿里下挂团队/模型），避免过散拆分；复杂关系可单独文件维护。
+- `data/processed/juya_network_seed.csv` 字段需瘦身：`entity_category`、`funding_amount_usd`、`founder_info`、`confidence` 被点名不需要。
+- `recursive_mechanism_map`、`startup_watchlist` 偏预测/过程，不符合当前“最本质、最小化”目标。
+- `term_lexicon` 用户认可，应保留并继续使用。
+
+## 2026-02-12 当前结构核查结果（待改造）
+- `data/indexes/juya_daily_index.md` 当前是完整 B 站日期索引页，符合用户“应删”的对象。
+- `data/raw/wechat/ingest_manifest.csv` 当前 `source_url` 仍包含旧微信链接（2/11、2/10），与“手动粘贴”现状不一致。
+- `data/wiki/` 当前仍是“证据台账式”结构：包含 `evidence_registry.csv`、`pending_verification.csv`、以及多处 `verified/evidence` 字段。
+- `data/wiki/company_wiki.csv` 包含 `founder_verified/founder_evidence_id/key_verified_events` 等过程导向字段。
+- `data/wiki/product_model_wiki.csv`、`funding_ma_wiki.csv`、`person_wiki.csv` 都带有 `evidence_id` 字段。
+- `data/processed/juya_network_seed.csv` 表头确实含用户不需要字段：`entity_category`、`funding_amount_usd`、`founder_info`、`confidence`。
+- `data/processed/recursive_mechanism_map_0211_0209.csv` 与 `data/processed/startup_watchlist_v1.csv` 均偏“机制分析/预测跟踪”，可从核心事实层移除。
+- `AGENTS.md` 与 `README.md` 仍写有旧结构：`data/indexes/`、`evidence_registry.csv`、`fact_wiki.csv`、`verified/pending` 分流，需同步重写。
+
+## 2026-02-12 结构重置输入数据盘点
+- `data/processed/juya_network_seed.csv` 共 41 条事件，当前是最完整的事件主表，但字段偏重（11 列）。
+- `data/wiki/company_wiki.csv` 25 行，存在 `founder_verified/founder_evidence_id/key_verified_events/evidence_count` 过程字段。
+- `data/wiki/product_model_wiki.csv` 24 行，存在 `evidence_id`，且含 `entity_category`（与主表冗余）。
+- `data/wiki/person_wiki.csv` 目前仅 1 行，字段含 `evidence_id`。
+- `data/wiki/funding_ma_wiki.csv` 3 行，字段含 `evidence_id`，可保留为客观事件子页但需去过程字段。
+- `data/wiki/evidence_registry.csv`、`data/wiki/pending_verification.csv`、`data/wiki/fact_wiki.csv` 可判定为过程层文件，不符合本轮目标。
+
+## 2026-02-12 连带依赖盘点
+- `sync/feishu_sync_targets.json` 的 `field_map` 仍绑定旧字段（`entity_category/funding_amount_usd/founder_info/confidence`），需同步精简。
+- `data/templates/rolling_ingestion_template.csv` 仍包含 `entity_category/funding_amount_usd/founder_info/evidence_link/confidence`，与新最小事件表不一致。
+- `docs/framework/analysis_network.md`、`docs/framework/utilization_strategy.md`、`docs/framework/world_model_v1_spec.md`、`docs/analysis/world_model_v1_0211_0209.md` 仍引用已淘汰文件或字段，需修订引用路径与口径。
+
+## 2026-02-12 词典与关系层可复用信息
+- `term_lexicon` 已覆盖 `Company/Product/Model/Person/Platform`，可直接作为新版 `wiki` 的名词补全来源。
+- 关系层建议与 `wiki` 分离：独立维护 `entity_relationship_graph`（层级归属 + 协作/并购/发布关系）。
+- 飞书同步文档当前“多维表字段要求”仍列旧字段，若不更新会持续把旧结构带回外部系统。
+
+## 2026-02-12 已执行的数据层重构
+- 已将 `data/processed/juya_network_seed.csv` 精简为 7 列：`issue_seq/date/item_no/source_url/entity_name/event_type/event_summary`。
+- 已将 `data/raw/wechat/ingest_manifest.csv` 改为手动输入语义：`input_method/input_reference`，不再保留旧微信 `source_url` 列。
+- 已重建 `data/wiki/` 四个名词页为无过程字段结构：`company_wiki/product_model_wiki/person_wiki/funding_ma_wiki`。
+- 已新增独立关系图主文件：`data/processed/entity_relationship_graph.csv`（Wiki 外部，持续演进）。
+- 已删除用户点名残留：
+  - `data/indexes/juya_daily_index.md`
+  - `data/wiki/evidence_registry.csv`
+  - `data/wiki/fact_wiki.csv`
+  - `data/wiki/pending_verification.csv`
+  - `data/processed/recursive_mechanism_map_0211_0209.csv`
+  - `data/processed/startup_watchlist_v1.csv`
+
+## 2026-02-12 待收尾项（规范与文档）
+- `AGENTS.md` 已改新流程，但编号出现重复（`7` 两次），需修正为连续编号。
+- 仍有文档引用旧对象：
+  - `docs/framework/analysis_network.md` 仍引用 `data/indexes/juya_daily_index.md`
+  - `docs/framework/utilization_strategy.md` 仍出现 `confidence` 与 `startup_watchlist`
+  - `docs/framework/world_model_v1_spec.md` 与 `docs/analysis/world_model_v1_0211_0209.md` 仍引用 `fact_wiki/pending_verification`
+- `docs/framework/github_to_feishu_sync.md` 仍列旧 CSV 字段清单
+
+## 2026-02-12 文档与配置收尾结果
+- 已修正 `AGENTS.md` 流程编号并完成新口径对齐。
+- 已重写 `docs/framework/analysis_network.md` 与 `docs/framework/utilization_strategy.md`，去除索引依赖与 `confidence/watchlist` 残留。
+- 已重写 `docs/framework/world_model_v1_spec.md` 与 `docs/analysis/world_model_v1_0211_0209.md`，数据绑定切换到 `juya_network_seed + wiki + entity_relationship_graph`。
+- 已更新 `docs/framework/github_to_feishu_sync.md` 字段清单，移除旧字段。
+- 检索确认（排除 planning 文件）已无旧残留引用，仅保留“禁止过程字段”的规则说明文字。
+
+## 2026-02-12 验证结果
+- `python3 -m compileall scripts/feishu_sync.py` 通过。
+- `python3 scripts/feishu_sync.py --config sync/feishu_sync_targets.json --mode all --dry-run --verbose` 通过（Markdown 67 行、CSV 41 行）。
+- 命令误用记录：`--mode csv` 非脚本支持参数，已记录并切换到 `--mode all`，未重复失败路径。
+- `check-complete.sh` 结果：`ALL PHASES COMPLETE (9/9)`。
+
 ## Requirements
 - 用户希望定位截图中的公众号，并获取其 AI 早报内容（至少 2026-02-11 与 2026-02-10）。
 - 研究维度：公司、产品、被投信息、创始人信息等。

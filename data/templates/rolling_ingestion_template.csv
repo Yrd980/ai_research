@@ -1,2 +1,0 @@
-issue_seq,date,source_url,platform,entity_category,entity_name,event_type,event_summary,funding_amount_usd,investor,founder_info,evidence_link,confidence,notes
-31,2026-01-12,https://example.com,bilibili,Company,Example AI,Funding,完成新一轮融资,10000000,Example Capital,Unknown,https://example.com/evidence,low,替换为真实数据

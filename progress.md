@@ -96,6 +96,22 @@
 - 修复 `docx children` 写入索引为递增模式并实跑通过。
 - 复核文档前 12 行已正确显示导航头与分隔线，正文紧随其后。
 - 用户请求提交代码时，`git add -A` 被环境策略拦截；已改为逐文件暂存方案。
+- 接收用户新反馈：清理历史残留并回归“最小化客观名词 Wiki”。
+- 删除索引与过程残留文件：`data/indexes/juya_daily_index.md`、`data/wiki/evidence_registry.csv`、`data/wiki/fact_wiki.csv`、`data/wiki/pending_verification.csv`、`data/processed/recursive_mechanism_map_0211_0209.csv`、`data/processed/startup_watchlist_v1.csv`。
+- 将 `data/raw/wechat/ingest_manifest.csv` 改为手动输入语义字段（`input_method/input_reference`）。
+- 将 `data/processed/juya_network_seed.csv` 精简到 7 列最小事件表。
+- 重建 `data/wiki/` 四类客观名词页，移除过程字段。
+- 新增 `data/processed/entity_relationship_graph.csv`，将关系图放在 Wiki 外部持续演进。
+- 同步更新 `AGENTS.md`、`README.md`、`data/templates/rolling_ingestion_template.csv`、`sync/feishu_sync_targets.json` 与框架文档，清除旧字段引用。
+- 复检同步脚本干跑：`python3 scripts/feishu_sync.py --mode all --dry-run --verbose` 通过（41 行 CSV）。
+- 运行 `check-complete.sh`，当前阶段完成度为 `9/9`。
+- 接收用户新要求：仅保留“日报 -> 不可再分原语”单目标。
+- 基于 `term_lexicon_0211_0209.csv` 生成 canonical 原语主表 `data/processed/primitives.csv`（87 条）。
+- 新增 `data/templates/primitives_template.csv`，用于后续追加原语。
+- 激进删除无关目录与文件：`data/wiki/`、`docs/`、`sync/`、`.github/workflows/sync-to-feishu.yml`、`scripts/feishu_sync.py`、`requirements-feishu-sync.txt` 及历史事件/关系表。
+- 重写 `AGENTS.md`、`README.md`、`data/raw/wechat/README.md` 到 primitive-only 流程。
+- 残留检查确认（排除 planning 文件）不再存在旧数据链路引用。
+- 运行 `check-complete.sh`，当前阶段完成度为 `10/10`。
 
 ### Test Results
 | Test | Expected | Actual | Status |
@@ -110,6 +126,10 @@
 | `scripts/feishu_sync.py` 语法检查 | 可编译 | `python -m compileall` 通过 | ✅ |
 | 同步脚本干跑 | 无网络写入、流程可执行 | `--mode all --dry-run` 通过 | ✅ |
 | 同步配置 JSON | 结构合法 | `python -m json.tool` 通过 | ✅ |
+| 新结构残留检查 | 不再引用已删除文件/旧字段 | 排除 planning 文件后无残留引用 | ✅ |
+| 新结构同步干跑 | 新字段映射可正常执行 | `--mode all --dry-run` 通过 | ✅ |
+| Primitive 主表生成 | 成功生成原语 canonical 文件 | `data/processed/primitives.csv` 共 87 条 | ✅ |
+| Primitive-only 残留检查 | 无旧链路配置引用 | 仅原文内容里的普通 URL 命中（非配置引用） | ✅ |
 
 ### Errors
 | Error | Resolution |
@@ -118,3 +138,4 @@
 | `r.jina.ai` 代理抓取超时 | 不重复该方法，切换搜狗索引与外部同步源 |
 | B 站 API 风控拦截 | 放弃 API 端点，改用搜索索引/页面抓取 |
 | 空间 API `-799`/`-403` | 放弃空间 API，按日期索引回填 |
+| `feishu_sync.py --mode csv` 参数错误（invalid choice） | 改为脚本支持的 `--mode all --dry-run`，验证通过 |

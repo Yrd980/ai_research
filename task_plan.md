@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 8
+Phase 10 (complete)
 
 ## Phases
 
@@ -58,6 +58,23 @@ Phase 8
 - [x] 输出配置文档与本地 dry-run 验证步骤
 - **Status:** complete
 
+### Phase 9: Repository 结构重置（去过程化）
+- [x] 删除不再需要的公开索引与预测/过程残留文件
+- [x] 重建 `data/wiki/` 为“客观名词页”最小结构（无 `evidence/verified/confidence`）
+- [x] 精简 `data/processed/juya_network_seed.csv` 字段到最小事件表
+- [x] 新增 Wiki 外部关系图主文件（持续演进）
+- [x] 同步更新 `AGENTS.md`、`README.md` 与相关说明文件
+- [x] 执行完成性检查并记录结果
+- **Status:** complete
+
+### Phase 10: Primitive-Only 重构（激进清理）
+- [x] 仅保留“日报原文 + 原语抽取”主链
+- [x] 生成不可再分原语主表（替代现有多表结构）
+- [x] 删除与目标无关的 wiki/analysis/framework/sync 文件
+- [x] 更新 AGENTS/README 到单一职责流程
+- [x] 验证目录与脚本无旧依赖残留
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -68,6 +85,8 @@ Phase 8
 | 采用“零猜测 Wiki”替代“可信度打分” | 用户要求 100% 准确：无原始证据不入主库 |
 | 推广分发采用“GitHub 为源，飞书为发布页” | 满足用户“不建网站、直接给飞书链接”的目标 |
 | 导航信息通过同步时动态注入（`sync_header`）实现 | 保持源 Markdown 干净，同时让对外文档具备运营友好首屏 |
+| 本轮按用户要求将 Wiki 与过程层彻底解耦 | Wiki 仅保留百科式客观名词信息，过程判断回到对话与推理层 |
+| 本轮转为“Primitive-only”单一目标 | 输入是日报，输出只保留可复用的原语集合，其他资产全部降级删除 |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -84,3 +103,4 @@ Phase 8
 | 同 app/token 对“新建文档”写入成功，而目标文档仍 `1770032` | 证明 API 与 scope 正常，问题收敛为特定目标文档授权上下文 |
 | Docx 分批写入后文档显示顺序异常（导航头不在首屏） | 修复为递增 `index` 写入，避免每批都插入顶部造成逆序错位 |
 | `git add -A` 在当前环境被策略拦截（blocked by policy） | 改为显式逐文件 `git add <path>`，避免重复执行被拦截命令 |
+| `feishu_sync.py --mode csv` 参数报错 `invalid choice` | 不重复同命令，改用脚本支持的 `--mode all --dry-run` 验证 |

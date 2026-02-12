@@ -1,4 +1,0 @@
-date,entity_name,event_type,amount_usd,statement,evidence_id
-2026-02-11,Entire,Funding,60000000,成立并完成种子轮融资,E011
-2026-02-11,Nebius,Acquisition,,收购 Tavily 以增强 agentic search 能力,E020
-2026-02-11,Tavily,Acquired,,被 Nebius 收购,E020

@@ -1,8 +1,0 @@
-date,entity_name,event_type,statement,source_url,pending_reason,required_action
-2026-02-11,OpenAI,RoutingPolicy,高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,https://x.com/embirico/status/2021376881942200801,unverified_social_account:embirico,find_official_source_or_drop
-2026-02-11,Anthropic,ToolingUpdate,Claude Code Desktop 引入 YOLO 权限跳过模式,https://x.com/lydiahallie/status/2021012074160324633,unverified_social_account:lydiahallie,find_official_source_or_drop
-2026-02-11,Antigravity,ModelAccess,向 Pro 账户提供 Claude Opus 4.6,https://linux.do/t/topic/1589167,non_official_media,find_official_source_or_drop
-2026-02-11,Anthropic,ProductUpdate,Claude App 更新交互回复并开放语音模式,https://x.com/jenny_wen/status/2021242950139650209,unverified_social_account:jenny_wen,find_official_source_or_drop
-2026-02-11,Runway,Funding,完成 E 轮融资,https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models,non_official_media,find_official_source_or_drop
-2026-02-11,Google Gemini,Rumor,开发 Premium Content 功能,https://x.com/testingcatalog/status/2021356522853531949,unverified_social_account:testingcatalog,find_official_source_or_drop
-2026-02-09,Meta AI,Rumor,官网测试代号 Avocado 等新模型与 Agent 功能,https://www.testingcatalog.com/meta-ai-redies-avacado-manus-agent-and-openclaw-integration/,non_official_media,find_official_source_or_drop
