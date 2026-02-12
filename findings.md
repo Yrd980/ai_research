@@ -66,6 +66,32 @@
   - 超边：21（仅保留 `primitive_count >= 2`）
 - `check-complete.sh` 结果：`ALL PHASES COMPLETE (11/11)`。
 
+## 2026-02-12 VK 外挂初始化输入盘点
+- 当前 `primitives.csv` 可直接提供的实体规模：
+  - Company: 22
+  - Person: 9
+  - Product: 14
+  - Model: 26
+- 其余可作为延伸词条候选：Technique/Concept/Framework/Platform/Project/Standard/Metric/Campaign/Flag。
+- 由此可在不污染日报链路前提下初始化独立 `knowledge/` 目录（实体页 + 索引）。
+
+## 2026-02-12 用户命名修正要求
+- 外挂目录名称必须是 `wiki`，不是 `vk` 或 `knowledge`。
+- 所有目录名和文件名使用英文命名。
+
+## 2026-02-12 当前命名核查
+- 新建外挂目录当前为 `knowledge/`，与用户目标不一致，需要整体重命名为 `wiki/`。
+- 当前实体页与索引文件名均为英文 slug 命名，可保留。
+- 需同步更新 `AGENTS.md`、`README.md`、`task_plan.md` 和索引中的 `page_path` 路径引用。
+
+## 2026-02-12 命名修正完成情况
+- 外挂目录已从 `knowledge/` 重命名为 `wiki/`。
+- 索引路径已同步到 `wiki/...`（`wiki/index/entity_registry.csv`）。
+- `wiki/README.md` 已去除 VK 表述，改为 wiki 口径。
+- 特例文件 `item.md` 已重命名为 `doubao-new-year-campaign.md`，并同步更新实体 ID 为 `cpt_doubao-new-year-campaign`。
+- 目录与文件名均为英文命名。
+- 验证结果：`AGENTS.md`、`README.md`、`task_plan.md` 与 `wiki/` 索引中已无 `knowledge/`、`VK`、`vk` 命名残留。
+
 ## 2026-02-12 用户结构重置要求（本轮）
 - `data/indexes/` 的 B 站公开索引应移除（用户当前走手动输入，不再需要公开索引页）。
 - `data/raw/wechat/ingest_manifest.csv` 的 `source_url` 需要从旧微信链接模式调整为手动粘贴来源语义。

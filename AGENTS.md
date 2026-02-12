@@ -27,6 +27,7 @@ Do not delete these three files during cleanup/refactor.
 - Primitive occurrences: `data/processed/primitive_occurrences.csv`
 - Primitive hyperedges: `data/processed/primitive_hyperedges.csv`
 - Templates: `data/templates/`
+- Extension wiki (independent): `wiki/`
 
 ## Default Workflow For New Daily Input
 
@@ -35,7 +36,8 @@ Do not delete these three files during cleanup/refactor.
 3. Extract irreducible noun primitives into `data/processed/primitives.csv`.
 4. Build primitive occurrences (`1元`) and co-occurrence hyperedges (`N元`) from raw daily items.
 5. Keep no-verb graph structure only; no event reasoning layer.
-6. Update `task_plan.md`, `findings.md`, and `progress.md`.
+6. Optionally extend objective entity pages in `wiki/` (company/person/concept + indexes).
+7. Update `task_plan.md`, `findings.md`, and `progress.md`.
 
 ## Research Principles
 
@@ -43,3 +45,4 @@ Do not delete these three files during cleanup/refactor.
 - Preserve source date scope for every primitive.
 - No funding/forecast/mechanism fields in core data.
 - Keep output minimal and atomic.
+- Keep `wiki/` physically independent from daily extraction files.

@@ -1,0 +1,2 @@
+relation_id,subject_entity_id,relation_type,object_entity_id,start_date,source_basis,status,last_updated,notes
+R0001,prs_thomas-dohmke,founder_of,cmp_entire,2026-02-11,data/raw/wechat/2026-02-11.md#11,seeded,2026-02-12,From daily report item #11 text

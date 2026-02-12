@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 11 (complete)
+Phase 12 (complete)
 
 ## Phases
 
@@ -83,6 +83,15 @@ Phase 11 (complete)
 - [x] 执行一致性验证并记录
 - **Status:** complete
 
+### Phase 12: Wiki Extension 初始化（独立于日报链路）
+- [x] 新建 `wiki/` 独立目录与分层结构
+- [x] 生成实体注册表与关系索引（company/person 最小可用）
+- [x] 批量初始化公司与人物实体页
+- [x] 增加 startup 画像索引（用于后续补全）
+- [x] 更新 AGENTS/README，明确“日报链路 vs wiki 链路”隔离
+- [x] 验证目录完整性与可扩展性
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -96,6 +105,7 @@ Phase 11 (complete)
 | 本轮按用户要求将 Wiki 与过程层彻底解耦 | Wiki 仅保留百科式客观名词信息，过程判断回到对话与推理层 |
 | 本轮转为“Primitive-only”单一目标 | 输入是日报，输出只保留可复用的原语集合，其他资产全部降级删除 |
 | 当前扩展采用“1元 + N元（无动词）” | 保持去噪纯度，不引入谓词标注负担，同时支持高维共现研究 |
+| Wiki extension 作为外挂目录独立建设 | 扩展联想与客观介绍能力，同时不污染日报原语与共现主链 |
 
 ## Errors Encountered
 | Error | Resolution |

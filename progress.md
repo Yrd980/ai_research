@@ -120,6 +120,12 @@
 - 新增模板 `data/templates/primitive_occurrences_template.csv` 与 `data/templates/primitive_hyperedges_template.csv`。
 - 更新 `AGENTS.md`、`README.md`，将工作流固定为“原语表 + 1元出现 + N元超边”。
 - 运行 `check-complete.sh`，当前阶段完成度为 `11/11`。
+- 接收用户命名修正：外挂目录必须命名为 `wiki`，且目录/文件名全部英文。
+- 已将 `knowledge/` 重命名为 `wiki/`，并回写实体索引 `page_path`。
+- 修复特例文件命名：`wiki/entities/concept/item.md` -> `wiki/entities/concept/doubao-new-year-campaign.md`，并同步实体 ID。
+- 同步更新 `AGENTS.md`、`README.md`、`wiki/README.md`、`task_plan.md` 的新命名口径。
+- 完成命名一致性校验：核心文档与 wiki 索引中不再出现 `knowledge/`、`VK`、`vk` 命名残留。
+- 运行 `check-complete.sh`，当前阶段完成度为 `12/12`。
 
 ### Test Results
 | Test | Expected | Actual | Status |
