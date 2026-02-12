@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noun Graph Viewer</title>
+  <style>
+    :root {
+      --bg: #edf2ff;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #5c677d;
+      --line: #d5def4;
+      --accent: #0a7c66;
+      --accent-2: #0f4c81;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 10%, rgba(15, 76, 129, 0.16), transparent 28%),
+        radial-gradient(circle at 85% 15%, rgba(10, 124, 102, 0.18), transparent 26%),
+        linear-gradient(160deg, #f6f8ff, #e9efff);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .toolbar {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 14px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+      box-shadow: 0 8px 30px rgba(23, 32, 51, 0.08);
+    }
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .field input, .field button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #fff;
+      color: var(--text);
+      font-size: 14px;
+    }
+    .field select {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #fff;
+      color: var(--text);
+      font-size: 14px;
+    }
+    .field button {
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      border: none;
+      font-weight: 700;
+    }
+    .field button:hover { filter: brightness(0.95); }
+    .status {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 6px 2px 10px;
+      background: rgba(255, 255, 255, 0.8);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+    }
+    #graph {
+      height: 72vh;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      box-shadow: 0 10px 32px rgba(23, 32, 51, 0.1);
+    }
+    @media (max-width: 920px) {
+      .toolbar { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+      #graph { height: 68vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="toolbar">
+      <label class="field">
+        关键词（可空）
+        <input id="keyword" placeholder="例如 OpenAI" />
+      </label>
+      <label class="field">
+        最小边权
+        <input id="minWeight" type="number" min="1" value="1" />
+      </label>
+      <label class="field">
+        最大节点数
+        <input id="maxNodes" type="number" min="20" value="300" />
+      </label>
+      <label class="field">
+        显示标签
+        <select id="labelMode">
+          <option value="always" selected>总是显示</option>
+          <option value="zoom">缩放时显示</option>
+          <option value="off">关闭标签</option>
+        </select>
+      </label>
+      <label class="field">
+        长尾节点
+        <select id="tokenMode">
+          <option value="off" selected>隐藏 Token</option>
+          <option value="on">显示 Token</option>
+        </select>
+      </label>
+      <label class="field">
+        操作
+        <button id="renderBtn">刷新图谱</button>
+      </label>
+    </div>
+    <div id="status" class="status">自动读取 `../wiki/index/terms.csv` 与 `../wiki/index/term_edges.csv`。</div>
+    <div id="graph"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="./graph_data.js"></script>
+  <script>
+    const keywordInput = document.getElementById("keyword");
+    const minWeightInput = document.getElementById("minWeight");
+    const maxNodesInput = document.getElementById("maxNodes");
+    const labelModeInput = document.getElementById("labelMode");
+    const tokenModeInput = document.getElementById("tokenMode");
+    const renderBtn = document.getElementById("renderBtn");
+    const graphEl = document.getElementById("graph");
+    const statusEl = document.getElementById("status");
+
+    let network = null;
+    const TERMS_PATH = "../wiki/index/terms.csv";
+    const EDGES_PATH = "../wiki/index/term_edges.csv";
+
+    const colorByType = {
+      Company: "#0284c7",
+      Person: "#f97316",
+      Product: "#7c3aed",
+      Model: "#0f766e",
+      Technique: "#b45309",
+      Concept: "#475569",
+      Framework: "#0ea5e9",
+      Platform: "#16a34a",
+      Project: "#dc2626",
+      Standard: "#334155",
+      Metric: "#6d28d9",
+      Flag: "#e11d48",
+      Unknown: "#6b7280"
+    };
+
+    function parseCsvText(text) {
+      return new Promise((resolve, reject) => {
+        Papa.parse(text, {
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => resolve(results.data),
+          error: (err) => reject(err)
+        });
+      });
+    }
+
+    async function loadCsvFromPath(path) {
+      try {
+        const res = await fetch(path, { cache: "no-store" });
+        if (!res.ok) throw new Error(`读取失败: ${path}`);
+        return { rows: await parseCsvText(await res.text()), source: "csv" };
+      } catch (_) {
+        return { rows: null, source: "fallback" };
+      }
+    }
+
+    function degreeMap(edgeRows) {
+      const map = new Map();
+      for (const e of edgeRows) {
+        const w = Number(e.cooccurrence_count || 0);
+        const a = e.term_id_a;
+        const b = e.term_id_b;
+        map.set(a, (map.get(a) || 0) + w);
+        map.set(b, (map.get(b) || 0) + w);
+      }
+      return map;
+    }
+
+    function setStatus(text) {
+      statusEl.textContent = text;
+    }
+
+    renderBtn.addEventListener("click", async () => {
+      try {
+        const minWeight = Math.max(1, Number(minWeightInput.value || 1));
+        const maxNodes = Math.max(20, Number(maxNodesInput.value || 300));
+        const keyword = (keywordInput.value || "").trim().toLowerCase();
+        const labelMode = labelModeInput.value;
+        const tokenMode = tokenModeInput.value;
+
+        const termResult = await loadCsvFromPath(TERMS_PATH);
+        const edgeResult = await loadCsvFromPath(EDGES_PATH);
+        const fallbackTerms = window.GRAPH_DATA?.terms || [];
+        const fallbackEdges = window.GRAPH_DATA?.edges || [];
+        const termRows = termResult.rows || fallbackTerms;
+        const edgeRowsRaw = edgeResult.rows || fallbackEdges;
+        if (!termRows.length || !edgeRowsRaw.length) {
+          throw new Error("未加载到图数据");
+        }
+        const edgeRows = edgeRowsRaw.filter((e) => Number(e.cooccurrence_count || 0) >= minWeight);
+
+        const filteredTerms = termRows.filter((t) => tokenMode === "on" || (t.term_type || "Unknown") !== "Token");
+        const termById = new Map(filteredTerms.map((t) => [t.term_id, t]));
+        let chosenEdges = edgeRows;
+
+        if (keyword) {
+          const seedIds = new Set(
+            filteredTerms
+              .filter((t) => (t.term || "").toLowerCase().includes(keyword))
+              .map((t) => t.term_id)
+          );
+          if (seedIds.size === 0) {
+            setStatus("未找到关键词对应节点，试试更短关键词。");
+            return;
+          }
+          chosenEdges = edgeRows.filter((e) => seedIds.has(e.term_id_a) || seedIds.has(e.term_id_b));
+        }
+
+        chosenEdges.sort((a, b) => Number(b.cooccurrence_count || 0) - Number(a.cooccurrence_count || 0));
+
+        const keepNodeIds = new Set();
+        const prunedEdges = [];
+        for (const e of chosenEdges) {
+          if (!termById.has(e.term_id_a) || !termById.has(e.term_id_b)) continue;
+          keepNodeIds.add(e.term_id_a);
+          keepNodeIds.add(e.term_id_b);
+          if (keepNodeIds.size > maxNodes) break;
+          prunedEdges.push(e);
+        }
+
+        const finalNodeIds = new Set();
+        for (const e of prunedEdges) {
+          finalNodeIds.add(e.term_id_a);
+          finalNodeIds.add(e.term_id_b);
+        }
+        const finalEdges = prunedEdges.filter((e) => finalNodeIds.has(e.term_id_a) && finalNodeIds.has(e.term_id_b));
+        const deg = degreeMap(finalEdges);
+
+        const nodes = Array.from(finalNodeIds).map((id) => {
+          const t = termById.get(id);
+          const type = t?.term_type || "Unknown";
+          const d = deg.get(id) || 1;
+          return {
+            id,
+            label: t?.term || id,
+            title: `${t?.term || id}\n${type}\nweighted_degree=${d}`,
+            value: Math.max(8, Math.min(40, 8 + Math.log2(1 + d) * 6)),
+            color: colorByType[type] || colorByType.Unknown,
+            font: {
+              size: 14,
+              face: "Segoe UI",
+              color: "#111827",
+              strokeWidth: 3,
+              strokeColor: "#ffffff",
+              vadjust: -18
+            }
+          };
+        });
+
+        const edges = finalEdges.map((e, idx) => ({
+          id: e.edge_id || `e${idx}`,
+          from: e.term_id_a,
+          to: e.term_id_b,
+          width: 1.2,
+          color: { color: "rgba(120, 136, 162, 0.32)", highlight: "#3b82f6", hover: "#2563eb" },
+          title: `weight=${e.cooccurrence_count || 1}`
+        }));
+
+        const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+        const options = {
+          nodes: {
+            shape: "dot",
+            scaling: { min: 8, max: 40 }
+          },
+          edges: { color: "#94a3b8", smooth: false },
+          physics: {
+            stabilization: true,
+            barnesHut: { gravitationalConstant: -14000, springLength: 160, springConstant: 0.02 }
+          },
+          interaction: { hover: true, tooltipDelay: 80 }
+        };
+
+        if (network) network.destroy();
+        network = new vis.Network(graphEl, data, options);
+        network.once("stabilizationIterationsDone", () => {
+          network.setOptions({ physics: false });
+        });
+
+        if (labelMode === "off") {
+          data.nodes.update(nodes.map((n) => ({ id: n.id, label: "" })));
+        } else if (labelMode === "zoom") {
+          const originalLabel = new Map(nodes.map((n) => [n.id, n.label]));
+          const maybeToggleLabels = () => {
+            const scale = network.getScale();
+            const show = scale >= 1.2;
+            data.nodes.forEach((n) => {
+              const next = show ? originalLabel.get(n.id) : "";
+              if (n.label !== next) data.nodes.update({ id: n.id, label: next });
+            });
+          };
+          network.on("zoom", maybeToggleLabels);
+          maybeToggleLabels();
+        }
+
+        const loadMode = termResult.source === "csv" && edgeResult.source === "csv" ? "latest-csv" : "embedded-fallback";
+        setStatus(`渲染完成：nodes=${nodes.length}, edges=${edges.length}, minWeight=${minWeight}${keyword ? `, keyword=${keyword}` : ""}, labelMode=${labelMode}, tokenMode=${tokenMode}, source=${loadMode}`);
+      } catch (err) {
+        console.error(err);
+        setStatus(`渲染失败：${err.message || err}`);
+      }
+    });
+
+    renderBtn.click();
+  </script>
+</body>
+</html>

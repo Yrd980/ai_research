@@ -663,3 +663,44 @@
   - `Doubao New Year Campaign`
   - `ChatGPT Ads Test`
 - 决策：从核心节点集中移除上述活动型节点，避免污染长期知识图。
+
+## 2026-02-12 外部扩展来源（首批）
+- OpenAI: `https://openai.com/chatgpt/overview`, `https://openai.com/api/`, `https://platform.openai.com/docs/overview`
+- xAI: `https://x.ai/`, `https://x.ai/api/`, `https://x.ai/news/grok`
+- Google: `https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/`
+- Anthropic: `https://www.anthropic.com/news/introducing-claude/`
+- 结论：可用官方一手源支持 wiki 从“日报原语图”扩展到“全局名词图”。
+
+## 2026-02-12 多-Agent扩展层落地结果
+- 新增 `wiki/index/term_expansion_queue.csv`（10 条队列任务，含 in_progress + queued）。
+- 新增 `wiki/index/term_external_edges.csv`（12 条官方一手扩展边，含 source_url/source_label）。
+- 扩展后核心图规模：
+  - `terms.csv`: 144（+10）
+  - `term_edges.csv`: 121（+10）
+- 新增关键节点（样例）：`ChatGPT`、`OpenAI API`、`OpenAI Platform Docs`、`Claude`、`Claude Code`、`Gemini`、`Gemini API`、`Grok`、`xAI API`。
+- 一致性检查通过：`missing_edge_refs=0`。
+
+## 2026-02-12 用户反馈（本轮）
+- 扩展规模必须明显提升：节点应达到 1000+ 级别。
+- 继续采用多-agent扩展思路，不接受小规模补丁。
+- 可视化当前“权重加粗边”观感差，需重设为更干净的图展示。
+
+## 2026-02-12 Phase 27 结果（1000+ 扩容 + 可视化重设）
+- 在网络不可达条件下，切换为本地语料多-agent扩展路径。
+- 扩容结果：
+  - `wiki/index/terms.csv`: 1096
+  - `wiki/index/term_edges.csv`: 1436
+  - `wiki/index/term_external_edges.csv`: 1327
+- 节点语义分层：
+  - 核心名词层（Company/Product/Model/Person/...）
+  - 长尾 Token 层（`term_type=Token`, 220 节点）
+- 可视化改造（`viz/index.html`）：
+  - 默认隐藏 Token 层（`tokenMode=off`）
+  - 边样式改为统一细线（去掉权重粗线）
+  - 稳定后自动关闭 physics，减少漂移与拥挤
+- 一致性校验通过：`missing_edge_refs=0`、`non_ascii_terms=0`。
+
+## 2026-02-12 安全门禁修复记录（本轮发布前）
+- `git diff --check` 首次失败，原因是 CSV 文件 `CRLF` 行尾被识别为 trailing whitespace。
+- 处理：统一将 `terms/term_edges/term_external_edges/term_expansion_queue/term_aliases` 重写为 `LF` 行尾。
+- 修复后 `git diff --check` 通过。

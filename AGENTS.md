@@ -41,8 +41,10 @@ Do not delete these three files during cleanup/refactor.
    - `wiki/index/terms.csv`
    - `wiki/index/term_aliases.csv`
    - `wiki/index/term_edges.csv`
+   - `wiki/index/term_external_edges.csv` (optional expansion layer)
 7. Keep entity pages in `wiki/entities/` as on-demand notes only (do not pre-create in bulk).
-8. Update `task_plan.md`, `findings.md`, and `progress.md`.
+8. (Optional) Run multi-agent expansion queue and append external edges from official sources.
+9. Update `task_plan.md`, `findings.md`, and `progress.md`.
 
 ## Research Principles
 

@@ -23,3 +23,14 @@
 - `wiki/entities/` 仅作为按需补充说明页。
 - 默认不预建 company/person/concept 全量文件。
 - 只有在需要长期注释某个重点名词时才新增页面。
+
+
+## 多-Agent扩展层
+
+- `wiki/index/term_expansion_queue.csv`：扩展任务队列（按 agent lane 分工）。
+- `wiki/index/term_external_edges.csv`：外部一手来源扩展边（官方链接，待审核/可回写）。
+
+执行原则：
+- 日报主链不变；扩展层只增补全局图。
+- 优先官方站点、官方文档、官方公告。
+- 审核通过后可将外部边回写到 `term_edges.csv`。

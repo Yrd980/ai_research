@@ -29,6 +29,8 @@
 - `wiki/index/terms.csv`
 - `wiki/index/term_aliases.csv`
 - `wiki/index/term_edges.csv`
+- `wiki/index/term_expansion_queue.csv`
+- `wiki/index/term_external_edges.csv`
 
 ## Agentic 日常流程
 

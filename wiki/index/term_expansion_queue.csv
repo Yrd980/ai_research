@@ -1,0 +1,11 @@
+queue_id,focus_term,agent_lane,objective,status,last_updated,notes
+Q0001,OpenAI,company_agent,expand official product surfaces and developer stack,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0002,Anthropic,company_agent,expand official Claude family and developer surfaces,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0003,Google,company_agent,expand Gemini and AI Studio developer surfaces,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0004,xAI,company_agent,expand Grok and xAI API official surfaces,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0005,Meta,company_agent,collect official AI product pages and model docs,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0006,Tencent,company_agent,collect official Hunyuan product and API pages,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0007,ByteDance,company_agent,collect Doubao/Seed official product and doc pages,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0008,Mistral AI,company_agent,collect official model/product pages and API docs,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0009,Runway,company_agent,collect official product matrix and company pages,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran
+Q0010,DeepSeek,company_agent,collect official model and API documentation pages,in_progress,2026-02-12,multi_agent_research_queue; local_corpus_expansion_ran

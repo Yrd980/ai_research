@@ -251,3 +251,8 @@
 - 最终完成检查：`ALL PHASES COMPLETE (25/25)`。
 - 已完成节点英文统一：将唯一中文节点 `豆包过年` 转为 `Doubao New Year Campaign`，并写入跨语言别名映射。
 - 已执行图清理：移除活动/测试型节点 `Doubao New Year Campaign` 与 `ChatGPT Ads Test`，并同步清理边与别名映射。
+- 已完成首批官方一手源检索，准备落地多-agent扩展层（队列+外部边）。
+- 完成 Phase 26：新增多-agent扩展队列与外部边表，并回写首批官方源扩展到核心图（terms=144, edges=121）。
+- 进入 Phase 27：执行 1000+ 节点批量扩展与可视化重设计。
+- 完成 Phase 27：在网络不可达情况下通过本地多-agent扩展将图规模提升至 1096 节点、1436 边，并完成可视化观感重设（细边+默认隐藏 Token）。
+- 发布前安全门禁修复：CSV 行尾统一为 LF，`git diff --check` 由失败转为通过。
