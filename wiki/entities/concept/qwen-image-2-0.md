@@ -10,7 +10,7 @@
 - 图像生成与编辑统一模型
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

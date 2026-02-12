@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 12 (complete)
+Phase 13 (complete)
 
 ## Phases
 
@@ -92,6 +92,15 @@ Phase 12 (complete)
 - [x] 验证目录完整性与可扩展性
 - **Status:** complete
 
+### Phase 13: Wiki 全时态历史化（非倒推组织）
+- [x] 新增历史时间线索引（entity-level timeline）
+- [x] 为公司/人物页增加历史区块与时间线引用
+- [x] 先回填高确定性历史事件（基础公司/创始人）
+- [x] 更新 AGENTS/README：明确 wiki 是全时态查询库
+- [x] 验证日报链路与 wiki 链路依旧隔离
+- [x] 强制客观介绍口径（`Objective Intro` 仅事实+来源）
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -106,6 +115,7 @@ Phase 12 (complete)
 | 本轮转为“Primitive-only”单一目标 | 输入是日报，输出只保留可复用的原语集合，其他资产全部降级删除 |
 | 当前扩展采用“1元 + N元（无动词）” | 保持去噪纯度，不引入谓词标注负担，同时支持高维共现研究 |
 | Wiki extension 作为外挂目录独立建设 | 扩展联想与客观介绍能力，同时不污染日报原语与共现主链 |
+| Wiki 按全时态组织而非倒推组织 | 满足“可查询历史本质库”的研究用途，与日报未来导向分工清晰 |
 
 ## Errors Encountered
 | Error | Resolution |

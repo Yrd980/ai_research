@@ -46,3 +46,4 @@ Do not delete these three files during cleanup/refactor.
 - No funding/forecast/mechanism fields in core data.
 - Keep output minimal and atomic.
 - Keep `wiki/` physically independent from daily extraction files.
+- Daily pipeline can be reverse-chronological; `wiki/` is full-history and query-oriented.

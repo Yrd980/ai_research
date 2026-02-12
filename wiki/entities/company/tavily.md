@@ -12,11 +12,15 @@
 ## Founders
 - TBD
 
-## One-line Intro
-- agentic search
+## Objective Intro
+- TBD (factual, source-backed only)
 
 ## Related Entities (Objective)
 - TBD
+
+## Historical Timeline
+- See `wiki/index/history_timeline.csv` filtered by `cmp_tavily`
+- Add objective milestones (founded, rebrand, product release, leadership changes).
 
 ## Sources
 - Add objective source links here

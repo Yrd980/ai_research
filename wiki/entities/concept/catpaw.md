@@ -10,7 +10,7 @@
 - 美团AI编程工具
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

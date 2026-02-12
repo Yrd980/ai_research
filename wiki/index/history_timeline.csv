@@ -1,0 +1,13 @@
+timeline_id,entity_id,event_date,event_type,event_title,event_summary,source_url,source_type,status,last_updated
+T0001,cmp_google,1998,founded,Google founded,Google was founded by Larry Page and Sergey Brin.,https://en.wikipedia.org/wiki/Google,reference,seeded,2026-02-12
+T0002,cmp_meta,2004,founded,Facebook launched,Facebook was launched by Mark Zuckerberg and co-founders.,https://en.wikipedia.org/wiki/Facebook,reference,seeded,2026-02-12
+T0003,cmp_meta,2021,rebrand,Meta rebrand,"Facebook, Inc. rebranded to Meta Platforms, Inc.",https://en.wikipedia.org/wiki/Meta_Platforms,reference,seeded,2026-02-12
+T0004,cmp_openai,2015,founded,OpenAI founded,OpenAI was founded as an AI research organization.,https://en.wikipedia.org/wiki/OpenAI,reference,seeded,2026-02-12
+T0005,cmp_openai,2022,product_launch,ChatGPT public release,OpenAI released ChatGPT publicly.,https://en.wikipedia.org/wiki/ChatGPT,reference,seeded,2026-02-12
+T0006,cmp_anthropic,2021,founded,Anthropic founded,Anthropic was founded by former OpenAI researchers.,https://en.wikipedia.org/wiki/Anthropic,reference,seeded,2026-02-12
+T0007,cmp_hugging-face,2016,founded,Hugging Face founded,Hugging Face was founded as an AI company and open ecosystem.,https://en.wikipedia.org/wiki/Hugging_Face,reference,seeded,2026-02-12
+T0008,cmp_xai,2023,founded,xAI founded,xAI was founded by Elon Musk.,https://en.wikipedia.org/wiki/XAI_(company),reference,seeded,2026-02-12
+T0009,prs_sam-altman,2019,role_change,Became OpenAI CEO,Sam Altman became CEO of OpenAI.,https://en.wikipedia.org/wiki/Sam_Altman,reference,seeded,2026-02-12
+T0010,prs_mark-zuckerberg,2004,founding,Founded Facebook,Mark Zuckerberg co-founded Facebook.,https://en.wikipedia.org/wiki/Mark_Zuckerberg,reference,seeded,2026-02-12
+T0011,prs_elon-musk,2023,founding,Founded xAI,Elon Musk founded xAI.,https://en.wikipedia.org/wiki/Elon_Musk,reference,seeded,2026-02-12
+T0012,cmp_entire,2026-02-11,report_event,Entire seed event in daily report,Entire and founder event appeared in daily report item #11.,data/raw/wechat/2026-02-11.md#11,daily_report,seeded,2026-02-12

@@ -92,6 +92,25 @@
 - 目录与文件名均为英文命名。
 - 验证结果：`AGENTS.md`、`README.md`、`task_plan.md` 与 `wiki/` 索引中已无 `knowledge/`、`VK`、`vk` 命名残留。
 
+## 2026-02-12 用户新增要求（wiki 全时态）
+- 日报链路保持倒推用于未来信号，但 `wiki/` 不应按倒推逻辑组织。
+- `wiki/` 需要回归“可查询的历史本质库”，将历史信息持续融入。
+- 目标是“日报原语 -> wiki 发散延伸”，且继续保持物理隔离。
+
+## 2026-02-12 Wiki 全时态改造结果
+- 新增 `wiki/index/history_timeline.csv`，作为历史事件时间线索引。
+- `wiki/index/relations.csv` 扩展了基础创始关系（OpenAI/Meta/xAI + 已有 Entire）。
+- 公司页与人物页已统一增加 `Historical Timeline` 区块并指向时间线索引。
+- `AGENTS.md` 与 `README.md` 已明确：日报链路可倒推，`wiki/` 为全时态可查询库。
+
+## 2026-02-12 客观介绍约束（用户强调）
+- 用户要求：即使是介绍（intro）也必须客观。
+- 已执行：
+  - 全量实体页统一使用 `Objective Intro` 命名。
+  - `startup_profiles.csv` 字段改为 `objective_intro`。
+  - 当前 intro 默认回退为 `TBD (factual, source-backed only)`，避免主观措辞。
+  - 新增并接入 `wiki/index/objective_writing_policy.md` 作为写作约束。
+
 ## 2026-02-12 用户结构重置要求（本轮）
 - `data/indexes/` 的 B 站公开索引应移除（用户当前走手动输入，不再需要公开索引页）。
 - `data/raw/wechat/ingest_manifest.csv` 的 `source_url` 需要从旧微信链接模式调整为手动粘贴来源语义。

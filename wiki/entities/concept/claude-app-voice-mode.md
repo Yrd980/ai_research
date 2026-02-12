@@ -10,7 +10,7 @@
 - 语音模式分阶段开放
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

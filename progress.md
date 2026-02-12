@@ -126,6 +126,11 @@
 - 同步更新 `AGENTS.md`、`README.md`、`wiki/README.md`、`task_plan.md` 的新命名口径。
 - 完成命名一致性校验：核心文档与 wiki 索引中不再出现 `knowledge/`、`VK`、`vk` 命名残留。
 - 运行 `check-complete.sh`，当前阶段完成度为 `12/12`。
+- 接收用户补充要求：介绍字段也必须保持客观。
+- 已将实体页标题统一为 `Objective Intro`，并将 `startup_profiles.csv` 字段统一为 `objective_intro`。
+- 为避免主观表达，当前 intro 全量回退为 `TBD (factual, source-backed only)`，待补客观来源后再填写。
+- 新增规则文档 `wiki/index/objective_writing_policy.md` 并在 `wiki/README.md` 引用。
+- 运行 `check-complete.sh`，当前阶段完成度为 `13/13`。
 
 ### Test Results
 | Test | Expected | Actual | Status |

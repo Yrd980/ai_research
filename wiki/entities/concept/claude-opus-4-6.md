@@ -10,7 +10,7 @@
 - Antigravity可用
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

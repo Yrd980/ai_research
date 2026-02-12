@@ -12,11 +12,15 @@
 ## Founders
 - TBD
 
-## One-line Intro
-- 图像API发布
+## Objective Intro
+- TBD (factual, source-backed only)
 
 ## Related Entities (Objective)
 - TBD
+
+## Historical Timeline
+- See `wiki/index/history_timeline.csv` filtered by `cmp_xai`
+- Add objective milestones (founded, rebrand, product release, leadership changes).
 
 ## Sources
 - Add objective source links here

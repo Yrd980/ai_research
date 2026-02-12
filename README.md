@@ -5,7 +5,7 @@
 - `data/raw/wechat/`：公众号原文归档（按日期）
 - `data/processed/`：原语主表 + 出现记录 + 超边
 - `data/templates/`：原语模板
-- `wiki/`：independent objective extension wiki（entity pages + indexes）
+- `wiki/`：independent objective extension wiki（full-history, query-oriented）
 - `task_plan.md` / `findings.md` / `progress.md`：skills `planning-with-files` 的长期演化记录（必须保留）
 - `AGENTS.md`：仓库级协作规范与执行流程
 
@@ -20,6 +20,7 @@
 - Hyperedges template: `data/templates/primitive_hyperedges_template.csv`
 - Wiki registry: `wiki/index/entity_registry.csv`
 - Wiki relations: `wiki/index/relations.csv`
+- Wiki timeline: `wiki/index/history_timeline.csv`
 - Startup profiles: `wiki/index/startup_profiles.csv`
 
 ## Rebuild Command

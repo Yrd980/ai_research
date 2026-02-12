@@ -10,7 +10,7 @@
 - Qwen3.5架构机制
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

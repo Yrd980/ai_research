@@ -10,7 +10,7 @@
 - Meta多agent并行概念
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

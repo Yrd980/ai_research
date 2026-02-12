@@ -12,11 +12,15 @@
 ## Founders
 - TBD
 
-## One-line Intro
-- LLaDA2.1
+## Objective Intro
+- TBD (factual, source-backed only)
 
 ## Related Entities (Objective)
 - TBD
+
+## Historical Timeline
+- See `wiki/index/history_timeline.csv` filtered by `cmp_ant-group`
+- Add objective milestones (founded, rebrand, product release, leadership changes).
 
 ## Sources
 - Add objective source links here

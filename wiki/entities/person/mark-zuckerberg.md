@@ -11,8 +11,12 @@
 ## Associated Companies
 - TBD
 
-## One-line Intro
-- Meta核心人物
+## Objective Intro
+- TBD (factual, source-backed only)
+
+## Historical Timeline
+- See `wiki/index/history_timeline.csv` filtered by `prs_mark-zuckerberg`
+- Add objective milestones (founded, rebrand, product release, leadership changes).
 
 ## Sources
 - Add objective source links here

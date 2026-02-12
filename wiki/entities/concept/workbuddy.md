@@ -10,7 +10,7 @@
 - AI桌面工作台
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

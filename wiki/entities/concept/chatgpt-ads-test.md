@@ -10,7 +10,7 @@
 - 广告商业化测试
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here

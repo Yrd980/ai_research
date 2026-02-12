@@ -22,3 +22,4 @@ This folder is an objective extension layer outside the daily-report pipeline.
 - Objective only, source-backed updates only.
 - Daily extraction files remain unchanged by wiki edits.
 - Prefer one-entity-one-file + CSV indexes for both readability and computability.
+- Follow `wiki/index/objective_writing_policy.md` for intro and wording standards.

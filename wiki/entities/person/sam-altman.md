@@ -11,8 +11,12 @@
 ## Associated Companies
 - TBD
 
-## One-line Intro
-- OpenAI核心人物
+## Objective Intro
+- TBD (factual, source-backed only)
+
+## Historical Timeline
+- See `wiki/index/history_timeline.csv` filtered by `prs_sam-altman`
+- Add objective milestones (founded, rebrand, product release, leadership changes).
 
 ## Sources
 - Add objective source links here

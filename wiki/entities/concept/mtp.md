@@ -10,7 +10,7 @@
 - 多标记预测
 
 ## Related Companies/People
-- TBD
+- TBD (factual, source-backed only)
 
 ## Sources
 - Add objective source links here
