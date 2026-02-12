@@ -131,6 +131,12 @@
 - 为避免主观表达，当前 intro 全量回退为 `TBD (factual, source-backed only)`，待补客观来源后再填写。
 - 新增规则文档 `wiki/index/objective_writing_policy.md` 并在 `wiki/README.md` 引用。
 - 运行 `check-complete.sh`，当前阶段完成度为 `13/13`。
+- 按用户“数据结构更聪明”要求，将 wiki 迁移为 assertions 单源模型。
+- 新增 `wiki/index/assertions.csv`，并将原 `relations/history_timeline` 迁移入 assertions。
+- 新增 `scripts/build_wiki_views.py`，从 assertions 派生重建 `relations.csv` 和 `history_timeline.csv`。
+- 更新 `AGENTS.md`、`README.md`、`wiki/README.md` 到 assertions-first 工作流。
+- 在 `wiki/index/objective_writing_policy.md` 补充 Compression Axioms v1。
+- 运行 `check-complete.sh`，当前阶段完成度为 `14/14`。
 
 ### Test Results
 | Test | Expected | Actual | Status |

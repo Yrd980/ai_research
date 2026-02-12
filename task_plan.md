@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 13 (complete)
+Phase 14 (complete)
 
 ## Phases
 
@@ -101,6 +101,14 @@ Phase 13 (complete)
 - [x] 强制客观介绍口径（`Objective Intro` 仅事实+来源）
 - **Status:** complete
 
+### Phase 14: Wiki Assertions 单源化（压缩公理落地）
+- [x] 新增 `wiki/index/assertions.csv` 作为唯一事实源
+- [x] 将 `relations/history_timeline` 迁移并改为 assertions 派生视图
+- [x] 增加视图构建脚本并固定重建命令
+- [x] 更新 AGENTS/README/wiki 规则，明确 assertions-first
+- [x] 验证单源一致性与日报链路隔离
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -116,6 +124,7 @@ Phase 13 (complete)
 | 当前扩展采用“1元 + N元（无动词）” | 保持去噪纯度，不引入谓词标注负担，同时支持高维共现研究 |
 | Wiki extension 作为外挂目录独立建设 | 扩展联想与客观介绍能力，同时不污染日报原语与共现主链 |
 | Wiki 按全时态组织而非倒推组织 | 满足“可查询历史本质库”的研究用途，与日报未来导向分工清晰 |
+| Wiki 采用 assertions 单源事实账本 | 减少多索引分散维护造成的不一致，提升压缩与可逆性 |
 
 ## Errors Encountered
 | Error | Resolution |

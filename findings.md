@@ -109,7 +109,33 @@
   - 全量实体页统一使用 `Objective Intro` 命名。
   - `startup_profiles.csv` 字段改为 `objective_intro`。
   - 当前 intro 默认回退为 `TBD (factual, source-backed only)`，避免主观措辞。
-  - 新增并接入 `wiki/index/objective_writing_policy.md` 作为写作约束。
+- 新增并接入 `wiki/index/objective_writing_policy.md` 作为写作约束。
+
+## 2026-02-12 Assertions 迁移前现状
+- 当前 `wiki` 事实分散在多个索引：`relations.csv` 与 `history_timeline.csv`，存在“多源维护”风险。
+- 用户确认方向：升级为“`assertions.csv` 单一事实源 + 派生视图”。
+- 可迁移源规模：
+  - `relations.csv`: 4 条关系事实
+  - `history_timeline.csv`: 12 条历史事实
+- `entity_registry.csv` 作为实体字典可保留，不需要并入 assertions。
+
+## 2026-02-12 Assertions 迁移结果
+- 新增 `wiki/index/assertions.csv`（16 条）作为事实单源账本。
+- 新增脚本 `scripts/build_wiki_views.py`，可从 assertions 自动重建：
+  - `wiki/index/relations.csv`（当前 4 条）
+  - `wiki/index/history_timeline.csv`（当前 16 条）
+- 迁移来源：
+  - 原 `relations.csv` -> 4 条 relation assertions（`object_type=entity_id`）
+  - 原 `history_timeline.csv` -> 12 条 event assertions（`object_type=text`）
+- 当前实现为“单源维护、视图派生”；后续新增/修改事实应直接操作 assertions。
+
+## 2026-02-12 Assertions-first 规则固化
+- 已新增 `scripts/build_wiki_views.py`，`assertions -> relations/timeline` 可重建。
+- 已更新规则入口：
+  - `AGENTS.md`: wiki facts 维护改为 assertions-first
+  - `README.md`: 增加 `build_wiki_views.py` 重建命令
+  - `wiki/README.md`: 明确 assertions 为单源、relations/timeline 为派生
+- 已把“压缩公理 v1”写入 `wiki/index/objective_writing_policy.md`，把结构设计绑定到压缩标准。
 
 ## 2026-02-12 用户结构重置要求（本轮）
 - `data/indexes/` 的 B 站公开索引应移除（用户当前走手动输入，不再需要公开索引页）。

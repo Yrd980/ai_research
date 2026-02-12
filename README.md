@@ -19,6 +19,7 @@
 - Occurrences template: `data/templates/primitive_occurrences_template.csv`
 - Hyperedges template: `data/templates/primitive_hyperedges_template.csv`
 - Wiki registry: `wiki/index/entity_registry.csv`
+- Wiki assertions (source of truth): `wiki/index/assertions.csv`
 - Wiki relations: `wiki/index/relations.csv`
 - Wiki timeline: `wiki/index/history_timeline.csv`
 - Startup profiles: `wiki/index/startup_profiles.csv`
@@ -27,4 +28,5 @@
 
 ```bash
 python3 scripts/build_primitive_cooccurrence.py
+python3 scripts/build_wiki_views.py
 ```
