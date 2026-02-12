@@ -1014,3 +1014,60 @@ R1012,open_source_model,trm_hf-org-answerdotai,HF Org: answerdotai,trm_hf-model-
 R1013,open_source_model,trm_hf-org-facebook,HF Org: facebook,trm_hf-model-facebook-opt-350m,HF Model: facebook/opt-350m,,https://huggingface.co/facebook/opt-350m,official_primary,candidate,2026-02-12,from_huggingface_official_api
 R1014,open_source_model,trm_hf-org-john6666,HF Org: John6666,trm_hf-model-john6666-prefect-illustrious-xl-v3-sdxl,HF Model: John6666/prefect-illustrious-xl-v3-sdxl,,https://huggingface.co/John6666/prefect-illustrious-xl-v3-sdxl,official_primary,candidate,2026-02-12,from_huggingface_official_api
 R1015,open_source_model,trm_hf-org-maziyarpanahi,HF Org: MaziyarPanahi,trm_hf-model-maziyarpanahi-mistral-7b-instruct-v0-3-gguf,HF Model: MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF,,https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF,official_primary,candidate,2026-02-12,from_huggingface_official_api
+R1016,founded_by,trm_runway,Runway,trm_alejandro-matamala,Alejandro Matamala,,wiki/index/terms.csv,curated_note,candidate,2026-02-12,inferred_from_person_note
+R1017,founded_by,trm_runway,Runway,trm_anastasis-germanidis,Anastasis Germanidis,,wiki/index/terms.csv,curated_note,candidate,2026-02-12,inferred_from_person_note
+R1018,founded_by,trm_runway,Runway,trm_cristobal-valenzuela,Cristobal Valenzuela,,wiki/index/terms.csv,curated_note,candidate,2026-02-12,inferred_from_person_note
+R1019,develops_model,trm_openai,OpenAI,trm_gpt-5-2,GPT-5.2,2026-02-04,data/raw/wechat/2026-02-04.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1020,develops_model,trm_openai,OpenAI,trm_gpt-5-3-codex,GPT-5.3-Codex,2026-02-06,data/raw/wechat/2026-02-06.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1021,owns_product,trm_anthropic,Anthropic,trm_claude-opus-4-6,Claude Opus 4.6,2026-02-06,data/raw/wechat/2026-02-06.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1022,owns_product,trm_anthropic,Anthropic,trm_claude-cowork,Claude Cowork,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1023,owns_product,trm_augment-code,Augment Code,trm_context-engine-mcp,Context Engine MCP,2026-02-08,data/raw/wechat/2026-02-08.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1024,develops_model,trm_openrouter,OpenRouter,trm_aurora-alpha,Aurora Alpha,2026-02-10,data/raw/wechat/2026-02-10.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1025,develops_model,trm_meta,Meta,trm_avocado,Avocado,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1026,develops_model,trm_meta,Meta,trm_avocado-thinking,Avocado Thinking,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1027,owns_product,trm_openai,OpenAI,trm_chatgpt-deep-research,ChatGPT Deep Research,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1028,owns_product,trm_google,Google,trm_claude-opus-4-6,Claude Opus 4.6,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1029,owns_product,trm_openai,OpenAI,trm_codex-alpha,Codex Alpha,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1030,develops_model,trm_cursor,Cursor,trm_composer-1-5,Composer 1.5,2026-02-10,data/raw/wechat/2026-02-10.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1031,develops_model,trm_cursor,Cursor,trm_gpt-5-3-codex,GPT-5.3-Codex,2026-02-10,data/raw/wechat/2026-02-10.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1032,owns_product,trm_openai,OpenAI,trm_dime,Dime,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1033,owns_product,trm_factory,Factory,trm_droid-agent,Droid Agent,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1034,owns_product,trm_jetbrains,JetBrains,trm_droid-agent,Droid Agent,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1035,develops_model,trm_google,Google,trm_gemini-deep-think,Gemini Deep Think,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1036,maintains,trm_google,Google,trm_gemini-skills,gemini-skills,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1037,owns_product,trm_google,Google,trm_google-ai-studio,Google AI Studio,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1038,owns_product,trm_google,Google,trm_omnibar,Omnibar,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1039,owns_product,trm_google,Google,trm_stitch,Stitch,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1040,develops_model,trm_openai,OpenAI,trm_gpt-5-2-instant,GPT-5.2 Instant,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1041,develops_model,trm_xai,xAI,trm_grok-imagine-image,Grok Imagine Image,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1042,develops_model,trm_xai,xAI,trm_grok-imagine-image-pro,Grok Imagine Image Pro,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1043,owns_product,trm_hugging-face,Hugging Face,trm_qwen-3-5,Qwen 3.5,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1044,develops_model,trm_hugging-face,Hugging Face,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1045,develops_model,trm_hugging-face,Hugging Face,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1046,develops_model,trm_kilo-code,Kilo Code,trm_pony-alpha,Pony Alpha,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1047,develops_model,trm_meta,Meta,trm_sierra,Sierra,2026-02-09,data/raw/wechat/2026-02-09.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1048,develops_model,trm_openbmb,OpenBMB,trm_minicpm-sala,MiniCPM-SALA,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1049,develops_model,trm_minimax,MiniMax,trm_minimax-m2-5,MiniMax M2.5,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1050,owns_product,trm_perplexity,Perplexity,trm_model-council,Model Council,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1051,develops_model,trm_mosi-ai,MOSI.AI,trm_moss-soundeffect,MOSS-SoundEffect,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1052,develops_model,trm_mosi-ai,MOSI.AI,trm_moss-tts,MOSS-TTS,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1053,develops_model,trm_mosi-ai,MOSI.AI,trm_moss-tts-realtime,MOSS-TTS-Realtime,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1054,develops_model,trm_mosi-ai,MOSI.AI,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1055,develops_model,trm_mosi-ai,MOSI.AI,trm_moss-voicegenerator,MOSS-VoiceGenerator,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1056,develops_model,trm_mosi-ai,MOSI.AI,trm_mossttsdelay,MossTTSDelay,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1057,develops_model,trm_mosi-ai,MOSI.AI,trm_mossttslocal,MossTTSLocal,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1058,maintains,trm_mosi-ai,MOSI.AI,trm_openmoss,OpenMOSS,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1059,owns_product,trm_obsidian,Obsidian,trm_obsidian-cli,Obsidian CLI,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1060,maintains,trm_openai,OpenAI,trm_openai-for-countries,OpenAI for Countries,2026-02-08,data/raw/wechat/2026-02-08.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1061,owns_product,trm_openai,OpenAI,trm_responses-api,Responses API,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1062,develops_model,trm_openrouter,OpenRouter,trm_pony-alpha,Pony Alpha,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1063,owns_product,trm_warp,Warp,trm_oz,Oz,2026-02-11,data/raw/wechat/2026-02-11.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1064,develops_model,trm_soul-ailab,Soul-AILab,trm_soulx-singer,SoulX-Singer,2026-02-12,data/raw/wechat/2026-02-12.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1065,develops_model,trm_waymo,Waymo,trm_waymo-world-model,Waymo World Model,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1066,owns_product,trm_xai,xAI,trm_x-developer-platform,X Developer Platform,2026-02-07,data/raw/wechat/2026-02-07.md,daily_primary,candidate,2026-02-12,inferred_from_term_edge
+R1067,owns_product,trm_openai,OpenAI,trm_openai-api,OpenAI API,,https://openai.com/api/,official_primary,candidate,2026-02-12,inferred_from_term_edge
+R1068,owns_product,trm_anthropic,Anthropic,trm_claude-code,Claude Code,,https://www.anthropic.com/claude-code,official_primary,candidate,2026-02-12,inferred_from_term_edge
+R1069,owns_product,trm_google,Google,trm_gemini-api,Gemini API,,https://ai.google.dev/gemini-api/docs,official_primary,candidate,2026-02-12,inferred_from_term_edge
+R1070,owns_product,trm_xai,xAI,trm_xai-api,xAI API,,https://x.ai/api/,official_primary,candidate,2026-02-12,inferred_from_term_edge
+R1071,develops_model,trm_anthropic,Anthropic,trm_minimax-m2-5,MiniMax M2.5,,,derived_graph,candidate,2026-02-12,inferred_from_term_edge
+R1072,develops_model,trm_bytedance,ByteDance,trm_minimax-m2-5,MiniMax M2.5,,,derived_graph,candidate,2026-02-12,inferred_from_term_edge

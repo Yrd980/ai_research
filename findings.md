@@ -725,3 +725,10 @@
   - `term_edges.csv` = 1220
   - `high_value_relations.csv` = 1015
 - 可视化已做标签简化：`HF Model:` / `HF Org:` 前缀在节点标签中自动隐藏（tooltip 保留全名）。
+
+## 2026-02-12 Phase 28 并行关系扩展结果
+- 并行执行 lanes：`M&A`、`Founder`、`Product ownership`、`Open-source`。
+- Open-source lane（官方 API）增量：`open_source_model +999`。
+- 本轮关系推断增量：`+57`（`develops_model +29`, `owns_product +22`, `founded_by +3`, `maintains +3`）。
+- 关系总量：`high_value_relations.csv = 1072`。
+- 节点总量：`terms.csv = 1578`；边总量：`term_edges.csv = 1220`。

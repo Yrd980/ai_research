@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 27 (complete)
+Phase 28 (complete)
 
 ## Phases
 
@@ -197,6 +197,7 @@ Phase 27 (complete)
 | Wiki 从 assertions 迁移到纯名词图谱 | 避免重复日报事实，降低空实体页维护成本，聚焦可查询名词关联 |
 | Wiki 增加多-agent外部扩展层（官方源） | 在不污染日报主链前提下持续扩充全局图谱覆盖面 |
 | 本地多-agent扩展引入 Token 分层 | 在网络不可用时仍可把规模扩到 1000+，并通过可视化默认隐藏长尾控制噪声 |
+| 关系层采用并行 lane 持续扩展 | 保证 M&A/Founder/Open-source/Product ownership 同步推进，不单点卡顿 |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -250,4 +251,13 @@ Phase 27 (complete)
 - [x] 刷新 `viz/graph_data.js` 以支持双击直看最新图
 - [x] 重做可视化样式（去粗边，提升可读性）
 - [x] 运行一致性校验并记录
+- **Status:** complete
+
+### Phase 28: 并行关系扩展（M&A / Founder / Product Ownership / Open-source）
+- [x] 并行执行 4 条关系 lane 扩展
+- [x] 通过官方 API 批量补充 open_source_model 关系
+- [x] 从高质量边推断 owns_product / develops_model / maintains
+- [x] 从人物注释补 founded_by 候选并去重
+- [x] 同步更新 relation research queue 状态
+- [x] 运行安全门禁并发布
 - **Status:** complete

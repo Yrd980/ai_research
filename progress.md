@@ -258,3 +258,4 @@
 - 发布前安全门禁修复：CSV 行尾统一为 LF，`git diff --check` 由失败转为通过。
 - 按用户要求执行高质量回收：移除主图 Token/噪声扩展，并新增高价值关系层（M&A/创始人/开源/产品归属）。
 - 并行扩展完成：接入 Hugging Face top-1000 模型池，主图提升到 1578 节点，关系提升到 1015。
+- 完成 Phase 28 并行关系扩展：关系总量提升到 1072（含 open_source_model、develops_model、owns_product、founded_by、maintains）。
