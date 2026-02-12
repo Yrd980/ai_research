@@ -732,3 +732,15 @@
 - 本轮关系推断增量：`+57`（`develops_model +29`, `owns_product +22`, `founded_by +3`, `maintains +3`）。
 - 关系总量：`high_value_relations.csv = 1072`。
 - 节点总量：`terms.csv = 1578`；边总量：`term_edges.csv = 1220`。
+
+## 2026-02-12 Phase 29 并行扩展增量（GitHub 开源归属）
+- 数据源：GitHub 官方 org repos API（OpenAI/Hugging Face/Anthropic/Meta/xAI/Mistral/Google/Tencent）。
+- 本轮增量：
+  - terms +234
+  - edges +234
+  - high_value_relations +234 (`open_source_project`)
+  - term_external_edges +234
+- 当前总量：
+  - `terms.csv` = 1812
+  - `term_edges.csv` = 1454
+  - `high_value_relations.csv` = 1306

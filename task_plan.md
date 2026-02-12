@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 28 (complete)
+Phase 29 (complete)
 
 ## Phases
 
@@ -198,6 +198,7 @@ Phase 28 (complete)
 | Wiki 增加多-agent外部扩展层（官方源） | 在不污染日报主链前提下持续扩充全局图谱覆盖面 |
 | 本地多-agent扩展引入 Token 分层 | 在网络不可用时仍可把规模扩到 1000+，并通过可视化默认隐藏长尾控制噪声 |
 | 关系层采用并行 lane 持续扩展 | 保证 M&A/Founder/Open-source/Product ownership 同步推进，不单点卡顿 |
+| GitHub 官方 API 成为开源归属主扩展通道 | 在网络受限条件下仍可稳定扩展高质量项目归属关系 |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -260,4 +261,12 @@ Phase 28 (complete)
 - [x] 从人物注释补 founded_by 候选并去重
 - [x] 同步更新 relation research queue 状态
 - [x] 运行安全门禁并发布
+- **Status:** complete
+
+### Phase 29: 并行关系扩展（GitHub开源归属 + 高质量加固）
+- [x] 使用官方 GitHub API 批量补充公司-开源项目归属关系
+- [x] 同步更新 terms/edges/high_value_relations/external_edges
+- [x] 保守补充 M&A/Founder（仅明确来源）
+- [x] 更新 relation queue 与文档日志
+- [x] 安全门禁 + 自动发布
 - **Status:** complete
