@@ -262,3 +262,12 @@
 - Phase 29 增量完成：并行接入 GitHub 官方组织仓库关系，关系总量提升到 1306。
 - 进入 Phase 30：并行深挖 Founder 与 M&A 关系，目标提升高价值结构关系密度。
 - Phase 30 完成：并行回填 Wikidata Founder + M&A 关系，关系总量提升至 1362。
+- 进入 Phase 31：执行 M&A 关系标准化（acquired_by -> acquired）与日期补齐。
+- 用户反馈 Hugging Face 批量模型节点价值偏低（一次 +900 节点不符合“高价值关系”）。
+- 已执行降噪：移除 `open_source_model` 关系（-999）与 `HF Model:*` 节点（-999）。
+- 发现并修复一致性问题：`term_edges` 残留 999 行悬空引用；按 `terms.csv` 白名单重写过滤后 `missing_ref=0`。
+- 额外质量清理：移除 `notes=wiki expansion node` 的泛化噪声节点，进一步收敛到高价值图。
+- 最新规模：`terms=765`、`term_edges=410`、`term_external_edges=305`、`high_value_relations=361`。
+- 已刷新 `viz/graph_data.js` fallback，支持本地直开显示最新图。
+- 按用户要求将 `viz/index.html` 改为“仅图可视化”模式：移除所有顶部控件与状态条，页面加载后自动渲染图。
+- 保留 CSV->fallback 双通道读取；打开 `viz/index.html` 即可看到图谱。

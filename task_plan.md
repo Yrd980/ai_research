@@ -278,3 +278,10 @@ Phase 30 (complete)
 - [x] 更新 relation queue 与日志
 - [x] 安全门禁 + 自动发布
 - **Status:** complete
+
+### Phase 31: M&A 关系精修（方向标准化 + 日期补齐）
+- [ ] 将 `acquired_by` 规范为 `acquired`（buyer -> target）
+- [ ] 补齐可推断 event_date（优先日更来源）
+- [ ] 同步修正对应图边方向语义与注释
+- [ ] 更新日志并自动发布
+- **Status:** in_progress

@@ -756,3 +756,12 @@
   - `terms.csv` = 1857
   - `term_edges.csv` = 1506
   - `high_value_relations.csv` = 1362
+
+## 2026-02-12 用户纠偏（HF 模型层降噪）
+- 用户明确反馈：Hugging Face 批量模型节点（一次 +900）不属于“高价值关系”，要求移除。
+- 现场核查：
+  - `high_value_relations.csv` 中 `open_source_model=999`。
+  - `terms.csv` 中 `HF Model:*` 节点约 999 条（与上述关系规模一致）。
+- 决策：整批移除 `open_source_model` 关系与对应 `HF Model:*` 节点，仅保留高价值层（收购/创始人/项目归属/产品归属/所有权/维护）。
+- 清理后复核发现历史一致性缺陷：`term_edges.csv` 存在大量悬空引用（约 999 行），与此前 HF 模型边残留一致。
+- 本轮修复要点：按 `terms.csv` 作为唯一 term_id 白名单，重写过滤 `term_edges/term_external_edges/high_value_relations`，彻底消除 dangling refs。
