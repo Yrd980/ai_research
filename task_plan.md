@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 14 (complete)
+Phase 16 (complete)
 
 ## Phases
 
@@ -109,6 +109,21 @@ Phase 14 (complete)
 - [x] 验证单源一致性与日报链路隔离
 - **Status:** complete
 
+### Phase 15: AI日报一手候选断言层（仅 wiki 扩展）
+- [x] 固化“仅 AI 日报输入 + 原始素材保留 + wiki 扩展”约束
+- [x] 新增 primary-only 过滤规则文档（不含 `evidence_level`）
+- [x] 新增候选断言构建脚本（从 `primitive_occurrences` + raw item links 生成）
+- [x] 生成 `wiki/index/assertions_candidates.csv` 并核对过滤结果
+- **Status:** complete
+
+### Phase 16: 日报补录（2026-02-12 + 2026-02-08 + 2026-02-07）
+- [x] 将三天原文归档到 `data/raw/wechat/YYYY-MM-DD.md`
+- [x] 更新 `data/raw/wechat/ingest_manifest.csv`
+- [x] 补充新日期涉及的原语到 `data/processed/primitives.csv`
+- [x] 重建 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`
+- [x] 验证新日期在 occurrences/hyperedges 中可检索
+- **Status:** complete
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
@@ -125,6 +140,7 @@ Phase 14 (complete)
 | Wiki extension 作为外挂目录独立建设 | 扩展联想与客观介绍能力，同时不污染日报原语与共现主链 |
 | Wiki 按全时态组织而非倒推组织 | 满足“可查询历史本质库”的研究用途，与日报未来导向分工清晰 |
 | Wiki 采用 assertions 单源事实账本 | 减少多索引分散维护造成的不一致，提升压缩与可逆性 |
+| 候选断言只保留 primary link | 满足用户“客观第一手信息（去噪）”，去除评分字段与主观打分 |
 
 ## Errors Encountered
 | Error | Resolution |
@@ -143,3 +159,4 @@ Phase 14 (complete)
 | `git add -A` 在当前环境被策略拦截（blocked by policy） | 改为显式逐文件 `git add <path>`，避免重复执行被拦截命令 |
 | `feishu_sync.py --mode csv` 参数报错 `invalid choice` | 不重复同命令，改用脚本支持的 `--mode all --dry-run` 验证 |
 | `rm -rf scripts/__pycache__` 在当前环境被策略拦截 | 改为 Python `shutil.rmtree` 删除缓存目录，避免重复执行受限命令 |
+| `findings.md` 被误覆盖为单行文本 `$(cat findings.md)` | 立即用 `git show HEAD:findings.md > findings.md` 恢复，再继续记录 |

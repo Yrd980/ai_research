@@ -4,7 +4,7 @@
 
 - `data/raw/wechat/`：公众号原文归档（按日期）
 - `data/processed/`：原语主表 + 出现记录 + 超边
-- `data/templates/`：原语模板
+- `data/templates/`：原语与 wiki 候选模板
 - `wiki/`：independent objective extension wiki（full-history, query-oriented）
 - `task_plan.md` / `findings.md` / `progress.md`：skills `planning-with-files` 的长期演化记录（必须保留）
 - `AGENTS.md`：仓库级协作规范与执行流程
@@ -18,8 +18,10 @@
 - Primitive template: `data/templates/primitives_template.csv`
 - Occurrences template: `data/templates/primitive_occurrences_template.csv`
 - Hyperedges template: `data/templates/primitive_hyperedges_template.csv`
+- Wiki assertion candidates template: `data/templates/wiki_assertions_candidates_template.csv`
 - Wiki registry: `wiki/index/entity_registry.csv`
 - Wiki assertions (source of truth): `wiki/index/assertions.csv`
+- Wiki assertion candidates: `wiki/index/assertions_candidates.csv`
 - Wiki relations: `wiki/index/relations.csv`
 - Wiki timeline: `wiki/index/history_timeline.csv`
 - Startup profiles: `wiki/index/startup_profiles.csv`
@@ -28,5 +30,6 @@
 
 ```bash
 python3 scripts/build_primitive_cooccurrence.py
+python3 scripts/build_wiki_assertion_candidates.py
 python3 scripts/build_wiki_views.py
 ```

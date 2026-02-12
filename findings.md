@@ -426,3 +426,27 @@
   - API 返回 `revision_id=12`，且能读到 `# AI Research 总览导航` 与 `最近同步` 文本，说明写入已发生。
   - 发现文档块顺序异常：分批写入时固定 `index=0` 导致每批插入最前，产生“内容顺序错位”体验。
   - 修复策略：按批次递增写入索引，确保最终显示顺序与源文档一致。
+
+## 2026-02-12 日报补录前置核查（本轮）
+- `data/raw/wechat/` 当前仅有 `2026-02-09`、`2026-02-10`、`2026-02-11`，本轮用户输入包含 `2026-02-12` 主报，且附带 `2026-02-08`、`2026-02-07` 报文。
+- `ingest_manifest.csv` 尚未登记上述三个日期。
+- 共现构建脚本为 `scripts/build_primitive_cooccurrence.py`，可直接对新增原文重建 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`。
+
+## 2026-02-12 本轮错误记录
+- 误执行覆盖命令导致 `findings.md` 被写成单行文本 `$(cat findings.md)`。
+- 已使用 `git show HEAD:findings.md > findings.md` 完整恢复，再继续追加本轮记录。
+- 额外发现：仓库不存在 `scripts/extract_primitives.py`，当前流程不依赖该文件（原语表为手工维护 + 共现脚本重建）。
+
+## 2026-02-12 日报补录执行结果（2026-02-12 + 2026-02-08 + 2026-02-07）
+- 已新增原文归档文件：
+  - `data/raw/wechat/2026-02-12.md`
+  - `data/raw/wechat/2026-02-08.md`
+  - `data/raw/wechat/2026-02-07.md`
+- 已更新 `data/raw/wechat/ingest_manifest.csv`，三天状态均为 `captured`。
+- 已向 `data/processed/primitives.csv` 去重追加新原语（公司/模型/产品/人物/平台等），总量变为 `136`（含表头）。
+- 运行 `python3 scripts/build_primitive_cooccurrence.py` 后统计：
+  - `item_blocks=82`
+  - `occurrences=142`
+  - `hyperedges=43`
+- 抽样验证通过：`primitive_occurrences.csv` 与 `primitive_hyperedges.csv` 已包含三天日期（`2026-02-12`、`2026-02-08`、`2026-02-07`）的记录。
+- `check-complete.sh` 复检结果：`ALL PHASES COMPLETE (16/16)`。

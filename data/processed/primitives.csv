@@ -85,3 +85,53 @@ Alejandro Matamala,Person,2026-02-11,2/11,Runway联合创始人
 Anastasis Germanidis,Person,2026-02-11,2/11,Runway联合创始人
 Elon Musk,Person,2026-02-09,2/09,xAI关联人物
 Mark Zuckerberg,Person,2026-02-09,2/09,Meta核心人物
+DeepSeek,Company,2026-02-12,2/12,1M上下文模型线
+MiniMax,Company,2026-02-12,2/12,M2.5模型线
+MiniMax M2.5,Model,2026-02-12,2/12,MiniMax旗舰模型
+GPT-5.2 Instant,Model,2026-02-12,2/12,OpenAI更新型号
+Ming-flash-omni 2.0,Model,2026-02-12,2/12,蚂蚁全模态模型
+iFlytek,Company,2026-02-12,2/12,讯飞星火X2发布方
+Spark X2,Model,2026-02-12,2/12,讯飞星火X2模型
+OpenBMB,Company,2026-02-12,2/12,MiniCPM-SALA发布方
+MiniCPM-SALA,Model,2026-02-12,2/12,百万上下文模型
+BOSS Zhipin,Company,2026-02-12,2/12,Nanbeige模型发布方
+Nanbeige4.1-3B,Model,2026-02-12,2/12,开源3B模型
+Soul-AILab,Company,2026-02-12,2/12,SoulX-Singer发布方
+SoulX-Singer,Model,2026-02-12,2/12,歌声合成模型
+Z Code,Product,2026-02-12,2/12,智谱AI编程工具
+GLM Coding Plan,Product,2026-02-12,2/12,智谱订阅方案
+Google AI Studio,Product,2026-02-12,2/12,谷歌开发平台更新
+Omnibar,Product,2026-02-12,2/12,Google AI Studio功能
+Factory,Company,2026-02-12,2/12,与JetBrains合作
+JetBrains,Company,2026-02-12,2/12,IDE厂商
+Droid Agent,Product,2026-02-12,2/12,Factory集成Agent
+GLM in Excel,Product,2026-02-12,2/12,智谱Excel插件
+LongCat,Product,2026-02-12,2/12,美团智能体品牌
+Stitch,Product,2026-02-12,2/12,Google设计产品
+Ideate Agent,Product,2026-02-12,2/12,Stitch创意Agent
+Mistral AI,Company,2026-02-12,2/12,瑞典数据中心投资
+Prime Intellect,Company,2026-02-12,2/12,agentic后训练平台
+Prime Intellect Lab,Platform,2026-02-12,2/12,Lab平台
+Gemini Deep Think,Model,2026-02-12,2/12,科研推理模式
+Andrej Karpathy,Person,2026-02-12,2/12,243行GPT实现作者
+Codex Alpha,Product,2026-02-12,2/12,Windows候补
+Gemini 3.1 Pro Preview,Model,2026-02-12,2/12,传闻型号
+Augment Code,Company,2026-02-08,2/08,Context Engine MCP
+Context Engine MCP,Product,2026-02-08,2/08,MCP语义引擎
+Brendan Gregg,Person,2026-02-08,2/08,OpenAI性能工程
+OpenAI for Countries,Project,2026-02-08,2/08,本土化计划
+PLawBench,Metric,2026-02-08,2/08,法律评测基准
+CarPlay,Product,2026-02-08,2/08,苹果车载系统
+LongCat-Flash-Lite,Model,2026-02-07,2/07,美团开源模型
+Seedance 2.0,Model,2026-02-07,2/07,字节视频生成模型
+Kilo Code,Company,2026-02-07,2/07,Pony Alpha联动平台
+Pony Alpha,Model,2026-02-07,2/07,stealth模型
+Waymo,Company,2026-02-07,2/07,自动驾驶公司
+Waymo World Model,Model,2026-02-07,2/07,自动驾驶仿真模型
+X Developer Platform,Platform,2026-02-07,2/07,X开发者平台
+Sora,Product,2026-02-07,2/07,OpenAI视频模型
+Perplexity,Company,2026-02-07,2/07,Model Council发布方
+Model Council,Product,2026-02-07,2/07,多模型聚合问答
+Dime,Product,2026-02-07,2/07,OpenAI硬件传闻名
+Pinea Pi,Product,2026-02-07,2/07,面壁AI开发板
+Sugon,Company,2026-02-07,2/07,中科曙光英文名
