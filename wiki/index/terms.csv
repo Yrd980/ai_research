@@ -1,1097 +1,147 @@
 term_id,term,term_type,status,notes
-trm_full,#full,Concept,active,local expansion from raw corpus
 trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,active,Claude Code参数
-trm_0-preview,0-Preview,Token,active,long-tail token from local corpus
-trm_1-pro-preview,1-pro-preview,Token,active,long-tail token from local corpus
-trm_12593142-sora-release-notes,12593142-sora-release-notes,Token,active,long-tail token from local corpus
-trm_1faipqlsdclnq,1FAIpQLSdCLNQ,Concept,active,local expansion from raw corpus
-trm_1rtu1frps0bmqd9abmg,1rtU1fRPS0bMqd9abMG,Concept,active,local expansion from raw corpus
-trm_1rtu1frps0bmqd9abmg-hc6k9oai6souy3kh00toagyk,1rtU1fRPS0bMqd9abMG_hc6K9OAI6soUy3Kh00toAgyk,Token,active,long-tail token from local corpus
-trm_2-codex,2-Codex,Token,active,long-tail token from local corpus
-trm_2025-05,2025-05,Token,active,long-tail token from local corpus
-trm_2026-01-30,2026-01-30,Token,active,long-tail token from local corpus
-trm_2026-01-31,2026-01-31,Token,active,long-tail token from local corpus
-trm_2026-02-01,2026-02-01,Token,active,long-tail token from local corpus
-trm_2026-02-02,2026-02-02,Token,active,long-tail token from local corpus
-trm_2026-02-03,2026-02-03,Token,active,long-tail token from local corpus
-trm_2026-02-04,2026-02-04,Token,active,long-tail token from local corpus
-trm_2026-02-04-showing-tool-calls-and-other,2026-02-04-showing-tool-calls-and-other-,Token,active,long-tail token from local corpus
-trm_2026-02-05,2026-02-05,Token,active,long-tail token from local corpus
-trm_2026-02-06,2026-02-06,Token,active,long-tail token from local corpus
-trm_2026-02-07,2026-02-07,Token,active,long-tail token from local corpus
-trm_2026-02-08,2026-02-08,Token,active,long-tail token from local corpus
-trm_2026-02-09,2026-02-09,Token,active,long-tail token from local corpus
-trm_2026-02-10,2026-02-10,Token,active,long-tail token from local corpus
-trm_2026-02-11,2026-02-11,Token,active,long-tail token from local corpus
-trm_2026-02-12,2026-02-12,Token,active,long-tail token from local corpus
-trm_20260203-01,20260203_01,Token,active,long-tail token from local corpus
-trm_20agentic,20Agentic,Token,active,long-tail token from local corpus
-trm_20coding,20Coding,Token,active,long-tail token from local corpus
-trm_20report,20Report,Token,active,long-tail token from local corpus
-trm_20trends,20Trends,Token,active,long-tail token from local corpus
-trm_2bit,2Bit,Concept,active,local expansion from raw corpus
-trm_2na,2NA,Concept,active,local expansion from raw corpus
-trm_2pz0jer5lgpbmkmhmmc8zw,2pz0JEr5LGPbMKmHmmC8Zw,Concept,active,local expansion from raw corpus
-trm_3-codex,3-Codex,Token,active,long-tail token from local corpus
-trm_5-35b-a3b-instruct,5-35B-A3B-Instruct,Token,active,long-tail token from local corpus
-trm_5-9b-instruct,5-9B-Instruct,Token,active,long-tail token from local corpus
-trm_5-flash,5-Flash,Token,active,long-tail token from local corpus
-trm_5lz3z3bw8voeemyesq,5lZ3z3bw8VOEemyeSQ,Concept,active,local expansion from raw corpus
-trm_6butj9hyudgp8vlskwxvkw,6BUTJ9HYUDGp8vlSKwxVkw,Concept,active,local expansion from raw corpus
-trm_7kr3roq,7Kr3rOQ,Concept,active,local expansion from raw corpus
-trm_8b-2bit,8B-2Bit,Token,active,long-tail token from local corpus
-trm_8b-instruct,8B-Instruct,Token,active,long-tail token from local corpus
-trm_8eq,8Eq,Concept,active,local expansion from raw corpus
-trm_8eq-l-p9x93imfffqs8gga,8Eq_L_P9X93imfffQs8GGA,Token,active,long-tail token from local corpus
-trm_8iva,8ivA,Concept,active,local expansion from raw corpus
-trm_9to5google,9to5google,Concept,active,local expansion from raw corpus
-trm_a5rhwwhobionjukiiw6cu5ybnxq,A5RHwWhoBiOnjukIIw6cu5ybnXQ,Concept,active,local expansion relaxed pass
-trm_aa3025e3,Aa3025e3,Concept,active,local expansion relaxed pass
-trm_about,About,Concept,active,local expansion relaxed pass
-trm_about-claude,about-claude,Token,active,long-tail token from local corpus
-trm_abs,Abs,Concept,active,local expansion from raw corpus
-trm_absolutely,Absolutely,Concept,active,local expansion from raw corpus
 trm_acc,ACC,Metric,active,准确率指标
-trm_accelerating,Accelerating,Concept,active,local expansion from raw corpus
-trm_accelerating-mathematical-and-scientific,accelerating-mathematical-and-scientific-,Token,active,long-tail token from local corpus
-trm_access,Access,Concept,active,local expansion from raw corpus
-trm_accessibility,Accessibility,Concept,active,local expansion from raw corpus
-trm_ace,ACE,Concept,active,local expansion from raw corpus
-trm_ace-studio,ACE Studio,Concept,active,local expansion from raw corpus
-trm_ace-step,ACE-Step,Concept,active,local expansion from raw corpus
-trm_ace-step-1,ACE-Step-1,Token,active,long-tail token from local corpus
-trm_ace-step-1-5,ACE-Step-1.5,Concept,active,local expansion from raw corpus
-trm_acp,ACP,Concept,active,local expansion from raw corpus
-trm_acquire,Acquire,Concept,active,local expansion from raw corpus
-trm_adaptive,Adaptive,Concept,active,local expansion from raw corpus
-trm_add,Add,Concept,active,local expansion from raw corpus
-trm_add-agentic-search-to-its-ai-cloud-platform,add-agentic-search-to-its-ai-cloud-platform,Token,active,long-tail token from local corpus
-trm_adopts,Adopts,Concept,active,local expansion from raw corpus
-trm_ads,Ads,Concept,active,local expansion from raw corpus
-trm_aerospace,Aerospace,Concept,active,local expansion from raw corpus
-trm_aerospace-defense,aerospace-defense,Token,active,long-tail token from local corpus
-trm_affairs,Affairs,Concept,active,local expansion from raw corpus
-trm_after,After,Concept,active,local expansion from raw corpus
-trm_agent,Agent,Concept,active,local expansion from raw corpus
-trm_agent-client-protocol,Agent Client Protocol,Concept,active,local expansion from raw corpus
-trm_agent-factory,Agent Factory,Concept,active,local expansion from raw corpus
-trm_agent-skills,Agent Skills,Concept,active,local expansion from raw corpus
-trm_agent-stitch,Agent Stitch,Concept,active,local expansion from raw corpus
-trm_agent-teams,agent-teams,Token,active,long-tail token from local corpus
-trm_agentic,Agentic,Concept,active,local expansion from raw corpus
-trm_agentic-coding-trends-report,Agentic Coding Trends Report,Concept,active,local expansion from raw corpus
-trm_agents,Agents,Concept,active,local expansion from raw corpus
-trm_agreement,Agreement,Concept,active,local expansion from raw corpus
-trm_ai-agent,AI Agent,Concept,active,local expansion from raw corpus
-trm_ai-controls,ai-controls,Token,active,long-tail token from local corpus
-trm_ai-video-startup-runway-raises-315m-at-5-3b,ai-video-startup-runway-raises-315m-at-5-3b-,Token,active,long-tail token from local corpus
-trm_ai2,AI2,Concept,active,local expansion from raw corpus
-trm_ai4science,AI4Science,Concept,active,local expansion from raw corpus
-trm_ailab,AILab,Concept,active,local expansion from raw corpus
-trm_aileaksandnews,AILeaksAndNews,Concept,active,local expansion from raw corpus
 trm_alejandro-matamala,Alejandro Matamala,Person,active,Runway联合创始人
-trm_alexa,Alexa,Concept,active,local expansion from raw corpus
-trm_alignment,Alignment,Concept,active,local expansion from raw corpus
-trm_all,All,Concept,active,local expansion from raw corpus
-trm_all-hands,all-hands,Token,active,long-tail token from local corpus
-trm_allenai,Allenai,Concept,active,local expansion from raw corpus
-trm_allow,Allow,Concept,active,local expansion from raw corpus
-trm_alpha,Alpha,Concept,active,local expansion from raw corpus
-trm_alphabet,Alphabet,Concept,active,local expansion from raw corpus
-trm_alphabet-earnings-q4-2025,alphabet-earnings-q4-2025,Token,active,long-tail token from local corpus
-trm_altman,Altman,Token,active,long-tail token from local corpus
-trm_amazon,Amazon,Concept,active,local expansion from raw corpus
-trm_amazon-unveils-a-new-and-improved-alexa-alexa,amazon-unveils-a-new-and-improved-alexa-alexa,Token,active,long-tail token from local corpus
-trm_ambitions,Ambitions,Concept,active,local expansion from raw corpus
-trm_amid,Amid,Concept,active,local expansion from raw corpus
-trm_amid-controversy,amid-controversy,Token,active,long-tail token from local corpus
-trm_analysis,Analysis,Concept,active,local expansion from raw corpus
 trm_anastasis-germanidis,Anastasis Germanidis,Person,active,Runway联合创始人
-trm_and,And,Concept,active,local expansion relaxed pass
-trm_andrej,Andrej,Token,active,long-tail token from local corpus
 trm_andrej-karpathy,Andrej Karpathy,Person,active,243行GPT实现作者
-trm_andrewcurran,AndrewCurran,Concept,active,local expansion from raw corpus
-trm_andrewcurran-2,AndrewCurran_,Token,active,long-tail token from local corpus
-trm_android,Android,Concept,active,local expansion from raw corpus
-trm_android-16-qpr3-screen-automation,android-16-qpr3-screen-automation,Token,active,long-tail token from local corpus
-trm_angelslim,AngelSlim,Concept,active,local expansion from raw corpus
-trm_angelslim-hy-1-8b-2bit,AngelSlim/HY-1.8B-2Bit,Concept,active,local expansion from raw corpus
-trm_anima,Anima,Concept,active,local expansion from raw corpus
-trm_announces,Announces,Concept,active,local expansion from raw corpus
-trm_announcing,Announcing,Concept,active,local expansion from raw corpus
-trm_announcing-a-deep-thinking-new-stealth,announcing-a-deep-thinking-new-stealth,Token,active,long-tail token from local corpus
 trm_ant-group,Ant Group,Company,active,LLaDA2.1
 trm_anthropic,Anthropic,Company,active,头部平台公司
-trm_anthropicai,AnthropicAI,Concept,active,local expansion from raw corpus
-trm_anthropics,Anthropics,Concept,active,local expansion from raw corpus
-trm_antigravity,Antigravity,Concept,active,local expansion from raw corpus
-trm_apache-2,Apache-2,Token,active,long-tail token from local corpus
-trm_apache-2-0,Apache-2.0,Concept,active,local expansion from raw corpus
-trm_app,App,Concept,active,local expansion from raw corpus
-trm_apple,Apple,Concept,active,local expansion from raw corpus
-trm_apple-loses-more-ai-researchers-and-a-siri,apple-loses-more-ai-researchers-and-a-siri-,Token,active,long-tail token from local corpus
-trm_apple-xcode-claude-agent-sdk,apple-xcode-claude-agent-sdk,Token,active,long-tail token from local corpus
-trm_application,Application,Concept,active,local expansion from raw corpus
-trm_approach,Approach,Concept,active,local expansion from raw corpus
-trm_apps,Apps,Concept,active,local expansion from raw corpus
-trm_apps-sdk,apps-sdk,Token,active,long-tail token from local corpus
-trm_arc-agi,ARC-AGI,Concept,active,local expansion from raw corpus
-trm_arcprize,Arcprize,Concept,active,local expansion from raw corpus
-trm_are,Are,Concept,active,local expansion from raw corpus
-trm_arena,Arena,Concept,active,local expansion from raw corpus
-trm_article,Article,Concept,active,local expansion relaxed pass
-trm_articles,Articles,Concept,active,local expansion from raw corpus
-trm_arxiv,Arxiv,Concept,active,local expansion from raw corpus
-trm_ask-question,Ask Question,Concept,active,local expansion from raw corpus
-trm_audio,Audio,Concept,active,local expansion from raw corpus
-trm_augment,Augment,Concept,active,local expansion from raw corpus
 trm_augment-code,Augment Code,Company,active,Context Engine MCP
-trm_augmentcode,Augmentcode,Concept,active,local expansion from raw corpus
-trm_aurora,Aurora,Concept,active,local expansion from raw corpus
 trm_aurora-alpha,Aurora Alpha,Model,active,OpenRouter stealth模型
-trm_aurora-alpha-aurora-alpha,Aurora Alpha Aurora Alpha,Concept,active,local expansion from raw corpus
-trm_aurora-alpha-2,aurora-alpha,Token,active,long-tail token from local corpus
-trm_automation,Automation,Concept,active,local expansion from raw corpus
-trm_autonomous,Autonomous,Concept,active,local expansion from raw corpus
-trm_autonomous-driving-simulation,autonomous-driving-simulation,Token,active,long-tail token from local corpus
-trm_avacado,Avacado,Concept,active,local expansion from raw corpus
-trm_available,Available,Concept,active,local expansion from raw corpus
 trm_avocado,Avocado,Model,active,Meta测试代号
 trm_avocado-thinking,Avocado Thinking,Model,active,Meta测试代号
-trm_bcherny,Bcherny,Concept,active,local expansion from raw corpus
-trm_bearer,Bearer,Token,active,long-tail token from local corpus
-trm_bearer-token,Bearer Token,Concept,active,local expansion from raw corpus
-trm_bench,Bench,Token,active,long-tail token from local corpus
-trm_beta,Beta,Concept,active,local expansion from raw corpus
-trm_between,Between,Concept,active,local expansion from raw corpus
-trm_big,Big,Concept,active,local expansion from raw corpus
 trm_big-brain,Big Brain,Concept,active,Meta多agent并行概念
-trm_big-tech,big-tech,Token,active,long-tail token from local corpus
-trm_bigmodel,Bigmodel,Concept,active,local expansion from raw corpus
-trm_billion,Billion,Concept,active,local expansion from raw corpus
-trm_billion-valuation,billion-valuation,Token,active,long-tail token from local corpus
-trm_billion-valuation-after-landing-openai-deal,billion-valuation-after-landing-openai-deal,Token,active,long-tail token from local corpus
-trm_bioworks,Bioworks,Token,active,long-tail token from local corpus
-trm_bloomberg,Bloomberg,Concept,active,local expansion from raw corpus
-trm_bm2rj,BM2rJ,Concept,active,local expansion from raw corpus
-trm_bm2rj-rfaj6rtnctrwq9kg,BM2rJ_rfAJ6rtnctRWq9Kg,Token,active,long-tail token from local corpus
-trm_boards,Boards,Concept,active,local expansion from raw corpus
-trm_boards-policy-regulation,boards-policy-regulation,Token,active,long-tail token from local corpus
 trm_boss-zhipin,BOSS Zhipin,Company,active,Nanbeige模型发布方
-trm_brain,Brain,Token,active,long-tail token from local corpus
-trm_brendan,Brendan,Token,active,long-tail token from local corpus
 trm_brendan-gregg,Brendan Gregg,Person,active,OpenAI性能工程
-trm_brendangregg,Brendangregg,Concept,active,local expansion from raw corpus
-trm_brockman,Brockman,Token,active,long-tail token from local corpus
-trm_browser,Browser,Token,active,long-tail token from local corpus
-trm_browser-use,Browser Use,Concept,active,local expansion from raw corpus
-trm_btibor91,Btibor91,Concept,active,local expansion from raw corpus
-trm_build,Build,Concept,active,local expansion from raw corpus
-trm_build-with-claude,build-with-claude,Token,active,long-tail token from local corpus
-trm_building,Building,Concept,active,local expansion from raw corpus
-trm_building-c-compiler,building-c-compiler,Token,active,long-tail token from local corpus
-trm_burkeholland,Burkeholland,Concept,active,local expansion from raw corpus
-trm_business,Business,Concept,active,local expansion from raw corpus
 trm_bytedance,ByteDance,Company,active,含豆包与Seedream线
-trm_c8pezir4irx46osy29p,C8pezir4IRX46OSy29p,Concept,active,local expansion from raw corpus
-trm_c8pezir4irx46osy29p-sg,C8pezir4IRX46OSy29p_Sg,Token,active,long-tail token from local corpus
-trm_cad,CAD,Concept,active,local expansion from raw corpus
-trm_calls,Calls,Concept,active,local expansion from raw corpus
-trm_capabilities,Capabilities,Concept,active,local expansion from raw corpus
-trm_capable,Capable,Concept,active,local expansion from raw corpus
-trm_captured,captured,Token,active,long-tail token from local corpus
-trm_card,Card,Concept,active,local expansion from raw corpus
 trm_carplay,CarPlay,Product,active,苹果车载系统
-trm_catalyst,Catalyst,Concept,active,local expansion from raw corpus
 trm_catpaw,CatPaw,Product,active,美团AI编程工具
-trm_cbuoufrgiq8lam6fs,CBUOufrgiQ8LAM6fS,Concept,active,local expansion from raw corpus
-trm_cbuoufrgiq8lam6fs-8iva,CBUOufrgiQ8LAM6fS_8ivA,Token,active,long-tail token from local corpus
-trm_centers,Centers,Concept,active,local expansion from raw corpus
-trm_centers-ai-2026-01-31,centers-ai-2026-01-31,Token,active,long-tail token from local corpus
-trm_centres,Centres,Concept,active,local expansion from raw corpus
-trm_centres-sweden-2026-02-11,centres-sweden-2026-02-11,Token,active,long-tail token from local corpus
-trm_ceo,Ceo,Concept,active,local expansion from raw corpus
-trm_cerebras,Cerebras,Concept,active,local expansion from raw corpus
-trm_cerebras-closes-1-billion-funding-round-at-23,cerebras-closes-1-billion-funding-round-at-23-,Token,active,long-tail token from local corpus
-trm_changelog,Changelog,Concept,active,local expansion from raw corpus
-trm_chat,Chat,Concept,active,local expansion from raw corpus
-trm_chatbots,Chatbots,Concept,active,local expansion from raw corpus
-trm_chatbots-in-carplay,chatbots-in-carplay,Token,active,long-tail token from local corpus
 trm_chatgpt,ChatGPT,Product,active,external expansion from official source
-trm_chatgpt-android,ChatGPT Android,Concept,active,local expansion from raw corpus
 trm_chatgpt-deep-research,ChatGPT Deep Research,Product,active,升级到GPT-5.2
-trm_checkpoints,Checkpoints,Concept,active,local expansion from raw corpus
-trm_chetaslua,Chetaslua,Concept,active,local expansion from raw corpus
-trm_chief,Chief,Concept,active,local expansion from raw corpus
-trm_chinas,Chinas,Concept,active,local expansion from raw corpus
-trm_chips,Chips,Concept,active,local expansion from raw corpus
-trm_chrome,Chrome,Concept,active,local expansion from raw corpus
-trm_cinema,Cinema,Concept,active,local expansion from raw corpus
-trm_circlestone,Circlestone,Concept,active,local expansion from raw corpus
-trm_circlestone-labs,CircleStone Labs,Concept,active,local expansion from raw corpus
-trm_circlestone-labs-2,circlestone-labs,Token,active,long-tail token from local corpus
-trm_cl-bench,CL-bench,Concept,active,local expansion from raw corpus
 trm_claude,Claude,Product,active,external expansion from official source
-trm_claude-app,Claude App,Concept,active,local expansion from raw corpus
 trm_claude-app-voice-mode,Claude App voice mode,Product,active,语音模式分阶段开放
 trm_claude-code,Claude Code,Product,active,external expansion from official source
 trm_claude-code-desktop,Claude Code Desktop,Product,active,YOLO模式
 trm_claude-cowork,Claude Cowork,Product,active,Windows版
-trm_claude-opus,Claude Opus,Concept,active,local expansion from raw corpus
 trm_claude-opus-4-6,Claude Opus 4.6,Product,active,Antigravity可用
-trm_claude-is-a-space-to-think,claude-is-a-space-to-think,Token,active,long-tail token from local corpus
-trm_claude-opus-4-6-2,claude-opus-4-6,Token,active,long-tail token from local corpus
-trm_claude-opus-4-6-risk-report,claude-opus-4-6-risk-report,Token,active,long-tail token from local corpus
-trm_claudeai,Claudeai,Concept,active,local expansion from raw corpus
-trm_claudecode,Claudecode,Concept,active,local expansion from raw corpus
-trm_claudes,Claudes,Concept,active,local expansion from raw corpus
-trm_claudes-c-compiler,claudes-c-compiler,Token,active,long-tail token from local corpus
-trm_clbench,Clbench,Concept,active,local expansion from raw corpus
-trm_cli,CLI,Concept,active,local expansion from raw corpus
-trm_cli-obsidian-cli-early,CLI Obsidian CLI Early,Concept,active,local expansion from raw corpus
-trm_cli-api-sdk-web,CLI/API/SDK/Web,Concept,active,local expansion from raw corpus
-trm_click-id,click_id,Token,active,long-tail token from local corpus
-trm_client,Client,Token,active,long-tail token from local corpus
-trm_closes,Closes,Concept,active,local expansion from raw corpus
-trm_cloud,Cloud,Concept,active,local expansion from raw corpus
-trm_code,Code,Concept,active,local expansion from raw corpus
-trm_code-lm-studio,Code LM Studio,Concept,active,local expansion from raw corpus
-trm_codebases,Codebases,Concept,active,local expansion from raw corpus
-trm_codebuddy,CodeBuddy,Concept,active,local expansion from raw corpus
-trm_coder,Coder,Concept,active,local expansion from raw corpus
-trm_codex,Codex,Concept,active,local expansion from raw corpus
 trm_codex-alpha,Codex Alpha,Product,active,Windows候补
-trm_codex-alpha-windows,Codex Alpha Windows,Concept,active,local expansion from raw corpus
 trm_codex-app,Codex App,Product,active,external expansion from official source
-trm_codex-app-openai,Codex App OpenAI,Concept,active,local expansion from raw corpus
-trm_codex-app-server,Codex App Server,Concept,active,local expansion from raw corpus
-trm_codex-openai,Codex OpenAI,Concept,active,local expansion from raw corpus
-trm_codex-app-2,codex-app,Token,active,long-tail token from local corpus
-trm_coding,Coding,Concept,active,local expansion from raw corpus
-trm_collections,Collections,Concept,active,local expansion from raw corpus
-trm_com,Com,Concept,active,local expansion relaxed pass
-trm_company,Company,Concept,active,local expansion from raw corpus
-trm_company-news,company-news,Token,active,long-tail token from local corpus
-trm_compiler,Compiler,Concept,active,local expansion from raw corpus
-trm_composer,Composer,Concept,active,local expansion from raw corpus
 trm_composer-1-5,Composer 1.5,Model,active,Cursor编程模型
-trm_composer-1-5-2,composer-1-5,Token,active,long-tail token from local corpus
-trm_conceptmoe,ConceptMoE,Concept,active,local expansion from raw corpus
-trm_connector,connector,Token,active,long-tail token from local corpus
-trm_connectors,Connectors,Concept,active,local expansion from raw corpus
-trm_content,Content,Token,active,long-tail token from local corpus
-trm_context,Context,Concept,active,local expansion from raw corpus
 trm_context-engine-mcp,Context Engine MCP,Product,active,MCP语义引擎
-trm_context-engine-mcp-now-live,context-engine-mcp-now-live,Token,active,long-tail token from local corpus
-trm_controlled,Controlled,Concept,active,local expansion from raw corpus
-trm_controls,Controls,Concept,active,local expansion from raw corpus
-trm_controversy,Controversy,Concept,active,local expansion from raw corpus
-trm_conversations,Conversations,Concept,active,local expansion from raw corpus
-trm_conversations-to-gemini,conversations-to-gemini,Token,active,long-tail token from local corpus
-trm_copilot,Copilot,Concept,active,local expansion from raw corpus
-trm_copy,Copy,Concept,active,local expansion from raw corpus
-trm_corp,Corp,Concept,active,local expansion from raw corpus
 trm_corpus-token-pool,Corpus Token Pool,Concept,active,hub for long-tail token nodes
-trm_cost,Cost,Concept,active,local expansion from raw corpus
-trm_council,Council,Concept,active,local expansion from raw corpus
-trm_countries,Countries,Concept,active,local expansion from raw corpus
-trm_cowork,Cowork,Concept,active,local expansion from raw corpus
-trm_cowork-windows,Cowork Windows,Concept,active,local expansion from raw corpus
 trm_cristobal-valenzuela,Cristobal Valenzuela,Person,active,Runway联合创始人
-trm_cultural,Cultural,Concept,active,local expansion from raw corpus
-trm_cultural-products-as-much-as-technical-tools,cultural-products-as-much-as-technical-tools,Token,active,long-tail token from local corpus
-trm_cunusyy2avang,CuNuSyy2avAng,Concept,active,local expansion from raw corpus
 trm_cursor,Cursor,Company,active,Composer 1.5
-trm_cy5t292xq5avjqxq,cy5T292Xq5AVJQXQ,Concept,active,local expansion from raw corpus
-trm_cyber,Cyber,Concept,active,local expansion from raw corpus
-trm_d8nwryxqp7wv9yzfk8fl9a,D8nwRYxQp7wv9yzfk8FL9A,Concept,active,local expansion from raw corpus
-trm_dangerously-skip-permissions-2,dangerously-skip-permissions,Token,active,long-tail token from local corpus
 trm_daniela-amodei,Daniela Amodei,Person,active,Anthropic联合创始人
 trm_dario-amodei,Dario Amodei,Person,active,Anthropic联合创始人
-trm_data,Data,Concept,active,local expansion from raw corpus
-trm_datasets,Datasets,Concept,active,local expansion from raw corpus
-trm_deal,Deal,Concept,active,local expansion from raw corpus
-trm_debut,Debut,Concept,active,local expansion from raw corpus
-trm_decoder,Decoder,Concept,active,local expansion from raw corpus
-trm_deep,Deep,Concept,active,local expansion from raw corpus
-trm_deep-research,Deep Research,Concept,active,local expansion from raw corpus
-trm_deepmind,Deepmind,Concept,active,local expansion from raw corpus
 trm_deepseek,DeepSeek,Company,active,1M上下文模型线
-trm_deepseek-v3,DeepSeek-v3,Token,active,long-tail token from local corpus
-trm_deepseek-v3-2,DeepSeek-v3.2,Concept,active,local expansion from raw corpus
-trm_defense,Defense,Concept,active,local expansion from raw corpus
-trm_deltanet,DeltaNet,Token,active,long-tail token from local corpus
-trm_demishassabis,Demishassabis,Concept,active,local expansion from raw corpus
-trm_departures,Departures,Concept,active,local expansion from raw corpus
-trm_dev,Dev,Concept,active,local expansion from raw corpus
-trm_developer,Developer,Concept,active,local expansion from raw corpus
-trm_developers,Developers,Concept,active,local expansion from raw corpus
 trm_dime,Dime,Product,active,OpenAI硬件传闻名
-trm_dime-sweetpea,Dime/Sweetpea,Concept,active,local expansion from raw corpus
-trm_discovery,Discovery,Concept,active,local expansion from raw corpus
-trm_discovery-with-gemini-deep-think,discovery-with-gemini-deep-think,Token,active,long-tail token from local corpus
-trm_discussions,Discussions,Concept,active,local expansion from raw corpus
-trm_doctor,Doctor,Concept,active,local expansion from raw corpus
-trm_document,Document,Concept,active,local expansion from raw corpus
-trm_dohmke,Dohmke,Token,active,long-tail token from local corpus
-trm_dotey,Dotey,Concept,active,local expansion from raw corpus
 trm_draw-io,draw.io,Company,active,MCP server
-trm_drawio,Drawio,Concept,active,local expansion from raw corpus
-trm_driving,Driving,Concept,active,local expansion from raw corpus
-trm_droid,Droid,Concept,active,local expansion from raw corpus
 trm_droid-agent,Droid Agent,Product,active,Factory集成Agent
 trm_dsa,DSA,Technique,active,稀疏注意力机制
-trm_dsa-mtp,DSA/MTP,Concept,active,local expansion from raw corpus
-trm_early,Early,Token,active,long-tail token from local corpus
-trm_earnings,Earnings,Concept,active,local expansion from raw corpus
-trm_easier,Easier,Concept,active,local expansion from raw corpus
-trm_eb-jepa,eb_jepa,Token,active,long-tail token from local corpus
-trm_ece,ECE,Concept,active,local expansion from raw corpus
-trm_eclipse,Eclipse,Concept,active,local expansion from raw corpus
-trm_edit,Edit,Concept,active,local expansion from raw corpus
-trm_edit-prediction-providers,edit-prediction-providers,Token,active,long-tail token from local corpus
-trm_effort,Effort,Concept,active,local expansion from raw corpus
-trm_eiyniool3gcgbwknol,eIynIOol3gCgbwknOL,Concept,active,local expansion from raw corpus
-trm_eiyniool3gcgbwknol-xfw,eIynIOol3gCgbwknOL-XFw,Token,active,long-tail token from local corpus
-trm_eleven,Eleven,Concept,active,local expansion from raw corpus
-trm_eleven-v3-is-now-generally-available,eleven-v3-is-now-generally-available,Token,active,long-tail token from local corpus
-trm_elevenlabs,Elevenlabs,Concept,active,local expansion from raw corpus
-trm_elevenlabs-raises-500m-from-sequioia-at-a-11,elevenlabs-raises-500m-from-sequioia-at-a-11-,Token,active,long-tail token from local corpus
-trm_eliebakouch,Eliebakouch,Concept,active,local expansion from raw corpus
 trm_elon-musk,Elon Musk,Person,active,xAI关联人物
-trm_elonmusk,Elonmusk,Concept,active,local expansion from raw corpus
-trm_emacs,Emacs,Concept,active,local expansion from raw corpus
-trm_embirico,Embirico,Concept,active,local expansion from raw corpus
-trm_engine,Engine,Concept,active,local expansion from raw corpus
-trm_engine-mcp,Engine MCP,Concept,active,local expansion from raw corpus
-trm_engine-mcp-augment-code,Engine MCP Augment Code,Concept,active,local expansion from raw corpus
-trm_engineering,Engineering,Concept,active,local expansion from raw corpus
-trm_engineers,Engineers,Concept,active,local expansion from raw corpus
 trm_entire,Entire,Company,active,初创+融资
-trm_entireio,Entireio,Concept,active,local expansion from raw corpus
-trm_ex-h8jicu8ryjpftlc4lvq,eX_H8JICU8RyjpFtLc4lVQ,Token,active,long-tail token from local corpus
-trm_excel,Excel,Concept,active,local expansion from raw corpus
-trm_exclusive,Exclusive,Concept,active,local expansion from raw corpus
-trm_exclusive-positron-raises-230m-series-b-to-take,exclusive-positron-raises-230m-series-b-to-take-,Token,active,long-tail token from local corpus
-trm_executive,Executive,Concept,active,local expansion from raw corpus
-trm_executive-in-latest-departures,executive-in-latest-departures,Token,active,long-tail token from local corpus
-trm_exit,Exit,Concept,active,local expansion from raw corpus
-trm_export,Export,Concept,active,local expansion from raw corpus
-trm_extensions,Extensions,Concept,active,local expansion from raw corpus
-trm_eyes,Eyes,Concept,active,local expansion from raw corpus
-trm_facebookresearch,Facebookresearch,Concept,active,local expansion from raw corpus
 trm_factory,Factory,Company,active,与JetBrains合作
-trm_factoryai,FactoryAI,Concept,active,local expansion from raw corpus
-trm_fast,Fast,Concept,active,local expansion from raw corpus
-trm_fast-mode,fast-mode,Token,active,long-tail token from local corpus
-trm_faster,Faster,Concept,active,local expansion from raw corpus
-trm_faster-moe,faster-moe,Token,active,long-tail token from local corpus
-trm_fcc,FCC,Concept,active,local expansion from raw corpus
-trm_fccprod,Fccprod,Concept,active,local expansion from raw corpus
-trm_figma,Figma,Concept,active,local expansion from raw corpus
-trm_firefox,Firefox,Concept,active,local expansion from raw corpus
-trm_firsttimeregister,firstTimeRegister,Concept,active,local expansion from raw corpus
-trm_flash,Flash,Concept,active,local expansion from raw corpus
-trm_flash-step,Flash Step,Concept,active,local expansion from raw corpus
-trm_flash-2,Flash-,Token,active,long-tail token from local corpus
-trm_flash-omni,flash-omni,Token,active,long-tail token from local corpus
-trm_fluentllm,FluentLLM,Concept,active,local expansion from raw corpus
-trm_for,For,Concept,active,local expansion relaxed pass
-trm_form,Form,Concept,active,local expansion from raw corpus
-trm_forms,Forms,Concept,active,local expansion from raw corpus
-trm_founders,Founders,Concept,active,local expansion from raw corpus
-trm_france,France,Concept,active,local expansion from raw corpus
-trm_free,Free,Concept,active,local expansion from raw corpus
-trm_free-go,Free/Go,Concept,active,local expansion from raw corpus
-trm_from,From,Concept,active,local expansion relaxed pass
-trm_frontier,Frontier,Concept,active,local expansion from raw corpus
-trm_frontier-openai,Frontier OpenAI,Concept,active,local expansion from raw corpus
-trm_full-stack-approach-ai,full-stack-approach-ai,Token,active,long-tail token from local corpus
-trm_fundamental,Fundamental,Concept,active,local expansion from raw corpus
-trm_fundamental-raises-255-million-series-a-with-a,fundamental-raises-255-million-series-a-with-a-,Token,active,long-tail token from local corpus
-trm_funding,Funding,Concept,active,local expansion from raw corpus
-trm_futurist,Futurist,Concept,active,local expansion from raw corpus
-trm_fv7afo3ydqmahy9q,FV7afO3ydqmAHY9Q,Concept,active,local expansion from raw corpus
-trm_game,Game,Concept,active,local expansion from raw corpus
-trm_game-arena,Game Arena,Concept,active,local expansion from raw corpus
-trm_gated,Gated,Token,active,long-tail token from local corpus
 trm_gated-deltanet,Gated DeltaNet,Technique,active,Qwen3.5架构机制
-trm_gdb,Gdb,Concept,active,local expansion from raw corpus
 trm_gemini,Gemini,Product,active,external expansion from official source
 trm_gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,Model,active,传闻型号
 trm_gemini-api,Gemini API,Product,active,external expansion from official source
-trm_gemini-api-sdk,Gemini API/SDK,Concept,active,local expansion from raw corpus
-trm_gemini-app,Gemini App,Concept,active,local expansion from raw corpus
 trm_gemini-deep-think,Gemini Deep Think,Model,active,科研推理模式
-trm_gemini-3,gemini-3,Token,active,long-tail token from local corpus
-trm_gemini-cli,gemini-cli,Token,active,long-tail token from local corpus
-trm_gemini-screen-automation-insight,gemini-screen-automation-insight,Token,active,long-tail token from local corpus
 trm_gemini-skills,gemini-skills,Project,active,Gemini技能库
-trm_generally,Generally,Concept,active,local expansion from raw corpus
-trm_generation,Generation,Concept,active,local expansion from raw corpus
-trm_genie,Genie,Concept,active,local expansion from raw corpus
-trm_ghmh90xz,gHmH90xZ,Concept,active,local expansion from raw corpus
-trm_ghmh90xz-cunusyy2avang,gHmH90xZ-CuNuSyy2avAng,Token,active,long-tail token from local corpus
-trm_ginkgo,Ginkgo,Token,active,long-tail token from local corpus
-trm_ginkgo-bioworks,Ginkgo Bioworks,Concept,active,local expansion from raw corpus
-trm_gist,Gist,Concept,active,local expansion from raw corpus
-trm_git,Git,Concept,active,local expansion from raw corpus
-trm_github,Github,Concept,active,local expansion from raw corpus
-trm_github-ceo-thomas-dohmke,GitHub CEO Thomas Dohmke,Concept,active,local expansion from raw corpus
-trm_github-copilot,GitHub Copilot,Concept,active,local expansion from raw corpus
-trm_gl8jc4n8smxq,Gl8JC4N8smXQ,Concept,active,local expansion relaxed pass
-trm_glm,GLM,Concept,active,local expansion from raw corpus
 trm_glm-coding-plan,GLM Coding Plan,Product,active,智谱订阅方案
 trm_glm-in-excel,GLM in Excel,Product,active,智谱Excel插件
-trm_glm-4,GLM-4,Token,active,long-tail token from local corpus
-trm_glm-4-7,GLM-4.7,Concept,active,local expansion from raw corpus
 trm_glm-5,GLM-5,Model,active,智谱新模型传闻
-trm_glm-in-excel-2,glm-in-excel,Token,active,long-tail token from local corpus
-trm_glm-ocr,GLM-OCR,Concept,active,local expansion from raw corpus
-trm_global,Global,Concept,active,local expansion from raw corpus
-trm_global-affairs,global-affairs,Token,active,long-tail token from local corpus
 trm_google,Google,Company,active,含Gemini/Stitch/Chrome线
-trm_google-ai-pro,Google AI Pro,Concept,active,local expansion from raw corpus
 trm_google-ai-studio,Google AI Studio,Product,active,谷歌开发平台更新
-trm_google-deepmind,Google DeepMind,Concept,active,local expansion from raw corpus
-trm_google-research,Google Research,Concept,active,local expansion from raw corpus
 trm_google-stitch-figma-export,Google Stitch Figma Export,Product,active,Figma导出
-trm_google-deepmind-2,google-deepmind,Token,active,long-tail token from local corpus
-trm_google-gemini,google-gemini,Token,active,long-tail token from local corpus
-trm_google-will-make-it-easier-to-import-chatgpt,google-will-make-it-easier-to-import-chatgpt-,Token,active,long-tail token from local corpus
-trm_googleaistudio,GoogleAIStudio,Concept,active,local expansion from raw corpus
-trm_googledeepmind,GoogleDeepMind,Concept,active,local expansion from raw corpus
-trm_gpt,Gpt,Concept,active,local expansion from raw corpus
-trm_gpt-2,GPT-2,Concept,active,local expansion from raw corpus
-trm_gpt-5,GPT-5,Concept,active,local expansion from raw corpus
-trm_gpt-5-3-codex-system-card,gpt-5-3-codex-system-card,Token,active,long-tail token from local corpus
-trm_gpt-5-lowers-protein-synthesis-cost,gpt-5-lowers-protein-synthesis-cost,Token,active,long-tail token from local corpus
 trm_gpt-5-2,GPT-5.2,Model,active,路由/升级目标
 trm_gpt-5-2-instant,GPT-5.2 Instant,Model,active,OpenAI更新型号
-trm_gpt-5-2-codex,GPT-5.2-Codex,Concept,active,local expansion from raw corpus
 trm_gpt-5-3-codex,GPT-5.3-Codex,Model,active,编程模型
-trm_greg-brockman,Greg Brockman,Concept,active,local expansion from raw corpus
-trm_gregg,Gregg,Token,active,long-tail token from local corpus
 trm_grok,Grok,Product,active,external expansion from official source
-trm_grok-imagine,Grok Imagine,Concept,active,local expansion from raw corpus
 trm_grok-imagine-image,Grok Imagine Image,Model,active,xAI图像模型标准版
 trm_grok-imagine-image-pro,Grok Imagine Image Pro,Model,active,xAI图像模型
-trm_guide,Guide,Concept,active,local expansion from raw corpus
-trm_guides,Guides,Concept,active,local expansion from raw corpus
-trm_gvfuy90dzxw0tc,GVFuY90DZXw0tC,Concept,active,local expansion from raw corpus
-trm_h82w,H82w,Concept,active,local expansion from raw corpus
-trm_h8jicu8ryjpftlc4lvq,H8JICU8RyjpFtLc4lVQ,Concept,active,local expansion from raw corpus
-trm_haeggee,Haeggee,Concept,active,local expansion from raw corpus
-trm_hands,Hands,Concept,active,local expansion from raw corpus
-trm_harness,Harness,Concept,active,local expansion from raw corpus
-trm_hc6k9oai6souy3kh00toagyk,hc6K9OAI6soUy3Kh00toAgyk,Concept,active,local expansion from raw corpus
-trm_head,Head,Concept,active,local expansion from raw corpus
-trm_health,Health,Concept,active,local expansion from raw corpus
-trm_hello,Hello,Concept,active,local expansion from raw corpus
-trm_hello-entire-world,hello-entire-world,Token,active,long-tail token from local corpus
-trm_help,Help,Concept,active,local expansion from raw corpus
-trm_hlq,hLQ,Concept,active,local expansion from raw corpus
-trm_hot,Hot,Concept,active,local expansion from raw corpus
-trm_hot-mess-of-ai,hot-mess-of-ai,Token,active,long-tail token from local corpus
-trm_hpc,Hpc,Concept,active,local expansion from raw corpus
-trm_hpc-ops,hpc-ops,Token,active,long-tail token from local corpus
-trm_hslang,hsLang,Concept,active,local expansion from raw corpus
-trm_html,Html,Concept,active,local expansion relaxed pass
-trm_hub,Hub,Concept,active,local expansion from raw corpus
-trm_hubfs,Hubfs,Concept,active,local expansion from raw corpus
-trm_hugging,Hugging,Concept,active,local expansion from raw corpus
 trm_hugging-face,Hugging Face,Company,active,Transformers相关
-trm_hugging-face-transformers,Hugging Face Transformers,Concept,active,local expansion from raw corpus
-trm_huggingface,Huggingface,Concept,active,local expansion from raw corpus
-trm_hunyuan-1,Hunyuan-1,Token,active,long-tail token from local corpus
 trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,active,HY基座模型
 trm_hy-1-8b-2bit,HY-1.8B-2Bit,Model,active,端侧量化模型
 trm_hybrid-attention,Hybrid Attention,Technique,active,Qwen3.5架构机制
-trm_ibfs,Ibfs,Concept,active,local expansion from raw corpus
-trm_ibfs-application-summary,ibfs_application_summary,Token,active,long-tail token from local corpus
-trm_ice,Ice,Concept,active,local expansion from raw corpus
-trm_icfs,Icfs,Concept,active,local expansion from raw corpus
-trm_icm2vghswepraxh,ICm2VgHSWEpraXH,Concept,active,local expansion from raw corpus
-trm_icm2vghswepraxh-k0o2sq,ICm2VgHSWEpraXH-K0o2sQ,Concept,active,local expansion from raw corpus
-trm_ics7rvtsiejgugleud6gya,iCs7RvTSiejgugleUD6GyA,Concept,active,local expansion from raw corpus
-trm_ide,IDE,Concept,active,local expansion from raw corpus
-trm_ideate,Ideate,Token,active,long-tail token from local corpus
 trm_ideate-agent,Ideate Agent,Product,active,Stitch创意Agent
 trm_iflytek,iFlytek,Company,active,讯飞星火X2发布方
-trm_ifv3ur9lpzlt,IFv3UR9LpZlt,Concept,active,local expansion from raw corpus
-trm_ifv3ur9lpzlt-h82w,IFv3UR9LpZlt-h82w,Concept,active,local expansion from raw corpus
-trm_image,Image,Concept,active,local expansion from raw corpus
-trm_image-2,Image-2,Concept,active,local expansion from raw corpus
-trm_image-2-video-with-people,image-2-video-with-people,Token,active,long-tail token from local corpus
-trm_images,Images,Concept,active,local expansion from raw corpus
-trm_imagine,Imagine,Concept,active,local expansion from raw corpus
-trm_imagine-image-pro,Imagine Image Pro,Concept,active,local expansion from raw corpus
-trm_import,Import,Concept,active,local expansion from raw corpus
-trm_improved,Improved,Concept,active,local expansion from raw corpus
-trm_improvements,Improvements,Concept,active,local expansion from raw corpus
-trm_improvements-to-copilot-chat-on-the-web,improvements-to-copilot-chat-on-the-web,Token,active,long-tail token from local corpus
-trm_including,Including,Concept,active,local expansion from raw corpus
-trm_inclusionai,inclusionAI,Concept,active,local expansion from raw corpus
-trm_infrastructure,Infrastructure,Concept,active,local expansion from raw corpus
-trm_infrastructure-noise,infrastructure-noise,Token,active,long-tail token from local corpus
-trm_initiatives,Initiatives,Concept,active,local expansion from raw corpus
-trm_innovation,Innovation,Concept,active,local expansion from raw corpus
-trm_innovation-and-ai,innovation-and-ai,Token,active,long-tail token from local corpus
-trm_inside,Inside,Concept,active,local expansion from raw corpus
-trm_inside-google,inside-google,Token,active,long-tail token from local corpus
-trm_insight,Insight,Concept,active,local expansion from raw corpus
-trm_insights,Insights,Concept,active,local expansion from raw corpus
-trm_instant,Instant,Token,active,long-tail token from local corpus
-trm_integration,Integration,Concept,active,local expansion from raw corpus
-trm_intellect,Intellect,Token,active,long-tail token from local corpus
-trm_interfaces,Interfaces,Concept,active,local expansion from raw corpus
-trm_intern,Intern,Concept,active,local expansion from raw corpus
-trm_intern-ai,intern-ai,Token,active,long-tail token from local corpus
-trm_intern-s1-pro,Intern-S1-Pro,Concept,active,local expansion from raw corpus
-trm_internlm,Internlm,Concept,active,local expansion from raw corpus
-trm_interplanetary,Interplanetary,Concept,active,local expansion from raw corpus
-trm_introducing,Introducing,Concept,active,local expansion from raw corpus
-trm_introducing-gpt-5-3-codex,introducing-gpt-5-3-codex,Token,active,long-tail token from local corpus
-trm_introducing-max,introducing-max,Token,active,long-tail token from local corpus
-trm_introducing-model-council,introducing-model-council,Token,active,long-tail token from local corpus
-trm_introducing-openai-frontier,introducing-openai-frontier,Token,active,long-tail token from local corpus
-trm_introducing-our-chief-futurist,introducing-our-chief-futurist,Token,active,long-tail token from local corpus
-trm_introducing-the-codex-app,introducing-the-codex-app,Token,active,long-tail token from local corpus
-trm_introducing-vectorize,introducing-vectorize,Token,active,long-tail token from local corpus
-trm_invest,Invest,Concept,active,local expansion from raw corpus
-trm_investing,Investing,Concept,active,local expansion from raw corpus
-trm_invests,Invests,Concept,active,local expansion from raw corpus
-trm_its,Its,Concept,active,local expansion from raw corpus
-trm_jenny,Jenny,Concept,active,local expansion from raw corpus
-trm_jenny-wen,jenny_wen,Token,active,long-tail token from local corpus
-trm_jepa,Jepa,Concept,active,local expansion from raw corpus
-trm_jepj,Jepj,Concept,active,local expansion from raw corpus
-trm_jepj-ifv3ur9lpzlt-h82w,jepj-IFv3UR9LpZlt-h82w,Token,active,long-tail token from local corpus
 trm_jetbrains,JetBrains,Company,active,IDE厂商
-trm_jetbrains-ide,JetBrains IDE,Concept,active,local expansion from raw corpus
-trm_jetson,Jetson,Token,active,long-tail token from local corpus
-trm_jietang,Jietang,Concept,active,local expansion from raw corpus
-trm_joined,Joined,Concept,active,local expansion from raw corpus
-trm_joins,Joins,Concept,active,local expansion from raw corpus
-trm_joshwoodward,Joshwoodward,Concept,active,local expansion from raw corpus
-trm_json-rpc,JSON-RPC,Token,active,long-tail token from local corpus
-trm_k0o2sq,K0o2sQ,Concept,active,local expansion from raw corpus
-trm_kaggle,Kaggle,Concept,active,local expansion from raw corpus
-trm_kaggle-game-arena-updates,kaggle-game-arena-updates,Token,active,long-tail token from local corpus
-trm_karpathy,Karpathy,Concept,active,local expansion from raw corpus
-trm_kilo,Kilo,Concept,active,local expansion from raw corpus
-trm_kilo-cli,Kilo CLI,Concept,active,local expansion from raw corpus
 trm_kilo-code,Kilo Code,Company,active,Pony Alpha联动平台
-trm_kilo-cli-2,kilo-cli,Token,active,long-tail token from local corpus
-trm_kilocode,Kilocode,Concept,active,local expansion from raw corpus
-trm_kimi,Kimi,Concept,active,local expansion from raw corpus
-trm_kimmonismus,Kimmonismus,Concept,active,local expansion from raw corpus
-trm_kiro,Kiro,Concept,active,local expansion from raw corpus
-trm_kiro-cli,Kiro CLI,Concept,active,local expansion from raw corpus
-trm_kiro-adopts-acp,kiro-adopts-acp,Token,active,long-tail token from local corpus
-trm_kling,Kling,Concept,active,local expansion from raw corpus
-trm_kling-ai,Kling AI,Concept,active,local expansion from raw corpus
-trm_kling-ai-2,Kling_ai,Token,active,long-tail token from local corpus
-trm_koltregaskes,Koltregaskes,Concept,active,local expansion from raw corpus
-trm_lab,Lab,Concept,active,local expansion from raw corpus
-trm_labs,Labs,Concept,active,local expansion from raw corpus
-trm_landing,Landing,Concept,active,local expansion from raw corpus
-trm_larkoffice,Larkoffice,Concept,active,local expansion from raw corpus
-trm_latest,Latest,Concept,active,local expansion relaxed pass
-trm_launch,Launch,Concept,active,local expansion relaxed pass
-trm_lays,Lays,Concept,active,local expansion from raw corpus
-trm_license,license,Token,active,long-tail token from local corpus
-trm_licensing,Licensing,Concept,active,local expansion from raw corpus
-trm_ling-2,Ling-2,Token,active,long-tail token from local corpus
-trm_ling-2-0,Ling-2.0,Concept,active,local expansion from raw corpus
-trm_linux,Linux,Concept,active,local expansion from raw corpus
-trm_lite,Lite,Concept,active,local expansion from raw corpus
-trm_live,Live,Concept,active,local expansion from raw corpus
-trm_llada2,LLaDA2,Concept,active,local expansion from raw corpus
 trm_llada2-1,LLaDA2.1,Model,active,扩散大语言模型
 trm_llada2-1-flash,LLaDA2.1-Flash,Model,active,100B版本
 trm_llada2-1-mini,LLaDA2.1-Mini,Model,active,16B版本
-trm_llada2-x,LLaDA2.X,Concept,active,local expansion from raw corpus
-trm_llada21,Llada21,Concept,active,local expansion from raw corpus
-trm_llama,Llama,Concept,active,local expansion from raw corpus
-trm_llm,LLM,Concept,active,local expansion from raw corpus
-trm_lmstudio,Lmstudio,Concept,active,local expansion from raw corpus
-trm_loa,LOA,Concept,active,local expansion from raw corpus
-trm_localization,Localization,Concept,active,local expansion from raw corpus
 trm_longcat,LongCat,Product,active,美团智能体品牌
-trm_longcat-pc,LongCat PC,Concept,active,local expansion from raw corpus
 trm_longcat-flash-lite,LongCat-Flash-Lite,Model,active,美团开源模型
-trm_loses,Loses,Concept,active,local expansion from raw corpus
-trm_lotus,Lotus,Concept,active,local expansion from raw corpus
-trm_lotus-health,Lotus Health,Concept,active,local expansion from raw corpus
-trm_lotus-health-nabs-35m-for-ai-doctor-that-sees,lotus-health-nabs-35m-for-ai-doctor-that-sees-,Token,active,long-tail token from local corpus
-trm_lowers,Lowers,Concept,active,local expansion from raw corpus
-trm_lunar,Lunar,Concept,active,local expansion from raw corpus
-trm_lxa1fuqtsjxqupwite9oqw,LXa1fUQTsjxQuPWITE9oQw,Concept,active,local expansion from raw corpus
-trm_lydiahallie,Lydiahallie,Concept,active,local expansion from raw corpus
-trm_m2-5-minimax,M2.5 MiniMax,Concept,active,local expansion from raw corpus
-trm_m3sr4frlavc7c6mv1rr,m3Sr4fRLAvc7C6MV1RR,Concept,active,local expansion from raw corpus
-trm_m3sr4frlavc7c6mv1rr-ew,m3Sr4fRLAvc7C6MV1RR-ew,Token,active,long-tail token from local corpus
-trm_maas,MaaS,Concept,active,local expansion from raw corpus
-trm_macbook,MacBook,Token,active,long-tail token from local corpus
-trm_macbook-m4,MacBook M4,Concept,active,local expansion from raw corpus
-trm_macrohard,Macrohard,Concept,active,local expansion from raw corpus
-trm_main,Main,Concept,active,local expansion from raw corpus
-trm_make,Make,Concept,active,local expansion from raw corpus
-trm_manual-paste-in-chat,manual_paste_in_chat,Token,active,long-tail token from local corpus
-trm_manus,Manus,Concept,active,local expansion from raw corpus
-trm_maqpoboau6cokkbpuoeywq,maqPObOAu6COKkBPUOeyWQ,Concept,active,local expansion from raw corpus
 trm_mark-zuckerberg,Mark Zuckerberg,Person,active,Meta核心人物
-trm_mathematical,Mathematical,Concept,active,local expansion from raw corpus
-trm_max,Max,Concept,active,local expansion from raw corpus
-trm_mco9,MCo9,Concept,active,local expansion from raw corpus
-trm_mco9-fv7afo3ydqmahy9q,MCo9-FV7afO3ydqmAHY9Q,Concept,active,local expansion from raw corpus
-trm_mcp,MCP,Concept,active,local expansion from raw corpus
-trm_mcp-apps-in-chatgpt,mcp-apps-in-chatgpt,Token,active,long-tail token from local corpus
-trm_megadeal,Megadeal,Concept,active,local expansion from raw corpus
-trm_meituan,Meituan,Concept,active,local expansion from raw corpus
-trm_meituan-longcat,meituan-longcat,Token,active,long-tail token from local corpus
-trm_mermaid,Mermaid,Token,active,long-tail token from local corpus
-trm_mess,Mess,Concept,active,local expansion from raw corpus
-trm_message,Message,Concept,active,local expansion from raw corpus
-trm_message-ceo,message-ceo,Token,active,long-tail token from local corpus
 trm_meta,Meta,Company,active,Avocado测试线索
-trm_meta-ai,Meta AI,Concept,active,local expansion from raw corpus
-trm_meta-ai-redies-avacado-manus-agent-and-openclaw,meta-ai-redies-avacado-manus-agent-and-openclaw-,Token,active,long-tail token from local corpus
-trm_million,Million,Concept,active,local expansion from raw corpus
-trm_ming,Ming,Concept,active,local expansion from raw corpus
-trm_ming-flash-omni,Ming-flash-omni,Concept,active,local expansion from raw corpus
 trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,active,蚂蚁全模态模型
-trm_ming-flash-omni-2,Ming-flash-omni-2,Token,active,long-tail token from local corpus
-trm_ming-flash-omni-2-0-2,Ming-flash-omni-2.0,Concept,active,local expansion from raw corpus
-trm_mini,Mini,Concept,active,local expansion from raw corpus
-trm_minicpm,MiniCPM,Concept,active,local expansion from raw corpus
-trm_minicpm-o,MiniCPM-o,Concept,active,local expansion from raw corpus
-trm_minicpm-o-4-5,MiniCPM-o-4_5,Token,active,long-tail token from local corpus
-trm_minicpm-omni,minicpm-omni,Token,active,long-tail token from local corpus
 trm_minicpm-sala,MiniCPM-SALA,Model,active,百万上下文模型
 trm_minimax,MiniMax,Company,active,M2.5模型线
-trm_minimax-agent,MiniMax Agent,Concept,active,local expansion from raw corpus
 trm_minimax-m2-5,MiniMax M2.5,Model,active,MiniMax旗舰模型
-trm_mistral,Mistral,Concept,active,local expansion from raw corpus
 trm_mistral-ai,Mistral AI,Company,active,瑞典数据中心投资
-trm_mistralai,Mistralai,Concept,active,local expansion from raw corpus
-trm_mode,Mode,Concept,active,local expansion from raw corpus
-trm_model,Model,Concept,active,local expansion from raw corpus
 trm_model-council,Model Council,Product,active,多模型聚合问答
-trm_model-capabilities,model-capabilities,Token,active,long-tail token from local corpus
-trm_models,Models,Concept,active,local expansion from raw corpus
-trm_models-and-research,models-and-research,Token,active,long-tail token from local corpus
 trm_modelscope,ModelScope,Company,active,OpenAPI
-trm_modelscope2022,ModelScope2022,Concept,active,local expansion from raw corpus
-trm_moe,MoE,Concept,active,local expansion from raw corpus
-trm_moltbook,Moltbook,Concept,active,local expansion from raw corpus
-trm_moonshotai,MoonshotAI,Concept,active,local expansion from raw corpus
-trm_moonshotai-worldvqa,MoonshotAI/WorldVQA,Concept,active,local expansion from raw corpus
-trm_more,More,Concept,active,local expansion relaxed pass
-trm_mosi,MOSI,Concept,active,local expansion from raw corpus
 trm_mosi-ai,MOSI.AI,Company,active,MOSS-TTS
-trm_moss,Moss,Concept,active,local expansion from raw corpus
 trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,Model,active,统一音频tokenizer
 trm_moss-soundeffect,MOSS-SoundEffect,Model,active,可控音效
 trm_moss-tts,MOSS-TTS,Model,active,语音模型家族
 trm_moss-tts-realtime,MOSS-TTS-Realtime,Model,active,实时语音体
-trm_moss-ttsd,MOSS-TTSD,Concept,active,local expansion from raw corpus
 trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,Model,active,多说话人对话
 trm_moss-voicegenerator,MOSS-VoiceGenerator,Model,active,音色生成
 trm_mossttsdelay,MossTTSDelay,Model,active,8B长上下文
 trm_mossttslocal,MossTTSLocal,Model,active,1.7B轻量
-trm_mozilla,Mozilla,Concept,active,local expansion from raw corpus
-trm_ms-agent,ms-agent,Token,active,long-tail token from local corpus
 trm_mtp,MTP,Technique,active,多标记预测
-trm_much,Much,Concept,active,local expansion from raw corpus
-trm_nabs,Nabs,Concept,active,local expansion from raw corpus
-trm_nai,NAI,Concept,active,local expansion from raw corpus
-trm_nanbeige,Nanbeige,Concept,active,local expansion from raw corpus
-trm_nanbeige-llm-lab,Nanbeige LLM Lab,Concept,active,local expansion from raw corpus
-trm_nanbeige-nanbeige4-1-3b,Nanbeige/Nanbeige4.1-3B,Concept,active,local expansion from raw corpus
-trm_nanbeige4,Nanbeige4,Concept,active,local expansion from raw corpus
 trm_nanbeige4-1-3b,Nanbeige4.1-3B,Model,active,开源3B模型
-trm_nanochat,Nanochat,Concept,active,local expansion from raw corpus
-trm_natively,Natively,Concept,active,local expansion from raw corpus
-trm_natively-adaptive-interfaces-ai-accessibility,natively-adaptive-interfaces-ai-accessibility,Token,active,long-tail token from local corpus
-trm_nature,Nature,Concept,active,local expansion from raw corpus
-trm_nears,Nears,Concept,active,local expansion from raw corpus
 trm_nebius,Nebius,Company,active,收购Tavily
-trm_nebius-announces-agreement-to-acquire-tavily-to,nebius-announces-agreement-to-acquire-tavily-to-,Token,active,long-tail token from local corpus
-trm_new,New,Concept,active,local expansion relaxed pass
-trm_new-take-on-big-data-analysis,new-take-on-big-data-analysis,Token,active,long-tail token from local corpus
-trm_news-insights,news-insights,Token,active,long-tail token from local corpus
-trm_newsroom,Newsroom,Concept,active,local expansion from raw corpus
-trm_next,Next,Concept,active,local expansion from raw corpus
-trm_next-edit,Next Edit,Concept,active,local expansion from raw corpus
-trm_nexus,Nexus,Concept,active,local expansion from raw corpus
-trm_nj0r3,nJ0R3,Concept,active,local expansion from raw corpus
-trm_nj0r3-cy5t292xq5avjqxq,nJ0R3_cy5T292Xq5AVJQXQ,Token,active,long-tail token from local corpus
-trm_nod,Nod,Concept,active,local expansion from raw corpus
-trm_node-bun-deno,Node/Bun/Deno,Concept,active,local expansion from raw corpus
-trm_noise,Noise,Concept,active,local expansion from raw corpus
-trm_notabot,Notabot,Concept,active,local expansion from raw corpus
-trm_notebooklm,NotebookLM,Concept,active,local expansion from raw corpus
-trm_notes-image,Notes#image,Concept,active,local expansion from raw corpus
-trm_now,Now,Concept,active,local expansion from raw corpus
-trm_number,Number,Concept,active,local expansion from raw corpus
-trm_nvidia,Nvidia,Concept,active,local expansion from raw corpus
-trm_nvidia-jetson,NVIDIA Jetson,Concept,active,local expansion from raw corpus
-trm_nvidia-is-on-ice-aa3025e3,nvidia-is-on-ice-aa3025e3,Token,active,long-tail token from local corpus
-trm_nvidia-is-reportedly-investing-20-billion-in,nvidia-is-reportedly-investing-20-billion-in-,Token,active,long-tail token from local corpus
-trm_nvidias,Nvidias,Concept,active,local expansion from raw corpus
-trm_oauth,OAuth,Concept,active,local expansion from raw corpus
-trm_obsdmd,Obsdmd,Concept,active,local expansion from raw corpus
 trm_obsidian,Obsidian,Company,active,CLI发布
 trm_obsidian-cli,Obsidian CLI,Product,active,Early Access
-trm_obxjiwkqz18lqnnctp4y1a,oBxJiwkqz18lQNNctP4Y1A,Concept,active,local expansion from raw corpus
-trm_ocr,OCR,Concept,active,local expansion from raw corpus
-trm_omni,Omni,Concept,active,local expansion from raw corpus
 trm_omnibar,Omnibar,Product,active,Google AI Studio功能
-trm_on-nvidias-ai-chips,on-nvidias-ai-chips,Token,active,long-tail token from local corpus
-trm_onboard,Onboard,Concept,active,local expansion from raw corpus
-trm_one,One,Concept,active,local expansion from raw corpus
 trm_openai,OpenAI,Company,active,头部平台公司
 trm_openai-api,OpenAI API,Product,active,external expansion from official source
-trm_openai-chatgpt,OpenAI ChatGPT,Concept,active,local expansion from raw corpus
 trm_openai-for-countries,OpenAI for Countries,Project,active,本土化计划
 trm_openai-platform-docs,OpenAI Platform Docs,Platform,active,external expansion from official source
-trm_openai-for-countries-2,openai-for-countries,Token,active,long-tail token from local corpus
-trm_openai-more,openai-more,Token,active,long-tail token from local corpus
-trm_openai-says-it-will-proceed-one-step-at-a-time,openai-says-it-will-proceed-one-step-at-a-time,Token,active,long-tail token from local corpus
-trm_openaidevs,OpenAIDevs,Concept,active,local expansion from raw corpus
-trm_openaiglobalaffairs,Openaiglobalaffairs,Concept,active,local expansion from raw corpus
-trm_openais,Openais,Concept,active,local expansion from raw corpus
-trm_openais-uae-deal-with-g42-shows-ai-models-are,openais-uae-deal-with-g42-shows-ai-models-are-,Token,active,long-tail token from local corpus
-trm_openapi,OpenAPI,Concept,active,local expansion from raw corpus
 trm_openbmb,OpenBMB,Company,active,MiniCPM-SALA发布方
-trm_openbmb-minicpm-o,OpenBMB/MiniCPM-o,Concept,active,local expansion from raw corpus
-trm_openclaw,Openclaw,Concept,active,local expansion from raw corpus
 trm_openmoss,OpenMOSS,Community,active,MOSS-TTS
-trm_openmoss-team,OpenMOSS-Team,Token,active,long-tail token from local corpus
-trm_openmoss-team-moss-tts,OpenMOSS-Team/moss-tts,Concept,active,local expansion from raw corpus
-trm_openmoss-moss-tts,OpenMOSS/MOSS-TTS,Concept,active,local expansion from raw corpus
 trm_openrouter,OpenRouter,Company,active,Aurora Alpha
-trm_openscholar,OpenScholar,Concept,active,local expansion from raw corpus
-trm_openviking,OpenViking,Concept,active,local expansion from raw corpus
-trm_ops,Ops,Concept,active,local expansion from raw corpus
-trm_opus,Opus,Concept,active,local expansion from raw corpus
-trm_orchestration,Orchestration,Concept,active,local expansion from raw corpus
-trm_org,Org,Concept,active,local expansion relaxed pass
-trm_osanseviero,Osanseviero,Concept,active,local expansion from raw corpus
-trm_other,Other,Concept,active,local expansion from raw corpus
-trm_our,Our,Concept,active,local expansion from raw corpus
-trm_our-approach-to-localization,our-approach-to-localization,Token,active,long-tail token from local corpus
-trm_out,Out,Concept,active,local expansion from raw corpus
-trm_outreach,Outreach,Concept,active,local expansion from raw corpus
-trm_outreach-and-initiatives,outreach-and-initiatives,Token,active,long-tail token from local corpus
-trm_outside,Outside,Concept,active,local expansion from raw corpus
-trm_overview,Overview,Token,active,long-tail token from local corpus
 trm_oz,Oz,Platform,active,Warp云原生Agent平台
-trm_oz-orchestration-platform-cloud-agents,oz-orchestration-platform-cloud-agents,Token,active,long-tail token from local corpus
-trm_p9x93imfffqs8gga,P9X93imfffQs8GGA,Concept,active,local expansion from raw corpus
-trm_papers,Papers,Concept,active,local expansion from raw corpus
-trm_partial,Partial,Concept,active,local expansion from raw corpus
-trm_partial-shutdown-nvidia-absolutely-investing-in,partial-shutdown-nvidia-absolutely-investing-in-,Token,active,long-tail token from local corpus
-trm_partnership,Partnership,Concept,active,local expansion from raw corpus
-trm_patients,Patients,Concept,active,local expansion from raw corpus
-trm_patients-for-free,patients-for-free,Token,active,long-tail token from local corpus
-trm_pdf,Pdf,Concept,active,local expansion from raw corpus
-trm_people,People,Concept,active,local expansion from raw corpus
 trm_perplexity,Perplexity,Company,active,Model Council发布方
-trm_pick,Pick,Concept,active,local expansion from raw corpus
-trm_pinea,Pinea,Token,active,long-tail token from local corpus
 trm_pinea-pi,Pinea Pi,Product,active,面壁AI开发板
-trm_plans,Plans,Concept,active,local expansion from raw corpus
-trm_platform,Platform,Concept,active,local expansion from raw corpus
 trm_plawbench,PLawBench,Metric,active,法律评测基准
-trm_point,Point,Concept,active,local expansion from raw corpus
-trm_policy,Policy,Concept,active,local expansion from raw corpus
-trm_pony,Pony,Concept,active,local expansion from raw corpus
 trm_pony-alpha,Pony Alpha,Model,active,stealth模型
-trm_positron,Positron,Concept,active,local expansion from raw corpus
-trm_power,Power,Concept,active,local expansion from raw corpus
-trm_powered,Powered,Concept,active,local expansion from raw corpus
-trm_ppt,PPT,Concept,active,local expansion from raw corpus
-trm_prediction,Prediction,Concept,active,local expansion from raw corpus
-trm_premium,Premium,Token,active,long-tail token from local corpus
-trm_premium-content,Premium Content,Concept,active,local expansion from raw corpus
-trm_preparedness,Preparedness,Concept,active,local expansion from raw corpus
-trm_press,Press,Concept,active,local expansion from raw corpus
-trm_preview,Preview,Concept,active,local expansion from raw corpus
-trm_prime,Prime,Concept,active,local expansion from raw corpus
 trm_prime-intellect,Prime Intellect,Company,active,agentic后训练平台
 trm_prime-intellect-lab,Prime Intellect Lab,Platform,active,Lab平台
-trm_primeintellect,Primeintellect,Concept,active,local expansion from raw corpus
-trm_pro,Pro,Concept,active,local expansion from raw corpus
-trm_pro-ga,Pro GA,Concept,active,local expansion from raw corpus
-trm_pro-preview,Pro Preview,Concept,active,local expansion from raw corpus
-trm_proceed,Proceed,Concept,active,local expansion from raw corpus
-trm_products,Products,Concept,active,local expansion from raw corpus
-trm_project,Project,Concept,active,local expansion from raw corpus
-trm_projects,Projects,Concept,active,local expansion from raw corpus
-trm_protein,Protein,Concept,active,local expansion from raw corpus
-trm_protocol,Protocol,Token,active,long-tail token from local corpus
-trm_providers,Providers,Concept,active,local expansion from raw corpus
-trm_public,Public,Concept,active,local expansion from raw corpus
-trm_pull,Pull,Concept,active,local expansion from raw corpus
-trm_python,Python,Token,active,long-tail token from local corpus
-trm_python-gpt,Python GPT,Concept,active,local expansion from raw corpus
-trm_qat,QAT,Concept,active,local expansion from raw corpus
-trm_qoder,Qoder,Concept,active,local expansion from raw corpus
-trm_qpr3,Qpr3,Concept,active,local expansion from raw corpus
-trm_question,Question,Token,active,long-tail token from local corpus
-trm_qwen,Qwen,Concept,active,local expansion from raw corpus
 trm_qwen-3-5,Qwen 3.5,Product,active,待发布系列
-trm_qwen-chat,Qwen Chat,Concept,active,local expansion from raw corpus
-trm_qwen-coder,Qwen-Coder,Concept,active,local expansion from raw corpus
-trm_qwen-coder-qoder,Qwen-Coder-Qoder,Concept,active,local expansion from raw corpus
-trm_qwen-coder-qoder-qoder,Qwen-Coder-Qoder Qoder,Concept,active,local expansion from raw corpus
-trm_qwen-image-2,Qwen-Image-2,Token,active,long-tail token from local corpus
 trm_qwen-image-2-0,Qwen-Image-2.0,Product,active,图像生成与编辑统一模型
-trm_qwen-qwen3-coder-next,Qwen/Qwen3-Coder-Next,Concept,active,local expansion from raw corpus
-trm_qwen3,Qwen3,Concept,active,local expansion from raw corpus
-trm_qwen3-coder-next,Qwen3-Coder-Next,Concept,active,local expansion from raw corpus
-trm_qwen3-coder-next-qwen,Qwen3-Coder-Next Qwen,Concept,active,local expansion from raw corpus
 trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,Model,active,PR中出现
 trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,active,PR中出现
-trm_ra414ljkzsui0j,rA414LJkzsui0j,Concept,active,local expansion from raw corpus
-trm_race,Race,Concept,active,local expansion from raw corpus
-trm_rag,RAG,Concept,active,local expansion from raw corpus
-trm_raises,Raises,Concept,active,local expansion from raw corpus
-trm_realtime,Realtime,Concept,active,local expansion from raw corpus
-trm_redies,Redies,Concept,active,local expansion from raw corpus
-trm_regulation,Regulation,Concept,active,local expansion from raw corpus
-trm_release,Release,Concept,active,local expansion from raw corpus
-trm_render,Render,Token,active,long-tail token from local corpus
-trm_reportedly,Reportedly,Concept,active,local expansion from raw corpus
-trm_research,Research,Concept,active,local expansion from raw corpus
-trm_research-preview,Research Preview,Concept,active,local expansion from raw corpus
-trm_researchers,Researchers,Concept,active,local expansion from raw corpus
-trm_resources,Resources,Concept,active,local expansion from raw corpus
-trm_responses,Responses,Token,active,long-tail token from local corpus
 trm_responses-api,Responses API,Product,active,OpenAI API能力更新
-trm_reuters,Reuters,Concept,active,local expansion from raw corpus
-trm_rfaj6rtnctrwq9kg,rfAJ6rtnctRWq9Kg,Concept,active,local expansion from raw corpus
-trm_risk,Risk,Concept,active,local expansion from raw corpus
-trm_robot,Robot,Concept,active,local expansion from raw corpus
-trm_robotics,Robotics,Concept,active,local expansion from raw corpus
-trm_roqr,rOqr,Concept,active,local expansion from raw corpus
-trm_round,Round,Concept,active,local expansion from raw corpus
-trm_rsl,Rsl,Concept,active,local expansion from raw corpus
-trm_runtime,Runtime,Token,active,long-tail token from local corpus
 trm_runway,Runway,Company,active,E轮融资
-trm_s1-pro,S1-Pro,Concept,active,local expansion from raw corpus
-trm_sala,SALA,Concept,active,local expansion from raw corpus
 trm_sam-altman,Sam Altman,Person,active,OpenAI核心人物
-trm_sama,Sama,Concept,active,local expansion from raw corpus
-trm_sat,SAT,Concept,active,local expansion from raw corpus
-trm_sat-loa-20260108-00016,SAT-LOA-20260108-00016,Token,active,long-tail token from local corpus
-trm_satellite,Satellite,Concept,active,local expansion from raw corpus
-trm_says,Says,Concept,active,local expansion from raw corpus
-trm_sbkk,Sbkk,Concept,active,local expansion from raw corpus
-trm_scene,Scene,Concept,active,local expansion from raw corpus
-trm_scientific,Scientific,Concept,active,local expansion from raw corpus
-trm_scmp,Scmp,Concept,active,local expansion from raw corpus
-trm_screen,Screen,Concept,active,local expansion from raw corpus
-trm_sdk,Sdk,Concept,active,local expansion from raw corpus
-trm_search,Search,Concept,active,local expansion from raw corpus
-trm_search-report-render,Search/Report/Render,Concept,active,local expansion from raw corpus
-trm_seedance,Seedance,Concept,active,local expansion from raw corpus
 trm_seedance-2-0,Seedance 2.0,Model,active,字节视频生成模型
-trm_seedream,Seedream,Concept,active,local expansion from raw corpus
 trm_seedream-5-0-preview,Seedream 5.0-Preview,Model,active,字节预览版
-trm_seeks,Seeks,Concept,active,local expansion from raw corpus
-trm_sees,Sees,Concept,active,local expansion from raw corpus
-trm_self,Self,Concept,active,local expansion from raw corpus
-trm_senior,Senior,Concept,active,local expansion from raw corpus
-trm_sequioia,Sequioia,Concept,active,local expansion from raw corpus
-trm_sera,SERA,Concept,active,local expansion from raw corpus
-trm_sera-14b,SERA-14B,Concept,active,local expansion from raw corpus
-trm_series,Series,Concept,active,local expansion from raw corpus
-trm_server,Server,Token,active,long-tail token from local corpus
-trm_servicenowservices,Servicenowservices,Concept,active,local expansion from raw corpus
-trm_sglang,SGLang,Concept,active,local expansion from raw corpus
-trm_sglang-fluentllm,SGLang-FluentLLM,Concept,active,local expansion from raw corpus
-trm_shell,Shell,Concept,active,local expansion from raw corpus
-trm_showing,Showing,Concept,active,local expansion from raw corpus
-trm_shows,Shows,Concept,active,local expansion from raw corpus
-trm_shutdown,Shutdown,Concept,active,local expansion from raw corpus
 trm_sierra,Sierra,Model,active,Meta browser agent代号
 trm_sim,SIM,Metric,active,相似度指标
-trm_simpleseg,SimpleSeg,Concept,active,local expansion from raw corpus
-trm_simulation,Simulation,Concept,active,local expansion from raw corpus
-trm_singer,Singer,Concept,active,local expansion from raw corpus
-trm_singularity,Singularity,Concept,active,local expansion from raw corpus
-trm_singularity-cinema,Singularity Cinema,Concept,active,local expansion from raw corpus
-trm_singularitycinema,SingularityCinema,Concept,active,local expansion from raw corpus
-trm_siri,Siri,Concept,active,local expansion from raw corpus
-trm_skill,Skill,Concept,active,local expansion from raw corpus
-trm_skills,Skills,Concept,active,local expansion from raw corpus
-trm_slack,Slack,Concept,active,local expansion from raw corpus
-trm_snowflake,Snowflake,Concept,active,local expansion from raw corpus
-trm_softbank,Softbank,Concept,active,local expansion from raw corpus
-trm_solar,Solar,Concept,active,local expansion from raw corpus
 trm_sora,Sora,Product,active,OpenAI视频模型
 trm_sora-extensions,Sora Extensions,Product,active,视频续写
-trm_soraofficialapp,Soraofficialapp,Concept,active,local expansion from raw corpus
-trm_soul,Soul,Concept,active,local expansion from raw corpus
 trm_soul-ailab,Soul-AILab,Company,active,SoulX-Singer发布方
-trm_soul-ailab-soulx-singer,Soul-AILab/SoulX-Singer,Concept,active,local expansion from raw corpus
-trm_soulx,SoulX,Concept,active,local expansion from raw corpus
 trm_soulx-singer,SoulX-Singer,Model,active,歌声合成模型
-trm_space,Space,Concept,active,local expansion from raw corpus
-trm_spacex,Spacex,Concept,active,local expansion from raw corpus
+trm_spacex,SpaceX,Company,active,relation anchor
 trm_spark-x2,Spark X2,Model,active,讯飞星火X2模型
-trm_spec,Spec,Concept,active,local expansion from raw corpus
-trm_stack,Stack,Concept,active,local expansion from raw corpus
-trm_startup,Startup,Concept,active,local expansion from raw corpus
-trm_static,Static,Concept,active,local expansion from raw corpus
-trm_status,Status,Concept,active,local expansion from raw corpus
-trm_stealth,Stealth,Concept,active,local expansion from raw corpus
-trm_step,Step,Concept,active,local expansion from raw corpus
-trm_step-3,Step-3,Token,active,long-tail token from local corpus
-trm_step-3-5-flash,Step-3.5-Flash,Concept,active,local expansion from raw corpus
-trm_stepfun,Stepfun,Concept,active,local expansion from raw corpus
 trm_stitch,Stitch,Product,active,Google设计产品
-trm_stitchbygoogle,Stitchbygoogle,Concept,active,local expansion from raw corpus
-trm_studio,Studio,Token,active,long-tail token from local corpus
-trm_substack,Substack,Concept,active,local expansion from raw corpus
 trm_sugon,Sugon,Company,active,中科曙光英文名
-trm_summary,Summary,Concept,active,local expansion from raw corpus
-trm_sustainability,Sustainability,Concept,active,local expansion from raw corpus
-trm_swe-bench-verified,SWE-bench-Verified,Concept,active,local expansion from raw corpus
-trm_sweden,Sweden,Concept,active,local expansion from raw corpus
-trm_sweetpea,Sweetpea,Token,active,long-tail token from local corpus
-trm_synthesis,Synthesis,Concept,active,local expansion from raw corpus
-trm_system,System,Concept,active,local expansion from raw corpus
-trm_tab,Tab,Concept,active,local expansion from raw corpus
-trm_tacvdwxzhwguqeqr6i,TaCvdwxZhwgUqeqr6I,Concept,active,local expansion from raw corpus
-trm_tacvdwxzhwguqeqr6i-hlq,TaCvdwxZhwgUqeqr6I_hLQ,Token,active,long-tail token from local corpus
-trm_take,Take,Concept,active,local expansion from raw corpus
-trm_tasks,Tasks,Concept,active,local expansion from raw corpus
 trm_tavily,Tavily,Company,active,agentic search
-trm_team,Team,Concept,active,local expansion from raw corpus
-trm_teams,Teams,Concept,active,local expansion from raw corpus
-trm_tech,Tech,Concept,active,local expansion from raw corpus
-trm_techcrunch,Techcrunch,Concept,active,local expansion from raw corpus
-trm_technical,Technical,Concept,active,local expansion from raw corpus
 trm_tencent,Tencent,Company,active,混元与CodeBuddy线
-trm_tencent-hpc-ops,Tencent/hpc-ops,Concept,active,local expansion from raw corpus
-trm_terminal,Terminal,Token,active,long-tail token from local corpus
-trm_terminal-bench,Terminal Bench,Concept,active,local expansion from raw corpus
-trm_testing,Testing,Concept,active,local expansion from raw corpus
-trm_testingcatalog,Testingcatalog,Concept,active,local expansion from raw corpus
-trm_that,That,Concept,active,local expansion relaxed pass
-trm_the,The,Concept,active,local expansion relaxed pass
-trm_theverge,Theverge,Concept,active,local expansion from raw corpus
-trm_think,Think,Concept,active,local expansion from raw corpus
-trm_thinker,Thinker,Concept,active,local expansion from raw corpus
-trm_thinker-4b,Thinker-4B,Token,active,long-tail token from local corpus
-trm_thinking,Thinking,Concept,active,local expansion from raw corpus
-trm_thomas,Thomas,Token,active,long-tail token from local corpus
 trm_thomas-dohmke,Thomas Dohmke,Person,active,Entire创始人
-trm_time,Time,Concept,active,local expansion from raw corpus
-trm_tla2pfvcup0x7ggzkztwsa,tLa2PFvcUP0X7GgZKztwsA,Concept,active,local expansion from raw corpus
-trm_token,Token,Token,active,long-tail token from local corpus
-trm_token-to-token,Token-to-Token,Concept,active,local expansion from raw corpus
-trm_tool,Tool,Concept,active,local expansion from raw corpus
-trm_tools,Tools,Concept,active,local expansion from raw corpus
-trm_topic,Topic,Concept,active,local expansion from raw corpus
-trm_tqyjwfrfiivmudkfy84ccb7cnci,TQyJwfRFiiVMUdkFY84cCb7CncI,Concept,active,local expansion relaxed pass
-trm_transcribe,Transcribe,Concept,active,local expansion from raw corpus
-trm_transformers,Transformers,Concept,active,local expansion from raw corpus
 trm_transformers-js-v4,Transformers.js v4,Framework,active,WebGPU Runtime预览
-trm_transformersjs,Transformersjs,Concept,active,local expansion from raw corpus
-trm_tree,Tree,Concept,active,local expansion from raw corpus
-trm_trends,Trends,Token,active,long-tail token from local corpus
-trm_trq212,Trq212,Concept,active,local expansion from raw corpus
-trm_true,True,Concept,active,local expansion from raw corpus
-trm_trusted,Trusted,Concept,active,local expansion from raw corpus
-trm_trusted-access,Trusted Access,Concept,active,local expansion from raw corpus
-trm_tts,Tts,Concept,active,local expansion from raw corpus
-trm_tui,TUI,Concept,active,local expansion from raw corpus
-trm_uae,Uae,Concept,active,local expansion from raw corpus
-trm_uauplz8q28,UaUplZ8Q28,Concept,active,local expansion from raw corpus
-trm_ubtech,UBTECH,Concept,active,local expansion from raw corpus
-trm_ubtech-robot,UBTECH-Robot,Token,active,long-tail token from local corpus
-trm_ubtech-robot-thinker,UBTECH-Robot/Thinker,Concept,active,local expansion from raw corpus
-trm_ubtech-robotics,UBTECH-Robotics,Token,active,long-tail token from local corpus
-trm_unlocking,Unlocking,Concept,active,local expansion from raw corpus
-trm_unlocks,Unlocks,Concept,active,local expansion from raw corpus
 trm_unsloth,Unsloth,Company,active,MoE优化
-trm_unveils,Unveils,Concept,active,local expansion from raw corpus
-trm_updates,Updates,Concept,active,local expansion from raw corpus
-trm_updates-xai,Updates#xai,Concept,active,local expansion from raw corpus
-trm_use,Use,Concept,active,local expansion from raw corpus
-trm_uvq72efoq,Uvq72efOQ,Concept,active,local expansion from raw corpus
-trm_valuation,Valuation,Concept,active,local expansion from raw corpus
-trm_vectorize,Vectorize,Concept,active,local expansion from raw corpus
-trm_video,Video,Concept,active,local expansion from raw corpus
-trm_video-overview,Video Overview,Concept,active,local expansion from raw corpus
-trm_vidu,Vidu,Concept,active,local expansion from raw corpus
-trm_viewform,Viewform,Concept,active,local expansion from raw corpus
-trm_visualstudio,Visualstudio,Concept,active,local expansion from raw corpus
-trm_vllm,Vllm,Concept,active,local expansion from raw corpus
-trm_vlm,Vlm,Concept,active,local expansion from raw corpus
-trm_voice,Voice,Concept,active,local expansion from raw corpus
-trm_volcengine,Volcengine,Concept,active,local expansion from raw corpus
-trm_voxtral,Voxtral,Concept,active,local expansion from raw corpus
-trm_voxtral-mini-4b-realtime-2602,Voxtral-Mini-4B-Realtime-2602,Token,active,long-tail token from local corpus
-trm_vs-code,VS Code,Concept,active,local expansion from raw corpus
 trm_warp,Warp,Company,active,Oz平台
 trm_waymo,Waymo,Company,active,自动驾驶公司
 trm_waymo-world-model,Waymo World Model,Model,active,自动驾驶仿真模型
-trm_wbxn,WbXN,Concept,active,local expansion from raw corpus
-trm_wbxn-roqr-gl8jc4n8smxq,WbXN_rOqr_Gl8JC4N8smXQ,Token,active,long-tail token from local corpus
-trm_web,Web,Concept,active,local expansion from raw corpus
-trm_webgpu,WebGPU,Token,active,long-tail token from local corpus
-trm_webgpu-runtime,WebGPU Runtime,Concept,active,local expansion from raw corpus
 trm_webmcp,WebMCP,Standard,active,Chrome 146预览
-trm_weibo,Weibo,Concept,active,local expansion from raw corpus
-trm_weixin,Weixin,Concept,active,local expansion from raw corpus
-trm_wen,Wen,Concept,active,local expansion from raw corpus
 trm_wer,WER,Metric,active,识别错误率指标
-trm_whats,Whats,Concept,active,local expansion from raw corpus
-trm_why,Why,Concept,active,local expansion from raw corpus
-trm_wiki,Wiki,Concept,active,local expansion from raw corpus
-trm_will,Will,Concept,active,local expansion from raw corpus
-trm_windows,Windows,Token,active,long-tail token from local corpus
-trm_windsurf,Windsurf,Concept,active,local expansion from raw corpus
-trm_with,With,Concept,active,local expansion relaxed pass
-trm_work,Work,Concept,active,local expansion from raw corpus
 trm_workbuddy,WorkBuddy,Product,active,AI桌面工作台
-trm_world,World,Concept,active,local expansion from raw corpus
-trm_world-model,World Model,Concept,active,local expansion from raw corpus
-trm_world-model-waymo,World Model Waymo,Concept,active,local expansion from raw corpus
-trm_worldvqa,WorldVQA,Concept,active,local expansion from raw corpus
-trm_wsj,Wsj,Concept,active,local expansion from raw corpus
 trm_x-developer-platform,X Developer Platform,Platform,active,X开发者平台
 trm_xai,xAI,Company,active,图像API发布
 trm_xai-api,xAI API,Product,active,external expansion from official source
-trm_xcode,Xcode,Concept,active,local expansion from raw corpus
-trm_xdevelopers,XDevelopers,Concept,active,local expansion from raw corpus
-trm_xfw,XFw,Concept,active,local expansion from raw corpus
-trm_xslfphgbjx6mg0hfl,xSLFphGbjX6MG0HfL,Concept,active,local expansion relaxed pass
-trm_xyh,XYH,Concept,active,local expansion from raw corpus
-trm_xyh-5lz3z3bw8voeemyesq,XYH-5lZ3z3bw8VOEemyeSQ,Concept,active,local expansion from raw corpus
-trm_year,Year,Concept,active,local expansion from raw corpus
-trm_yifan,Yifan,Concept,active,local expansion from raw corpus
-trm_your,Your,Concept,active,local expansion relaxed pass
-trm_yuchenj,Yuchenj,Concept,active,local expansion from raw corpus
-trm_yuchenj-uw,Yuchenj_UW,Token,active,long-tail token from local corpus
 trm_z-code,Z Code,Product,active,智谱AI编程工具
-trm_zai,Zai,Concept,active,local expansion from raw corpus
-trm_zcode,Zcode,Concept,active,local expansion from raw corpus
-trm_zed,Zed,Concept,active,local expansion from raw corpus
-trm_zhang,Zhang,Concept,active,local expansion from raw corpus
-trm_zhidx,Zhidx,Concept,active,local expansion from raw corpus
-trm_zhihuipikachu,Zhihuipikachu,Concept,active,local expansion from raw corpus
 trm_zhipu-ai,Zhipu AI,Company,active,GLM-5传闻
-trm_zihaohuang,ZihaoHuang,Concept,active,local expansion from raw corpus
-trm_zihaohuang-notabot,ZihaoHuang-notabot,Token,active,long-tail token from local corpus
-trm_zpq,Zpq,Concept,active,local expansion from raw corpus
-trm_zre0r2gtyu0c8nl0rlmviq,zRe0r2gTYu0c8nl0rLMvIQ,Concept,active,local expansion from raw corpus
-trm_zwc2esb4jcgbpecf7grzsa,ZWc2EsB4jcGbPeCf7gRZSA,Concept,active,local expansion from raw corpus
-trm_zydxlirjwhol,zyDXLiRJWhol,Concept,active,local expansion from raw corpus

@@ -34,3 +34,13 @@
 - 日报主链不变；扩展层只增补全局图。
 - 优先官方站点、官方文档、官方公告。
 - 审核通过后可将外部边回写到 `term_edges.csv`。
+
+
+## 高价值关系层
+
+- `wiki/index/high_value_relations.csv`：高价值关系（M&A / founded_by / maintains / owns_product）。
+- `wiki/index/relation_research_queue.csv`：关系研究队列（多-agent lane）。
+
+质量规则：
+- 主图只保留高质量实体与关系。
+- 低质量噪声词不进入主图，不作为可视化默认节点。

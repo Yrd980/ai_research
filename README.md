@@ -31,6 +31,8 @@
 - `wiki/index/term_edges.csv`
 - `wiki/index/term_expansion_queue.csv`
 - `wiki/index/term_external_edges.csv`
+- `wiki/index/high_value_relations.csv`
+- `wiki/index/relation_research_queue.csv`
 
 ## Agentic 日常流程
 
@@ -39,6 +41,7 @@
 3. 维护 `data/processed/primitives.csv`（只保留名词原语）。
 4. 同步更新 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`。
 5. 同步更新 `wiki/index/terms.csv`、`wiki/index/term_aliases.csv`、`wiki/index/term_edges.csv`。
+6. 维护高价值关系表：`wiki/index/high_value_relations.csv`（收购/创始人/开源/产品归属）。
 6. 仅在必要时补充 `wiki/entities/*.md`（不全量预建）。
 
 ## 约束

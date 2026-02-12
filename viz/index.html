@@ -124,6 +124,13 @@
         </select>
       </label>
       <label class="field">
+        显示范围
+        <select id="scopeMode">
+          <option value="focus" selected>高价值类型</option>
+          <option value="all">全部类型</option>
+        </select>
+      </label>
+      <label class="field">
         操作
         <button id="renderBtn">刷新图谱</button>
       </label>
@@ -141,6 +148,7 @@
     const maxNodesInput = document.getElementById("maxNodes");
     const labelModeInput = document.getElementById("labelMode");
     const tokenModeInput = document.getElementById("tokenMode");
+    const scopeModeInput = document.getElementById("scopeMode");
     const renderBtn = document.getElementById("renderBtn");
     const graphEl = document.getElementById("graph");
     const statusEl = document.getElementById("status");
@@ -209,6 +217,7 @@
         const keyword = (keywordInput.value || "").trim().toLowerCase();
         const labelMode = labelModeInput.value;
         const tokenMode = tokenModeInput.value;
+        const scopeMode = scopeModeInput.value;
 
         const termResult = await loadCsvFromPath(TERMS_PATH);
         const edgeResult = await loadCsvFromPath(EDGES_PATH);
@@ -221,7 +230,13 @@
         }
         const edgeRows = edgeRowsRaw.filter((e) => Number(e.cooccurrence_count || 0) >= minWeight);
 
-        const filteredTerms = termRows.filter((t) => tokenMode === "on" || (t.term_type || "Unknown") !== "Token");
+        const focusTypes = new Set(["Company", "Product", "Model", "Person", "Platform", "Framework"]);
+        const filteredTerms = termRows.filter((t) => {
+          const tt = t.term_type || "Unknown";
+          if (tokenMode === "off" && tt === "Token") return false;
+          if (scopeMode === "focus" && !focusTypes.has(tt)) return false;
+          return true;
+        });
         const termById = new Map(filteredTerms.map((t) => [t.term_id, t]));
         let chosenEdges = edgeRows;
 
@@ -325,7 +340,7 @@
         }
 
         const loadMode = termResult.source === "csv" && edgeResult.source === "csv" ? "latest-csv" : "embedded-fallback";
-        setStatus(`渲染完成：nodes=${nodes.length}, edges=${edges.length}, minWeight=${minWeight}${keyword ? `, keyword=${keyword}` : ""}, labelMode=${labelMode}, tokenMode=${tokenMode}, source=${loadMode}`);
+        setStatus(`渲染完成：nodes=${nodes.length}, edges=${edges.length}, minWeight=${minWeight}${keyword ? `, keyword=${keyword}` : ""}, labelMode=${labelMode}, tokenMode=${tokenMode}, scopeMode=${scopeMode}, source=${loadMode}`);
       } catch (err) {
         console.error(err);
         setStatus(`渲染失败：${err.message || err}`);

@@ -704,3 +704,12 @@
 - `git diff --check` 首次失败，原因是 CSV 文件 `CRLF` 行尾被识别为 trailing whitespace。
 - 处理：统一将 `terms/term_edges/term_external_edges/term_expansion_queue/term_aliases` 重写为 `LF` 行尾。
 - 修复后 `git diff --check` 通过。
+
+## 2026-02-12 高质量主图回收（用户纠偏后）
+- 已从主图移除 Token 与本地噪声扩展节点（`1096 -> 146`）。
+- 主图边回收为高质量集合（`1436 -> 121`）。
+- 外部扩展边仅保留高质量来源（`1327 -> 12`）。
+- 新增高价值关系层：
+  - `wiki/index/high_value_relations.csv`（16 条）
+  - `wiki/index/relation_research_queue.csv`（5 条）
+- 可视化已默认聚焦高价值类型，噪声词不再默认显示。

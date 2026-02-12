@@ -1,0 +1,17 @@
+relation_id,relation_type,subject_term_id,subject_term,object_term_id,object_term,event_date,source_url,source_type,status,last_updated,notes
+R0001,acquired,trm_nebius,Nebius,trm_tavily,Tavily,2026-02-11,https://data/raw/wechat/2026-02-11.md#20,daily_primary,candidate,2026-02-12,Nebius announced acquisition of Tavily.
+R0002,acquired,trm_spacex,SpaceX,trm_xai,xAI,2026-02-03,https://www.spacex.com/updates#xai-joins-spacex,official_primary,candidate,2026-02-12,SpaceX update announced xAI joining SpaceX.
+R0003,founded_by,trm_openai,OpenAI,trm_sam-altman,Sam Altman,2015-12-11,https://openai.com/about/,official_primary,candidate,2026-02-12,OpenAI leadership/founding context.
+R0004,founded_by,trm_anthropic,Anthropic,trm_dario-amodei,Dario Amodei,2021-01-01,https://www.anthropic.com/company,official_primary,candidate,2026-02-12,Anthropic co-founder.
+R0005,founded_by,trm_anthropic,Anthropic,trm_daniela-amodei,Daniela Amodei,2021-01-01,https://www.anthropic.com/company,official_primary,candidate,2026-02-12,Anthropic co-founder.
+R0006,founded_by,trm_xai,xAI,trm_elon-musk,Elon Musk,2023-01-01,https://x.ai/,official_primary,candidate,2026-02-12,xAI founder context.
+R0007,founded_by,trm_meta,Meta,trm_mark-zuckerberg,Mark Zuckerberg,2004-02-04,https://about.meta.com/,official_primary,candidate,2026-02-12,Meta founder context.
+R0008,founded_by,trm_entire,Entire,trm_thomas-dohmke,Thomas Dohmke,2026-02-11,data/raw/wechat/2026-02-11.md#11,daily_primary,candidate,2026-02-12,Entire founded by Thomas Dohmke.
+R0009,maintains,trm_hugging-face,Hugging Face,trm_transformers-js-v4,Transformers.js v4,2026-02-10,https://huggingface.co/blog/transformersjs-v4,primary,candidate,2026-02-12,Hugging Face released Transformers.js v4 preview.
+R0010,maintains,trm_openmoss,OpenMOSS,trm_moss-tts,MOSS-TTS,2026-02-11,data/raw/wechat/2026-02-11.md#2,daily_primary,candidate,2026-02-12,OpenMOSS context around MOSS-TTS family.
+R0011,owns_product,trm_openai,OpenAI,trm_chatgpt,ChatGPT,2022-11-30,https://openai.com/chatgpt/overview,official_primary,candidate,2026-02-12,ChatGPT product by OpenAI.
+R0012,owns_product,trm_openai,OpenAI,trm_sora,Sora,2024-02-15,https://openai.com/sora/,official_primary,candidate,2026-02-12,Sora product by OpenAI.
+R0013,owns_product,trm_openai,OpenAI,trm_codex-app,Codex App,2026-02-03,https://openai.com/index/introducing-the-codex-app/,official_primary,candidate,2026-02-12,Codex App by OpenAI.
+R0014,owns_product,trm_anthropic,Anthropic,trm_claude,Claude,2023-03-14,https://www.anthropic.com/news/introducing-claude,official_primary,candidate,2026-02-12,Claude family by Anthropic.
+R0015,owns_product,trm_google,Google,trm_gemini,Gemini,2023-12-06,https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/,official_primary,candidate,2026-02-12,Gemini by Google.
+R0016,owns_product,trm_xai,xAI,trm_grok,Grok,2023-11-04,https://x.ai/news/grok,official_primary,candidate,2026-02-12,Grok by xAI.
