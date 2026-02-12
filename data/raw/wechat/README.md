@@ -17,6 +17,6 @@
 ## 与下游关系
 
 - 原语与共现：`data/processed/*`
-- wiki 候选与审阅：`wiki/index/*`
+- wiki 名词图谱索引：`wiki/index/*`
 
 以上下游文件在同一次 agentic 维护中同步更新。

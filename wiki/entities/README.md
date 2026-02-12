@@ -1,22 +1,18 @@
 # Entities Layer
 
-Entity pages are reference cards, not the source-of-truth fact table.
+Entity pages are optional annotations for important terms.
 
-## Buckets
+## Policy
 
-- `wiki/entities/company/`
-- `wiki/entities/person/`
-- `wiki/entities/concept/`
+1. Create pages on demand only.
+2. Do not bulk-generate placeholder files.
+3. Keep content factual and short.
+4. Treat `wiki/index/*.csv` as the query index; entity pages are supplementary notes.
 
-## Editing Rules
+## Suggested Fields
 
-1. Keep `Objective Card` fields factual and minimal.
-2. Keep `Objective Intro` to one neutral sentence or `TBD`.
-3. Put verifiable links in `Sources`.
-4. Do not move facts directly from entity pages into downstream views.
-
-## Source of Truth Boundary
-
-- Facts: `wiki/index/assertions.csv`
-- Derived views: `wiki/index/relations.csv`, `wiki/index/history_timeline.csv`
-- Entity pages: narrative support only.
+- `Term`
+- `Type`
+- `Objective Note`
+- `Related Terms`
+- `Sources`

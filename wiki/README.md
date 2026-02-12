@@ -1,37 +1,25 @@
 # Wiki Layer
 
-独立于日报抽取链路的客观知识层。
+独立于日报抽取链路的全局名词图层（time-agnostic）。
 
 ## 作用
 
-- 承接日报原语，形成可查询的断言索引。
+- 承接日报原语，形成可查询的名词节点与关联边。
+- 作为过去到现在累计的总和，不维护按日事件语义。
 - 不反向污染 `data/processed/*`。
 
-## 关键索引
+## 核心索引
 
-- `wiki/index/assertions.csv`：唯一事实源（authoritative）
-- `wiki/index/assertions_candidates.csv`：日报筛出的候选断言
-- `wiki/index/assertions_review_queue.csv`：候选审阅排序队列
-- `wiki/index/entity_registry.csv`：实体注册表
-- `wiki/index/relations.csv`：派生关系视图
-- `wiki/index/history_timeline.csv`：派生时间线视图
+- `wiki/index/terms.csv`：名词节点
+- `wiki/index/term_aliases.csv`：别名归一
+- `wiki/index/term_edges.csv`：名词关联边（权重）
 
-## 实体页
+## 非核心
 
-- `wiki/entities/company/`
-- `wiki/entities/person/`
-- `wiki/entities/concept/`
+- `term_occurrences` 属于日报事件流中间层，不作为 wiki 核心索引。
 
-实体页用于客观介绍，不作为事实主账本。
+## 实体页策略
 
-## Agentic 维护顺序
-
-1. 先更新 `assertions_candidates.csv` 与 `assertions_review_queue.csv`。
-2. 人工审核后写入 `assertions.csv`。
-3. 在同一次编辑中同步 `relations.csv` 与 `history_timeline.csv`。
-4. 必要时补充实体页与 `Sources`。
-
-## 写作规则
-
-- `wiki/index/objective_writing_policy.md`
-- `wiki/index/primary_source_filter.md`
+- `wiki/entities/` 仅作为按需补充说明页。
+- 默认不预建 company/person/concept 全量文件。
+- 只有在需要长期注释某个重点名词时才新增页面。

@@ -1,0 +1,135 @@
+term_id,term,term_type,status,notes
+trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,active,Claude Code参数
+trm_acc,ACC,Metric,active,准确率指标
+trm_alejandro-matamala,Alejandro Matamala,Person,active,Runway联合创始人
+trm_anastasis-germanidis,Anastasis Germanidis,Person,active,Runway联合创始人
+trm_andrej-karpathy,Andrej Karpathy,Person,active,243行GPT实现作者
+trm_ant-group,Ant Group,Company,active,LLaDA2.1
+trm_anthropic,Anthropic,Company,active,头部平台公司
+trm_augment-code,Augment Code,Company,active,Context Engine MCP
+trm_aurora-alpha,Aurora Alpha,Model,active,OpenRouter stealth模型
+trm_avocado,Avocado,Model,active,Meta测试代号
+trm_avocado-thinking,Avocado Thinking,Model,active,Meta测试代号
+trm_big-brain,Big Brain,Concept,active,Meta多agent并行概念
+trm_boss-zhipin,BOSS Zhipin,Company,active,Nanbeige模型发布方
+trm_brendan-gregg,Brendan Gregg,Person,active,OpenAI性能工程
+trm_bytedance,ByteDance,Company,active,含豆包与Seedream线
+trm_carplay,CarPlay,Product,active,苹果车载系统
+trm_catpaw,CatPaw,Product,active,美团AI编程工具
+trm_chatgpt-deep-research,ChatGPT Deep Research,Product,active,升级到GPT-5.2
+trm_claude-app-voice-mode,Claude App voice mode,Product,active,语音模式分阶段开放
+trm_claude-code-desktop,Claude Code Desktop,Product,active,YOLO模式
+trm_claude-cowork,Claude Cowork,Product,active,Windows版
+trm_claude-opus-4-6,Claude Opus 4.6,Product,active,Antigravity可用
+trm_codex-alpha,Codex Alpha,Product,active,Windows候补
+trm_composer-1-5,Composer 1.5,Model,active,Cursor编程模型
+trm_context-engine-mcp,Context Engine MCP,Product,active,MCP语义引擎
+trm_cristobal-valenzuela,Cristobal Valenzuela,Person,active,Runway联合创始人
+trm_cursor,Cursor,Company,active,Composer 1.5
+trm_daniela-amodei,Daniela Amodei,Person,active,Anthropic联合创始人
+trm_dario-amodei,Dario Amodei,Person,active,Anthropic联合创始人
+trm_deepseek,DeepSeek,Company,active,1M上下文模型线
+trm_dime,Dime,Product,active,OpenAI硬件传闻名
+trm_draw-io,draw.io,Company,active,MCP server
+trm_droid-agent,Droid Agent,Product,active,Factory集成Agent
+trm_dsa,DSA,Technique,active,稀疏注意力机制
+trm_elon-musk,Elon Musk,Person,active,xAI关联人物
+trm_entire,Entire,Company,active,初创+融资
+trm_factory,Factory,Company,active,与JetBrains合作
+trm_gated-deltanet,Gated DeltaNet,Technique,active,Qwen3.5架构机制
+trm_gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,Model,active,传闻型号
+trm_gemini-deep-think,Gemini Deep Think,Model,active,科研推理模式
+trm_gemini-skills,gemini-skills,Project,active,Gemini技能库
+trm_glm-coding-plan,GLM Coding Plan,Product,active,智谱订阅方案
+trm_glm-in-excel,GLM in Excel,Product,active,智谱Excel插件
+trm_glm-5,GLM-5,Model,active,智谱新模型传闻
+trm_google,Google,Company,active,含Gemini/Stitch/Chrome线
+trm_google-ai-studio,Google AI Studio,Product,active,谷歌开发平台更新
+trm_google-stitch-figma-export,Google Stitch Figma Export,Product,active,Figma导出
+trm_gpt-5-2,GPT-5.2,Model,active,路由/升级目标
+trm_gpt-5-2-instant,GPT-5.2 Instant,Model,active,OpenAI更新型号
+trm_gpt-5-3-codex,GPT-5.3-Codex,Model,active,编程模型
+trm_grok-imagine-image,Grok Imagine Image,Model,active,xAI图像模型标准版
+trm_grok-imagine-image-pro,Grok Imagine Image Pro,Model,active,xAI图像模型
+trm_hugging-face,Hugging Face,Company,active,Transformers相关
+trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,active,HY基座模型
+trm_hy-1-8b-2bit,HY-1.8B-2Bit,Model,active,端侧量化模型
+trm_hybrid-attention,Hybrid Attention,Technique,active,Qwen3.5架构机制
+trm_ideate-agent,Ideate Agent,Product,active,Stitch创意Agent
+trm_iflytek,iFlytek,Company,active,讯飞星火X2发布方
+trm_jetbrains,JetBrains,Company,active,IDE厂商
+trm_kilo-code,Kilo Code,Company,active,Pony Alpha联动平台
+trm_llada2-1,LLaDA2.1,Model,active,扩散大语言模型
+trm_llada2-1-flash,LLaDA2.1-Flash,Model,active,100B版本
+trm_llada2-1-mini,LLaDA2.1-Mini,Model,active,16B版本
+trm_longcat,LongCat,Product,active,美团智能体品牌
+trm_longcat-flash-lite,LongCat-Flash-Lite,Model,active,美团开源模型
+trm_mark-zuckerberg,Mark Zuckerberg,Person,active,Meta核心人物
+trm_meta,Meta,Company,active,Avocado测试线索
+trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,active,蚂蚁全模态模型
+trm_minicpm-sala,MiniCPM-SALA,Model,active,百万上下文模型
+trm_minimax,MiniMax,Company,active,M2.5模型线
+trm_minimax-m2-5,MiniMax M2.5,Model,active,MiniMax旗舰模型
+trm_mistral-ai,Mistral AI,Company,active,瑞典数据中心投资
+trm_model-council,Model Council,Product,active,多模型聚合问答
+trm_modelscope,ModelScope,Company,active,OpenAPI
+trm_mosi-ai,MOSI.AI,Company,active,MOSS-TTS
+trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,Model,active,统一音频tokenizer
+trm_moss-soundeffect,MOSS-SoundEffect,Model,active,可控音效
+trm_moss-tts,MOSS-TTS,Model,active,语音模型家族
+trm_moss-tts-realtime,MOSS-TTS-Realtime,Model,active,实时语音体
+trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,Model,active,多说话人对话
+trm_moss-voicegenerator,MOSS-VoiceGenerator,Model,active,音色生成
+trm_mossttsdelay,MossTTSDelay,Model,active,8B长上下文
+trm_mossttslocal,MossTTSLocal,Model,active,1.7B轻量
+trm_mtp,MTP,Technique,active,多标记预测
+trm_nanbeige4-1-3b,Nanbeige4.1-3B,Model,active,开源3B模型
+trm_nebius,Nebius,Company,active,收购Tavily
+trm_obsidian,Obsidian,Company,active,CLI发布
+trm_obsidian-cli,Obsidian CLI,Product,active,Early Access
+trm_omnibar,Omnibar,Product,active,Google AI Studio功能
+trm_openai,OpenAI,Company,active,头部平台公司
+trm_openai-for-countries,OpenAI for Countries,Project,active,本土化计划
+trm_openbmb,OpenBMB,Company,active,MiniCPM-SALA发布方
+trm_openmoss,OpenMOSS,Community,active,MOSS-TTS
+trm_openrouter,OpenRouter,Company,active,Aurora Alpha
+trm_oz,Oz,Platform,active,Warp云原生Agent平台
+trm_perplexity,Perplexity,Company,active,Model Council发布方
+trm_pinea-pi,Pinea Pi,Product,active,面壁AI开发板
+trm_plawbench,PLawBench,Metric,active,法律评测基准
+trm_pony-alpha,Pony Alpha,Model,active,stealth模型
+trm_prime-intellect,Prime Intellect,Company,active,agentic后训练平台
+trm_prime-intellect-lab,Prime Intellect Lab,Platform,active,Lab平台
+trm_qwen-3-5,Qwen 3.5,Product,active,待发布系列
+trm_qwen-image-2-0,Qwen-Image-2.0,Product,active,图像生成与编辑统一模型
+trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,Model,active,PR中出现
+trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,active,PR中出现
+trm_responses-api,Responses API,Product,active,OpenAI API能力更新
+trm_runway,Runway,Company,active,E轮融资
+trm_sam-altman,Sam Altman,Person,active,OpenAI核心人物
+trm_seedance-2-0,Seedance 2.0,Model,active,字节视频生成模型
+trm_seedream-5-0-preview,Seedream 5.0-Preview,Model,active,字节预览版
+trm_sierra,Sierra,Model,active,Meta browser agent代号
+trm_sim,SIM,Metric,active,相似度指标
+trm_sora,Sora,Product,active,OpenAI视频模型
+trm_sora-extensions,Sora Extensions,Product,active,视频续写
+trm_soul-ailab,Soul-AILab,Company,active,SoulX-Singer发布方
+trm_soulx-singer,SoulX-Singer,Model,active,歌声合成模型
+trm_spark-x2,Spark X2,Model,active,讯飞星火X2模型
+trm_stitch,Stitch,Product,active,Google设计产品
+trm_sugon,Sugon,Company,active,中科曙光英文名
+trm_tavily,Tavily,Company,active,agentic search
+trm_tencent,Tencent,Company,active,混元与CodeBuddy线
+trm_thomas-dohmke,Thomas Dohmke,Person,active,Entire创始人
+trm_transformers-js-v4,Transformers.js v4,Framework,active,WebGPU Runtime预览
+trm_unsloth,Unsloth,Company,active,MoE优化
+trm_warp,Warp,Company,active,Oz平台
+trm_waymo,Waymo,Company,active,自动驾驶公司
+trm_waymo-world-model,Waymo World Model,Model,active,自动驾驶仿真模型
+trm_webmcp,WebMCP,Standard,active,Chrome 146预览
+trm_wer,WER,Metric,active,识别错误率指标
+trm_workbuddy,WorkBuddy,Product,active,AI桌面工作台
+trm_x-developer-platform,X Developer Platform,Platform,active,X开发者平台
+trm_xai,xAI,Company,active,图像API发布
+trm_z-code,Z Code,Product,active,智谱AI编程工具
+trm_zhipu-ai,Zhipu AI,Company,active,GLM-5传闻

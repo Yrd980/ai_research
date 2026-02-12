@@ -1,8 +1,0 @@
-startup_id,company_entity_id,company_name,founded_year,headquarters,founders,objective_intro,what_it_builds,why_it_matters,source_basis,status,last_updated
-S0001,cmp_entire,Entire,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0002,cmp_runway,Runway,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0003,cmp_tavily,Tavily,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0004,cmp_warp,Warp,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0005,cmp_openrouter,OpenRouter,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0006,cmp_cursor,Cursor,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12
-S0007,cmp_mosi-ai,MOSI.AI,TBD,TBD,TBD,"TBD (factual, source-backed only)",TBD,TBD,seed_from_primitives,seeded,2026-02-12

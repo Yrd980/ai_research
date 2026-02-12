@@ -1,5 +1,0 @@
-relation_id,subject_entity_id,relation_type,object_entity_id,start_date,source_basis,status,last_updated,notes
-R0001,prs_thomas-dohmke,founder_of,cmp_entire,2026-02-11,data/raw/wechat/2026-02-11.md#11,seeded,2026-02-12,migrated_from_relations:R0001
-R0002,prs_sam-altman,founder_of,cmp_openai,2015,https://en.wikipedia.org/wiki/OpenAI,seeded,2026-02-12,migrated_from_relations:R0002
-R0003,prs_mark-zuckerberg,founder_of,cmp_meta,2004,https://en.wikipedia.org/wiki/Facebook,seeded,2026-02-12,migrated_from_relations:R0003
-R0004,prs_elon-musk,founder_of,cmp_xai,2023,https://en.wikipedia.org/wiki/XAI_(company),seeded,2026-02-12,migrated_from_relations:R0004
