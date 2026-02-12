@@ -38,6 +38,34 @@
 - 关键残留检索结果：未发现旧数据链路引用；命中项仅来自原文正文 URL（非流程配置）。
 - `check-complete.sh` 结果：`ALL PHASES COMPLETE (10/10)`。
 
+## 2026-02-12 变更轨迹复盘（按提交历史）
+- 提交序列（`2026-02-11 -> 2026-02-12`）显示明显三段式演进：
+  1) 资产扩张：`7765826` 建立 data/docs 多层研究资产；
+  2) 管理/分发增强：`18852d3` 增加 Wiki + 飞书自动同步；
+  3) 目标收缩：`122f3a1` 大规模删减到 primitive-only。
+- 关键结论：用户稳定偏好是“低过程暴露 + 单一主产物”，对多层分析、验证台账、分发工程的容忍度低。
+- 由历史反推的真实需求：日报输入后应直接沉淀“不可再分原语集合”，其余能力应默认关闭，除非用户显式开启。
+
+## 2026-02-12 新方向确认（用户明确）
+- 原语仍保留为去噪底座，但目标不止一元词表。
+- 新增“类似 Obsidian 图谱延伸”的高维结构层，当前先不引入动词关系。
+- 方案确定为：`1元 + N元`，即“原语表 + 同现超边”。
+
+## 2026-02-12 1元 + N元 落地结果
+- 新增脚本：`scripts/build_primitive_cooccurrence.py`。
+- 新增产物：
+  - `data/processed/primitive_occurrences.csv`（按日报条目记录原语出现）
+  - `data/processed/primitive_hyperedges.csv`（同条目原语集合，N元超边）
+- 新增模板：
+  - `data/templates/primitive_occurrences_template.csv`
+  - `data/templates/primitive_hyperedges_template.csv`
+- 当前统计（基于 2026-02-09 ~ 2026-02-11 原文）：
+  - 原语：86 条（不含表头）
+  - 条目块：39
+  - 出现记录：74
+  - 超边：21（仅保留 `primitive_count >= 2`）
+- `check-complete.sh` 结果：`ALL PHASES COMPLETE (11/11)`。
+
 ## 2026-02-12 用户结构重置要求（本轮）
 - `data/indexes/` 的 B 站公开索引应移除（用户当前走手动输入，不再需要公开索引页）。
 - `data/raw/wechat/ingest_manifest.csv` 的 `source_url` 需要从旧微信链接模式调整为手动粘贴来源语义。

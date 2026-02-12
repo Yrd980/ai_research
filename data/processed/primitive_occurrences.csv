@@ -1,0 +1,75 @@
+occurrence_id,date,item_no,item_title,primitive,primitive_type,raw_file
+O00001,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,Gated DeltaNet,Technique,data/raw/wechat/2026-02-09.md
+O00002,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,Hugging Face,Company,data/raw/wechat/2026-02-09.md
+O00003,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,Qwen 3.5,Product,data/raw/wechat/2026-02-09.md
+O00004,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,Qwen3.5-35B-A3B-Instruct,Model,data/raw/wechat/2026-02-09.md
+O00005,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,Qwen3.5-9B-Instruct,Model,data/raw/wechat/2026-02-09.md
+O00006,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API（原文）,Grok Imagine Image,Model,data/raw/wechat/2026-02-09.md
+O00007,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API（原文）,Grok Imagine Image Pro,Model,data/raw/wechat/2026-02-09.md
+O00008,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API（原文）,xAI,Company,data/raw/wechat/2026-02-09.md
+O00009,2026-02-09,3,CodeBuddy团队发布AI桌面工作台WorkBuddy（原文）,WorkBuddy,Product,data/raw/wechat/2026-02-09.md
+O00010,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,Avocado,Model,data/raw/wechat/2026-02-09.md
+O00011,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,Avocado Thinking,Model,data/raw/wechat/2026-02-09.md
+O00012,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,Big Brain,Concept,data/raw/wechat/2026-02-09.md
+O00013,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,Meta,Company,data/raw/wechat/2026-02-09.md
+O00014,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,Sierra,Model,data/raw/wechat/2026-02-09.md
+O00015,2026-02-10,1,OpenAI正式启动ChatGPT广告测试,OpenAI,Company,data/raw/wechat/2026-02-10.md
+O00016,2026-02-10,2,Sam Altman 宣布 Codex 将保持免费用户可用,Sam Altman,Person,data/raw/wechat/2026-02-10.md
+O00017,2026-02-10,3,OpenRouter上线 stealth 模型 Aurora Alpha,Aurora Alpha,Model,data/raw/wechat/2026-02-10.md
+O00018,2026-02-10,3,OpenRouter上线 stealth 模型 Aurora Alpha,OpenRouter,Company,data/raw/wechat/2026-02-10.md
+O00019,2026-02-10,4,Cursor 上线编程模型 Composer 1.5,Composer 1.5,Model,data/raw/wechat/2026-02-10.md
+O00020,2026-02-10,4,Cursor 上线编程模型 Composer 1.5,Cursor,Company,data/raw/wechat/2026-02-10.md
+O00021,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,Cursor,Company,data/raw/wechat/2026-02-10.md
+O00022,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,GPT-5.3-Codex,Model,data/raw/wechat/2026-02-10.md
+O00023,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,OpenAI,Company,data/raw/wechat/2026-02-10.md
+O00024,2026-02-10,6,美团AI编程工具CatPaw全量开放,CatPaw,Product,data/raw/wechat/2026-02-10.md
+O00025,2026-02-10,7,Hugging Face发布Transformers.js v4预览版,Hugging Face,Company,data/raw/wechat/2026-02-10.md
+O00026,2026-02-10,7,Hugging Face发布Transformers.js v4预览版,Transformers.js v4,Framework,data/raw/wechat/2026-02-10.md
+O00027,2026-02-10,8,魔搭ModelScope推出OpenAPI,ModelScope,Company,data/raw/wechat/2026-02-10.md
+O00028,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,DSA,Technique,data/raw/wechat/2026-02-10.md
+O00029,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,GLM-5,Model,data/raw/wechat/2026-02-10.md
+O00030,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,MTP,Technique,data/raw/wechat/2026-02-10.md
+O00031,2026-02-11,1,千问推出Qwen-Image-2.0统一图像模型,Qwen-Image-2.0,Product,data/raw/wechat/2026-02-11.md
+O00032,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSI.AI,Company,data/raw/wechat/2026-02-11.md
+O00033,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSS-SoundEffect,Model,data/raw/wechat/2026-02-11.md
+O00034,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSS-TTS,Model,data/raw/wechat/2026-02-11.md
+O00035,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSS-TTS-Realtime,Model,data/raw/wechat/2026-02-11.md
+O00036,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSS-TTSD v1.0,Model,data/raw/wechat/2026-02-11.md
+O00037,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MOSS-VoiceGenerator,Model,data/raw/wechat/2026-02-11.md
+O00038,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MossTTSDelay,Model,data/raw/wechat/2026-02-11.md
+O00039,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,MossTTSLocal,Model,data/raw/wechat/2026-02-11.md
+O00040,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,OpenMOSS,Community,data/raw/wechat/2026-02-11.md
+O00041,2026-02-11,3,蚂蚁集团发布LLaDA2.1扩散大语言模型,LLaDA2.1,Model,data/raw/wechat/2026-02-11.md
+O00042,2026-02-11,4,腾讯混元发布HY-1.8B-2Bit端侧量化模型,Hunyuan-1.8B-Instruct,Model,data/raw/wechat/2026-02-11.md
+O00043,2026-02-11,4,腾讯混元发布HY-1.8B-2Bit端侧量化模型,HY-1.8B-2Bit,Model,data/raw/wechat/2026-02-11.md
+O00044,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,GPT-5.2,Model,data/raw/wechat/2026-02-11.md
+O00045,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,GPT-5.3-Codex,Model,data/raw/wechat/2026-02-11.md
+O00046,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,OpenAI,Company,data/raw/wechat/2026-02-11.md
+O00047,2026-02-11,6,OpenAI更新Responses API支持Agent任务,OpenAI,Company,data/raw/wechat/2026-02-11.md
+O00048,2026-02-11,6,OpenAI更新Responses API支持Agent任务,Responses API,Product,data/raw/wechat/2026-02-11.md
+O00049,2026-02-11,7,Claude Code Desktop引入YOLO模式,--dangerously-skip-permissions,Flag,data/raw/wechat/2026-02-11.md
+O00050,2026-02-11,7,Claude Code Desktop引入YOLO模式,Claude Code Desktop,Product,data/raw/wechat/2026-02-11.md
+O00051,2026-02-11,8,Warp推出Oz云原生Agent编排平台,Oz,Platform,data/raw/wechat/2026-02-11.md
+O00052,2026-02-11,8,Warp推出Oz云原生Agent编排平台,Warp,Company,data/raw/wechat/2026-02-11.md
+O00053,2026-02-11,9,Antigravity 向 Pro 账户提供 Claude Opus 4.6,Claude Opus 4.6,Product,data/raw/wechat/2026-02-11.md
+O00054,2026-02-11,9,Antigravity 向 Pro 账户提供 Claude Opus 4.6,Google,Company,data/raw/wechat/2026-02-11.md
+O00055,2026-02-11,10,Gemini 发布 Gemini API skills,gemini-skills,Project,data/raw/wechat/2026-02-11.md
+O00056,2026-02-11,10,Gemini 发布 Gemini API skills,Google,Company,data/raw/wechat/2026-02-11.md
+O00057,2026-02-11,11,Entire成立并获6000万美元种子融资,Entire,Company,data/raw/wechat/2026-02-11.md
+O00058,2026-02-11,11,Entire成立并获6000万美元种子融资,Thomas Dohmke,Person,data/raw/wechat/2026-02-11.md
+O00059,2026-02-11,12,draw.io发布官方MCP服务器,draw.io,Company,data/raw/wechat/2026-02-11.md
+O00060,2026-02-11,13,Anthropic发布Windows版Claude Cowork,Anthropic,Company,data/raw/wechat/2026-02-11.md
+O00061,2026-02-11,13,Anthropic发布Windows版Claude Cowork,Claude Cowork,Product,data/raw/wechat/2026-02-11.md
+O00062,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,ChatGPT Deep Research,Product,data/raw/wechat/2026-02-11.md
+O00063,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,GPT-5.2,Model,data/raw/wechat/2026-02-11.md
+O00064,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,OpenAI,Company,data/raw/wechat/2026-02-11.md
+O00065,2026-02-11,16,Google Stitch推出Figma设计导出功能,Google,Company,data/raw/wechat/2026-02-11.md
+O00066,2026-02-11,17,Obsidian发布Obsidian CLI,Obsidian,Company,data/raw/wechat/2026-02-11.md
+O00067,2026-02-11,17,Obsidian发布Obsidian CLI,Obsidian CLI,Product,data/raw/wechat/2026-02-11.md
+O00068,2026-02-11,18,豆包上线与央视春晚联名新年活动,豆包过年,Campaign,data/raw/wechat/2026-02-11.md
+O00069,2026-02-11,19,Runway完成3.15亿美元E轮融资,Runway,Company,data/raw/wechat/2026-02-11.md
+O00070,2026-02-11,20,Nebius收购Tavily,Nebius,Company,data/raw/wechat/2026-02-11.md
+O00071,2026-02-11,20,Nebius收购Tavily,Tavily,Company,data/raw/wechat/2026-02-11.md
+O00072,2026-02-11,21,Anthropic发布2026 Agent编程趋势报告,Anthropic,Company,data/raw/wechat/2026-02-11.md
+O00073,2026-02-11,22,Unsloth发布MoE训练优化,Unsloth,Company,data/raw/wechat/2026-02-11.md
+O00074,2026-02-11,23,Chrome 146 推出 WebMCP 早期预览,WebMCP,Standard,data/raw/wechat/2026-02-11.md

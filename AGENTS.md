@@ -24,6 +24,8 @@ Do not delete these three files during cleanup/refactor.
 
 - Raw ingest: `data/raw/wechat/`
 - Primitive table: `data/processed/primitives.csv`
+- Primitive occurrences: `data/processed/primitive_occurrences.csv`
+- Primitive hyperedges: `data/processed/primitive_hyperedges.csv`
 - Templates: `data/templates/`
 
 ## Default Workflow For New Daily Input
@@ -31,8 +33,9 @@ Do not delete these three files during cleanup/refactor.
 1. Ingest raw text into `data/raw/wechat/YYYY-MM-DD.md`.
 2. Update `data/raw/wechat/ingest_manifest.csv`.
 3. Extract irreducible noun primitives into `data/processed/primitives.csv`.
-4. Keep only primitive-level entries; no event reasoning layer.
-5. Update `task_plan.md`, `findings.md`, and `progress.md`.
+4. Build primitive occurrences (`1元`) and co-occurrence hyperedges (`N元`) from raw daily items.
+5. Keep no-verb graph structure only; no event reasoning layer.
+6. Update `task_plan.md`, `findings.md`, and `progress.md`.
 
 ## Research Principles
 

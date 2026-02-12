@@ -1,0 +1,2 @@
+hyperedge_id,date,item_no,item_title,primitive_count,primitives,raw_file
+H00001,2026-02-12,1,示例条目,3,TermA; TermB; TermC,data/raw/wechat/2026-02-12.md

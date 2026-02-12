@@ -1,0 +1,22 @@
+hyperedge_id,date,item_no,item_title,primitive_count,primitives,raw_file
+H00001,2026-02-09,1,Qwen 3.5系列模型即将发布（原文）,5,Gated DeltaNet; Hugging Face; Qwen 3.5; Qwen3.5-35B-A3B-Instruct; Qwen3.5-9B-Instruct,data/raw/wechat/2026-02-09.md
+H00002,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API（原文）,3,Grok Imagine Image; Grok Imagine Image Pro; xAI,data/raw/wechat/2026-02-09.md
+H00003,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado（原文）,5,Avocado; Avocado Thinking; Big Brain; Meta; Sierra,data/raw/wechat/2026-02-09.md
+H00004,2026-02-10,3,OpenRouter上线 stealth 模型 Aurora Alpha,2,Aurora Alpha; OpenRouter,data/raw/wechat/2026-02-10.md
+H00005,2026-02-10,4,Cursor 上线编程模型 Composer 1.5,2,Composer 1.5; Cursor,data/raw/wechat/2026-02-10.md
+H00006,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,3,Cursor; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-10.md
+H00007,2026-02-10,7,Hugging Face发布Transformers.js v4预览版,2,Hugging Face; Transformers.js v4,data/raw/wechat/2026-02-10.md
+H00008,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,3,DSA; GLM-5; MTP,data/raw/wechat/2026-02-10.md
+H00009,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,9,MOSI.AI; MOSS-SoundEffect; MOSS-TTS; MOSS-TTS-Realtime; MOSS-TTSD v1.0; MOSS-VoiceGenerator; MossTTSDelay; MossTTSLocal; OpenMOSS,data/raw/wechat/2026-02-11.md
+H00010,2026-02-11,4,腾讯混元发布HY-1.8B-2Bit端侧量化模型,2,Hunyuan-1.8B-Instruct; HY-1.8B-2Bit,data/raw/wechat/2026-02-11.md
+H00011,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,3,GPT-5.2; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-11.md
+H00012,2026-02-11,6,OpenAI更新Responses API支持Agent任务,2,OpenAI; Responses API,data/raw/wechat/2026-02-11.md
+H00013,2026-02-11,7,Claude Code Desktop引入YOLO模式,2,--dangerously-skip-permissions; Claude Code Desktop,data/raw/wechat/2026-02-11.md
+H00014,2026-02-11,8,Warp推出Oz云原生Agent编排平台,2,Oz; Warp,data/raw/wechat/2026-02-11.md
+H00015,2026-02-11,9,Antigravity 向 Pro 账户提供 Claude Opus 4.6,2,Claude Opus 4.6; Google,data/raw/wechat/2026-02-11.md
+H00016,2026-02-11,10,Gemini 发布 Gemini API skills,2,gemini-skills; Google,data/raw/wechat/2026-02-11.md
+H00017,2026-02-11,11,Entire成立并获6000万美元种子融资,2,Entire; Thomas Dohmke,data/raw/wechat/2026-02-11.md
+H00018,2026-02-11,13,Anthropic发布Windows版Claude Cowork,2,Anthropic; Claude Cowork,data/raw/wechat/2026-02-11.md
+H00019,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,3,ChatGPT Deep Research; GPT-5.2; OpenAI,data/raw/wechat/2026-02-11.md
+H00020,2026-02-11,17,Obsidian发布Obsidian CLI,2,Obsidian; Obsidian CLI,data/raw/wechat/2026-02-11.md
+H00021,2026-02-11,20,Nebius收购Tavily,2,Nebius; Tavily,data/raw/wechat/2026-02-11.md

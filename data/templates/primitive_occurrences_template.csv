@@ -1,0 +1,2 @@
+occurrence_id,date,item_no,item_title,primitive,primitive_type,raw_file
+O00001,2026-02-12,1,示例条目,ExampleTerm,Company,data/raw/wechat/2026-02-12.md
