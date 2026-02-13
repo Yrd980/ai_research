@@ -937,3 +937,8 @@
   - `git diff --check` 初次失败，发现 `data/raw/wechat/2026-02-06.md` 两处 trailing whitespace，已修复后通过。
   - 变更文件凭据扫描（高风险 token/私钥/JWT 模式）最终结果 `secret_hits=0`。
 - 门禁结论：安全检查通过，可进入 `git add/commit/push`。
+- 发布流程结果：安全门禁通过后完成提交与推送。
+- 发布 commit：`9a9371c`（main -> origin/main）。
+- 过程异常与处置：
+  - 初次提交出现 `.git/index.lock`（并发 git 操作导致），确认无活跃 git 进程后清理锁并重试成功。
+  - 一次并发 `push` 先于 `commit` 执行导致提示 `Everything up-to-date`，已补跑顺序 `git push` 并确认远端更新。

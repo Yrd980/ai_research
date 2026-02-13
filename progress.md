@@ -320,3 +320,6 @@
 - 发布前安全检查：`git diff --check` 与变更文件凭据扫描（AKIA/ghp_/sk-/私钥/JWT/Bearer token value）执行完成。
 - 修复项：`data/raw/wechat/2026-02-06.md` 两处 trailing whitespace 已清理。
 - 安全结论：门禁通过，允许进入 `git add`/`commit`/`push`。
+- 发布执行：`git commit -m "Backfill Feb raw full text, rebuild processed tables, finalize M&A normalization"` 成功，生成 commit `9a9371c`。
+- 推送执行：顺序 `git push` 成功，远端更新 `cddeb91..9a9371c (main -> origin/main)`。
+- 发布过程错误恢复：处理 `.git/index.lock` 冲突后重试通过；并发时序导致的“up-to-date”已通过补跑顺序 push 校正。
