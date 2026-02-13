@@ -1,5 +1,4 @@
 term_id,term,term_type,status,notes
-trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,active,Claude Code参数
 trm_acc,ACC,Metric,active,准确率指标
 trm_alejandro-matamala,Alejandro Matamala,Person,active,Runway联合创始人
 trm_alphabet-inc,Alphabet Inc.,Company,active,wikidata ownership relation
@@ -23,6 +22,7 @@ trm_bytedance,ByteDance,Company,active,含豆包与Seedream线
 trm_carplay,CarPlay,Product,active,苹果车载系统
 trm_catpaw,CatPaw,Product,active,美团AI编程工具
 trm_chatgpt,ChatGPT,Product,active,external expansion from official source
+trm_chatgpt-ads-test,ChatGPT Ads Test,Product,active,广告商业化测试
 trm_chatgpt-deep-research,ChatGPT Deep Research,Product,active,升级到GPT-5.2
 trm_chen-yidan,Chen Yidan,Person,active,wikidata founder relation
 trm_chris-hughes,Chris Hughes,Person,active,wikidata founder relation
@@ -39,6 +39,7 @@ trm_composer-1-5,Composer 1.5,Model,active,Cursor编程模型
 trm_context-engine-mcp,Context Engine MCP,Product,active,MCP语义引擎
 trm_cristobal-valenzuela,Cristobal Valenzuela,Person,active,Runway联合创始人
 trm_cursor,Cursor,Company,active,Composer 1.5
+trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,active,Claude Code参数
 trm_daniel-xu,Daniel Xu,Person,active,wikidata founder relation
 trm_daniela-amodei,Daniela Amodei,Person,active,Anthropic联合创始人
 trm_dario-amodei,Dario Amodei,Person,active,Anthropic联合创始人
@@ -154,8 +155,8 @@ trm_gh-repo-huggingface-screensuite,GH Repo: huggingface/screensuite,Project,act
 trm_gh-repo-huggingface-swift-huggingface,GH Repo: huggingface/swift-huggingface,Project,active,github official repository
 trm_gh-repo-huggingface-tau2-bench,GH Repo: huggingface/tau2-bench,Project,active,github official repository
 trm_gh-repo-huggingface-torchtitan,GH Repo: huggingface/torchtitan,Project,active,github official repository
-trm_gh-repo-huggingface-transformers-research-projects,GH Repo: huggingface/transformers-research-projects,Project,active,github official repository
 trm_gh-repo-huggingface-transformers-js-benchmarking,GH Repo: huggingface/transformers.js-benchmarking,Project,active,github official repository
+trm_gh-repo-huggingface-transformers-research-projects,GH Repo: huggingface/transformers-research-projects,Project,active,github official repository
 trm_gh-repo-huggingface-trl-jobs,GH Repo: huggingface/trl-jobs,Project,active,github official repository
 trm_gh-repo-huggingface-ultravox,GH Repo: huggingface/ultravox,Project,active,github official repository
 trm_gh-repo-huggingface-upskill,GH Repo: huggingface/upskill,Project,active,github official repository
@@ -293,9 +294,9 @@ trm_gh-repo-xai-org-grok-prompts,GH Repo: xai-org/grok-prompts,Project,active,gi
 trm_gh-repo-xai-org-xai-cookbook,GH Repo: xai-org/xai-cookbook,Project,active,github official repository
 trm_gh-repo-xai-org-xai-proto,GH Repo: xai-org/xai-proto,Project,active,github official repository
 trm_gh-repo-xai-org-xai-sdk-python,GH Repo: xai-org/xai-sdk-python,Project,active,github official repository
+trm_glm-5,GLM-5,Model,active,智谱新模型传闻
 trm_glm-coding-plan,GLM Coding Plan,Product,active,智谱订阅方案
 trm_glm-in-excel,GLM in Excel,Product,active,智谱Excel插件
-trm_glm-5,GLM-5,Model,active,智谱新模型传闻
 trm_google,Google,Company,active,含Gemini/Stitch/Chrome线
 trm_google-ai-studio,Google AI Studio,Product,active,谷歌开发平台更新
 trm_google-stitch-figma-export,Google Stitch Figma Export,Product,active,Figma导出
@@ -740,6 +741,7 @@ trm_stitch,Stitch,Product,active,Google设计产品
 trm_sugon,Sugon,Company,active,中科曙光英文名
 trm_tavily,Tavily,Company,active,agentic search
 trm_tencent,Tencent,Company,active,混元与CodeBuddy线
+trm_doubao-new-year-cn,豆包过年,Campaign,active,春晚联名活动
 trm_thomas-dohmke,Thomas Dohmke,Person,active,Entire创始人
 trm_timoth-e-lacroix,Timothée Lacroix,Person,active,wikidata founder relation
 trm_tony-wu,Tony Wu,Person,active,wikidata founder relation

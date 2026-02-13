@@ -1,411 +1,261 @@
 edge_id,term_id_a,term_a,term_id_b,term_b,cooccurrence_count,sample_refs
-TE00001,trm_gpt-5-2,GPT-5.2,trm_openai,OpenAI,4,2|OpenAI 宣布 GPT-5.2 系列模型提速 40%|data/raw/wechat/2026-02-04.md; 5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md; 15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md; 4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
-TE00002,trm_gpt-5-3-codex,GPT-5.3-Codex,trm_openai,OpenAI,4,2|OpenAI发布GPT-5.3-Codex|data/raw/wechat/2026-02-06.md; 5|OpenAI 推出 Trusted Access for Cyber 试点项目|data/raw/wechat/2026-02-06.md; 5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md; 5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md
-TE00003,trm_anthropic,Anthropic,trm_claude-opus-4-6,Claude Opus 4.6,3,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md; 1|Anthropic推出Claude Opus 4.6快速模式|data/raw/wechat/2026-02-08.md; 24|Anthropic发布Claude Opus 4.6破坏风险报告|data/raw/wechat/2026-02-12.md
-TE00004,trm_anthropic,Anthropic,trm_claude-cowork,Claude Cowork,1,13|Anthropic发布Windows版Claude Cowork|data/raw/wechat/2026-02-11.md
-TE00005,trm_augment-code,Augment Code,trm_context-engine-mcp,Context Engine MCP,1,2|Augment Code正式上线Context Engine MCP|data/raw/wechat/2026-02-08.md
-TE00006,trm_aurora-alpha,Aurora Alpha,trm_openrouter,OpenRouter,1,3|OpenRouter上线 stealth 模型 Aurora Alpha|data/raw/wechat/2026-02-10.md
-TE00007,trm_avocado,Avocado,trm_avocado-thinking,Avocado Thinking,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00008,trm_avocado,Avocado,trm_big-brain,Big Brain,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00009,trm_avocado,Avocado,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00010,trm_avocado,Avocado,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00011,trm_avocado-thinking,Avocado Thinking,trm_big-brain,Big Brain,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00012,trm_avocado-thinking,Avocado Thinking,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00013,trm_avocado-thinking,Avocado Thinking,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00014,trm_big-brain,Big Brain,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00015,trm_big-brain,Big Brain,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00016,trm_brendan-gregg,Brendan Gregg,trm_openai,OpenAI,1,3|OpenAI引入性能专家优化数据中心成本|data/raw/wechat/2026-02-08.md
-TE00017,trm_chatgpt-deep-research,ChatGPT Deep Research,trm_gpt-5-2,GPT-5.2,1,15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md
-TE00018,trm_chatgpt-deep-research,ChatGPT Deep Research,trm_openai,OpenAI,1,15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md
-TE00019,trm_claude-code-desktop,Claude Code Desktop,trm_dangerously-skip-permissions,--dangerously-skip-permissions,1,7|Claude Code Desktop引入YOLO模式|data/raw/wechat/2026-02-11.md
-TE00020,trm_claude-opus-4-6,Claude Opus 4.6,trm_google,Google,1,9|Antigravity 向 Pro 账户提供 Claude Opus 4.6|data/raw/wechat/2026-02-11.md
-TE00021,trm_codex-alpha,Codex Alpha,trm_openai,OpenAI,1,25|OpenAI开放Windows版Codex Alpha候补|data/raw/wechat/2026-02-12.md
-TE00022,trm_composer-1-5,Composer 1.5,trm_cursor,Cursor,1,4|Cursor 上线编程模型 Composer 1.5|data/raw/wechat/2026-02-10.md
-TE00023,trm_cursor,Cursor,trm_gpt-5-3-codex,GPT-5.3-Codex,1,5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md
-TE00024,trm_cursor,Cursor,trm_openai,OpenAI,1,5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md
-TE00025,trm_dime,Dime,trm_openai,OpenAI,1,10|OpenAI 将于今年推出AI硬件 Dime 智能耳机|data/raw/wechat/2026-02-07.md
-TE00026,trm_droid-agent,Droid Agent,trm_factory,Factory,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
-TE00027,trm_droid-agent,Droid Agent,trm_jetbrains,JetBrains,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
-TE00028,trm_dsa,DSA,trm_glm-5,GLM-5,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
-TE00029,trm_dsa,DSA,trm_mtp,MTP,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
-TE00030,trm_entire,Entire,trm_thomas-dohmke,Thomas Dohmke,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
-TE00031,trm_factory,Factory,trm_jetbrains,JetBrains,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
-TE00032,trm_gated-deltanet,Gated DeltaNet,trm_hugging-face,Hugging Face,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00033,trm_gated-deltanet,Gated DeltaNet,trm_qwen-3-5,Qwen 3.5,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00034,trm_gated-deltanet,Gated DeltaNet,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00035,trm_gated-deltanet,Gated DeltaNet,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00036,trm_gemini-deep-think,Gemini Deep Think,trm_google,Google,1,22|Gemini Deep Think 攻克科研级难题|data/raw/wechat/2026-02-12.md
-TE00037,trm_gemini-skills,gemini-skills,trm_google,Google,1,10|Gemini 发布 Gemini API skills|data/raw/wechat/2026-02-11.md
-TE00038,trm_glm-5,GLM-5,trm_mtp,MTP,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
-TE00039,trm_google,Google,trm_google-ai-studio,Google AI Studio,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
-TE00040,trm_google,Google,trm_omnibar,Omnibar,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
-TE00041,trm_google,Google,trm_stitch,Stitch,1,16|Google Stitch推出Figma设计导出功能|data/raw/wechat/2026-02-11.md
-TE00042,trm_google-ai-studio,Google AI Studio,trm_omnibar,Omnibar,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
-TE00043,trm_gpt-5-2,GPT-5.2,trm_gpt-5-2-instant,GPT-5.2 Instant,1,4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
-TE00044,trm_gpt-5-2,GPT-5.2,trm_gpt-5-3-codex,GPT-5.3-Codex,1,5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md
-TE00045,trm_gpt-5-2-instant,GPT-5.2 Instant,trm_openai,OpenAI,1,4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
-TE00046,trm_grok-imagine-image,Grok Imagine Image,trm_grok-imagine-image-pro,Grok Imagine Image Pro,1,2|xAI上线Grok Imagine Image Pro 模型 API（原文）|data/raw/wechat/2026-02-09.md
-TE00047,trm_grok-imagine-image,Grok Imagine Image,trm_xai,xAI,1,2|xAI上线Grok Imagine Image Pro 模型 API（原文）|data/raw/wechat/2026-02-09.md
-TE00048,trm_grok-imagine-image-pro,Grok Imagine Image Pro,trm_xai,xAI,1,2|xAI上线Grok Imagine Image Pro 模型 API（原文）|data/raw/wechat/2026-02-09.md
-TE00049,trm_hugging-face,Hugging Face,trm_openai,OpenAI,1,1|上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro|data/raw/wechat/2026-02-05.md
-TE00050,trm_hugging-face,Hugging Face,trm_qwen-3-5,Qwen 3.5,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00051,trm_hugging-face,Hugging Face,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00052,trm_hugging-face,Hugging Face,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00053,trm_hugging-face,Hugging Face,trm_transformers-js-v4,Transformers.js v4,1,7|Hugging Face发布Transformers.js v4预览版|data/raw/wechat/2026-02-10.md
-TE00054,trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,trm_hy-1-8b-2bit,HY-1.8B-2Bit,1,4|腾讯混元发布HY-1.8B-2Bit端侧量化模型|data/raw/wechat/2026-02-11.md
-TE00055,trm_ideate-agent,Ideate Agent,trm_stitch,Stitch,1,17|Stitch推出Ideate Agent|data/raw/wechat/2026-02-12.md
-TE00056,trm_kilo-code,Kilo Code,trm_openrouter,OpenRouter,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
-TE00057,trm_kilo-code,Kilo Code,trm_pony-alpha,Pony Alpha,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
-TE00058,trm_longcat,LongCat,trm_longcat-flash-lite,LongCat-Flash-Lite,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
-TE00059,trm_meta,Meta,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado（原文）|data/raw/wechat/2026-02-09.md
-TE00060,trm_minicpm-sala,MiniCPM-SALA,trm_openbmb,OpenBMB,1,7|OpenBMB发布MiniCPM-SALA百万上下文模型|data/raw/wechat/2026-02-12.md
-TE00061,trm_minimax,MiniMax,trm_minimax-m2-5,MiniMax M2.5,1,3|MiniMax上线MiniMax M2.5|data/raw/wechat/2026-02-12.md
-TE00062,trm_model-council,Model Council,trm_perplexity,Perplexity,1,7|Perplexity推出多模型聚合问答功能|data/raw/wechat/2026-02-07.md
-TE00063,trm_mosi-ai,MOSI.AI,trm_moss-soundeffect,MOSS-SoundEffect,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00064,trm_mosi-ai,MOSI.AI,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00065,trm_mosi-ai,MOSI.AI,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00066,trm_mosi-ai,MOSI.AI,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00067,trm_mosi-ai,MOSI.AI,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00068,trm_mosi-ai,MOSI.AI,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00069,trm_mosi-ai,MOSI.AI,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00070,trm_mosi-ai,MOSI.AI,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00071,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00072,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00073,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00074,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00075,trm_moss-soundeffect,MOSS-SoundEffect,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00076,trm_moss-soundeffect,MOSS-SoundEffect,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00077,trm_moss-soundeffect,MOSS-SoundEffect,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00078,trm_moss-tts,MOSS-TTS,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00079,trm_moss-tts,MOSS-TTS,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00080,trm_moss-tts,MOSS-TTS,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00081,trm_moss-tts,MOSS-TTS,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00082,trm_moss-tts,MOSS-TTS,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00083,trm_moss-tts,MOSS-TTS,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00084,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00085,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00086,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00087,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00088,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00089,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00090,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00091,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00092,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00093,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00094,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00095,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00096,trm_mossttsdelay,MossTTSDelay,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00097,trm_mossttsdelay,MossTTSDelay,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00098,trm_mossttslocal,MossTTSLocal,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
-TE00099,trm_nebius,Nebius,trm_tavily,Tavily,1,20|Nebius收购Tavily|data/raw/wechat/2026-02-11.md
-TE00100,trm_obsidian,Obsidian,trm_obsidian-cli,Obsidian CLI,1,17|Obsidian发布Obsidian CLI|data/raw/wechat/2026-02-11.md
-TE00101,trm_openai,OpenAI,trm_openai-for-countries,OpenAI for Countries,1,4|OpenAI 推进AI模型本土化策略|data/raw/wechat/2026-02-08.md
-TE00102,trm_openai,OpenAI,trm_responses-api,Responses API,1,6|OpenAI更新Responses API支持Agent任务|data/raw/wechat/2026-02-11.md
-TE00103,trm_openai,OpenAI,trm_sora,Sora,1,6|OpenAI开放Sora真人角色视频生成功能|data/raw/wechat/2026-02-07.md
-TE00104,trm_openrouter,OpenRouter,trm_pony-alpha,Pony Alpha,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
-TE00105,trm_oz,Oz,trm_warp,Warp,1,8|Warp推出Oz云原生Agent编排平台|data/raw/wechat/2026-02-11.md
-TE00106,trm_qwen-3-5,Qwen 3.5,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00107,trm_qwen-3-5,Qwen 3.5,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00108,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布（原文）|data/raw/wechat/2026-02-09.md
-TE00109,trm_soul-ailab,Soul-AILab,trm_soulx-singer,SoulX-Singer,1,9|Soul推出SoulX-Singer歌声合成模型|data/raw/wechat/2026-02-12.md
-TE00110,trm_waymo,Waymo,trm_waymo-world-model,Waymo World Model,1,4|Waymo推出Waymo World Model|data/raw/wechat/2026-02-07.md
-TE00111,trm_x-developer-platform,X Developer Platform,trm_xai,xAI,1,5|X开发者平台上线API按量计费及xAI联动|data/raw/wechat/2026-02-07.md
-TE00112,trm_chatgpt,ChatGPT,trm_openai,OpenAI,1,ext|openai_chatgpt_overview|https://openai.com/chatgpt/overview
-TE00113,trm_openai,OpenAI,trm_openai-api,OpenAI API,1,ext|openai_api_home|https://openai.com/api/
-TE00114,trm_openai-api,OpenAI API,trm_openai-platform-docs,OpenAI Platform Docs,1,ext|openai_platform_docs|https://platform.openai.com/docs/overview
-TE00115,trm_codex-app,Codex App,trm_openai,OpenAI,1,ext|openai_codex_app|https://openai.com/index/introducing-the-codex-app/
-TE00116,trm_anthropic,Anthropic,trm_claude,Claude,1,ext|anthropic_claude_intro|https://www.anthropic.com/news/introducing-claude
-TE00117,trm_anthropic,Anthropic,trm_claude-code,Claude Code,1,ext|anthropic_claude_code|https://www.anthropic.com/claude-code
-TE00118,trm_gemini,Gemini,trm_google,Google,1,ext|google_gemini_blog|https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/
-TE00119,trm_gemini-api,Gemini API,trm_google,Google,1,ext|google_gemini_api_docs|https://ai.google.dev/gemini-api/docs
-TE00120,trm_grok,Grok,trm_xai,xAI,1,ext|xai_grok_news|https://x.ai/news/grok
-TE00121,trm_xai,xAI,trm_xai-api,xAI API,1,ext|xai_api_home|https://x.ai/api/
-TE00125,trm_anthropic,Anthropic,trm_minimax-m2-5,MiniMax M2.5,1,ext|wikipedia|MiniMax (company)
-TE00134,trm_bytedance,ByteDance,trm_minimax-m2-5,MiniMax M2.5,1,ext|wikipedia|MiniMax (company)
-TE00138,trm_chatgpt,ChatGPT,trm_minimax-m2-5,MiniMax M2.5,1,ext|wikipedia|MiniMax (company)
-TE00141,trm_claude-code,Claude Code,trm_minimax-m2-5,MiniMax M2.5,1,ext|wikipedia|MiniMax (company)
-TE01221,trm_gh-repo-openai-gabriel,GH Repo: openai/GABRIEL,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/GABRIEL
-TE01222,trm_gh-repo-openai-openai-knowledge-retrieval,GH Repo: openai/openai-knowledge-retrieval,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-knowledge-retrieval
-TE01223,trm_gh-repo-openai-openai-mcpkit,GH Repo: openai/openai-mcpkit,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-mcpkit
-TE01224,trm_gh-repo-openai-gpt-oss-safeguard,GH Repo: openai/gpt-oss-safeguard,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/gpt-oss-safeguard
-TE01225,trm_gh-repo-openai-openai-sora-sample-app,GH Repo: openai/openai-sora-sample-app,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-sora-sample-app
-TE01226,trm_gh-repo-openai-openai-apps-sdk-examples,GH Repo: openai/openai-apps-sdk-examples,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-apps-sdk-examples
-TE01227,trm_gh-repo-openai-openai-chatkit-advanced-samples,GH Repo: openai/openai-chatkit-advanced-samples,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-chatkit-advanced-samples
-TE01228,trm_gh-repo-openai-openai-chatkit-starter-app,GH Repo: openai/openai-chatkit-starter-app,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-chatkit-starter-app
-TE01229,trm_gh-repo-openai-openai-guardrails-js,GH Repo: openai/openai-guardrails-js,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-guardrails-js
-TE01230,trm_gh-repo-openai-openai-icpc-2025,GH Repo: openai/openai-icpc-2025,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-icpc-2025
-TE01231,trm_gh-repo-openai-completions-responses-migration-pack,GH Repo: openai/completions-responses-migration-pack,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/completions-responses-migration-pack
-TE01232,trm_gh-repo-openai-gpt-5-coding-examples,GH Repo: openai/gpt-5-coding-examples,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/gpt-5-coding-examples
-TE01233,trm_gh-repo-openai-harmony,GH Repo: openai/harmony,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/harmony
-TE01234,trm_gh-repo-openai-openai-reflect,GH Repo: openai/openai-reflect,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-reflect
-TE01235,trm_gh-repo-openai-gpt-oss,GH Repo: openai/gpt-oss,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/gpt-oss
-TE01236,trm_gh-repo-openai-openai-cs-agents-demo,GH Repo: openai/openai-cs-agents-demo,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-cs-agents-demo
-TE01237,trm_gh-repo-openai-openai-testing-agent-demo,GH Repo: openai/openai-testing-agent-demo,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-testing-agent-demo
-TE01238,trm_gh-repo-openai-openai-agents-js,GH Repo: openai/openai-agents-js,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-agents-js
-TE01239,trm_gh-repo-openai-openai-fm,GH Repo: openai/openai-fm,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-fm
-TE01240,trm_gh-repo-openai-codex,GH Repo: openai/codex,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/codex
-TE01241,trm_gh-repo-openai-openai-guardrails-python,GH Repo: openai/openai-guardrails-python,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-guardrails-python
-TE01242,trm_gh-repo-openai-openai-voice-agent-sdk-sample,GH Repo: openai/openai-voice-agent-sdk-sample,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-voice-agent-sdk-sample
-TE01243,trm_gh-repo-openai-frontier-evals,GH Repo: openai/frontier-evals,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/frontier-evals
-TE01244,trm_gh-repo-openai-openai-support-agent-demo,GH Repo: openai/openai-support-agent-demo,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-support-agent-demo
-TE01245,trm_gh-repo-openai-emoclassifiers,GH Repo: openai/emoclassifiers,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/emoclassifiers
-TE01246,trm_gh-repo-openai-openai-cua-sample-app,GH Repo: openai/openai-cua-sample-app,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-cua-sample-app
-TE01247,trm_gh-repo-openai-openai-responses-starter-app,GH Repo: openai/openai-responses-starter-app,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-responses-starter-app
-TE01248,trm_gh-repo-openai-openai-agents-python,GH Repo: openai/openai-agents-python,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-agents-python
-TE01249,trm_gh-repo-openai-openai-ruby,GH Repo: openai/openai-ruby,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-ruby
-TE01250,trm_gh-repo-openai-swelancer-benchmark,GH Repo: openai/SWELancer-Benchmark,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/SWELancer-Benchmark
-TE01251,trm_gh-repo-openai-model-spec,GH Repo: openai/model_spec,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/model_spec
-TE01252,trm_gh-repo-openai-openai-builder-lab-solution,GH Repo: openai/openai-builder-lab-solution,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-builder-lab-solution
-TE01253,trm_gh-repo-openai-openai-builder-lab,GH Repo: openai/openai-builder-lab,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-builder-lab
-TE01254,trm_gh-repo-openai-openai-realtime-agents,GH Repo: openai/openai-realtime-agents,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-agents
-TE01255,trm_gh-repo-openai-openai-realtime-solar-system,GH Repo: openai/openai-realtime-solar-system,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-solar-system
-TE01256,trm_gh-repo-openai-openai-realtime-twilio-demo,GH Repo: openai/openai-realtime-twilio-demo,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-twilio-demo
-TE01257,trm_gh-repo-openai-openai-structured-outputs-samples,GH Repo: openai/openai-structured-outputs-samples,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-structured-outputs-samples
-TE01258,trm_gh-repo-openai-openai-realtime-embedded,GH Repo: openai/openai-realtime-embedded,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-embedded
-TE01259,trm_gh-repo-openai-openai-java,GH Repo: openai/openai-java,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-java
-TE01260,trm_gh-repo-openai-mle-bench,GH Repo: openai/mle-bench,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/mle-bench
-TE01261,trm_gh-repo-openai-openai-realtime-api-beta,GH Repo: openai/openai-realtime-api-beta,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-api-beta
-TE01262,trm_gh-repo-openai-openai-realtime-console,GH Repo: openai/openai-realtime-console,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-realtime-console
-TE01263,trm_gh-repo-openai-openai-go,GH Repo: openai/openai-go,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-go
-TE01264,trm_gh-repo-openai-safety-rbr-code-and-data,GH Repo: openai/safety-rbr-code-and-data,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/safety-rbr-code-and-data
-TE01265,trm_gh-repo-openai-gpts-are-gpts,GH Repo: openai/GPTs-are-GPTs,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/GPTs-are-GPTs
-TE01266,trm_gh-repo-openai-openai-assistants-quickstart,GH Repo: openai/openai-assistants-quickstart,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-assistants-quickstart
-TE01267,trm_gh-repo-openai-openai-dotnet,GH Repo: openai/openai-dotnet,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-dotnet
-TE01268,trm_gh-repo-openai-simple-evals,GH Repo: openai/simple-evals,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/simple-evals
-TE01269,trm_gh-repo-openai-main-branch-check-action,GH Repo: openai/main-branch-check-action,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/main-branch-check-action
-TE01270,trm_gh-repo-openai-transformer-debugger,GH Repo: openai/transformer-debugger,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/transformer-debugger
-TE01271,trm_gh-repo-openai-swarm,GH Repo: openai/swarm,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/swarm
-TE01272,trm_gh-repo-openai-openai-security-bots,GH Repo: openai/openai-security-bots,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-security-bots
-TE01273,trm_gh-repo-openai-chef-cookbook-hostname,GH Repo: openai/chef-cookbook-hostname,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/chef-cookbook-hostname
-TE01274,trm_gh-repo-openai-bugbounty-gpt,GH Repo: openai/bugbounty-gpt,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/bugbounty-gpt
-TE01275,trm_gh-repo-openai-openai-deno-build,GH Repo: openai/openai-deno-build,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-deno-build
-TE01276,trm_gh-repo-openai-dalle3-eval-samples,GH Repo: openai/dalle3-eval-samples,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/dalle3-eval-samples
-TE01277,trm_gh-repo-openai-web-crawl-q-and-a-example,GH Repo: openai/web-crawl-q-and-a-example,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/web-crawl-q-and-a-example
-TE01278,trm_gh-repo-openai-compose-richtext,GH Repo: openai/compose-richtext,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/compose-richtext
-TE01279,trm_gh-repo-openai-consistency-models-cifar10,GH Repo: openai/consistency_models_cifar10,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/consistency_models_cifar10
-TE01280,trm_gh-repo-openai-prm800k,GH Repo: openai/prm800k,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/prm800k
-TE01281,trm_gh-repo-openai-plugins-quickstart,GH Repo: openai/plugins-quickstart,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/plugins-quickstart
-TE01282,trm_gh-repo-openai-chatgpt-retrieval-plugin,GH Repo: openai/chatgpt-retrieval-plugin,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/chatgpt-retrieval-plugin
-TE01283,trm_gh-repo-openai-consistency-models,GH Repo: openai/consistency_models,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/consistency_models
-TE01284,trm_gh-repo-openai-evals,GH Repo: openai/evals,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/evals
-TE01285,trm_gh-repo-openai-gpt-discord-bot,GH Repo: openai/gpt-discord-bot,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/gpt-discord-bot
-TE01286,trm_gh-repo-openai-point-e,GH Repo: openai/point-e,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/point-e
-TE01287,trm_gh-repo-openai-tiktoken,GH Repo: openai/tiktoken,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/tiktoken
-TE01288,trm_gh-repo-openai-dallify-discord-bot,GH Repo: openai/dallify-discord-bot,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/dallify-discord-bot
-TE01289,trm_gh-repo-openai-whisper,GH Repo: openai/whisper,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/whisper
-TE01290,trm_gh-repo-openai-human-eval-infilling,GH Repo: openai/human-eval-infilling,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/human-eval-infilling
-TE01291,trm_gh-repo-openai-video-pre-training,GH Repo: openai/Video-Pre-Training,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/Video-Pre-Training
-TE01292,trm_gh-repo-openai-openai-cookbook,GH Repo: openai/openai-cookbook,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-cookbook
-TE01293,trm_gh-repo-openai-openai-quickstart-node,GH Repo: openai/openai-quickstart-node,trm_openai,OpenAI,1,ext|github_api|https://github.com/openai/openai-quickstart-node
-TE01294,trm_gh-repo-huggingface-upskill,GH Repo: huggingface/upskill,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/upskill
-TE01295,trm_gh-repo-huggingface-community-evals,GH Repo: huggingface/community-evals,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/community-evals
-TE01296,trm_gh-repo-huggingface-hf-agent,GH Repo: huggingface/hf_agent,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/hf_agent
-TE01297,trm_gh-repo-huggingface-swift-huggingface,GH Repo: huggingface/swift-huggingface,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/swift-huggingface
-TE01298,trm_gh-repo-huggingface-inference-providers-starter-app,GH Repo: huggingface/inference-providers-starter-app,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/inference-providers-starter-app
-TE01299,trm_gh-repo-huggingface-meta-agents-research-environments,GH Repo: huggingface/meta-agents-research-environments,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/meta-agents-research-environments
-TE01300,trm_gh-repo-huggingface-jupyter-agent,GH Repo: huggingface/jupyter-agent,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/jupyter-agent
-TE01301,trm_gh-repo-huggingface-huggingface-vscode-chat,GH Repo: huggingface/huggingface-vscode-chat,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/huggingface-vscode-chat
-TE01302,trm_gh-repo-huggingface-mcp-bench,GH Repo: huggingface/mcp-bench,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/mcp-bench
-TE01303,trm_gh-repo-huggingface-candle-wax,GH Repo: huggingface/candle_wax,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/candle_wax
-TE01304,trm_gh-repo-huggingface-egl-probe,GH Repo: huggingface/egl_probe,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/egl_probe
-TE01305,trm_gh-repo-huggingface-gpt-oss-recipes,GH Repo: huggingface/gpt-oss-recipes,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/gpt-oss-recipes
-TE01306,trm_gh-repo-huggingface-torchtitan,GH Repo: huggingface/torchtitan,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/torchtitan
-TE01307,trm_gh-repo-huggingface-gorilla,GH Repo: huggingface/gorilla,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/gorilla
-TE01308,trm_gh-repo-huggingface-tau2-bench,GH Repo: huggingface/tau2-bench,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/tau2-bench
-TE01309,trm_gh-repo-huggingface-new-model-addition-cwm,GH Repo: huggingface/new-model-addition-cwm,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/new-model-addition-cwm
-TE01310,trm_gh-repo-huggingface-screenenv,GH Repo: huggingface/screenenv,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/screenenv
-TE01311,trm_gh-repo-huggingface-lora-fast,GH Repo: huggingface/lora-fast,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/lora-fast
-TE01312,trm_gh-repo-huggingface-responses-js,GH Repo: huggingface/responses.js,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/responses.js
-TE01313,trm_gh-repo-huggingface-datasets-course,GH Repo: huggingface/datasets-course,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/datasets-course
-TE01314,trm_gh-repo-huggingface-arena-hard-auto,GH Repo: huggingface/arena-hard-auto,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/arena-hard-auto
-TE01315,trm_gh-repo-huggingface-huggingface-gemma-recipes,GH Repo: huggingface/huggingface-gemma-recipes,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/huggingface-gemma-recipes
-TE01316,trm_gh-repo-huggingface-vllm-dca,GH Repo: huggingface/vllm-dca,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/vllm-dca
-TE01317,trm_gh-repo-huggingface-hugex,GH Repo: huggingface/hugex,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/hugex
-TE01318,trm_gh-repo-huggingface-multi-if,GH Repo: huggingface/Multi-IF,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/Multi-IF
-TE01319,trm_gh-repo-huggingface-optimum-onnx,GH Repo: huggingface/optimum-onnx,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/optimum-onnx
-TE01320,trm_gh-repo-huggingface-trl-jobs,GH Repo: huggingface/trl-jobs,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/trl-jobs
-TE01321,trm_gh-repo-huggingface-prime,GH Repo: huggingface/prime,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/prime
-TE01322,trm_gh-repo-huggingface-mergekit,GH Repo: huggingface/mergekit,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/mergekit
-TE01323,trm_gh-repo-huggingface-nanovlm,GH Repo: huggingface/nanoVLM,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/nanoVLM
-TE01324,trm_gh-repo-huggingface-wikirace-llms,GH Repo: huggingface/wikirace-llms,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/wikirace-llms
-TE01325,trm_gh-repo-huggingface-dell-ai,GH Repo: huggingface/dell-ai,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/dell-ai
-TE01326,trm_gh-repo-huggingface-llm-course,GH Repo: huggingface/llm-course,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/llm-course
-TE01327,trm_gh-repo-huggingface-hfendpoints,GH Repo: huggingface/hfendpoints,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/hfendpoints
-TE01328,trm_gh-repo-huggingface-transformers-research-projects,GH Repo: huggingface/transformers-research-projects,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/transformers-research-projects
-TE01329,trm_gh-repo-huggingface-screensuite,GH Repo: huggingface/screensuite,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/screensuite
-TE01330,trm_gh-repo-huggingface-ai-deadlines,GH Repo: huggingface/ai-deadlines,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/ai-deadlines
-TE01331,trm_gh-repo-huggingface-qwen2-5-coder,GH Repo: huggingface/Qwen2.5-Coder,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/Qwen2.5-Coder
-TE01332,trm_gh-repo-huggingface-ultravox,GH Repo: huggingface/ultravox,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/ultravox
-TE01333,trm_gh-repo-huggingface-ai-hardware-leaderboard,GH Repo: huggingface/ai-hardware-leaderboard,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/ai-hardware-leaderboard
-TE01334,trm_gh-repo-huggingface-transformers-js-benchmarking,GH Repo: huggingface/transformers.js-benchmarking,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/transformers.js-benchmarking
-TE01335,trm_gh-repo-huggingface-lor-e,GH Repo: huggingface/lor-e,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/lor-e
-TE01336,trm_gh-repo-huggingface-yourbench,GH Repo: huggingface/yourbench,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/yourbench
-TE01337,trm_gh-repo-huggingface-agents-course,GH Repo: huggingface/agents-course,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/agents-course
-TE01338,trm_gh-repo-huggingface-aisheets,GH Repo: huggingface/aisheets,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/aisheets
-TE01339,trm_gh-repo-huggingface-ai-blueprint,GH Repo: huggingface/ai-blueprint,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/ai-blueprint
-TE01340,trm_gh-repo-huggingface-video-dataset-scripts,GH Repo: huggingface/video-dataset-scripts,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/video-dataset-scripts
-TE01341,trm_gh-repo-huggingface-ember,GH Repo: huggingface/ember,trm_hugging-face,Hugging Face,1,ext|github_api|https://github.com/huggingface/ember
-TE01342,trm_anthropic,Anthropic,trm_gh-repo-anthropics-nix-eval-jobs,GH Repo: anthropics/nix-eval-jobs,1,ext|github_api|https://github.com/anthropics/nix-eval-jobs
-TE01343,trm_anthropic,Anthropic,trm_gh-repo-anthropics-tailscale-hint-extension,GH Repo: anthropics/tailscale-hint-extension,1,ext|github_api|https://github.com/anthropics/tailscale-hint-extension
-TE01344,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-ai-mcp,GH Repo: anthropics/claude-ai-mcp,1,ext|github_api|https://github.com/anthropics/claude-ai-mcp
-TE01345,trm_anthropic,Anthropic,trm_gh-repo-anthropics-model-cards,GH Repo: anthropics/model-cards,1,ext|github_api|https://github.com/anthropics/model-cards
-TE01346,trm_anthropic,Anthropic,trm_gh-repo-anthropics-riv2025-long-horizon-coding-agent-demo,GH Repo: anthropics/riv2025-long-horizon-coding-agent-demo,1,ext|github_api|https://github.com/anthropics/riv2025-long-horizon-coding-agent-demo
-TE01347,trm_anthropic,Anthropic,trm_gh-repo-anthropics-political-neutrality-eval,GH Repo: anthropics/political-neutrality-eval,1,ext|github_api|https://github.com/anthropics/political-neutrality-eval
-TE01348,trm_anthropic,Anthropic,trm_gh-repo-anthropics-rclone,GH Repo: anthropics/rclone,1,ext|github_api|https://github.com/anthropics/rclone
-TE01349,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-agent-sdk-typescript,GH Repo: anthropics/claude-agent-sdk-typescript,1,ext|github_api|https://github.com/anthropics/claude-agent-sdk-typescript
-TE01350,trm_anthropic,Anthropic,trm_gh-repo-anthropics-skills,GH Repo: anthropics/skills,1,ext|github_api|https://github.com/anthropics/skills
-TE01351,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-agent-sdk-demos,GH Repo: anthropics/claude-agent-sdk-demos,1,ext|github_api|https://github.com/anthropics/claude-agent-sdk-demos
-TE01352,trm_anthropic,Anthropic,trm_gh-repo-anthropics-beam,GH Repo: anthropics/beam,1,ext|github_api|https://github.com/anthropics/beam
-TE01353,trm_anthropic,Anthropic,trm_gh-repo-anthropics-anthropic-sdk-csharp,GH Repo: anthropics/anthropic-sdk-csharp,1,ext|github_api|https://github.com/anthropics/anthropic-sdk-csharp
-TE01354,trm_anthropic,Anthropic,trm_gh-repo-anthropics-anthropic-sdk-php,GH Repo: anthropics/anthropic-sdk-php,1,ext|github_api|https://github.com/anthropics/anthropic-sdk-php
-TE01355,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-code-security-review,GH Repo: anthropics/claude-code-security-review,1,ext|github_api|https://github.com/anthropics/claude-code-security-review
-TE01356,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-agent-sdk-python,GH Repo: anthropics/claude-agent-sdk-python,1,ext|github_api|https://github.com/anthropics/claude-agent-sdk-python
-TE01357,trm_anthropic,Anthropic,trm_gh-repo-anthropics-attribution-graphs-frontend,GH Repo: anthropics/attribution-graphs-frontend,1,ext|github_api|https://github.com/anthropics/attribution-graphs-frontend
-TE01358,trm_anthropic,Anthropic,trm_gh-repo-anthropics-devcontainer-features,GH Repo: anthropics/devcontainer-features,1,ext|github_api|https://github.com/anthropics/devcontainer-features
-TE01359,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-code,GH Repo: anthropics/claude-code,1,ext|github_api|https://github.com/anthropics/claude-code
-TE01360,trm_anthropic,Anthropic,trm_gh-repo-anthropics-rogue-deploy-eval,GH Repo: anthropics/rogue-deploy-eval,1,ext|github_api|https://github.com/anthropics/rogue-deploy-eval
-TE01361,trm_anthropic,Anthropic,trm_gh-repo-anthropics-anthropic-sdk-go,GH Repo: anthropics/anthropic-sdk-go,1,ext|github_api|https://github.com/anthropics/anthropic-sdk-go
-TE01362,trm_anthropic,Anthropic,trm_gh-repo-anthropics-prompt-eng-interactive-tutorial,GH Repo: anthropics/prompt-eng-interactive-tutorial,1,ext|github_api|https://github.com/anthropics/prompt-eng-interactive-tutorial
-TE01363,trm_anthropic,Anthropic,trm_gh-repo-anthropics-sleeper-agents-paper,GH Repo: anthropics/sleeper-agents-paper,1,ext|github_api|https://github.com/anthropics/sleeper-agents-paper
-TE01364,trm_anthropic,Anthropic,trm_gh-repo-anthropics-anthropic-retrieval-demo,GH Repo: anthropics/anthropic-retrieval-demo,1,ext|github_api|https://github.com/anthropics/anthropic-retrieval-demo
-TE01365,trm_anthropic,Anthropic,trm_gh-repo-anthropics-claude-cookbooks,GH Repo: anthropics/claude-cookbooks,1,ext|github_api|https://github.com/anthropics/claude-cookbooks
-TE01366,trm_anthropic,Anthropic,trm_gh-repo-anthropics-decompositionfaithfulnesspaper,GH Repo: anthropics/DecompositionFaithfulnessPaper,1,ext|github_api|https://github.com/anthropics/DecompositionFaithfulnessPaper
-TE01367,trm_anthropic,Anthropic,trm_gh-repo-anthropics-anthropic-sdk-typescript,GH Repo: anthropics/anthropic-sdk-typescript,1,ext|github_api|https://github.com/anthropics/anthropic-sdk-typescript
-TE01368,trm_anthropic,Anthropic,trm_gh-repo-anthropics-evals,GH Repo: anthropics/evals,1,ext|github_api|https://github.com/anthropics/evals
-TE01369,trm_anthropic,Anthropic,trm_gh-repo-anthropics-constitutionalharmlessnesspaper,GH Repo: anthropics/ConstitutionalHarmlessnessPaper,1,ext|github_api|https://github.com/anthropics/ConstitutionalHarmlessnessPaper
-TE01370,trm_anthropic,Anthropic,trm_gh-repo-anthropics-toy-models-of-superposition,GH Repo: anthropics/toy-models-of-superposition,1,ext|github_api|https://github.com/anthropics/toy-models-of-superposition
-TE01371,trm_anthropic,Anthropic,trm_gh-repo-anthropics-hh-rlhf,GH Repo: anthropics/hh-rlhf,1,ext|github_api|https://github.com/anthropics/hh-rlhf
-TE01372,trm_anthropic,Anthropic,trm_gh-repo-anthropics-pysvelte,GH Repo: anthropics/PySvelte,1,ext|github_api|https://github.com/anthropics/PySvelte
-TE01373,trm_gh-repo-meta-llama-llama-verifications,GH Repo: meta-llama/llama-verifications,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/llama-verifications
-TE01374,trm_gh-repo-meta-llama-prompt-ops,GH Repo: meta-llama/prompt-ops,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/prompt-ops
-TE01375,trm_gh-repo-meta-llama-llama-models,GH Repo: meta-llama/llama-models,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/llama-models
-TE01376,trm_gh-repo-meta-llama-purplellama,GH Repo: meta-llama/PurpleLlama,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/PurpleLlama
-TE01377,trm_gh-repo-meta-llama-codellama,GH Repo: meta-llama/codellama,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/codellama
-TE01378,trm_gh-repo-meta-llama-llama-cookbook,GH Repo: meta-llama/llama-cookbook,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/llama-cookbook
-TE01379,trm_gh-repo-meta-llama-llama,GH Repo: meta-llama/llama,trm_meta,Meta,1,ext|github_api|https://github.com/meta-llama/llama
-TE01380,trm_gh-repo-xai-org-xai-proto,GH Repo: xai-org/xai-proto,trm_xai,xAI,1,ext|github_api|https://github.com/xai-org/xai-proto
-TE01381,trm_gh-repo-xai-org-xai-sdk-python,GH Repo: xai-org/xai-sdk-python,trm_xai,xAI,1,ext|github_api|https://github.com/xai-org/xai-sdk-python
-TE01382,trm_gh-repo-xai-org-grok-prompts,GH Repo: xai-org/grok-prompts,trm_xai,xAI,1,ext|github_api|https://github.com/xai-org/grok-prompts
-TE01383,trm_gh-repo-xai-org-xai-cookbook,GH Repo: xai-org/xai-cookbook,trm_xai,xAI,1,ext|github_api|https://github.com/xai-org/xai-cookbook
-TE01384,trm_gh-repo-mistralai-flyte,GH Repo: mistralai/flyte,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/flyte
-TE01385,trm_gh-repo-mistralai-mistral-vibe,GH Repo: mistralai/mistral-vibe,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/mistral-vibe
-TE01386,trm_gh-repo-mistralai-agent-client-protocol,GH Repo: mistralai/agent-client-protocol,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/agent-client-protocol
-TE01387,trm_gh-repo-mistralai-llm-d-inference-scheduler-public,GH Repo: mistralai/llm-d-inference-scheduler-public,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/llm-d-inference-scheduler-public
-TE01388,trm_gh-repo-mistralai-llm-d-kv-cache-manager-public,GH Repo: mistralai/llm-d-kv-cache-manager-public,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/llm-d-kv-cache-manager-public
-TE01389,trm_gh-repo-mistralai-gateway-api-inference-extension-public,GH Repo: mistralai/gateway-api-inference-extension-public,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/gateway-api-inference-extension-public
-TE01390,trm_gh-repo-mistralai-mistral-evals,GH Repo: mistralai/mistral-evals,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/mistral-evals
-TE01391,trm_gh-repo-mistralai-client-ts,GH Repo: mistralai/client-ts,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/client-ts
-TE01392,trm_gh-repo-mistralai-sagemaker-docs,GH Repo: mistralai/sagemaker-docs,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/sagemaker-docs
-TE01393,trm_gh-repo-mistralai-mistral-common,GH Repo: mistralai/mistral-common,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/mistral-common
-TE01394,trm_gh-repo-mistralai-tensorrt-llm,GH Repo: mistralai/TensorRT-LLM,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/TensorRT-LLM
-TE01395,trm_gh-repo-mistralai-cookbook,GH Repo: mistralai/cookbook,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/cookbook
-TE01396,trm_gh-repo-mistralai-client-js,GH Repo: mistralai/client-js,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/client-js
-TE01397,trm_gh-repo-mistralai-client-python,GH Repo: mistralai/client-python,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/client-python
-TE01398,trm_gh-repo-mistralai-fastchat-release,GH Repo: mistralai/FastChat-release,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/FastChat-release
-TE01399,trm_gh-repo-mistralai-mistral-inference,GH Repo: mistralai/mistral-inference,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/mistral-inference
-TE01400,trm_gh-repo-mistralai-vllm-release,GH Repo: mistralai/vllm-release,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/vllm-release
-TE01401,trm_gh-repo-mistralai-transformers-release,GH Repo: mistralai/transformers-release,trm_mistral-ai,Mistral AI,1,ext|github_api|https://github.com/mistralai/transformers-release
-TE01402,trm_gh-repo-tencent-ksanadit,GH Repo: Tencent/KsanaDiT,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/KsanaDiT
-TE01403,trm_gh-repo-tencent-hpc-ops,GH Repo: Tencent/hpc-ops,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/hpc-ops
-TE01404,trm_gh-repo-tencent-finllm-eval,GH Repo: Tencent/finLLM-Eval,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/finLLM-Eval
-TE01405,trm_gh-repo-tencent-yolo-master,GH Repo: Tencent/YOLO-Master,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/YOLO-Master
-TE01406,trm_gh-repo-tencent-wedlm,GH Repo: Tencent/WeDLM,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/WeDLM
-TE01407,trm_gh-repo-tencent-cognitivekernel-pro,GH Repo: Tencent/CognitiveKernel-Pro,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/CognitiveKernel-Pro
-TE01408,trm_gh-repo-tencent-weknora,GH Repo: Tencent/WeKnora,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/WeKnora
-TE01409,trm_gh-repo-tencent-raif,GH Repo: Tencent/RAIF,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/RAIF
-TE01410,trm_gh-repo-tencent-aicgseceval,GH Repo: Tencent/AICGSecEval,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/AICGSecEval
-TE01411,trm_gh-repo-tencent-angelslim,GH Repo: Tencent/AngelSlim,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/AngelSlim
-TE01412,trm_gh-repo-tencent-wildspeech-bench,GH Repo: Tencent/WildSpeech-Bench,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/WildSpeech-Bench
-TE01413,trm_gh-repo-tencent-selfevolvingagent,GH Repo: Tencent/SelfEvolvingAgent,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/SelfEvolvingAgent
-TE01414,trm_gh-repo-tencent-llm-hunyuan-t1,GH Repo: Tencent/llm.hunyuan.T1,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/llm.hunyuan.T1
-TE01415,trm_gh-repo-tencent-haplovlm,GH Repo: Tencent/HaploVLM,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/HaploVLM
-TE01416,trm_gh-repo-tencent-ai-infra-guard,GH Repo: Tencent/AI-Infra-Guard,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/AI-Infra-Guard
-TE01417,trm_gh-repo-tencent-vita,GH Repo: Tencent/VITA,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/VITA
-TE01418,trm_gh-repo-tencent-nf-tencentcloud,GH Repo: Tencent/nf-tencentcloud,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/nf-tencentcloud
-TE01419,trm_gh-repo-tencent-ksanallm,GH Repo: Tencent/KsanaLLM,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/KsanaLLM
-TE01420,trm_gh-repo-tencent-lightdiffusionflow,GH Repo: Tencent/LightDiffusionFlow,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/LightDiffusionFlow
-TE01421,trm_gh-repo-tencent-fast-causal-inference,GH Repo: Tencent/fast-causal-inference,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/fast-causal-inference
-TE01422,trm_gh-repo-tencent-tclainit,GH Repo: Tencent/TClaInit,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/TClaInit
-TE01423,trm_gh-repo-tencent-tencentpretrain,GH Repo: Tencent/TencentPretrain,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/TencentPretrain
-TE01424,trm_gh-repo-tencent-tencentkonasmsuite,GH Repo: Tencent/TencentKonaSMSuite,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/TencentKonaSMSuite
-TE01425,trm_gh-repo-tencent-hel,GH Repo: Tencent/hel,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/hel
-TE01426,trm_gh-repo-tencent-embedx,GH Repo: Tencent/embedx,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/embedx
-TE01427,trm_gh-repo-tencent-tdesign-miniprogram-starter-retail,GH Repo: Tencent/tdesign-miniprogram-starter-retail,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/tdesign-miniprogram-starter-retail
-TE01428,trm_gh-repo-tencent-blazerml-tvm,GH Repo: Tencent/BlazerML-tvm,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/BlazerML-tvm
-TE01429,trm_gh-repo-tencent-tat-agent,GH Repo: Tencent/tat-agent,trm_tencent,Tencent,1,ext|github_api|https://github.com/Tencent/tat-agent
-TE01430,trm_gh-repo-google-ml-flashpoint,GH Repo: google/ml-flashpoint,trm_google,Google,1,ext|github_api|https://github.com/google/ml-flashpoint
-TE01431,trm_gh-repo-google-ragvis,GH Repo: google/ragvis,trm_google,Google,1,ext|github_api|https://github.com/google/ragvis
-TE01432,trm_gh-repo-google-pubmed-rag,GH Repo: google/pubmed-rag,trm_google,Google,1,ext|github_api|https://github.com/google/pubmed-rag
-TE01433,trm_gh-repo-google-evt-air-risk-aiaa-scitech-2026,GH Repo: google/evt-air-risk-aiaa-scitech-2026,trm_google,Google,1,ext|github_api|https://github.com/google/evt-air-risk-aiaa-scitech-2026
-TE01434,trm_gh-repo-google-torchax,GH Repo: google/torchax,trm_google,Google,1,ext|github_api|https://github.com/google/torchax
-TE01435,trm_gh-repo-google-llm-sidebar-with-context,GH Repo: google/llm-sidebar-with-context,trm_google,Google,1,ext|github_api|https://github.com/google/llm-sidebar-with-context
-TE01436,trm_gh-repo-google-xrblocks,GH Repo: google/xrblocks,trm_google,Google,1,ext|github_api|https://github.com/google/xrblocks
-TE01437,trm_gh-repo-google-adk-js,GH Repo: google/adk-js,trm_google,Google,1,ext|github_api|https://github.com/google/adk-js
-TE01438,trm_gh-repo-google-saif-data,GH Repo: google/saif-data,trm_google,Google,1,ext|github_api|https://github.com/google/saif-data
-TE01439,trm_gh-repo-google-langextract,GH Repo: google/langextract,trm_google,Google,1,ext|github_api|https://github.com/google/langextract
-TE01440,trm_gh-repo-google-embardiment,GH Repo: google/embardiment,trm_google,Google,1,ext|github_api|https://github.com/google/embardiment
-TE01441,trm_gh-repo-google-hackable-diffusion,GH Repo: google/hackable_diffusion,trm_google,Google,1,ext|github_api|https://github.com/google/hackable_diffusion
-TE01442,trm_gh-repo-google-eclipsa-audio-plugin,GH Repo: google/eclipsa-audio-plugin,trm_google,Google,1,ext|github_api|https://github.com/google/eclipsa-audio-plugin
-TE01443,trm_gh-repo-google-unblocking-detail-caption,GH Repo: google/unblocking-detail-caption,trm_google,Google,1,ext|github_api|https://github.com/google/unblocking-detail-caption
-TE01444,trm_gh-repo-google-adk-web,GH Repo: google/adk-web,trm_google,Google,1,ext|github_api|https://github.com/google/adk-web
-TE01445,trm_gh-repo-google-adk-go,GH Repo: google/adk-go,trm_google,Google,1,ext|github_api|https://github.com/google/adk-go
-TE01446,trm_gh-repo-google-adk-java,GH Repo: google/adk-java,trm_google,Google,1,ext|github_api|https://github.com/google/adk-java
-TE01447,trm_gh-repo-google-sec-gemini,GH Repo: google/sec-gemini,trm_google,Google,1,ext|github_api|https://github.com/google/sec-gemini
-TE01448,trm_gh-repo-google-tunix,GH Repo: google/tunix,trm_google,Google,1,ext|github_api|https://github.com/google/tunix
-TE01449,trm_gh-repo-google-adk-samples,GH Repo: google/adk-samples,trm_google,Google,1,ext|github_api|https://github.com/google/adk-samples
-TE01450,trm_gh-repo-google-adk-docs,GH Repo: google/adk-docs,trm_google,Google,1,ext|github_api|https://github.com/google/adk-docs
-TE01451,trm_gh-repo-google-adk-python,GH Repo: google/adk-python,trm_google,Google,1,ext|github_api|https://github.com/google/adk-python
-TE01452,trm_gh-repo-google-rago,GH Repo: google/rago,trm_google,Google,1,ext|github_api|https://github.com/google/rago
-TE01453,trm_gh-repo-google-mobly-bluetooth-ref-validation,GH Repo: google/mobly-bluetooth-ref-validation,trm_google,Google,1,ext|github_api|https://github.com/google/mobly-bluetooth-ref-validation
-TE01454,trm_gh-repo-google-gemma-unity-plugin,GH Repo: google/gemma-unity-plugin,trm_google,Google,1,ext|github_api|https://github.com/google/gemma-unity-plugin
-TE01455,trm_ant-group,Ant Group,trm_jack-ma,Jack Ma,1,ext|wikidata|https://www.wikidata.org/wiki/Q21979415
-TE01457,trm_anthropic,Anthropic,trm_chris-olah,Chris Olah,1,ext|wikidata|https://www.wikidata.org/wiki/Q116758847
-TE01458,trm_anthropic,Anthropic,trm_jared-kaplan,Jared Kaplan,1,ext|wikidata|https://www.wikidata.org/wiki/Q116758847
-TE01459,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,1,ext|wikidata|https://www.wikidata.org/wiki/Q55606242
-TE01460,trm_deepseek,DeepSeek,trm_liang-wenfeng,Liang Wenfeng,1,ext|wikidata|https://www.wikidata.org/wiki/Q131577453
-TE01461,trm_deepseek,DeepSeek,trm_high-flyer,High-Flyer,1,ext|wikidata|https://www.wikidata.org/wiki/Q131577453
-TE01462,trm_google,Google,trm_sergey-brin,Sergey Brin,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
-TE01463,trm_google,Google,trm_larry-page,Larry Page,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
-TE01464,trm_alphabet-inc,Alphabet Inc.,trm_google,Google,1,ext|wikidata|https://www.wikidata.org/wiki/Q95
-TE01465,trm_iflytek,iFlytek,trm_liu-qingfeng,Liu Qingfeng,1,ext|wikidata|https://www.wikidata.org/wiki/Q4764375
-TE01466,trm_jetbrains,JetBrains,trm_sergey-dmitriev,Sergey Dmitriev,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
-TE01467,trm_jetbrains,JetBrains,trm_valentin-kipyatkov,Valentin Kipyatkov,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
-TE01468,trm_jetbrains,JetBrains,trm_jetbrains-n-v,JetBrains N.V.,1,ext|wikidata|https://www.wikidata.org/wiki/Q1688472
-TE01469,trm_eduardo-saverin,Eduardo Saverin,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01470,trm_dustin-moskovitz,Dustin Moskovitz,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01471,trm_chris-hughes,Chris Hughes,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01472,trm_andrew-mccollum,Andrew McCollum,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01473,trm_mark-zuckerberg,Mark Zuckerberg,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01474,trm_blackrock,BlackRock,trm_meta,Meta,1,ext|wikidata|https://www.wikidata.org/wiki/Q380
-TE01475,trm_amc-networks-international-central-europe,AMC Networks International Central Europe,trm_minimax,MiniMax,1,ext|wikidata|https://www.wikidata.org/wiki/Q1058962
-TE01476,trm_guillaume-lample,Guillaume Lample,trm_mistral-ai,Mistral AI,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
-TE01477,trm_mistral-ai,Mistral AI,trm_timoth-e-lacroix,Timothée Lacroix,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
-TE01478,trm_arthur-mensch,Arthur Mensch,trm_mistral-ai,Mistral AI,1,ext|wikidata|https://www.wikidata.org/wiki/Q119718658
-TE01479,trm_nebius,Nebius,trm_nebius-group,Nebius Group,1,ext|wikidata|https://www.wikidata.org/wiki/Q127688424
-TE01480,trm_elon-musk,Elon Musk,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01481,trm_ilya-sutskever,Ilya Sutskever,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01482,trm_greg-brockman,Greg Brockman,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01483,trm_openai,OpenAI,trm_wojciech-zaremba,Wojciech Zaremba,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01484,trm_andrej-karpathy,Andrej Karpathy,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01485,trm_john-schulman,John Schulman,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01486,trm_openai,OpenAI,trm_trevor-blackwell,Trevor Blackwell,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01487,trm_openai,OpenAI,trm_vicki-cheung,Vicki Cheung,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01488,trm_diederik-p-kingma,Diederik P. Kingma,trm_openai,OpenAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01489,trm_openai,OpenAI,trm_pamela-vagata,Pamela Vagata,1,ext|wikidata|https://www.wikidata.org/wiki/Q21708200
-TE01490,trm_ma-huateng,Ma Huateng,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01491,trm_tencent,Tencent,trm_zhang-zhidong,Zhang Zhidong,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01492,trm_chen-yidan,Chen Yidan,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01493,trm_daniel-xu,Daniel Xu,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01494,trm_tencent,Tencent,trm_zeng-liqing,Zeng Liqing,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01495,trm_myriad-international-holdings,Myriad International Holdings,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01496,trm_jpmorgan-chase,JPMorgan Chase,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01497,trm_naspers,Naspers,trm_tencent,Tencent,1,ext|wikidata|https://www.wikidata.org/wiki/Q860580
-TE01498,trm_sebastian-thrun,Sebastian Thrun,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
-TE01499,trm_anthony-levandowski,Anthony Levandowski,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
-TE01500,trm_waymo,Waymo,trm_waymo-holding,Waymo Holding,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
-TE01501,trm_google,Google,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
-TE01502,trm_alphabet-inc,Alphabet Inc.,trm_waymo,Waymo,1,ext|wikidata|https://www.wikidata.org/wiki/Q15330
-TE01503,trm_tony-wu,Tony Wu,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
-TE01504,trm_igor-babuschkin,Igor Babuschkin,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
-TE01505,trm_elon-musk,Elon Musk,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
-TE01506,trm_kingdom-holding-company,Kingdom Holding Company,trm_xai,xAI,1,ext|wikidata|https://www.wikidata.org/wiki/Q120599684
+TE00001,trm_dangerously-skip-permissions,--dangerously-skip-permissions,trm_claude-code-desktop,Claude Code Desktop,1,7|Claude Code Desktop引入YOLO模式|data/raw/wechat/2026-02-11.md
+TE00002,trm_acc,ACC,trm_mosi-ai,MOSI.AI,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00003,trm_acc,ACC,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00004,trm_acc,ACC,trm_moss-soundeffect,MOSS-SoundEffect,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00005,trm_acc,ACC,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00006,trm_acc,ACC,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00007,trm_acc,ACC,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00008,trm_acc,ACC,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00009,trm_acc,ACC,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00010,trm_acc,ACC,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00011,trm_acc,ACC,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00012,trm_acc,ACC,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00013,trm_acc,ACC,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00014,trm_andrej-karpathy,Andrej Karpathy,trm_openai,OpenAI,1,7|nanochat百美元内成本训练出GPT-2级别模型|data/raw/wechat/2026-02-01.md
+TE00015,trm_anthropic,Anthropic,trm_claude-cowork,Claude Cowork,1,13|Anthropic发布Windows版Claude Cowork|data/raw/wechat/2026-02-11.md
+TE00016,trm_anthropic,Anthropic,trm_claude-opus-4-6,Claude Opus 4.6,3,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md; 1|Anthropic推出Claude Opus 4.6快速模式|data/raw/wechat/2026-02-08.md; 24|Anthropic发布Claude Opus 4.6破坏风险报告|data/raw/wechat/2026-02-12.md
+TE00017,trm_anthropic,Anthropic,trm_cursor,Cursor,2,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md; 1|Anthropic推出Claude Opus 4.6快速模式|data/raw/wechat/2026-02-08.md
+TE00018,trm_anthropic,Anthropic,trm_deepseek,DeepSeek,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00019,trm_anthropic,Anthropic,trm_entire,Entire,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
+TE00020,trm_anthropic,Anthropic,trm_glm-5,GLM-5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00021,trm_anthropic,Anthropic,trm_google,Google,6,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 24|Anthropic被曝开发图像生成模型|data/raw/wechat/2026-02-04.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md; 17|Anthropic揭示基础设施配置影响 Agent 评估|data/raw/wechat/2026-02-06.md; 11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00022,trm_anthropic,Anthropic,trm_gpt-5-2,GPT-5.2,1,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md
+TE00023,trm_anthropic,Anthropic,trm_minimax,MiniMax,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00024,trm_anthropic,Anthropic,trm_minimax-m2-5,MiniMax M2.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00025,trm_anthropic,Anthropic,trm_openai,OpenAI,4,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md; 19|Anthropic宣布Claude保持无广告|data/raw/wechat/2026-02-05.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00026,trm_anthropic,Anthropic,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00027,trm_anthropic,Anthropic,trm_thomas-dohmke,Thomas Dohmke,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
+TE00028,trm_anthropic,Anthropic,trm_xai,xAI,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md
+TE00029,trm_anthropic,Anthropic,trm_z-code,Z Code,1,10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00030,trm_augment-code,Augment Code,trm_context-engine-mcp,Context Engine MCP,1,2|Augment Code正式上线Context Engine MCP|data/raw/wechat/2026-02-08.md
+TE00031,trm_augment-code,Augment Code,trm_cursor,Cursor,1,2|Augment Code正式上线Context Engine MCP|data/raw/wechat/2026-02-08.md
+TE00032,trm_aurora-alpha,Aurora Alpha,trm_openrouter,OpenRouter,1,3|OpenRouter上线 stealth 模型 Aurora Alpha|data/raw/wechat/2026-02-10.md
+TE00033,trm_avocado,Avocado,trm_avocado-thinking,Avocado Thinking,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00034,trm_avocado,Avocado,trm_big-brain,Big Brain,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00035,trm_avocado,Avocado,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00036,trm_avocado,Avocado,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00037,trm_avocado-thinking,Avocado Thinking,trm_big-brain,Big Brain,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00038,trm_avocado-thinking,Avocado Thinking,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00039,trm_avocado-thinking,Avocado Thinking,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00040,trm_big-brain,Big Brain,trm_meta,Meta,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00041,trm_big-brain,Big Brain,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00042,trm_brendan-gregg,Brendan Gregg,trm_openai,OpenAI,1,3|OpenAI引入性能专家优化数据中心成本|data/raw/wechat/2026-02-08.md
+TE00043,trm_carplay,CarPlay,trm_openai,OpenAI,1,6|苹果计划为CarPlay引入第三方AI语音|data/raw/wechat/2026-02-08.md
+TE00044,trm_catpaw,CatPaw,trm_cursor,Cursor,1,6|美团AI编程工具CatPaw全量开放|data/raw/wechat/2026-02-10.md
+TE00045,trm_chatgpt-deep-research,ChatGPT Deep Research,trm_gpt-5-2,GPT-5.2,1,15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md
+TE00046,trm_chatgpt-deep-research,ChatGPT Deep Research,trm_openai,OpenAI,1,15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md
+TE00047,trm_claude-cowork,Claude Cowork,trm_google,Google,1,13|Claude Cowork整合GSuite与Slack服务|data/raw/wechat/2026-02-05.md
+TE00048,trm_claude-opus-4-6,Claude Opus 4.6,trm_cursor,Cursor,2,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md; 1|Anthropic推出Claude Opus 4.6快速模式|data/raw/wechat/2026-02-08.md
+TE00049,trm_claude-opus-4-6,Claude Opus 4.6,trm_google,Google,1,9|Antigravity 向 Pro 账户提供 Claude Opus 4.6|data/raw/wechat/2026-02-11.md
+TE00050,trm_claude-opus-4-6,Claude Opus 4.6,trm_gpt-5-2,GPT-5.2,1,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md
+TE00051,trm_claude-opus-4-6,Claude Opus 4.6,trm_model-council,Model Council,1,7|Perplexity推出多模型聚合问答功能|data/raw/wechat/2026-02-07.md
+TE00052,trm_claude-opus-4-6,Claude Opus 4.6,trm_perplexity,Perplexity,1,7|Perplexity推出多模型聚合问答功能|data/raw/wechat/2026-02-07.md
+TE00053,trm_codex-alpha,Codex Alpha,trm_openai,OpenAI,1,25|OpenAI开放Windows版Codex Alpha候补|data/raw/wechat/2026-02-12.md
+TE00054,trm_composer-1-5,Composer 1.5,trm_cursor,Cursor,1,4|Cursor 上线编程模型 Composer 1.5|data/raw/wechat/2026-02-10.md
+TE00055,trm_context-engine-mcp,Context Engine MCP,trm_cursor,Cursor,1,2|Augment Code正式上线Context Engine MCP|data/raw/wechat/2026-02-08.md
+TE00056,trm_cursor,Cursor,trm_gpt-5-2,GPT-5.2,1,1|Anthropic发布Claude Opus 4.6|data/raw/wechat/2026-02-06.md
+TE00057,trm_cursor,Cursor,trm_gpt-5-3-codex,GPT-5.3-Codex,1,5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md
+TE00058,trm_cursor,Cursor,trm_openai,OpenAI,1,5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md
+TE00059,trm_deepseek,DeepSeek,trm_glm-coding-plan,GLM Coding Plan,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00060,trm_deepseek,DeepSeek,trm_glm-in-excel,GLM in Excel,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00061,trm_deepseek,DeepSeek,trm_glm-5,GLM-5,3,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md; 1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00062,trm_deepseek,DeepSeek,trm_google,Google,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00063,trm_deepseek,DeepSeek,trm_hugging-face,Hugging Face,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00064,trm_deepseek,DeepSeek,trm_minimax,MiniMax,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|讯飞星辰 MaaS平台推出模型限免优惠|data/raw/wechat/2026-02-06.md
+TE00065,trm_deepseek,DeepSeek,trm_minimax-m2-5,MiniMax M2.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00066,trm_deepseek,DeepSeek,trm_modelscope,ModelScope,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00067,trm_deepseek,DeepSeek,trm_mtp,MTP,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
+TE00068,trm_deepseek,DeepSeek,trm_openai,OpenAI,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00069,trm_deepseek,DeepSeek,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00070,trm_deepseek,DeepSeek,trm_xai,xAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00071,trm_deepseek,DeepSeek,trm_z-code,Z Code,1,10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00072,trm_dime,Dime,trm_openai,OpenAI,1,10|OpenAI 将于今年推出AI硬件 Dime 智能耳机|data/raw/wechat/2026-02-07.md
+TE00073,trm_droid-agent,Droid Agent,trm_factory,Factory,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
+TE00074,trm_droid-agent,Droid Agent,trm_jetbrains,JetBrains,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
+TE00075,trm_dsa,DSA,trm_deepseek,DeepSeek,2,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md; 1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00076,trm_dsa,DSA,trm_glm-coding-plan,GLM Coding Plan,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00077,trm_dsa,DSA,trm_glm-in-excel,GLM in Excel,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00078,trm_dsa,DSA,trm_glm-5,GLM-5,2,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md; 1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00079,trm_dsa,DSA,trm_hugging-face,Hugging Face,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00080,trm_dsa,DSA,trm_modelscope,ModelScope,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00081,trm_dsa,DSA,trm_mtp,MTP,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
+TE00082,trm_elon-musk,Elon Musk,trm_xai,xAI,1,20|xAI进行重组与人事变动|data/raw/wechat/2026-02-12.md
+TE00083,trm_entire,Entire,trm_google,Google,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
+TE00084,trm_entire,Entire,trm_thomas-dohmke,Thomas Dohmke,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
+TE00085,trm_factory,Factory,trm_jetbrains,JetBrains,1,13|Factory与JetBrains合作集成Droid Agent|data/raw/wechat/2026-02-12.md
+TE00086,trm_factory,Factory,trm_nebius,Nebius,1,20|Nebius收购Tavily|data/raw/wechat/2026-02-11.md
+TE00087,trm_factory,Factory,trm_tavily,Tavily,1,20|Nebius收购Tavily|data/raw/wechat/2026-02-11.md
+TE00088,trm_gated-deltanet,Gated DeltaNet,trm_hugging-face,Hugging Face,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00089,trm_gated-deltanet,Gated DeltaNet,trm_qwen-3-5,Qwen 3.5,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00090,trm_gated-deltanet,Gated DeltaNet,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00091,trm_gated-deltanet,Gated DeltaNet,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00092,trm_gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,trm_google,Google,1,26|传谷歌拟推出Gemini 3.1 Pro Preview|data/raw/wechat/2026-02-12.md
+TE00093,trm_gemini-deep-think,Gemini Deep Think,trm_google,Google,1,22|Gemini Deep Think 攻克科研级难题|data/raw/wechat/2026-02-12.md
+TE00094,trm_glm-coding-plan,GLM Coding Plan,trm_glm-in-excel,GLM in Excel,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00095,trm_glm-coding-plan,GLM Coding Plan,trm_glm-5,GLM-5,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00096,trm_glm-coding-plan,GLM Coding Plan,trm_hugging-face,Hugging Face,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00097,trm_glm-coding-plan,GLM Coding Plan,trm_modelscope,ModelScope,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00098,trm_glm-in-excel,GLM in Excel,trm_glm-5,GLM-5,2,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md; 15|智谱发布GLM in Excel插件|data/raw/wechat/2026-02-12.md
+TE00099,trm_glm-in-excel,GLM in Excel,trm_hugging-face,Hugging Face,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00100,trm_glm-in-excel,GLM in Excel,trm_modelscope,ModelScope,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00101,trm_glm-5,GLM-5,trm_google,Google,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00102,trm_glm-5,GLM-5,trm_hugging-face,Hugging Face,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00103,trm_glm-5,GLM-5,trm_kilo-code,Kilo Code,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00104,trm_glm-5,GLM-5,trm_minimax,MiniMax,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00105,trm_glm-5,GLM-5,trm_minimax-m2-5,MiniMax M2.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00106,trm_glm-5,GLM-5,trm_modelscope,ModelScope,1,1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md
+TE00107,trm_glm-5,GLM-5,trm_mtp,MTP,1,10|智谱GLM-5架构细节曝光总参数或达700B|data/raw/wechat/2026-02-10.md
+TE00108,trm_glm-5,GLM-5,trm_openai,OpenAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00109,trm_glm-5,GLM-5,trm_openrouter,OpenRouter,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00110,trm_glm-5,GLM-5,trm_pony-alpha,Pony Alpha,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00111,trm_glm-5,GLM-5,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00112,trm_glm-5,GLM-5,trm_xai,xAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00113,trm_google,Google,trm_gemini-skills,gemini-skills,1,10|Gemini 发布 Gemini API skills|data/raw/wechat/2026-02-11.md
+TE00114,trm_google,Google,trm_google-ai-studio,Google AI Studio,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
+TE00115,trm_google,Google,trm_ideate-agent,Ideate Agent,1,17|Stitch推出Ideate Agent|data/raw/wechat/2026-02-12.md
+TE00116,trm_google,Google,trm_meta,Meta,1,5|苹果AI核心团队动荡，多人转投Meta谷歌|data/raw/wechat/2026-02-01.md
+TE00117,trm_google,Google,trm_minimax,MiniMax,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00118,trm_google,Google,trm_minimax-m2-5,MiniMax M2.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00119,trm_google,Google,trm_omnibar,Omnibar,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
+TE00120,trm_google,Google,trm_openai,OpenAI,3,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md; 10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00121,trm_google,Google,trm_perplexity,Perplexity,1,16|Perplexity AI发布Deep Research升级版|data/raw/wechat/2026-02-05.md
+TE00122,trm_google,Google,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00123,trm_google,Google,trm_stitch,Stitch,2,16|Google Stitch推出Figma设计导出功能|data/raw/wechat/2026-02-11.md; 17|Stitch推出Ideate Agent|data/raw/wechat/2026-02-12.md
+TE00124,trm_google,Google,trm_thomas-dohmke,Thomas Dohmke,1,11|Entire成立并获6000万美元种子融资|data/raw/wechat/2026-02-11.md
+TE00125,trm_google,Google,trm_waymo,Waymo,1,4|Waymo推出Waymo World Model|data/raw/wechat/2026-02-07.md
+TE00126,trm_google,Google,trm_waymo-world-model,Waymo World Model,1,4|Waymo推出Waymo World Model|data/raw/wechat/2026-02-07.md
+TE00127,trm_google,Google,trm_xai,xAI,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md
+TE00128,trm_google,Google,trm_z-code,Z Code,1,10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00129,trm_google-ai-studio,Google AI Studio,trm_omnibar,Omnibar,1,12|Google AI Studio 更新，新增omnibar功能|data/raw/wechat/2026-02-12.md
+TE00130,trm_gpt-5-2,GPT-5.2,trm_gpt-5-2-instant,GPT-5.2 Instant,1,4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
+TE00131,trm_gpt-5-2,GPT-5.2,trm_gpt-5-3-codex,GPT-5.3-Codex,2,2|OpenAI发布GPT-5.3-Codex|data/raw/wechat/2026-02-06.md; 5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md
+TE00132,trm_gpt-5-2,GPT-5.2,trm_openai,OpenAI,6,9|Snowflake与OpenAI达成2亿美元模型集成合作|data/raw/wechat/2026-02-03.md; 2|OpenAI 宣布 GPT-5.2 系列模型提速 40%|data/raw/wechat/2026-02-04.md; 2|OpenAI发布GPT-5.3-Codex|data/raw/wechat/2026-02-06.md; 5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md; 15|OpenAI更新ChatGPT Deep Research至GPT-5.2|data/raw/wechat/2026-02-11.md; 4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
+TE00133,trm_gpt-5-2,GPT-5.2,trm_plawbench,PLawBench,1,5|千问Qwen等联合推出法律评测基准PLawBench|data/raw/wechat/2026-02-08.md
+TE00134,trm_gpt-5-2-instant,GPT-5.2 Instant,trm_openai,OpenAI,1,4|OpenAI 更新 GPT-5.2 Instant 模型|data/raw/wechat/2026-02-12.md
+TE00135,trm_gpt-5-3-codex,GPT-5.3-Codex,trm_openai,OpenAI,4,2|OpenAI发布GPT-5.3-Codex|data/raw/wechat/2026-02-06.md; 5|OpenAI 推出 Trusted Access for Cyber 试点项目|data/raw/wechat/2026-02-06.md; 5|OpenAI 逐步向第三方开放 GPT-5.3-Codex|data/raw/wechat/2026-02-10.md; 5|OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2|data/raw/wechat/2026-02-11.md
+TE00136,trm_grok-imagine-image,Grok Imagine Image,trm_grok-imagine-image-pro,Grok Imagine Image Pro,1,2|xAI上线Grok Imagine Image Pro 模型 API|data/raw/wechat/2026-02-09.md
+TE00137,trm_grok-imagine-image,Grok Imagine Image,trm_xai,xAI,1,2|xAI上线Grok Imagine Image Pro 模型 API|data/raw/wechat/2026-02-09.md
+TE00138,trm_grok-imagine-image-pro,Grok Imagine Image Pro,trm_xai,xAI,1,2|xAI上线Grok Imagine Image Pro 模型 API|data/raw/wechat/2026-02-09.md
+TE00139,trm_hugging-face,Hugging Face,trm_longcat,LongCat,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
+TE00140,trm_hugging-face,Hugging Face,trm_longcat-flash-lite,LongCat-Flash-Lite,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
+TE00141,trm_hugging-face,Hugging Face,trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,1,5|蚂蚁集团发布全模态大模型Ming-flash-omni 2.0|data/raw/wechat/2026-02-12.md
+TE00142,trm_hugging-face,Hugging Face,trm_minicpm-sala,MiniCPM-SALA,1,7|OpenBMB发布MiniCPM-SALA百万上下文模型|data/raw/wechat/2026-02-12.md
+TE00143,trm_hugging-face,Hugging Face,trm_modelscope,ModelScope,3,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md; 1|智谱AI发布并开源GLM-5模型|data/raw/wechat/2026-02-12.md; 5|蚂蚁集团发布全模态大模型Ming-flash-omni 2.0|data/raw/wechat/2026-02-12.md
+TE00144,trm_hugging-face,Hugging Face,trm_nanbeige4-1-3b,Nanbeige4.1-3B,1,8|BOSS直聘推出Nanbeige4.1-3B模型|data/raw/wechat/2026-02-12.md
+TE00145,trm_hugging-face,Hugging Face,trm_openai,OpenAI,1,1|上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro|data/raw/wechat/2026-02-05.md
+TE00146,trm_hugging-face,Hugging Face,trm_openbmb,OpenBMB,1,7|OpenBMB发布MiniCPM-SALA百万上下文模型|data/raw/wechat/2026-02-12.md
+TE00147,trm_hugging-face,Hugging Face,trm_qwen-3-5,Qwen 3.5,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00148,trm_hugging-face,Hugging Face,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00149,trm_hugging-face,Hugging Face,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00150,trm_hugging-face,Hugging Face,trm_soul-ailab,Soul-AILab,1,9|Soul推出SoulX-Singer歌声合成模型|data/raw/wechat/2026-02-12.md
+TE00151,trm_hugging-face,Hugging Face,trm_soulx-singer,SoulX-Singer,1,9|Soul推出SoulX-Singer歌声合成模型|data/raw/wechat/2026-02-12.md
+TE00152,trm_hugging-face,Hugging Face,trm_transformers-js-v4,Transformers.js v4,1,7|Hugging Face发布Transformers.js v4预览版|data/raw/wechat/2026-02-10.md
+TE00153,trm_hy-1-8b-2bit,HY-1.8B-2Bit,trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,1,4|腾讯混元发布HY-1.8B-2Bit端侧量化模型|data/raw/wechat/2026-02-11.md
+TE00154,trm_ideate-agent,Ideate Agent,trm_stitch,Stitch,1,17|Stitch推出Ideate Agent|data/raw/wechat/2026-02-12.md
+TE00155,trm_jetbrains,JetBrains,trm_minimax,MiniMax,1,9|Kilo推出 Kilo CLI 1.0|data/raw/wechat/2026-02-05.md
+TE00156,trm_jetbrains,JetBrains,trm_openai,OpenAI,1,15|OpenAI揭晓Codex核心架构|data/raw/wechat/2026-02-06.md
+TE00157,trm_kilo-code,Kilo Code,trm_openrouter,OpenRouter,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00158,trm_kilo-code,Kilo Code,trm_pony-alpha,Pony Alpha,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00159,trm_llada2-1,LLaDA2.1,trm_llada2-1-flash,LLaDA2.1-Flash,1,3|蚂蚁集团发布LLaDA2.1扩散大语言模型|data/raw/wechat/2026-02-11.md
+TE00160,trm_longcat,LongCat,trm_longcat-flash-lite,LongCat-Flash-Lite,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
+TE00161,trm_longcat,LongCat,trm_modelscope,ModelScope,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
+TE00162,trm_longcat-flash-lite,LongCat-Flash-Lite,trm_modelscope,ModelScope,1,1|美团推出LongCat-Flash-Lite模型|data/raw/wechat/2026-02-07.md
+TE00163,trm_meta,Meta,trm_sierra,Sierra,1,5|Meta AI 已在官网测试最新模型 Avocado|data/raw/wechat/2026-02-09.md
+TE00164,trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,trm_modelscope,ModelScope,1,5|蚂蚁集团发布全模态大模型Ming-flash-omni 2.0|data/raw/wechat/2026-02-12.md
+TE00165,trm_minicpm-sala,MiniCPM-SALA,trm_openbmb,OpenBMB,1,7|OpenBMB发布MiniCPM-SALA百万上下文模型|data/raw/wechat/2026-02-12.md
+TE00166,trm_minimax,MiniMax,trm_minimax-m2-5,MiniMax M2.5,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 3|MiniMax上线MiniMax M2.5|data/raw/wechat/2026-02-12.md
+TE00167,trm_minimax,MiniMax,trm_openai,OpenAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00168,trm_minimax,MiniMax,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00169,trm_minimax,MiniMax,trm_xai,xAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00170,trm_minimax-m2-5,MiniMax M2.5,trm_openai,OpenAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00171,trm_minimax-m2-5,MiniMax M2.5,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00172,trm_minimax-m2-5,MiniMax M2.5,trm_xai,xAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00173,trm_mistral-ai,Mistral AI,trm_openai,OpenAI,1,18|Mistral AI投资12亿欧元瑞典数据中心|data/raw/wechat/2026-02-12.md
+TE00174,trm_mistral-ai,Mistral AI,trm_wer,WER,1,2|Mistral AI开源40亿参数实时语音模型Voxtral Mini 4B Realtime 2602|data/raw/wechat/2026-02-05.md
+TE00175,trm_model-council,Model Council,trm_perplexity,Perplexity,1,7|Perplexity推出多模型聚合问答功能|data/raw/wechat/2026-02-07.md
+TE00176,trm_mosi-ai,MOSI.AI,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00177,trm_mosi-ai,MOSI.AI,trm_moss-soundeffect,MOSS-SoundEffect,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00178,trm_mosi-ai,MOSI.AI,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00179,trm_mosi-ai,MOSI.AI,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00180,trm_mosi-ai,MOSI.AI,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00181,trm_mosi-ai,MOSI.AI,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00182,trm_mosi-ai,MOSI.AI,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00183,trm_mosi-ai,MOSI.AI,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00184,trm_mosi-ai,MOSI.AI,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00185,trm_mosi-ai,MOSI.AI,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00186,trm_mosi-ai,MOSI.AI,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00187,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_moss-soundeffect,MOSS-SoundEffect,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00188,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00189,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00190,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00191,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00192,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00193,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00194,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00195,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00196,trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00197,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-tts,MOSS-TTS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00198,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00199,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00200,trm_moss-soundeffect,MOSS-SoundEffect,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00201,trm_moss-soundeffect,MOSS-SoundEffect,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00202,trm_moss-soundeffect,MOSS-SoundEffect,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00203,trm_moss-soundeffect,MOSS-SoundEffect,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00204,trm_moss-soundeffect,MOSS-SoundEffect,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00205,trm_moss-soundeffect,MOSS-SoundEffect,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00206,trm_moss-tts,MOSS-TTS,trm_moss-tts-realtime,MOSS-TTS-Realtime,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00207,trm_moss-tts,MOSS-TTS,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00208,trm_moss-tts,MOSS-TTS,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00209,trm_moss-tts,MOSS-TTS,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00210,trm_moss-tts,MOSS-TTS,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00211,trm_moss-tts,MOSS-TTS,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00212,trm_moss-tts,MOSS-TTS,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00213,trm_moss-tts,MOSS-TTS,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00214,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00215,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00216,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00217,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00218,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00219,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00220,trm_moss-tts-realtime,MOSS-TTS-Realtime,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00221,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_moss-voicegenerator,MOSS-VoiceGenerator,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00222,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00223,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00224,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00225,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00226,trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00227,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_mossttsdelay,MossTTSDelay,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00228,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00229,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00230,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00231,trm_moss-voicegenerator,MOSS-VoiceGenerator,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00232,trm_mossttsdelay,MossTTSDelay,trm_mossttslocal,MossTTSLocal,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00233,trm_mossttsdelay,MossTTSDelay,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00234,trm_mossttsdelay,MossTTSDelay,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00235,trm_mossttsdelay,MossTTSDelay,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00236,trm_mossttslocal,MossTTSLocal,trm_openmoss,OpenMOSS,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00237,trm_mossttslocal,MossTTSLocal,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00238,trm_mossttslocal,MossTTSLocal,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00239,trm_nebius,Nebius,trm_tavily,Tavily,1,20|Nebius收购Tavily|data/raw/wechat/2026-02-11.md
+TE00240,trm_obsidian,Obsidian,trm_obsidian-cli,Obsidian CLI,1,17|Obsidian发布Obsidian CLI|data/raw/wechat/2026-02-11.md
+TE00241,trm_openai,OpenAI,trm_openai-for-countries,OpenAI for Countries,1,4|OpenAI 推进AI模型本土化策略|data/raw/wechat/2026-02-08.md
+TE00242,trm_openai,OpenAI,trm_qwen-3-5,Qwen 3.5,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00243,trm_openai,OpenAI,trm_responses-api,Responses API,1,6|OpenAI更新Responses API支持Agent任务|data/raw/wechat/2026-02-11.md
+TE00244,trm_openai,OpenAI,trm_sam-altman,Sam Altman,2,16|OpenAI任命新负责人应对强模型相关风险|data/raw/wechat/2026-02-04.md; 2|Sam Altman 宣布 Codex 将保持免费用户可用|data/raw/wechat/2026-02-10.md
+TE00245,trm_openai,OpenAI,trm_sora,Sora,1,6|OpenAI开放Sora真人角色视频生成功能|data/raw/wechat/2026-02-07.md
+TE00246,trm_openai,OpenAI,trm_xai,xAI,2,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md; 8|GitHub更新Copilot支持第三方Agent|data/raw/wechat/2026-02-05.md
+TE00247,trm_openai,OpenAI,trm_z-code,Z Code,1,10|智谱正式发布AI编程工具 Z Code|data/raw/wechat/2026-02-12.md
+TE00248,trm_openbmb,OpenBMB,trm_wer,WER,1,3|OpenBMB发布多模态模型MiniCPM-o 4.5|data/raw/wechat/2026-02-04.md
+TE00249,trm_openmoss,OpenMOSS,trm_sim,SIM,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00250,trm_openmoss,OpenMOSS,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00251,trm_openrouter,OpenRouter,trm_pony-alpha,Pony Alpha,1,3|OpenRouter与Kilo Code上线 Pony Alpha 模型|data/raw/wechat/2026-02-07.md
+TE00252,trm_oz,Oz,trm_warp,Warp,1,8|Warp推出Oz云原生Agent编排平台|data/raw/wechat/2026-02-11.md
+TE00253,trm_qwen-3-5,Qwen 3.5,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00254,trm_qwen-3-5,Qwen 3.5,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00255,trm_qwen-3-5,Qwen 3.5,trm_xai,xAI,1,12|多家厂商二月新模型发布计划前瞻|data/raw/wechat/2026-02-03.md
+TE00256,trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,1,1|Qwen 3.5系列模型即将发布|data/raw/wechat/2026-02-09.md
+TE00257,trm_sim,SIM,trm_wer,WER,1,2|MOSI.AI与OpenMOSS发布MOSS-TTS家族|data/raw/wechat/2026-02-11.md
+TE00258,trm_soul-ailab,Soul-AILab,trm_soulx-singer,SoulX-Singer,1,9|Soul推出SoulX-Singer歌声合成模型|data/raw/wechat/2026-02-12.md
+TE00259,trm_waymo,Waymo,trm_waymo-world-model,Waymo World Model,1,4|Waymo推出Waymo World Model|data/raw/wechat/2026-02-07.md
+TE00260,trm_x-developer-platform,X Developer Platform,trm_xai,xAI,1,5|X开发者平台上线API按量计费及xAI联动|data/raw/wechat/2026-02-07.md

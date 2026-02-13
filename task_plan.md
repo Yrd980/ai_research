@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 31 (complete), Phase 33 (complete), Phase 34 (complete)
+Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complete)
 
 ## Phases
 
@@ -315,4 +315,14 @@ Phase 31 (complete), Phase 33 (complete), Phase 34 (complete)
 - [x] 全量重建 `data/processed/primitive_hyperedges.csv`
 - [x] 同步刷新 `data/processed/primitives.csv` 的 `first_seen_date` 与 `source_scope`
 - [x] 运行一致性校验（ID 唯一、primitive 引用闭环）
+- **Status:** complete
+
+### Phase 35: Wiki Core 同步 + 高价值关系细化
+- [x] 补齐 `wiki/index/terms.csv` 中缺失的 processed primitives 节点
+- [x] 基于 `data/processed/primitive_hyperedges.csv` 全量重建 `wiki/index/term_edges.csv`
+- [x] 校验 `processed -> wiki core` 一致性（pair 覆盖与计数完全一致）
+- [x] 将 `high_value_relations.csv` 中 GitHub 仓库语义关系细化为 `open_source_repository`
+- [x] 将 `maintains` 关系细化为 `maintains_project`
+- [x] 新增 `wiki/index/high_value_relation_taxonomy.md` 固化关系类型定义
+- [x] 执行一致性校验与完成性检查
 - **Status:** complete

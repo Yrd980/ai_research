@@ -323,3 +323,9 @@
 - 发布执行：`git commit -m "Backfill Feb raw full text, rebuild processed tables, finalize M&A normalization"` 成功，生成 commit `9a9371c`。
 - 推送执行：顺序 `git push` 成功，远端更新 `cddeb91..9a9371c (main -> origin/main)`。
 - 发布过程错误恢复：处理 `.git/index.lock` 冲突后重试通过；并发时序导致的“up-to-date”已通过补跑顺序 push 校正。
+- 按用户追问执行端到端流程核查：对照 AGENTS 默认流程核验 raw -> processed -> wiki 三层是否对齐。
+- 核查结论：raw 与 processed 已对齐；wiki 核心层（terms/term_edges）与最新 processed 结果存在显著差异，需执行一次同步修复。
+- 执行 Phase 35：补齐 `wiki/index/terms.csv` 缺失 primitive 节点，并以 `data/processed/primitive_hyperedges.csv` 全量重建 `wiki/index/term_edges.csv`。
+- 同步完成高价值关系类型细化：`open_source_project -> open_source_repository`、`maintains -> maintains_project`。
+- 新增 `wiki/index/high_value_relation_taxonomy.md` 固化关系命名与迁移规则，并更新 `wiki/README.md` 说明。
+- 验证结果：processed 与 wiki core 共现 pair/计数完全一致；关系层 term_id 引用无悬空。

@@ -38,7 +38,8 @@
 
 ## 高价值关系层
 
-- `wiki/index/high_value_relations.csv`：高价值关系（M&A / founded_by / maintains / owns_product）。
+- `wiki/index/high_value_relations.csv`：高价值关系主表（如 `acquired` / `owned_by` / `founded_by` / `owns_product` / `develops_model` / `maintains_project` / `open_source_repository`）。
+- `wiki/index/high_value_relation_taxonomy.md`：关系类型字典与归一化规则。
 - `wiki/index/relation_research_queue.csv`：关系研究队列（多-agent lane）。
 
 质量规则：

@@ -942,3 +942,29 @@
 - 过程异常与处置：
   - 初次提交出现 `.git/index.lock`（并发 git 操作导致），确认无活跃 git 进程后清理锁并重试成功。
   - 一次并发 `push` 先于 `commit` 执行导致提示 `Everything up-to-date`，已补跑顺序 `git push` 并确认远端更新。
+
+## 2026-02-13 流程对齐核查（用户追问）
+- 结论：当前为“输入层 + processed 层对齐”，但 wiki 核心同步（Step 6）未完全跟随最新 processed 重建结果。
+- 证据 1（terms 覆盖）：`primitives=136`，其中 2 个 primitive 不在 `wiki/index/terms.csv`（`ChatGPT Ads Test`、`豆包过年`）。
+- 证据 2（occurrence 悬挂）：`primitive_occurrences.csv` 存在 1 条 primitive 不在 terms（`O00213`，`豆包过年`）。
+- 证据 3（共现边对齐）：从 `primitive_hyperedges.csv` 推导得到 260 对共现；`wiki/index/term_edges.csv` 有 410 对；交集 115，对应缺失 145、额外 295、计数不一致 5。
+- 样例计数不一致：
+  - `(GPT-5.2, OpenAI)` processed=6, term_edges=4
+  - `(Google, Stitch)` processed=2, term_edges=1
+  - `(MiniMax, MiniMax M2.5)` processed=2, term_edges=1
+- 解释：raw/processed 刚刚完成重建，wiki core index 仍停留在旧版本图谱状态，存在“日报主链与 wiki 核心层不同步”。
+- 高价值关系细化空间确认：`open_source_project=234` 且对象全部为 `GH Repo:*`，可无损细化为 `open_source_repository`。
+- `maintains=5` 当前对象以产品/项目名为主（非统一 repo），可细化为 `maintains_project`（保守命名）。
+- wiki core 同步策略倾向“最小风险”：保留现有 terms 主体，仅补齐 processed 缺失节点并重建 `term_edges` 计数。
+
+## 2026-02-13 Phase 35 完成（Wiki Core 同步 + 高价值关系细化）
+- wiki core 已与 processed 严格对齐：
+  - `primitives_missing_in_terms=0`
+  - `primitive_hyperedges` 推导 pair 与 `term_edges` 完全一致（`expected=260`, `actual=260`, `missing=0`, `extra=0`, `count_mismatch=0`）。
+- `terms.csv` 补齐 2 个缺失 primitive 节点（`ChatGPT Ads Test`、`豆包过年`），并将中文节点 ID 规范为 `trm_doubao-new-year-cn`。
+- `term_edges.csv` 已按最新 `primitive_hyperedges.csv` 全量重建（由 410 数据行收敛到 260 数据行）。
+- 高价值关系细化完成：
+  - `open_source_project -> open_source_repository`（234 条，GitHub repo 语义）
+  - `maintains -> maintains_project`（5 条）
+- 新增关系字典：`wiki/index/high_value_relation_taxonomy.md`。
+- 关系层完整性复核通过：`high_value_relations` 与 `term_external_edges` 对 `terms.csv` 的 term_id 引用均无悬空。
