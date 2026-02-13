@@ -12,6 +12,12 @@
 - 日报层（event stream）：记录每日输入与时序上下文。
 - wiki 层（global graph）：累计名词节点与关联，不复刻日报事件。
 
+## 原文保真要求
+
+- `data/raw/wechat/YYYY-MM-DD.md` 必须保存完整原文，不允许用摘要替代。
+- 原文中的数值指标、机制名称、限制条件与来源链接必须保留。
+- 若当天仅有部分正文，`ingest_manifest.csv` 必须标记为 `pending_sync`，待全文补齐后再改为 `captured`。
+
 ## 核心目录
 
 - `data/raw/wechat/`：日报原文

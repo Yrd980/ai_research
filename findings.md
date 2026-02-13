@@ -765,3 +765,175 @@
 - 决策：整批移除 `open_source_model` 关系与对应 `HF Model:*` 节点，仅保留高价值层（收购/创始人/项目归属/产品归属/所有权/维护）。
 - 清理后复核发现历史一致性缺陷：`term_edges.csv` 存在大量悬空引用（约 999 行），与此前 HF 模型边残留一致。
 - 本轮修复要点：按 `terms.csv` 作为唯一 term_id 白名单，重写过滤 `term_edges/term_external_edges/high_value_relations`，彻底消除 dangling refs。
+
+## 2026-02-13 项目体检启动（本轮）
+- 用户目标：对当前仓库做状态分析与问题识别。
+- 现状确认：核心路径为 `data/raw`（日报输入） + `data/processed`（原语/共现） + `wiki/index`（全局名词图）。
+- 文档一致性发现：`task_plan.md` 顶部 `Current Phase` 仍写 `Phase 30 (complete)`，但下方已存在 `Phase 31 (in_progress)`，存在阶段状态不同步。
+- 风险判断：当前仓库长期迭代历史较长，需重点核查“文档声明 vs 数据实际”一致性与索引完整性。
+
+## 2026-02-13 项目体检：规模与覆盖快照
+- 数据规模（含表头）：
+  - `data/processed/primitives.csv`: 137
+  - `data/processed/primitive_occurrences.csv`: 185
+  - `data/processed/primitive_hyperedges.csv`: 49
+  - `wiki/index/terms.csv`: 766
+  - `wiki/index/term_edges.csv`: 411
+  - `wiki/index/term_external_edges.csv`: 306
+  - `wiki/index/high_value_relations.csv`: 362
+- 日期覆盖：`data/raw/wechat/` 与 `ingest_manifest.csv` 均覆盖 `2026-02-01` 到 `2026-02-12`，无缺日。
+- 结构观察：`wiki/index/term_aliases.csv` 当前仅表头（暂无别名数据）。
+- 样例核验：`high_value_relations.csv` 中 M&A 与 founded_by 关系已落地，且带 `source_url` 与 `event_date` 字段。
+
+## 2026-02-13 项目体检：完整性与质量
+- 完整性核查结果（核心表）：
+  - 主键重复：`term_id/edge_id/expansion_id/relation_id/primitive/occurrence_id/hyperedge_id/date` 均为 0。
+  - 外键闭环：`term_edges`、`term_external_edges`、`high_value_relations` 均无悬空 `term_id`。
+  - 引用闭环：`occurrences/hyperedges` 引用的 primitive 全部存在于 `primitives.csv`。
+  - 路径闭环：`occurrences/hyperedges/manifest` 的 `raw_file` 路径全部有效。
+- 质量快照：
+  - `term_edges` 权重分布偏稀（`avg=1.02`，`>=3` 仅 3/410）。
+  - `term_aliases.csv` 为空（仅表头），别名归一层尚未启用。
+  - `term_external_edges` 状态几乎全为 `candidate`（305/305 数据行）。
+  - `high_value_relations` 也几乎全为 `candidate`（361/361 数据行）。
+  - `term_expansion_queue` 10 条均为 `in_progress`；`relation_research_queue` 以 `in_progress/queued` 为主，缺少 `done` 闭环样本。
+
+## 2026-02-13 项目体检：日期覆盖与事件密度
+- `manifest` 覆盖 12 天，但 `primitive_occurrences.csv` 仅覆盖 11 天（缺 `2026-02-02`）。
+- `primitive_hyperedges.csv` 仅覆盖 9 天（缺 `2026-02-01`、`2026-02-02`、`2026-02-03`）。
+- 结合原文抽样：`2026-02-02.md` 存在多条 `#1...#8` 条目及可识别名词（如 Claude Code/Google），但 occurrences 为 0，提示“抽取规则对该日文档结构可能未命中”。
+- 风险判断：当前并非数据文件损坏，而是“日期覆盖不均 + 原文格式依赖”导致的提取盲区风险。
+
+## 2026-02-13 项目体检：来源质量与可视化
+- `ingest_manifest.csv` 全量为 `captured`，输入方式统一 `manual_paste_in_chat`。
+- `high_value_relations.csv` 质量分层明显：
+  - `event_date` 为空 298/361（多数关系无事件日期）。
+  - `source_url` 为空 2/361。
+  - 来源主机集中于 `github.com`（234）与 `wikidata.org`（55），另有 1 条伪 URL（`https://data/raw/...`）。
+  - `source_type` 含 `secondary_reference`（55）与少量 `derived_graph/curated_note`，与“优先一手源”原则存在张力。
+- `term_external_edges.csv` 来源链接完整（0 空值），但状态同样以 `candidate` 为主。
+- 可视化层：`viz/index.html` 可直接读取 `wiki/index/terms.csv` + `wiki/index/term_edges.csv`，并带 `graph_data.js` fallback；当前 fallback 文件约 234KB，能在离线场景兜底展示。
+
+## 2026-02-13 证据定位补充（行号）
+- `task_plan.md` 当前阶段声明为 `Phase 30 (complete)`（`task_plan.md:7`），但后文存在 `Phase 31 ... Status: in_progress`（`task_plan.md:282-287`），确认计划状态不一致。
+- `wiki/index/term_aliases.csv` 仅保留表头（`wiki/index/term_aliases.csv:1`）。
+- `wiki/index/relation_research_queue.csv` 当前无 `done` 状态（`wiki/index/relation_research_queue.csv:2-6`）。
+- `wiki/index/term_expansion_queue.csv` 10 条任务均为 `in_progress`（`wiki/index/term_expansion_queue.csv:2-11`）。
+- `wiki/index/high_value_relations.csv` 中存在本地路径样式来源：`https://data/raw/...`（`wiki/index/high_value_relations.csv:2`），以及 `wiki/index/terms.csv` 作为 `curated_note` 来源（`wiki/index/high_value_relations.csv:17-19`）。
+
+## 2026-02-13 用户关注：2/10~2/12 信息压缩损失核查
+- 核查对象：`data/raw/wechat/2026-02-10.md`、`data/raw/wechat/2026-02-11.md`、`data/raw/wechat/2026-02-12.md`。
+- 文件体量：
+  - `2026-02-10.md` 约 2427 字符 / 97 行
+  - `2026-02-11.md` 约 5782 字符 / 213 行
+  - `2026-02-12.md` 约 5820 字符 / 223 行
+- 结论：当前 raw 层为“结构化摘要+链接”，并非逐条全文镜像；在 item 细节层存在明显信息折损。
+- 样例证据：
+  - `2026-02-12` 保留了主参数与部分 benchmark（如 `744B/40B`、`SWE-bench-Verified`，见 `data/raw/wechat/2026-02-12.md:53`），但大量技术细节关键词未命中（如 `slime`、`Muon`、`mHC`、`Engram`、`A6000D/RTX 5090`、`SHADE-Arena` 等）。
+  - `2026-02-11` 对 #1/#2/#3/#4 多为一段式总结（如 `data/raw/wechat/2026-02-11.md:50-75`），未保留你提供版本中的多数二级指标与机制说明。
+  - `2026-02-10` 同样以摘要式归档（如 `data/raw/wechat/2026-02-10.md:32-89`）。
+- 下游压缩进一步放大损失：
+  - `primitives.csv` 仅保留“名词原语 + 类型 + 首现日期”等字段（`data/processed/primitives.csv:1`）。
+  - `primitive_occurrences.csv` 仅保留“条目标题中的原语出现记录”（`data/processed/primitive_occurrences.csv:1`）。
+  - `primitive_hyperedges.csv` 仅保留“同条目共现集合”（`data/processed/primitive_hyperedges.csv:1`）。
+
+## 2026-02-13 用户新约束：原文必须完整保留
+- 用户已明确确认：日报原文必须完整保留，不接受“摘要式 raw”。
+- 当前规则缺口：`data/raw/wechat/README.md` 仍为“原文尽量完整落盘”，不是硬约束。
+- 执行决策：
+  1) 将完整保留升级为仓库硬规则（AGENTS/README/raw README 同步）。
+  2) 先回填 `2026-02-10`、`2026-02-11`、`2026-02-12` 为全文归档版本（基于用户粘贴正文）。
+
+## 2026-02-13 回填前现状确认（2/10~2/12）
+- `ingest_manifest.csv` 三天记录仍标注“最小格式化”。
+- `2026-02-10.md`、`2026-02-11.md`、`2026-02-12.md` 当前均为“概览 + 单段条目摘要 + 链接”结构。
+- 执行策略：以用户本轮粘贴内容为基准，重写为全文归档版本，并将规则从“尽量完整”提升为“必须完整”。
+
+## 2026-02-13 全文回填验收（2/10~2/12）
+- 文件体量显著提升：
+  - `2026-02-10.md`：2427 -> 4818 chars，97 -> 128 lines
+  - `2026-02-11.md`：5782 -> 12460 chars，213 -> 339 lines
+  - `2026-02-12.md`：5820 -> 13770 chars，223 -> 319 lines
+- 关键词抽检通过：
+  - `2026-02-12.md` 已可检索 `slime`、`Muon/mHC/Engram`、`12.5Hz`、`A6000D/RTX 5090`、`SALA/InfLLM-V2/Lightning Attention`、`SHADE-Arena` 等细节。
+  - `2026-02-11.md` 已可检索 `8B Qwen3-VL`、`7B扩散解码器`、`1029/1034`、`0.7949/0.9587`、`manual-commit/auto-commit/worktrees` 等细节。
+  - `2026-02-10.md` 已可检索广告测试细则（`赞助`、`18岁以下`）、Codex 数据（`100万/60%`）以及 GLM-5 参数推断细节（`700B~800B/44B/202K/154880`）。
+- `ingest_manifest.csv` 对 2/10~2/12 的备注已更新为“全文保真”。
+
+## 2026-02-13 规则落地核验
+- 规则文档已硬化：
+  - `data/raw/wechat/README.md` 已明确“必须完整落盘，禁止摘要压缩”。
+  - `AGENTS.md` 已新增 Raw Ingest Non-Negotiable 约束。
+  - `README.md` 已新增“原文保真要求”章节。
+- `ingest_manifest.csv` 中 2/10~2/12 备注已更新为“全文保真”。
+
+## 2026-02-13 最终抽样定位
+- `data/raw/wechat/2026-02-12.md:56-70` 已保留 GLM-5 参数、训练数据规模、框架与 benchmark 细节。
+- `data/raw/wechat/2026-02-11.md:62-100` 已保留 Qwen-Image 与 MOSS-TTS 的关键结构参数与评测指标。
+- `data/raw/wechat/2026-02-10.md:35-63` 已保留广告测试条款与 Composer 训练规模细节。
+
+## 2026-02-13 用户补充回填（2/09~2/01）
+- 用户已提供 2026-02-09 至 2026-02-01 的全文正文，要求按与 2/10~2/12 相同标准回填。
+- 现状核查：这 9 天文件仍为“最小格式化”版本，尚未完成全文保真回填。
+- 执行决策：新增回填阶段并逐日重写 raw 文件，再同步更新 manifest 备注。
+
+## 2026-02-13 回填可行性核查（2/09~2/01）
+- 文件体量与关键字命中显示：2/09~2/01 当前版本仍有明显摘要化。
+- 特别是 2/03 与 2/01，对用户提供的高细节关键词命中接近空白，确认存在信息折损。
+- 执行结论：需要按用户本轮粘贴文本逐日重写 9 天 raw 文件，而非仅更新标记。
+
+## 2026-02-13 Phase 33 收尾验收（2/09~2/01）
+- `ingest_manifest.csv` 复核通过：`2026-02-09` 到 `2026-02-01` 共 9 天记录均为 `captured`，备注统一为“用户粘贴原文已归档（全文保真）”。
+- 原文文件行数快照（2/09~2/01）共 1621 行，9 天文件均已是可读的全文结构而非最小摘要模板。
+- 关键词抽检通过：
+  - `2026-02-09.md` 命中 `Qwen3.5-9B-Instruct`、`Qwen3.5-35B-A3B-Instruct`、`Sierra`、`Big Brain`。
+  - `2026-02-08.md` 命中 `fast mode`、`Brendan Gregg`、`OpenAI for Countries`、`PLawBench`。
+- 结论：Phase 33 的“9 天回填 + manifest 同步 + 关键细节可检索”验收条件满足，可标记为 complete。
+- 阶段校验结果：执行 `check-complete.sh` 后状态为 `32/33 phases complete`，唯一未完成阶段为 `Phase 31`，与本轮原文回填任务范围一致。
+
+## 2026-02-13 下游重建准备（Phase 33 后续）
+- 本仓库当前为 `agentic-only` 工作流：README/AGENTS 均明确不依赖本地构建脚本。
+- `scripts/` 目录已移除；不存在可直接调用的 `build_primitive_*` 自动重建脚本。
+- 因此本轮下游更新将采用会话内直接重建方式（不新增仓库脚本文件）。
+- 下游当前快照（回填后未重建）：`primitives=137`、`occurrences=185`、`hyperedges=49`。
+- 日期覆盖仍不完整：
+  - `primitive_occurrences.csv` 缺 `2026-02-02`。
+  - `primitive_hyperedges.csv` 缺 `2026-02-01`、`2026-02-02`、`2026-02-03`。
+- 判断：这批原文全文回填尚未向 `data/processed/*` 同步，需执行一次全量重建。
+- 原文结构复核：2/01、2/02、2/09、2/12 均保留 `## 详细条目（全文）` 与 `### 标题 #序号` 模式，可统一用于条目级解析。
+- 结论：可按历史构建口径直接重建 `occurrences/hyperedges`，不需要按天特判格式。
+- 定位到历史脚本口径：旧解析正则仅支持 `### #1 标题`（编号在前），不支持 `### 标题 #1`（编号在后）。
+- 根因判断：2/01~2/09 全文回填采用“编号在后”的标题格式，导致旧口径下条目解析不足，进而出现日期覆盖缺口。
+- 修复策略：保持原有 primitive 匹配逻辑不变，仅扩展条目标题解析为“双格式兼容”，并全量重建 processed 三表。
+## 2026-02-13 下游三表重建结果（基于全文 raw）
+- 已执行全量重建（兼容 `### #n 标题` 与 `### 标题 #n` 两种标题格式）。
+- 重建统计：`item_blocks=184`、`occurrences=279`、`hyperedges=77`。
+- 行数变化：
+  - `primitive_occurrences.csv`: 185 -> 279（+94）
+  - `primitive_hyperedges.csv`: 49 -> 77（+28）
+- 覆盖改善：`primitive_occurrences.csv` 已补入 `2026-02-02`；`primitive_hyperedges.csv` 已补入 `2026-02-01` 与 `2026-02-03`。
+- `primitives.csv` 已同步刷新 `first_seen_date` 与 `source_scope`（按最新 occurrences 计算）。
+- 一致性校验通过：`occurrence_id`/`hyperedge_id` 无重复，且 `occurrences/hyperedges` 中 primitive 引用均可在 `primitives.csv` 中找到（missing=0）。
+- 日期覆盖现状：
+  - `occurrences` 覆盖 `2026-02-01` 至 `2026-02-12` 全部 12 天。
+  - `hyperedges` 覆盖 `2026-02-01`、`2026-02-03`~`2026-02-12`（`2026-02-02` 仍无 >=2 primitive 的条目，属数据结果而非解析缺陷）。
+- 计划同步：新增 `Phase 34`（全文回填后下游三表重建）并标记 complete；全局状态更新为 `33/34 phases complete`，剩余 `Phase 31`。
+- 过程错误记录：一次 `rg` 查询因模式中反引号触发 shell 命令替换，报错 `Phase: command not found`；已改为纯文本模式匹配并完成定位。
+- 过程错误记录补充：行号定位阶段再次出现反引号导致的 shell 误解析，已纳入错误日志并切换为无反引号匹配策略。
+- 结果复核：`task_plan.md` 当前阶段声明已更新为 `Phase 31 (in_progress), Phase 33 (complete), Phase 34 (complete)`；回填后的 2/02 occurrences 记录已正常生成。
+
+## 2026-02-13 Phase 31 启动（M&A 精修）
+- 已复核 `task_plan.md`，Phase 31 目标仍是 `acquired_by -> acquired` 标准化 + event_date 补齐 + 图语义同步。
+- 当前 `high_value_relations.csv` 规模为 361 条数据行（含表头 362）。
+- 需进入关系层明细统计，定位 `acquired_by/parent_company/acquired` 的存量与空日期分布。
+
+## 2026-02-13 Phase 31 收口结果（M&A 精修）
+- `high_value_relations.csv` 复核：`acquired_by=0`、`acquired=1`、`owned_by=19`；`acquired` 唯一条目保持 `buyer -> target` 方向。
+- `term_external_edges.csv` 同步语义修正：将 19 条 `relation_hint=acquired_by` 统一改为 `owned_by`，并在 `notes` 补充 `normalized_from_acquired_by`。
+- event_date 校验：`source_url` 指向 `data/raw/wechat/*.md` 的关系条目中，`event_date` 空缺为 0（可推断日期已补齐）。
+- 队列状态同步：`relation_research_queue.csv` 的 M&A lane（`QREL001`）更新为 `done`，`last_updated=2026-02-13`。
+- 完整性结论：`check-complete.sh` 返回 `ALL PHASES COMPLETE (34/34)`。
+- 安全门禁执行结果（发布前）：
+  - `git diff --check` 初次失败，发现 `data/raw/wechat/2026-02-06.md` 两处 trailing whitespace，已修复后通过。
+  - 变更文件凭据扫描（高风险 token/私钥/JWT 模式）最终结果 `secret_hits=0`。
+- 门禁结论：安全检查通过，可进入 `git add/commit/push`。

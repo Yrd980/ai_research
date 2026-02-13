@@ -1,10 +1,10 @@
 primitive,primitive_type,first_seen_date,source_scope,notes
-OpenAI,Company,2026-02-11,2/11-2/10,头部平台公司
-Anthropic,Company,2026-02-11,2/11,头部平台公司
-Google,Company,2026-02-11,2/11-2/10,含Gemini/Stitch/Chrome线
-ByteDance,Company,2026-02-11,2/11-2/09,含豆包与Seedream线
-xAI,Company,2026-02-09,2/09,图像API发布
-Meta,Company,2026-02-09,2/09,Avocado测试线索
+OpenAI,Company,2026-02-01,2/1-2/12,头部平台公司
+Anthropic,Company,2026-02-01,2/1-2/12,头部平台公司
+Google,Company,2026-02-01,2/1-2/12,含Gemini/Stitch/Chrome线
+ByteDance,Company,2026-02-02,2/2,含豆包与Seedream线
+xAI,Company,2026-02-01,2/1-2/12,图像API发布
+Meta,Company,2026-02-01,2/1-2/9,Avocado测试线索
 Ant Group,Company,2026-02-11,2/11,LLaDA2.1
 Tencent,Company,2026-02-11,2/11,混元与CodeBuddy线
 Runway,Company,2026-02-11,2/11,E轮融资
@@ -12,42 +12,42 @@ Nebius,Company,2026-02-11,2/11,收购Tavily
 Tavily,Company,2026-02-11,2/11,agentic search
 Entire,Company,2026-02-11,2/11,初创+融资
 Warp,Company,2026-02-11,2/11,Oz平台
-OpenRouter,Company,2026-02-10,2/10,Aurora Alpha
-Hugging Face,Company,2026-02-10,2/10-2/09,Transformers相关
+OpenRouter,Company,2026-02-04,2/4-2/10,Aurora Alpha
+Hugging Face,Company,2026-02-03,2/3-2/12,Transformers相关
 Obsidian,Company,2026-02-11,2/11,CLI发布
-ModelScope,Company,2026-02-10,2/10,OpenAPI
+ModelScope,Company,2026-02-06,2/6-2/12,OpenAPI
 draw.io,Company,2026-02-11,2/11,MCP server
 Unsloth,Company,2026-02-11,2/11,MoE优化
 Zhipu AI,Company,2026-02-10,2/10,GLM-5传闻
 MOSI.AI,Company,2026-02-11,2/11,MOSS-TTS
 OpenMOSS,Community,2026-02-11,2/11,MOSS-TTS
-Cursor,Company,2026-02-10,2/10,Composer 1.5
+Cursor,Company,2026-02-02,2/2-2/10,Composer 1.5
 Qwen-Image-2.0,Product,2026-02-11,2/11,图像生成与编辑统一模型
-Qwen 3.5,Product,2026-02-09,2/09,待发布系列
-Qwen3.5-9B-Instruct,Model,2026-02-09,2/09,PR中出现
-Qwen3.5-35B-A3B-Instruct,Model,2026-02-09,2/09,PR中出现
-Grok Imagine Image Pro,Model,2026-02-09,2/09,xAI图像模型
-Grok Imagine Image,Model,2026-02-09,2/09,xAI图像模型标准版
-WorkBuddy,Product,2026-02-09,2/09,AI桌面工作台
+Qwen 3.5,Product,2026-02-03,2/3-2/9,待发布系列
+Qwen3.5-9B-Instruct,Model,2026-02-09,2/9,PR中出现
+Qwen3.5-35B-A3B-Instruct,Model,2026-02-09,2/9,PR中出现
+Grok Imagine Image Pro,Model,2026-02-09,2/9,xAI图像模型
+Grok Imagine Image,Model,2026-02-09,2/9,xAI图像模型标准版
+WorkBuddy,Product,2026-02-09,2/9,AI桌面工作台
 Seedream 5.0-Preview,Model,2026-02-09,2/09,字节预览版
-Avocado,Model,2026-02-09,2/09,Meta测试代号
-Avocado Thinking,Model,2026-02-09,2/09,Meta测试代号
-Sierra,Model,2026-02-09,2/09,Meta browser agent代号
-Big Brain,Concept,2026-02-09,2/09,Meta多agent并行概念
+Avocado,Model,2026-02-09,2/9,Meta测试代号
+Avocado Thinking,Model,2026-02-09,2/9,Meta测试代号
+Sierra,Model,2026-02-09,2/9,Meta browser agent代号
+Big Brain,Concept,2026-02-09,2/9,Meta多agent并行概念
 LLaDA2.1,Model,2026-02-11,2/11,扩散大语言模型
 LLaDA2.1-Mini,Model,2026-02-11,2/11,16B版本
 LLaDA2.1-Flash,Model,2026-02-11,2/11,100B版本
 HY-1.8B-2Bit,Model,2026-02-11,2/11,端侧量化模型
 Hunyuan-1.8B-Instruct,Model,2026-02-11,2/11,HY基座模型
-GPT-5.3-Codex,Model,2026-02-11,2/11-2/10,编程模型
-GPT-5.2,Model,2026-02-11,2/11-2/10,路由/升级目标
+GPT-5.3-Codex,Model,2026-02-06,2/6-2/11,编程模型
+GPT-5.2,Model,2026-02-03,2/3-2/12,路由/升级目标
 Responses API,Product,2026-02-11,2/11,OpenAI API能力更新
 Claude Code Desktop,Product,2026-02-11,2/11,YOLO模式
 --dangerously-skip-permissions,Flag,2026-02-11,2/11,Claude Code参数
 Oz,Platform,2026-02-11,2/11,Warp云原生Agent平台
-Claude Opus 4.6,Product,2026-02-11,2/11,Antigravity可用
+Claude Opus 4.6,Product,2026-02-06,2/6-2/12,Antigravity可用
 gemini-skills,Project,2026-02-11,2/11,Gemini技能库
-Claude Cowork,Product,2026-02-11,2/11,Windows版
+Claude Cowork,Product,2026-02-05,2/5-2/11,Windows版
 Claude App voice mode,Product,2026-02-11,2/11,语音模式分阶段开放
 ChatGPT Deep Research,Product,2026-02-11,2/11,升级到GPT-5.2
 Google Stitch Figma Export,Product,2026-02-11,2/11,Figma导出
@@ -62,7 +62,7 @@ MOSS-VoiceGenerator,Model,2026-02-11,2/11,音色生成
 MOSS-TTS-Realtime,Model,2026-02-11,2/11,实时语音体
 MOSS-SoundEffect,Model,2026-02-11,2/11,可控音效
 MOSS-Audio-Tokenizer,Model,2026-02-11,2/11,统一音频tokenizer
-WER,Metric,2026-02-11,2/11,识别错误率指标
+WER,Metric,2026-02-04,2/4-2/11,识别错误率指标
 SIM,Metric,2026-02-11,2/11,相似度指标
 ACC,Metric,2026-02-11,2/11,准确率指标
 ChatGPT Ads Test,Product,2026-02-10,2/10,广告商业化测试
@@ -71,28 +71,28 @@ Composer 1.5,Model,2026-02-10,2/10,Cursor编程模型
 CatPaw,Product,2026-02-10,2/10,美团AI编程工具
 Transformers.js v4,Framework,2026-02-10,2/10,WebGPU Runtime预览
 Sora Extensions,Product,2026-02-10,2/10,视频续写
-GLM-5,Model,2026-02-10,2/10,智谱新模型传闻
-DSA,Technique,2026-02-10,2/10,稀疏注意力机制
-MTP,Technique,2026-02-10,2/10,多标记预测
-Gated DeltaNet,Technique,2026-02-09,2/09,Qwen3.5架构机制
+GLM-5,Model,2026-02-03,2/3-2/12,智谱新模型传闻
+DSA,Technique,2026-02-10,2/10-2/12,稀疏注意力机制
+MTP,Technique,2026-02-03,2/3-2/10,多标记预测
+Gated DeltaNet,Technique,2026-02-09,2/9,Qwen3.5架构机制
 Hybrid Attention,Technique,2026-02-09,2/09,Qwen3.5架构机制
-Sam Altman,Person,2026-02-11,2/11-2/10,OpenAI核心人物
+Sam Altman,Person,2026-02-04,2/4-2/10,OpenAI核心人物
 Dario Amodei,Person,2026-02-11,2/11,Anthropic联合创始人
 Daniela Amodei,Person,2026-02-11,2/11,Anthropic联合创始人
 Thomas Dohmke,Person,2026-02-11,2/11,Entire创始人
 Cristobal Valenzuela,Person,2026-02-11,2/11,Runway联合创始人
 Alejandro Matamala,Person,2026-02-11,2/11,Runway联合创始人
 Anastasis Germanidis,Person,2026-02-11,2/11,Runway联合创始人
-Elon Musk,Person,2026-02-09,2/09,xAI关联人物
+Elon Musk,Person,2026-02-12,2/12,xAI关联人物
 Mark Zuckerberg,Person,2026-02-09,2/09,Meta核心人物
-DeepSeek,Company,2026-02-12,2/12,1M上下文模型线
-MiniMax,Company,2026-02-12,2/12,M2.5模型线
-MiniMax M2.5,Model,2026-02-12,2/12,MiniMax旗舰模型
+DeepSeek,Company,2026-02-03,2/3-2/12,1M上下文模型线
+MiniMax,Company,2026-02-03,2/3-2/12,M2.5模型线
+MiniMax M2.5,Model,2026-02-03,2/3-2/12,MiniMax旗舰模型
 GPT-5.2 Instant,Model,2026-02-12,2/12,OpenAI更新型号
 Ming-flash-omni 2.0,Model,2026-02-12,2/12,蚂蚁全模态模型
 iFlytek,Company,2026-02-12,2/12,讯飞星火X2发布方
 Spark X2,Model,2026-02-12,2/12,讯飞星火X2模型
-OpenBMB,Company,2026-02-12,2/12,MiniCPM-SALA发布方
+OpenBMB,Company,2026-02-04,2/4-2/12,MiniCPM-SALA发布方
 MiniCPM-SALA,Model,2026-02-12,2/12,百万上下文模型
 BOSS Zhipin,Company,2026-02-12,2/12,Nanbeige模型发布方
 Nanbeige4.1-3B,Model,2026-02-12,2/12,开源3B模型
@@ -102,36 +102,36 @@ Z Code,Product,2026-02-12,2/12,智谱AI编程工具
 GLM Coding Plan,Product,2026-02-12,2/12,智谱订阅方案
 Google AI Studio,Product,2026-02-12,2/12,谷歌开发平台更新
 Omnibar,Product,2026-02-12,2/12,Google AI Studio功能
-Factory,Company,2026-02-12,2/12,与JetBrains合作
-JetBrains,Company,2026-02-12,2/12,IDE厂商
+Factory,Company,2026-02-11,2/11-2/12,与JetBrains合作
+JetBrains,Company,2026-02-05,2/5-2/12,IDE厂商
 Droid Agent,Product,2026-02-12,2/12,Factory集成Agent
 GLM in Excel,Product,2026-02-12,2/12,智谱Excel插件
-LongCat,Product,2026-02-12,2/12,美团智能体品牌
-Stitch,Product,2026-02-12,2/12,Google设计产品
+LongCat,Product,2026-02-07,2/7-2/12,美团智能体品牌
+Stitch,Product,2026-02-11,2/11-2/12,Google设计产品
 Ideate Agent,Product,2026-02-12,2/12,Stitch创意Agent
-Mistral AI,Company,2026-02-12,2/12,瑞典数据中心投资
+Mistral AI,Company,2026-02-05,2/5-2/12,瑞典数据中心投资
 Prime Intellect,Company,2026-02-12,2/12,agentic后训练平台
 Prime Intellect Lab,Platform,2026-02-12,2/12,Lab平台
 Gemini Deep Think,Model,2026-02-12,2/12,科研推理模式
-Andrej Karpathy,Person,2026-02-12,2/12,243行GPT实现作者
+Andrej Karpathy,Person,2026-02-01,2/1-2/12,243行GPT实现作者
 Codex Alpha,Product,2026-02-12,2/12,Windows候补
 Gemini 3.1 Pro Preview,Model,2026-02-12,2/12,传闻型号
-Augment Code,Company,2026-02-08,2/08,Context Engine MCP
-Context Engine MCP,Product,2026-02-08,2/08,MCP语义引擎
-Brendan Gregg,Person,2026-02-08,2/08,OpenAI性能工程
-OpenAI for Countries,Project,2026-02-08,2/08,本土化计划
-PLawBench,Metric,2026-02-08,2/08,法律评测基准
-CarPlay,Product,2026-02-08,2/08,苹果车载系统
-LongCat-Flash-Lite,Model,2026-02-07,2/07,美团开源模型
-Seedance 2.0,Model,2026-02-07,2/07,字节视频生成模型
-Kilo Code,Company,2026-02-07,2/07,Pony Alpha联动平台
-Pony Alpha,Model,2026-02-07,2/07,stealth模型
-Waymo,Company,2026-02-07,2/07,自动驾驶公司
-Waymo World Model,Model,2026-02-07,2/07,自动驾驶仿真模型
-X Developer Platform,Platform,2026-02-07,2/07,X开发者平台
-Sora,Product,2026-02-07,2/07,OpenAI视频模型
-Perplexity,Company,2026-02-07,2/07,Model Council发布方
-Model Council,Product,2026-02-07,2/07,多模型聚合问答
-Dime,Product,2026-02-07,2/07,OpenAI硬件传闻名
-Pinea Pi,Product,2026-02-07,2/07,面壁AI开发板
+Augment Code,Company,2026-02-08,2/8,Context Engine MCP
+Context Engine MCP,Product,2026-02-08,2/8,MCP语义引擎
+Brendan Gregg,Person,2026-02-08,2/8,OpenAI性能工程
+OpenAI for Countries,Project,2026-02-08,2/8,本土化计划
+PLawBench,Metric,2026-02-08,2/8,法律评测基准
+CarPlay,Product,2026-02-08,2/8,苹果车载系统
+LongCat-Flash-Lite,Model,2026-02-07,2/7,美团开源模型
+Seedance 2.0,Model,2026-02-07,2/7,字节视频生成模型
+Kilo Code,Company,2026-02-07,2/7,Pony Alpha联动平台
+Pony Alpha,Model,2026-02-07,2/7,stealth模型
+Waymo,Company,2026-02-07,2/7,自动驾驶公司
+Waymo World Model,Model,2026-02-07,2/7,自动驾驶仿真模型
+X Developer Platform,Platform,2026-02-07,2/7,X开发者平台
+Sora,Product,2026-02-07,2/7-2/10,OpenAI视频模型
+Perplexity,Company,2026-02-05,2/5-2/7,Model Council发布方
+Model Council,Product,2026-02-07,2/7,多模型聚合问答
+Dime,Product,2026-02-07,2/7,OpenAI硬件传闻名
+Pinea Pi,Product,2026-02-07,2/7,面壁AI开发板
 Sugon,Company,2026-02-07,2/07,中科曙光英文名

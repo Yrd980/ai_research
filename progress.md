@@ -271,3 +271,52 @@
 - 已刷新 `viz/graph_data.js` fallback，支持本地直开显示最新图。
 - 按用户要求将 `viz/index.html` 改为“仅图可视化”模式：移除所有顶部控件与状态条，页面加载后自动渲染图。
 - 保留 CSV->fallback 双通道读取；打开 `viz/index.html` 即可看到图谱。
+- 启动“项目体检”任务：读取计划与规则文档，确认当前分析范围为全仓结构、数据索引一致性与维护风险。
+- 记录发现：`task_plan.md` 当前阶段声明与阶段列表存在不一致（Current Phase=30，Phase 31=in_progress）。
+- 完成第一轮体检：输出核心 CSV 行数、字段、样例行与原文日期覆盖（2026-02-01~2026-02-12）。
+- 记录潜在关注点：`term_aliases.csv` 当前为空表，可能影响别名归一能力。
+- 完成完整性扫描：确认主键唯一、跨表引用有效、`raw_file` 路径可达，无结构性坏数据。
+- 完成质量扫描：识别出“候选状态堆积 + 别名层空置 + 共现边权重稀薄”三类可演进点。
+- 完成日期覆盖核验：识别出 `occurrences` 缺失 `2026-02-02`、`hyperedges` 缺失 `2026-02-01~03` 的覆盖差异。
+- 抽样原文确认该差异可能由条目标题层级/格式差异触发（如 `## #1` 风格）。
+- 完成来源质量扫描：识别 `high_value_relations` 大量缺失事件日期，以及少量非一手来源/伪 URL 痕迹。
+- 完成可视化入口检查：确认 `viz/index.html` 可直接消费 `wiki/index`，并具备 `graph_data.js` 兜底能力。
+- 补充行号证据：完成计划状态不一致、别名层空置、关系队列状态堆积、来源字段非标准样式的文件级定位。
+- 执行 `check-complete.sh`：结果 `Task in progress (30/31 phases complete)`，当前仍有 1 个阶段处于 in_progress（Phase 31）。
+- 响应用户“是否丢失信息量”问题：完成 2/10~2/12 原文层核查与关键词命中对照。
+- 结论已落盘：raw 层为摘要保留，非全文镜像；processed/wiki 层为更强压缩，确实会丢失大量机制/指标/约束细节。
+- 接收用户确认：将“原文完整保留”设为强制规则。
+- 完成规则现状检查：当前 raw README 为“尽量完整”，需升级为“必须完整”。
+- 完成回填前核查：2/10~2/12 原文文件当前为摘要版，manifest 备注为“最小格式化”。
+- 完成 2/10~2/12 原文全文回填，并完成关键词验收抽检。
+- 验收结果：关键参数、机制名、benchmark、限制条件已在 raw 文件中可检索。
+- 已更新 ingest_manifest 对应三天记录备注为“全文保真”。
+- 完成规则落地核验：AGENTS/README/raw README 三处均已写入“原文必须完整保留”硬约束。
+- 完成 manifest 复核：2/10~2/12 记录已标记“全文保真”。
+- 执行 `check-complete.sh`：当前 `31/32 phases complete`，剩余 Phase 31 in_progress（与本轮原文保真回填无冲突）。
+- 完成最终行号抽样：确认三天原文文件中关键细节段落存在并可定位。
+- 接收用户提供 2/09~2/01 全文原文，开始执行第二批“全文保真回填”。
+- 完成现状核查：9 天 raw 文件仍是最小格式化版本，待重写。
+- 完成 2/09~2/01 体量与关键词扫描：确认仍有摘要化，决定执行逐日全文重写。
+- 完成 `task_plan.md` Phase 33 收尾：9 个回填勾选项、manifest 勾选项、抽样核验勾选项均改为完成，状态改为 `complete`。
+- 同步修正 `task_plan.md` 顶部阶段声明：`Phase 31 (in_progress), Phase 33 (complete)`。
+- 完成二次验收：复核 `ingest_manifest.csv` 的 2/01~2/09 备注均为“全文保真”，并通过关键词抽检确认 2/09 与 2/08 的关键技术细节仍可检索。
+- 运行完成校验：`sh ~/.codex/skills/planning-with-files/scripts/check-complete.sh` 返回 `Task in progress (32/33 phases complete)`，当前仅 `Phase 31` 保持进行中。
+- 命令修复记录：一次 `rg` 查询因反引号转义导致 shell 误解析（`command not found`），已改为纯文本正则匹配并成功定位目标行号。
+- 基于全文 raw 执行 `data/processed` 三表全量重建（兼容两类标题格式：`#n 在前` / `#n 在后`）。
+- 重建结果：`item_blocks=184`、`occurrences=279`、`hyperedges=77`；相较重建前分别增加 `+94` 与 `+28`。
+- 已同步刷新 `primitives.csv` 的 `first_seen_date` 与 `source_scope`（按最新 occurrences 计算）。
+- 一致性校验通过：ID 唯一、primitive 引用闭环（missing=0）。
+- 已将“全文回填后下游三表重建”登记为 `Phase 34` 并标记完成，保持计划文件与执行一致。
+- 复跑完成校验：`check-complete.sh` 返回 `Task in progress (33/34 phases complete)`，仅 `Phase 31` 仍在进行中。
+- 命令修复记录：一次 `rg` 正则查询包含反引号导致 shell 误解析（`Phase: command not found`），已切换为不含反引号的匹配方式，未影响数据文件重建结果。
+- 命令修复记录：再次执行 `rg` 行号定位时，查询串中的反引号触发 shell 替换（`occurrence_id: command not found` / `Phase: command not found`）；已固定改用无反引号模式，避免重复失败。
+- Phase 31 盘点中发现一次读取错误：误按 `relation_type` 字段解析 `term_external_edges.csv`（该表无此列，实际为 `relation_hint`），触发 `KeyError: relation_type`；已改用正确字段继续，不重复同路径错误。
+- 执行 Phase 31 精修：将 `term_external_edges.csv` 中 19 条 `acquired_by` 关系提示统一改写为 `owned_by`，并补注释 `normalized_from_acquired_by`。
+- 更新 `relation_research_queue.csv`：M&A lane (`QREL001`) 状态改为 `done`，`last_updated` 更新为 `2026-02-13`。
+- 更新 `task_plan.md`：Phase 31 四项勾选全部完成，状态切换为 `complete`；Current Phase 同步为 Phase 31/33/34 均 complete。
+- 验证通过：`high_value acquired_by=0`、`external acquired_by=0`、`daily_source_missing_event_date=0`。
+- 完成性检查通过：`sh ~/.codex/skills/planning-with-files/scripts/check-complete.sh` 输出 `ALL PHASES COMPLETE (34/34)`。
+- 发布前安全检查：`git diff --check` 与变更文件凭据扫描（AKIA/ghp_/sk-/私钥/JWT/Bearer token value）执行完成。
+- 修复项：`data/raw/wechat/2026-02-06.md` 两处 trailing whitespace 已清理。
+- 安全结论：门禁通过，允许进入 `git add`/`commit`/`push`。

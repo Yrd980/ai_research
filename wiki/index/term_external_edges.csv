@@ -253,29 +253,29 @@ EX1346,trm_ant-group,Ant Group,trm_jack-ma,Jack Ma,founded_by,https://www.wikida
 EX1348,trm_anthropic,Anthropic,trm_chris-olah,Chris Olah,founded_by,https://www.wikidata.org/wiki/Q116758847,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1349,trm_anthropic,Anthropic,trm_jared-kaplan,Jared Kaplan,founded_by,https://www.wikidata.org/wiki/Q116758847,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1350,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,founded_by,https://www.wikidata.org/wiki/Q55606242,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1351,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,acquired_by,https://www.wikidata.org/wiki/Q55606242,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1351,trm_bytedance,ByteDance,trm_zhang-yiming,Zhang Yiming,owned_by,https://www.wikidata.org/wiki/Q55606242,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1352,trm_deepseek,DeepSeek,trm_liang-wenfeng,Liang Wenfeng,founded_by,https://www.wikidata.org/wiki/Q131577453,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1353,trm_deepseek,DeepSeek,trm_high-flyer,High-Flyer,acquired_by,https://www.wikidata.org/wiki/Q131577453,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1353,trm_deepseek,DeepSeek,trm_high-flyer,High-Flyer,owned_by,https://www.wikidata.org/wiki/Q131577453,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1354,trm_google,Google,trm_sergey-brin,Sergey Brin,founded_by,https://www.wikidata.org/wiki/Q95,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1355,trm_google,Google,trm_larry-page,Larry Page,founded_by,https://www.wikidata.org/wiki/Q95,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1356,trm_google,Google,trm_alphabet-inc,Alphabet Inc.,acquired_by,https://www.wikidata.org/wiki/Q95,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1356,trm_google,Google,trm_alphabet-inc,Alphabet Inc.,owned_by,https://www.wikidata.org/wiki/Q95,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1357,trm_iflytek,iFlytek,trm_liu-qingfeng,Liu Qingfeng,founded_by,https://www.wikidata.org/wiki/Q4764375,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1358,trm_jetbrains,JetBrains,trm_sergey-dmitriev,Sergey Dmitriev,founded_by,https://www.wikidata.org/wiki/Q1688472,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1359,trm_jetbrains,JetBrains,trm_valentin-kipyatkov,Valentin Kipyatkov,founded_by,https://www.wikidata.org/wiki/Q1688472,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1360,trm_jetbrains,JetBrains,trm_jetbrains-n-v,JetBrains N.V.,acquired_by,https://www.wikidata.org/wiki/Q1688472,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1360,trm_jetbrains,JetBrains,trm_jetbrains-n-v,JetBrains N.V.,owned_by,https://www.wikidata.org/wiki/Q1688472,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1361,trm_meta,Meta,trm_eduardo-saverin,Eduardo Saverin,founded_by,https://www.wikidata.org/wiki/Q380,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1362,trm_meta,Meta,trm_dustin-moskovitz,Dustin Moskovitz,founded_by,https://www.wikidata.org/wiki/Q380,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1363,trm_meta,Meta,trm_chris-hughes,Chris Hughes,founded_by,https://www.wikidata.org/wiki/Q380,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1364,trm_meta,Meta,trm_andrew-mccollum,Andrew McCollum,founded_by,https://www.wikidata.org/wiki/Q380,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1365,trm_meta,Meta,trm_mark-zuckerberg,Mark Zuckerberg,acquired_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1366,trm_meta,Meta,trm_dustin-moskovitz,Dustin Moskovitz,acquired_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1367,trm_meta,Meta,trm_eduardo-saverin,Eduardo Saverin,acquired_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1368,trm_meta,Meta,trm_blackrock,BlackRock,acquired_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1369,trm_minimax,MiniMax,trm_amc-networks-international-central-europe,AMC Networks International Central Europe,acquired_by,https://www.wikidata.org/wiki/Q1058962,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1365,trm_meta,Meta,trm_mark-zuckerberg,Mark Zuckerberg,owned_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1366,trm_meta,Meta,trm_dustin-moskovitz,Dustin Moskovitz,owned_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1367,trm_meta,Meta,trm_eduardo-saverin,Eduardo Saverin,owned_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1368,trm_meta,Meta,trm_blackrock,BlackRock,owned_by,https://www.wikidata.org/wiki/Q380,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1369,trm_minimax,MiniMax,trm_amc-networks-international-central-europe,AMC Networks International Central Europe,owned_by,https://www.wikidata.org/wiki/Q1058962,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1370,trm_mistral-ai,Mistral AI,trm_guillaume-lample,Guillaume Lample,founded_by,https://www.wikidata.org/wiki/Q119718658,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1371,trm_mistral-ai,Mistral AI,trm_timoth-e-lacroix,Timothée Lacroix,founded_by,https://www.wikidata.org/wiki/Q119718658,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1372,trm_mistral-ai,Mistral AI,trm_arthur-mensch,Arthur Mensch,founded_by,https://www.wikidata.org/wiki/Q119718658,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1373,trm_nebius,Nebius,trm_nebius-group,Nebius Group,acquired_by,https://www.wikidata.org/wiki/Q127688424,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1373,trm_nebius,Nebius,trm_nebius-group,Nebius Group,owned_by,https://www.wikidata.org/wiki/Q127688424,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1374,trm_openai,OpenAI,trm_elon-musk,Elon Musk,founded_by,https://www.wikidata.org/wiki/Q21708200,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1375,trm_openai,OpenAI,trm_ilya-sutskever,Ilya Sutskever,founded_by,https://www.wikidata.org/wiki/Q21708200,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1376,trm_openai,OpenAI,trm_greg-brockman,Greg Brockman,founded_by,https://www.wikidata.org/wiki/Q21708200,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
@@ -291,16 +291,16 @@ EX1385,trm_tencent,Tencent,trm_zhang-zhidong,Zhang Zhidong,founded_by,https://ww
 EX1386,trm_tencent,Tencent,trm_chen-yidan,Chen Yidan,founded_by,https://www.wikidata.org/wiki/Q860580,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1387,trm_tencent,Tencent,trm_daniel-xu,Daniel Xu,founded_by,https://www.wikidata.org/wiki/Q860580,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1388,trm_tencent,Tencent,trm_zeng-liqing,Zeng Liqing,founded_by,https://www.wikidata.org/wiki/Q860580,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1389,trm_tencent,Tencent,trm_ma-huateng,Ma Huateng,acquired_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1390,trm_tencent,Tencent,trm_myriad-international-holdings,Myriad International Holdings,acquired_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1391,trm_tencent,Tencent,trm_jpmorgan-chase,JPMorgan Chase,acquired_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1392,trm_tencent,Tencent,trm_naspers,Naspers,acquired_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1389,trm_tencent,Tencent,trm_ma-huateng,Ma Huateng,owned_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1390,trm_tencent,Tencent,trm_myriad-international-holdings,Myriad International Holdings,owned_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1391,trm_tencent,Tencent,trm_jpmorgan-chase,JPMorgan Chase,owned_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1392,trm_tencent,Tencent,trm_naspers,Naspers,owned_by,https://www.wikidata.org/wiki/Q860580,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1393,trm_waymo,Waymo,trm_sebastian-thrun,Sebastian Thrun,founded_by,https://www.wikidata.org/wiki/Q15330,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1394,trm_waymo,Waymo,trm_anthony-levandowski,Anthony Levandowski,founded_by,https://www.wikidata.org/wiki/Q15330,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1395,trm_waymo,Waymo,trm_waymo-holding,Waymo Holding,acquired_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1396,trm_waymo,Waymo,trm_google,Google,acquired_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1397,trm_waymo,Waymo,trm_alphabet-inc,Alphabet Inc.,acquired_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1395,trm_waymo,Waymo,trm_waymo-holding,Waymo Holding,owned_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1396,trm_waymo,Waymo,trm_google,Google,owned_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1397,trm_waymo,Waymo,trm_alphabet-inc,Alphabet Inc.,owned_by,https://www.wikidata.org/wiki/Q15330,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
 EX1398,trm_xai,xAI,trm_tony-wu,Tony Wu,founded_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
 EX1399,trm_xai,xAI,trm_igor-babuschkin,Igor Babuschkin,founded_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P112,secondary_reference,candidate,2026-02-12,parallel_founder_lane
-EX1400,trm_xai,xAI,trm_elon-musk,Elon Musk,acquired_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
-EX1401,trm_xai,xAI,trm_kingdom-holding-company,Kingdom Holding Company,acquired_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane
+EX1400,trm_xai,xAI,trm_elon-musk,Elon Musk,owned_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by
+EX1401,trm_xai,xAI,trm_kingdom-holding-company,Kingdom Holding Company,owned_by,https://www.wikidata.org/wiki/Q120599684,wikidata_P127_P749,secondary_reference,candidate,2026-02-12,parallel_mna_lane; normalized_from_acquired_by

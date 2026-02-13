@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 30 (complete)
+Phase 31 (complete), Phase 33 (complete), Phase 34 (complete)
 
 ## Phases
 
@@ -280,8 +280,39 @@ Phase 30 (complete)
 - **Status:** complete
 
 ### Phase 31: M&A 关系精修（方向标准化 + 日期补齐）
-- [ ] 将 `acquired_by` 规范为 `acquired`（buyer -> target）
-- [ ] 补齐可推断 event_date（优先日更来源）
-- [ ] 同步修正对应图边方向语义与注释
-- [ ] 更新日志并自动发布
-- **Status:** in_progress
+- [x] 将 `acquired_by` 规范为 `acquired`（buyer -> target）
+- [x] 补齐可推断 event_date（优先日更来源）
+- [x] 同步修正对应图边方向语义与注释
+- [x] 更新日志并自动发布
+- **Status:** complete
+
+### Phase 32: 原文全文保真（2/10~2/12 回填 + 规则硬化）
+- [x] 回填 `data/raw/wechat/2026-02-10.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-11.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-12.md` 为全文版本
+- [x] 更新 `ingest_manifest.csv` 备注为“全文归档”
+- [x] 将“原文必须完整保留”写入 `AGENTS.md` / `README.md` / `data/raw/wechat/README.md`
+- [x] 核对关键词样本，确认关键技术细节可检索
+- **Status:** complete
+
+### Phase 33: 原文全文保真（2/09~2/01 回填）
+- [x] 回填 `data/raw/wechat/2026-02-09.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-08.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-07.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-06.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-05.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-04.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-03.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-02.md` 为全文版本
+- [x] 回填 `data/raw/wechat/2026-02-01.md` 为全文版本
+- [x] 更新 `ingest_manifest.csv` 对应 9 天备注为“全文保真”
+- [x] 抽样核验关键细节可检索并记录
+- **Status:** complete
+
+### Phase 34: 全文回填后下游三表重建
+- [x] 兼容 `### #n 标题` 与 `### 标题 #n` 两种格式重建条目块
+- [x] 全量重建 `data/processed/primitive_occurrences.csv`
+- [x] 全量重建 `data/processed/primitive_hyperedges.csv`
+- [x] 同步刷新 `data/processed/primitives.csv` 的 `first_seen_date` 与 `source_scope`
+- [x] 运行一致性校验（ID 唯一、primitive 引用闭环）
+- **Status:** complete
