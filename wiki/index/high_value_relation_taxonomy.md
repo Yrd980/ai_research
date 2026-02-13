@@ -7,6 +7,8 @@ This file defines normalized relation types for `wiki/index/high_value_relations
 - Keep relation names semantic and stable.
 - Prefer directional relations with clear subject/object roles.
 - Keep daily-event relations and long-lived structural relations in the same schema, differentiated by `source_type` and `event_date`.
+- Keep data layer stateless: do not add workflow state columns such as `status`.
+- Handle uncertain candidates in agent conversation/logs, not in `high_value_relations.csv`.
 
 ## Normalized Types
 

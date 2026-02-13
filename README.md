@@ -55,4 +55,6 @@
 - 全程客观、原子化、可追溯。
 - 优先第一手链接；去除社媒转述噪声。
 - 默认不新增本地构建脚本；直接在 agentic 编辑中维护结果。
+- 数据层索引 CSV 不引入 `status` 字段与候选状态门（如 `candidate/verified/in_progress`）。
+- 不确定性留在对话与日志（`task_plan.md`、`findings.md`、`progress.md`），不写入核心索引表。
 - 详细规则以 `AGENTS.md` 为准。

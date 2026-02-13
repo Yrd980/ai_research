@@ -1,768 +1,768 @@
-term_id,term,term_type,status,notes
-trm_acc,ACC,Metric,active,准确率指标
-trm_alejandro-matamala,Alejandro Matamala,Person,active,Runway联合创始人
-trm_alphabet-inc,Alphabet Inc.,Company,active,wikidata ownership relation
-trm_amc-networks-international-central-europe,AMC Networks International Central Europe,Company,active,wikidata ownership relation
-trm_anastasis-germanidis,Anastasis Germanidis,Person,active,Runway联合创始人
-trm_andrej-karpathy,Andrej Karpathy,Person,active,243行GPT实现作者
-trm_andrew-mccollum,Andrew McCollum,Person,active,wikidata founder relation
-trm_ant-group,Ant Group,Company,active,LLaDA2.1
-trm_anthony-levandowski,Anthony Levandowski,Person,active,wikidata founder relation
-trm_anthropic,Anthropic,Company,active,头部平台公司
-trm_arthur-mensch,Arthur Mensch,Person,active,wikidata founder relation
-trm_augment-code,Augment Code,Company,active,Context Engine MCP
-trm_aurora-alpha,Aurora Alpha,Model,active,OpenRouter stealth模型
-trm_avocado,Avocado,Model,active,Meta测试代号
-trm_avocado-thinking,Avocado Thinking,Model,active,Meta测试代号
-trm_big-brain,Big Brain,Concept,active,Meta多agent并行概念
-trm_blackrock,BlackRock,Company,active,wikidata ownership relation
-trm_boss-zhipin,BOSS Zhipin,Company,active,Nanbeige模型发布方
-trm_brendan-gregg,Brendan Gregg,Person,active,OpenAI性能工程
-trm_bytedance,ByteDance,Company,active,含豆包与Seedream线
-trm_carplay,CarPlay,Product,active,苹果车载系统
-trm_catpaw,CatPaw,Product,active,美团AI编程工具
-trm_chatgpt,ChatGPT,Product,active,external expansion from official source
-trm_chatgpt-ads-test,ChatGPT Ads Test,Product,active,广告商业化测试
-trm_chatgpt-deep-research,ChatGPT Deep Research,Product,active,升级到GPT-5.2
-trm_chen-yidan,Chen Yidan,Person,active,wikidata founder relation
-trm_chris-hughes,Chris Hughes,Person,active,wikidata founder relation
-trm_chris-olah,Chris Olah,Person,active,wikidata founder relation
-trm_claude,Claude,Product,active,external expansion from official source
-trm_claude-app-voice-mode,Claude App voice mode,Product,active,语音模式分阶段开放
-trm_claude-code,Claude Code,Product,active,external expansion from official source
-trm_claude-code-desktop,Claude Code Desktop,Product,active,YOLO模式
-trm_claude-cowork,Claude Cowork,Product,active,Windows版
-trm_claude-opus-4-6,Claude Opus 4.6,Product,active,Antigravity可用
-trm_codex-alpha,Codex Alpha,Product,active,Windows候补
-trm_codex-app,Codex App,Product,active,external expansion from official source
-trm_composer-1-5,Composer 1.5,Model,active,Cursor编程模型
-trm_context-engine-mcp,Context Engine MCP,Product,active,MCP语义引擎
-trm_cristobal-valenzuela,Cristobal Valenzuela,Person,active,Runway联合创始人
-trm_cursor,Cursor,Company,active,Composer 1.5
-trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,active,Claude Code参数
-trm_daniel-xu,Daniel Xu,Person,active,wikidata founder relation
-trm_daniela-amodei,Daniela Amodei,Person,active,Anthropic联合创始人
-trm_dario-amodei,Dario Amodei,Person,active,Anthropic联合创始人
-trm_deepseek,DeepSeek,Company,active,1M上下文模型线
-trm_diederik-p-kingma,Diederik P. Kingma,Person,active,wikidata founder relation
-trm_dime,Dime,Product,active,OpenAI硬件传闻名
-trm_draw-io,draw.io,Company,active,MCP server
-trm_droid-agent,Droid Agent,Product,active,Factory集成Agent
-trm_dsa,DSA,Technique,active,稀疏注意力机制
-trm_dustin-moskovitz,Dustin Moskovitz,Person,active,wikidata founder relation
-trm_eduardo-saverin,Eduardo Saverin,Person,active,wikidata founder relation
-trm_elon-musk,Elon Musk,Person,active,xAI关联人物
-trm_entire,Entire,Company,active,初创+融资
-trm_factory,Factory,Company,active,与JetBrains合作
-trm_gated-deltanet,Gated DeltaNet,Technique,active,Qwen3.5架构机制
-trm_gemini,Gemini,Product,active,external expansion from official source
-trm_gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,Model,active,传闻型号
-trm_gemini-api,Gemini API,Product,active,external expansion from official source
-trm_gemini-deep-think,Gemini Deep Think,Model,active,科研推理模式
-trm_gemini-skills,gemini-skills,Project,active,Gemini技能库
-trm_gh-repo-anthropics-anthropic-retrieval-demo,GH Repo: anthropics/anthropic-retrieval-demo,Project,active,github official repository
-trm_gh-repo-anthropics-anthropic-sdk-csharp,GH Repo: anthropics/anthropic-sdk-csharp,Project,active,github official repository
-trm_gh-repo-anthropics-anthropic-sdk-go,GH Repo: anthropics/anthropic-sdk-go,Project,active,github official repository
-trm_gh-repo-anthropics-anthropic-sdk-php,GH Repo: anthropics/anthropic-sdk-php,Project,active,github official repository
-trm_gh-repo-anthropics-anthropic-sdk-typescript,GH Repo: anthropics/anthropic-sdk-typescript,Project,active,github official repository
-trm_gh-repo-anthropics-attribution-graphs-frontend,GH Repo: anthropics/attribution-graphs-frontend,Project,active,github official repository
-trm_gh-repo-anthropics-beam,GH Repo: anthropics/beam,Project,active,github official repository
-trm_gh-repo-anthropics-claude-agent-sdk-demos,GH Repo: anthropics/claude-agent-sdk-demos,Project,active,github official repository
-trm_gh-repo-anthropics-claude-agent-sdk-python,GH Repo: anthropics/claude-agent-sdk-python,Project,active,github official repository
-trm_gh-repo-anthropics-claude-agent-sdk-typescript,GH Repo: anthropics/claude-agent-sdk-typescript,Project,active,github official repository
-trm_gh-repo-anthropics-claude-ai-mcp,GH Repo: anthropics/claude-ai-mcp,Project,active,github official repository
-trm_gh-repo-anthropics-claude-code,GH Repo: anthropics/claude-code,Project,active,github official repository
-trm_gh-repo-anthropics-claude-code-security-review,GH Repo: anthropics/claude-code-security-review,Project,active,github official repository
-trm_gh-repo-anthropics-claude-cookbooks,GH Repo: anthropics/claude-cookbooks,Project,active,github official repository
-trm_gh-repo-anthropics-constitutionalharmlessnesspaper,GH Repo: anthropics/ConstitutionalHarmlessnessPaper,Project,active,github official repository
-trm_gh-repo-anthropics-decompositionfaithfulnesspaper,GH Repo: anthropics/DecompositionFaithfulnessPaper,Project,active,github official repository
-trm_gh-repo-anthropics-devcontainer-features,GH Repo: anthropics/devcontainer-features,Project,active,github official repository
-trm_gh-repo-anthropics-evals,GH Repo: anthropics/evals,Project,active,github official repository
-trm_gh-repo-anthropics-hh-rlhf,GH Repo: anthropics/hh-rlhf,Project,active,github official repository
-trm_gh-repo-anthropics-model-cards,GH Repo: anthropics/model-cards,Project,active,github official repository
-trm_gh-repo-anthropics-nix-eval-jobs,GH Repo: anthropics/nix-eval-jobs,Project,active,github official repository
-trm_gh-repo-anthropics-political-neutrality-eval,GH Repo: anthropics/political-neutrality-eval,Project,active,github official repository
-trm_gh-repo-anthropics-prompt-eng-interactive-tutorial,GH Repo: anthropics/prompt-eng-interactive-tutorial,Project,active,github official repository
-trm_gh-repo-anthropics-pysvelte,GH Repo: anthropics/PySvelte,Project,active,github official repository
-trm_gh-repo-anthropics-rclone,GH Repo: anthropics/rclone,Project,active,github official repository
-trm_gh-repo-anthropics-riv2025-long-horizon-coding-agent-demo,GH Repo: anthropics/riv2025-long-horizon-coding-agent-demo,Project,active,github official repository
-trm_gh-repo-anthropics-rogue-deploy-eval,GH Repo: anthropics/rogue-deploy-eval,Project,active,github official repository
-trm_gh-repo-anthropics-skills,GH Repo: anthropics/skills,Project,active,github official repository
-trm_gh-repo-anthropics-sleeper-agents-paper,GH Repo: anthropics/sleeper-agents-paper,Project,active,github official repository
-trm_gh-repo-anthropics-tailscale-hint-extension,GH Repo: anthropics/tailscale-hint-extension,Project,active,github official repository
-trm_gh-repo-anthropics-toy-models-of-superposition,GH Repo: anthropics/toy-models-of-superposition,Project,active,github official repository
-trm_gh-repo-google-adk-docs,GH Repo: google/adk-docs,Project,active,github official repository
-trm_gh-repo-google-adk-go,GH Repo: google/adk-go,Project,active,github official repository
-trm_gh-repo-google-adk-java,GH Repo: google/adk-java,Project,active,github official repository
-trm_gh-repo-google-adk-js,GH Repo: google/adk-js,Project,active,github official repository
-trm_gh-repo-google-adk-python,GH Repo: google/adk-python,Project,active,github official repository
-trm_gh-repo-google-adk-samples,GH Repo: google/adk-samples,Project,active,github official repository
-trm_gh-repo-google-adk-web,GH Repo: google/adk-web,Project,active,github official repository
-trm_gh-repo-google-eclipsa-audio-plugin,GH Repo: google/eclipsa-audio-plugin,Project,active,github official repository
-trm_gh-repo-google-embardiment,GH Repo: google/embardiment,Project,active,github official repository
-trm_gh-repo-google-evt-air-risk-aiaa-scitech-2026,GH Repo: google/evt-air-risk-aiaa-scitech-2026,Project,active,github official repository
-trm_gh-repo-google-gemma-unity-plugin,GH Repo: google/gemma-unity-plugin,Project,active,github official repository
-trm_gh-repo-google-hackable-diffusion,GH Repo: google/hackable_diffusion,Project,active,github official repository
-trm_gh-repo-google-langextract,GH Repo: google/langextract,Project,active,github official repository
-trm_gh-repo-google-llm-sidebar-with-context,GH Repo: google/llm-sidebar-with-context,Project,active,github official repository
-trm_gh-repo-google-ml-flashpoint,GH Repo: google/ml-flashpoint,Project,active,github official repository
-trm_gh-repo-google-mobly-bluetooth-ref-validation,GH Repo: google/mobly-bluetooth-ref-validation,Project,active,github official repository
-trm_gh-repo-google-pubmed-rag,GH Repo: google/pubmed-rag,Project,active,github official repository
-trm_gh-repo-google-rago,GH Repo: google/rago,Project,active,github official repository
-trm_gh-repo-google-ragvis,GH Repo: google/ragvis,Project,active,github official repository
-trm_gh-repo-google-saif-data,GH Repo: google/saif-data,Project,active,github official repository
-trm_gh-repo-google-sec-gemini,GH Repo: google/sec-gemini,Project,active,github official repository
-trm_gh-repo-google-torchax,GH Repo: google/torchax,Project,active,github official repository
-trm_gh-repo-google-tunix,GH Repo: google/tunix,Project,active,github official repository
-trm_gh-repo-google-unblocking-detail-caption,GH Repo: google/unblocking-detail-caption,Project,active,github official repository
-trm_gh-repo-google-xrblocks,GH Repo: google/xrblocks,Project,active,github official repository
-trm_gh-repo-huggingface-agents-course,GH Repo: huggingface/agents-course,Project,active,github official repository
-trm_gh-repo-huggingface-ai-blueprint,GH Repo: huggingface/ai-blueprint,Project,active,github official repository
-trm_gh-repo-huggingface-ai-deadlines,GH Repo: huggingface/ai-deadlines,Project,active,github official repository
-trm_gh-repo-huggingface-ai-hardware-leaderboard,GH Repo: huggingface/ai-hardware-leaderboard,Project,active,github official repository
-trm_gh-repo-huggingface-aisheets,GH Repo: huggingface/aisheets,Project,active,github official repository
-trm_gh-repo-huggingface-arena-hard-auto,GH Repo: huggingface/arena-hard-auto,Project,active,github official repository
-trm_gh-repo-huggingface-candle-wax,GH Repo: huggingface/candle_wax,Project,active,github official repository
-trm_gh-repo-huggingface-community-evals,GH Repo: huggingface/community-evals,Project,active,github official repository
-trm_gh-repo-huggingface-datasets-course,GH Repo: huggingface/datasets-course,Project,active,github official repository
-trm_gh-repo-huggingface-dell-ai,GH Repo: huggingface/dell-ai,Project,active,github official repository
-trm_gh-repo-huggingface-egl-probe,GH Repo: huggingface/egl_probe,Project,active,github official repository
-trm_gh-repo-huggingface-ember,GH Repo: huggingface/ember,Project,active,github official repository
-trm_gh-repo-huggingface-gorilla,GH Repo: huggingface/gorilla,Project,active,github official repository
-trm_gh-repo-huggingface-gpt-oss-recipes,GH Repo: huggingface/gpt-oss-recipes,Project,active,github official repository
-trm_gh-repo-huggingface-hf-agent,GH Repo: huggingface/hf_agent,Project,active,github official repository
-trm_gh-repo-huggingface-hfendpoints,GH Repo: huggingface/hfendpoints,Project,active,github official repository
-trm_gh-repo-huggingface-hugex,GH Repo: huggingface/hugex,Project,active,github official repository
-trm_gh-repo-huggingface-huggingface-gemma-recipes,GH Repo: huggingface/huggingface-gemma-recipes,Project,active,github official repository
-trm_gh-repo-huggingface-huggingface-vscode-chat,GH Repo: huggingface/huggingface-vscode-chat,Project,active,github official repository
-trm_gh-repo-huggingface-inference-providers-starter-app,GH Repo: huggingface/inference-providers-starter-app,Project,active,github official repository
-trm_gh-repo-huggingface-jupyter-agent,GH Repo: huggingface/jupyter-agent,Project,active,github official repository
-trm_gh-repo-huggingface-llm-course,GH Repo: huggingface/llm-course,Project,active,github official repository
-trm_gh-repo-huggingface-lor-e,GH Repo: huggingface/lor-e,Project,active,github official repository
-trm_gh-repo-huggingface-lora-fast,GH Repo: huggingface/lora-fast,Project,active,github official repository
-trm_gh-repo-huggingface-mcp-bench,GH Repo: huggingface/mcp-bench,Project,active,github official repository
-trm_gh-repo-huggingface-mergekit,GH Repo: huggingface/mergekit,Project,active,github official repository
-trm_gh-repo-huggingface-meta-agents-research-environments,GH Repo: huggingface/meta-agents-research-environments,Project,active,github official repository
-trm_gh-repo-huggingface-multi-if,GH Repo: huggingface/Multi-IF,Project,active,github official repository
-trm_gh-repo-huggingface-nanovlm,GH Repo: huggingface/nanoVLM,Project,active,github official repository
-trm_gh-repo-huggingface-new-model-addition-cwm,GH Repo: huggingface/new-model-addition-cwm,Project,active,github official repository
-trm_gh-repo-huggingface-optimum-onnx,GH Repo: huggingface/optimum-onnx,Project,active,github official repository
-trm_gh-repo-huggingface-prime,GH Repo: huggingface/prime,Project,active,github official repository
-trm_gh-repo-huggingface-qwen2-5-coder,GH Repo: huggingface/Qwen2.5-Coder,Project,active,github official repository
-trm_gh-repo-huggingface-responses-js,GH Repo: huggingface/responses.js,Project,active,github official repository
-trm_gh-repo-huggingface-screenenv,GH Repo: huggingface/screenenv,Project,active,github official repository
-trm_gh-repo-huggingface-screensuite,GH Repo: huggingface/screensuite,Project,active,github official repository
-trm_gh-repo-huggingface-swift-huggingface,GH Repo: huggingface/swift-huggingface,Project,active,github official repository
-trm_gh-repo-huggingface-tau2-bench,GH Repo: huggingface/tau2-bench,Project,active,github official repository
-trm_gh-repo-huggingface-torchtitan,GH Repo: huggingface/torchtitan,Project,active,github official repository
-trm_gh-repo-huggingface-transformers-js-benchmarking,GH Repo: huggingface/transformers.js-benchmarking,Project,active,github official repository
-trm_gh-repo-huggingface-transformers-research-projects,GH Repo: huggingface/transformers-research-projects,Project,active,github official repository
-trm_gh-repo-huggingface-trl-jobs,GH Repo: huggingface/trl-jobs,Project,active,github official repository
-trm_gh-repo-huggingface-ultravox,GH Repo: huggingface/ultravox,Project,active,github official repository
-trm_gh-repo-huggingface-upskill,GH Repo: huggingface/upskill,Project,active,github official repository
-trm_gh-repo-huggingface-video-dataset-scripts,GH Repo: huggingface/video-dataset-scripts,Project,active,github official repository
-trm_gh-repo-huggingface-vllm-dca,GH Repo: huggingface/vllm-dca,Project,active,github official repository
-trm_gh-repo-huggingface-wikirace-llms,GH Repo: huggingface/wikirace-llms,Project,active,github official repository
-trm_gh-repo-huggingface-yourbench,GH Repo: huggingface/yourbench,Project,active,github official repository
-trm_gh-repo-meta-llama-codellama,GH Repo: meta-llama/codellama,Project,active,github official repository
-trm_gh-repo-meta-llama-llama,GH Repo: meta-llama/llama,Project,active,github official repository
-trm_gh-repo-meta-llama-llama-cookbook,GH Repo: meta-llama/llama-cookbook,Project,active,github official repository
-trm_gh-repo-meta-llama-llama-models,GH Repo: meta-llama/llama-models,Project,active,github official repository
-trm_gh-repo-meta-llama-llama-verifications,GH Repo: meta-llama/llama-verifications,Project,active,github official repository
-trm_gh-repo-meta-llama-prompt-ops,GH Repo: meta-llama/prompt-ops,Project,active,github official repository
-trm_gh-repo-meta-llama-purplellama,GH Repo: meta-llama/PurpleLlama,Project,active,github official repository
-trm_gh-repo-mistralai-agent-client-protocol,GH Repo: mistralai/agent-client-protocol,Project,active,github official repository
-trm_gh-repo-mistralai-client-js,GH Repo: mistralai/client-js,Project,active,github official repository
-trm_gh-repo-mistralai-client-python,GH Repo: mistralai/client-python,Project,active,github official repository
-trm_gh-repo-mistralai-client-ts,GH Repo: mistralai/client-ts,Project,active,github official repository
-trm_gh-repo-mistralai-cookbook,GH Repo: mistralai/cookbook,Project,active,github official repository
-trm_gh-repo-mistralai-fastchat-release,GH Repo: mistralai/FastChat-release,Project,active,github official repository
-trm_gh-repo-mistralai-flyte,GH Repo: mistralai/flyte,Project,active,github official repository
-trm_gh-repo-mistralai-gateway-api-inference-extension-public,GH Repo: mistralai/gateway-api-inference-extension-public,Project,active,github official repository
-trm_gh-repo-mistralai-llm-d-inference-scheduler-public,GH Repo: mistralai/llm-d-inference-scheduler-public,Project,active,github official repository
-trm_gh-repo-mistralai-llm-d-kv-cache-manager-public,GH Repo: mistralai/llm-d-kv-cache-manager-public,Project,active,github official repository
-trm_gh-repo-mistralai-mistral-common,GH Repo: mistralai/mistral-common,Project,active,github official repository
-trm_gh-repo-mistralai-mistral-evals,GH Repo: mistralai/mistral-evals,Project,active,github official repository
-trm_gh-repo-mistralai-mistral-inference,GH Repo: mistralai/mistral-inference,Project,active,github official repository
-trm_gh-repo-mistralai-mistral-vibe,GH Repo: mistralai/mistral-vibe,Project,active,github official repository
-trm_gh-repo-mistralai-sagemaker-docs,GH Repo: mistralai/sagemaker-docs,Project,active,github official repository
-trm_gh-repo-mistralai-tensorrt-llm,GH Repo: mistralai/TensorRT-LLM,Project,active,github official repository
-trm_gh-repo-mistralai-transformers-release,GH Repo: mistralai/transformers-release,Project,active,github official repository
-trm_gh-repo-mistralai-vllm-release,GH Repo: mistralai/vllm-release,Project,active,github official repository
-trm_gh-repo-openai-bugbounty-gpt,GH Repo: openai/bugbounty-gpt,Project,active,github official repository
-trm_gh-repo-openai-chatgpt-retrieval-plugin,GH Repo: openai/chatgpt-retrieval-plugin,Project,active,github official repository
-trm_gh-repo-openai-chef-cookbook-hostname,GH Repo: openai/chef-cookbook-hostname,Project,active,github official repository
-trm_gh-repo-openai-codex,GH Repo: openai/codex,Project,active,github official repository
-trm_gh-repo-openai-completions-responses-migration-pack,GH Repo: openai/completions-responses-migration-pack,Project,active,github official repository
-trm_gh-repo-openai-compose-richtext,GH Repo: openai/compose-richtext,Project,active,github official repository
-trm_gh-repo-openai-consistency-models,GH Repo: openai/consistency_models,Project,active,github official repository
-trm_gh-repo-openai-consistency-models-cifar10,GH Repo: openai/consistency_models_cifar10,Project,active,github official repository
-trm_gh-repo-openai-dalle3-eval-samples,GH Repo: openai/dalle3-eval-samples,Project,active,github official repository
-trm_gh-repo-openai-dallify-discord-bot,GH Repo: openai/dallify-discord-bot,Project,active,github official repository
-trm_gh-repo-openai-emoclassifiers,GH Repo: openai/emoclassifiers,Project,active,github official repository
-trm_gh-repo-openai-evals,GH Repo: openai/evals,Project,active,github official repository
-trm_gh-repo-openai-frontier-evals,GH Repo: openai/frontier-evals,Project,active,github official repository
-trm_gh-repo-openai-gabriel,GH Repo: openai/GABRIEL,Project,active,github official repository
-trm_gh-repo-openai-gpt-5-coding-examples,GH Repo: openai/gpt-5-coding-examples,Project,active,github official repository
-trm_gh-repo-openai-gpt-discord-bot,GH Repo: openai/gpt-discord-bot,Project,active,github official repository
-trm_gh-repo-openai-gpt-oss,GH Repo: openai/gpt-oss,Project,active,github official repository
-trm_gh-repo-openai-gpt-oss-safeguard,GH Repo: openai/gpt-oss-safeguard,Project,active,github official repository
-trm_gh-repo-openai-gpts-are-gpts,GH Repo: openai/GPTs-are-GPTs,Project,active,github official repository
-trm_gh-repo-openai-harmony,GH Repo: openai/harmony,Project,active,github official repository
-trm_gh-repo-openai-human-eval-infilling,GH Repo: openai/human-eval-infilling,Project,active,github official repository
-trm_gh-repo-openai-main-branch-check-action,GH Repo: openai/main-branch-check-action,Project,active,github official repository
-trm_gh-repo-openai-mle-bench,GH Repo: openai/mle-bench,Project,active,github official repository
-trm_gh-repo-openai-model-spec,GH Repo: openai/model_spec,Project,active,github official repository
-trm_gh-repo-openai-openai-agents-js,GH Repo: openai/openai-agents-js,Project,active,github official repository
-trm_gh-repo-openai-openai-agents-python,GH Repo: openai/openai-agents-python,Project,active,github official repository
-trm_gh-repo-openai-openai-apps-sdk-examples,GH Repo: openai/openai-apps-sdk-examples,Project,active,github official repository
-trm_gh-repo-openai-openai-assistants-quickstart,GH Repo: openai/openai-assistants-quickstart,Project,active,github official repository
-trm_gh-repo-openai-openai-builder-lab,GH Repo: openai/openai-builder-lab,Project,active,github official repository
-trm_gh-repo-openai-openai-builder-lab-solution,GH Repo: openai/openai-builder-lab-solution,Project,active,github official repository
-trm_gh-repo-openai-openai-chatkit-advanced-samples,GH Repo: openai/openai-chatkit-advanced-samples,Project,active,github official repository
-trm_gh-repo-openai-openai-chatkit-starter-app,GH Repo: openai/openai-chatkit-starter-app,Project,active,github official repository
-trm_gh-repo-openai-openai-cookbook,GH Repo: openai/openai-cookbook,Project,active,github official repository
-trm_gh-repo-openai-openai-cs-agents-demo,GH Repo: openai/openai-cs-agents-demo,Project,active,github official repository
-trm_gh-repo-openai-openai-cua-sample-app,GH Repo: openai/openai-cua-sample-app,Project,active,github official repository
-trm_gh-repo-openai-openai-deno-build,GH Repo: openai/openai-deno-build,Project,active,github official repository
-trm_gh-repo-openai-openai-dotnet,GH Repo: openai/openai-dotnet,Project,active,github official repository
-trm_gh-repo-openai-openai-fm,GH Repo: openai/openai-fm,Project,active,github official repository
-trm_gh-repo-openai-openai-go,GH Repo: openai/openai-go,Project,active,github official repository
-trm_gh-repo-openai-openai-guardrails-js,GH Repo: openai/openai-guardrails-js,Project,active,github official repository
-trm_gh-repo-openai-openai-guardrails-python,GH Repo: openai/openai-guardrails-python,Project,active,github official repository
-trm_gh-repo-openai-openai-icpc-2025,GH Repo: openai/openai-icpc-2025,Project,active,github official repository
-trm_gh-repo-openai-openai-java,GH Repo: openai/openai-java,Project,active,github official repository
-trm_gh-repo-openai-openai-knowledge-retrieval,GH Repo: openai/openai-knowledge-retrieval,Project,active,github official repository
-trm_gh-repo-openai-openai-mcpkit,GH Repo: openai/openai-mcpkit,Project,active,github official repository
-trm_gh-repo-openai-openai-quickstart-node,GH Repo: openai/openai-quickstart-node,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-agents,GH Repo: openai/openai-realtime-agents,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-api-beta,GH Repo: openai/openai-realtime-api-beta,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-console,GH Repo: openai/openai-realtime-console,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-embedded,GH Repo: openai/openai-realtime-embedded,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-solar-system,GH Repo: openai/openai-realtime-solar-system,Project,active,github official repository
-trm_gh-repo-openai-openai-realtime-twilio-demo,GH Repo: openai/openai-realtime-twilio-demo,Project,active,github official repository
-trm_gh-repo-openai-openai-reflect,GH Repo: openai/openai-reflect,Project,active,github official repository
-trm_gh-repo-openai-openai-responses-starter-app,GH Repo: openai/openai-responses-starter-app,Project,active,github official repository
-trm_gh-repo-openai-openai-ruby,GH Repo: openai/openai-ruby,Project,active,github official repository
-trm_gh-repo-openai-openai-security-bots,GH Repo: openai/openai-security-bots,Project,active,github official repository
-trm_gh-repo-openai-openai-sora-sample-app,GH Repo: openai/openai-sora-sample-app,Project,active,github official repository
-trm_gh-repo-openai-openai-structured-outputs-samples,GH Repo: openai/openai-structured-outputs-samples,Project,active,github official repository
-trm_gh-repo-openai-openai-support-agent-demo,GH Repo: openai/openai-support-agent-demo,Project,active,github official repository
-trm_gh-repo-openai-openai-testing-agent-demo,GH Repo: openai/openai-testing-agent-demo,Project,active,github official repository
-trm_gh-repo-openai-openai-voice-agent-sdk-sample,GH Repo: openai/openai-voice-agent-sdk-sample,Project,active,github official repository
-trm_gh-repo-openai-plugins-quickstart,GH Repo: openai/plugins-quickstart,Project,active,github official repository
-trm_gh-repo-openai-point-e,GH Repo: openai/point-e,Project,active,github official repository
-trm_gh-repo-openai-prm800k,GH Repo: openai/prm800k,Project,active,github official repository
-trm_gh-repo-openai-safety-rbr-code-and-data,GH Repo: openai/safety-rbr-code-and-data,Project,active,github official repository
-trm_gh-repo-openai-simple-evals,GH Repo: openai/simple-evals,Project,active,github official repository
-trm_gh-repo-openai-swarm,GH Repo: openai/swarm,Project,active,github official repository
-trm_gh-repo-openai-swelancer-benchmark,GH Repo: openai/SWELancer-Benchmark,Project,active,github official repository
-trm_gh-repo-openai-tiktoken,GH Repo: openai/tiktoken,Project,active,github official repository
-trm_gh-repo-openai-transformer-debugger,GH Repo: openai/transformer-debugger,Project,active,github official repository
-trm_gh-repo-openai-video-pre-training,GH Repo: openai/Video-Pre-Training,Project,active,github official repository
-trm_gh-repo-openai-web-crawl-q-and-a-example,GH Repo: openai/web-crawl-q-and-a-example,Project,active,github official repository
-trm_gh-repo-openai-whisper,GH Repo: openai/whisper,Project,active,github official repository
-trm_gh-repo-tencent-ai-infra-guard,GH Repo: Tencent/AI-Infra-Guard,Project,active,github official repository
-trm_gh-repo-tencent-aicgseceval,GH Repo: Tencent/AICGSecEval,Project,active,github official repository
-trm_gh-repo-tencent-angelslim,GH Repo: Tencent/AngelSlim,Project,active,github official repository
-trm_gh-repo-tencent-blazerml-tvm,GH Repo: Tencent/BlazerML-tvm,Project,active,github official repository
-trm_gh-repo-tencent-cognitivekernel-pro,GH Repo: Tencent/CognitiveKernel-Pro,Project,active,github official repository
-trm_gh-repo-tencent-embedx,GH Repo: Tencent/embedx,Project,active,github official repository
-trm_gh-repo-tencent-fast-causal-inference,GH Repo: Tencent/fast-causal-inference,Project,active,github official repository
-trm_gh-repo-tencent-finllm-eval,GH Repo: Tencent/finLLM-Eval,Project,active,github official repository
-trm_gh-repo-tencent-haplovlm,GH Repo: Tencent/HaploVLM,Project,active,github official repository
-trm_gh-repo-tencent-hel,GH Repo: Tencent/hel,Project,active,github official repository
-trm_gh-repo-tencent-hpc-ops,GH Repo: Tencent/hpc-ops,Project,active,github official repository
-trm_gh-repo-tencent-ksanadit,GH Repo: Tencent/KsanaDiT,Project,active,github official repository
-trm_gh-repo-tencent-ksanallm,GH Repo: Tencent/KsanaLLM,Project,active,github official repository
-trm_gh-repo-tencent-lightdiffusionflow,GH Repo: Tencent/LightDiffusionFlow,Project,active,github official repository
-trm_gh-repo-tencent-llm-hunyuan-t1,GH Repo: Tencent/llm.hunyuan.T1,Project,active,github official repository
-trm_gh-repo-tencent-nf-tencentcloud,GH Repo: Tencent/nf-tencentcloud,Project,active,github official repository
-trm_gh-repo-tencent-raif,GH Repo: Tencent/RAIF,Project,active,github official repository
-trm_gh-repo-tencent-selfevolvingagent,GH Repo: Tencent/SelfEvolvingAgent,Project,active,github official repository
-trm_gh-repo-tencent-tat-agent,GH Repo: Tencent/tat-agent,Project,active,github official repository
-trm_gh-repo-tencent-tclainit,GH Repo: Tencent/TClaInit,Project,active,github official repository
-trm_gh-repo-tencent-tdesign-miniprogram-starter-retail,GH Repo: Tencent/tdesign-miniprogram-starter-retail,Project,active,github official repository
-trm_gh-repo-tencent-tencentkonasmsuite,GH Repo: Tencent/TencentKonaSMSuite,Project,active,github official repository
-trm_gh-repo-tencent-tencentpretrain,GH Repo: Tencent/TencentPretrain,Project,active,github official repository
-trm_gh-repo-tencent-vita,GH Repo: Tencent/VITA,Project,active,github official repository
-trm_gh-repo-tencent-wedlm,GH Repo: Tencent/WeDLM,Project,active,github official repository
-trm_gh-repo-tencent-weknora,GH Repo: Tencent/WeKnora,Project,active,github official repository
-trm_gh-repo-tencent-wildspeech-bench,GH Repo: Tencent/WildSpeech-Bench,Project,active,github official repository
-trm_gh-repo-tencent-yolo-master,GH Repo: Tencent/YOLO-Master,Project,active,github official repository
-trm_gh-repo-xai-org-grok-prompts,GH Repo: xai-org/grok-prompts,Project,active,github official repository
-trm_gh-repo-xai-org-xai-cookbook,GH Repo: xai-org/xai-cookbook,Project,active,github official repository
-trm_gh-repo-xai-org-xai-proto,GH Repo: xai-org/xai-proto,Project,active,github official repository
-trm_gh-repo-xai-org-xai-sdk-python,GH Repo: xai-org/xai-sdk-python,Project,active,github official repository
-trm_glm-5,GLM-5,Model,active,智谱新模型传闻
-trm_glm-coding-plan,GLM Coding Plan,Product,active,智谱订阅方案
-trm_glm-in-excel,GLM in Excel,Product,active,智谱Excel插件
-trm_google,Google,Company,active,含Gemini/Stitch/Chrome线
-trm_google-ai-studio,Google AI Studio,Product,active,谷歌开发平台更新
-trm_google-stitch-figma-export,Google Stitch Figma Export,Product,active,Figma导出
-trm_gpt-5-2,GPT-5.2,Model,active,路由/升级目标
-trm_gpt-5-2-instant,GPT-5.2 Instant,Model,active,OpenAI更新型号
-trm_gpt-5-3-codex,GPT-5.3-Codex,Model,active,编程模型
-trm_greg-brockman,Greg Brockman,Person,active,wikidata founder relation
-trm_grok,Grok,Product,active,external expansion from official source
-trm_grok-imagine-image,Grok Imagine Image,Model,active,xAI图像模型标准版
-trm_grok-imagine-image-pro,Grok Imagine Image Pro,Model,active,xAI图像模型
-trm_guillaume-lample,Guillaume Lample,Person,active,wikidata founder relation
-trm_hf-org-1-800-bad-code,HF Org: 1-800-BAD-CODE,Company,active,huggingface organization from official API
-trm_hf-org-abhishekchohan,HF Org: abhishekchohan,Company,active,huggingface organization from official API
-trm_hf-org-adamcodd,HF Org: AdamCodd,Company,active,huggingface organization from official API
-trm_hf-org-adibvafa,HF Org: adibvafa,Company,active,huggingface organization from official API
-trm_hf-org-ahotrod,HF Org: ahotrod,Company,active,huggingface organization from official API
-trm_hf-org-ai-forever,HF Org: ai-forever,Company,active,huggingface organization from official API
-trm_hf-org-ai-sage,HF Org: ai-sage,Company,active,huggingface organization from official API
-trm_hf-org-ai21labs,HF Org: ai21labs,Company,active,huggingface organization from official API
-trm_hf-org-alana89,HF Org: alana89,Company,active,huggingface organization from official API
-trm_hf-org-albert,HF Org: albert,Company,active,huggingface organization from official API
-trm_hf-org-alibaba-nlp,HF Org: Alibaba-NLP,Company,active,huggingface organization from official API
-trm_hf-org-allegro,HF Org: allegro,Company,active,huggingface organization from official API
-trm_hf-org-allenai,HF Org: allenai,Company,active,huggingface organization from official API
-trm_hf-org-almanach,HF Org: almanach,Company,active,huggingface organization from official API
-trm_hf-org-amazon,HF Org: amazon,Company,active,huggingface organization from official API
-trm_hf-org-amunchet,HF Org: amunchet,Company,active,huggingface organization from official API
-trm_hf-org-answerdotai,HF Org: answerdotai,Company,active,huggingface organization from official API
-trm_hf-org-apple,HF Org: apple,Company,active,huggingface organization from official API
-trm_hf-org-argmaxinc,HF Org: argmaxinc,Company,active,huggingface organization from official API
-trm_hf-org-astramindai,HF Org: AstraMindAI,Company,active,huggingface organization from official API
-trm_hf-org-atotti,HF Org: Atotti,Company,active,huggingface organization from official API
-trm_hf-org-aubmindlab,HF Org: aubmindlab,Company,active,huggingface organization from official API
-trm_hf-org-audeering,HF Org: audeering,Company,active,huggingface organization from official API
-trm_hf-org-autogluon,HF Org: autogluon,Company,active,huggingface organization from official API
-trm_hf-org-autoweeb,HF Org: autoweeb,Company,active,huggingface organization from official API
-trm_hf-org-avsolatorio,HF Org: avsolatorio,Company,active,huggingface organization from official API
-trm_hf-org-baai,HF Org: BAAI,Company,active,huggingface organization from official API
-trm_hf-org-babelscape,HF Org: Babelscape,Company,active,huggingface organization from official API
-trm_hf-org-bardsai,HF Org: bardsai,Company,active,huggingface organization from official API
-trm_hf-org-bartowski,HF Org: bartowski,Company,active,huggingface organization from official API
-trm_hf-org-beomi,HF Org: beomi,Company,active,huggingface organization from official API
-trm_hf-org-bibabobbb,HF Org: bibabobbb,Company,active,huggingface organization from official API
-trm_hf-org-bigscience,HF Org: bigscience,Company,active,huggingface organization from official API
-trm_hf-org-bingsu,HF Org: Bingsu,Company,active,huggingface organization from official API
-trm_hf-org-biu-nlp,HF Org: biu-nlp,Company,active,huggingface organization from official API
-trm_hf-org-black-forest-labs,HF Org: black-forest-labs,Company,active,huggingface organization from official API
-trm_hf-org-boltzgen,HF Org: boltzgen,Company,active,huggingface organization from official API
-trm_hf-org-briaai,HF Org: briaai,Company,active,huggingface organization from official API
-trm_hf-org-buildborderless,HF Org: buildborderless,Company,active,huggingface organization from official API
-trm_hf-org-cagliostrolab,HF Org: cagliostrolab,Company,active,huggingface organization from official API
-trm_hf-org-caidas,HF Org: caidas,Company,active,huggingface organization from official API
-trm_hf-org-cambridgeltl,HF Org: cambridgeltl,Company,active,huggingface organization from official API
-trm_hf-org-cardiffnlp,HF Org: cardiffnlp,Company,active,huggingface organization from official API
-trm_hf-org-casperhansen,HF Org: casperhansen,Company,active,huggingface organization from official API
-trm_hf-org-cforge42,HF Org: cforge42,Company,active,huggingface organization from official API
-trm_hf-org-charactr,HF Org: charactr,Company,active,huggingface organization from official API
-trm_hf-org-cidas,HF Org: CIDAS,Company,active,huggingface organization from official API
-trm_hf-org-cl-nagoya,HF Org: cl-nagoya,Company,active,huggingface organization from official API
-trm_hf-org-cointegrated,HF Org: cointegrated,Company,active,huggingface organization from official API
-trm_hf-org-colbert-ir,HF Org: colbert-ir,Company,active,huggingface organization from official API
-trm_hf-org-comfy-org,HF Org: Comfy-Org,Company,active,huggingface organization from official API
-trm_hf-org-comodoro,HF Org: comodoro,Company,active,huggingface organization from official API
-trm_hf-org-compvis,HF Org: CompVis,Company,active,huggingface organization from official API
-trm_hf-org-coqui,HF Org: coqui,Company,active,huggingface organization from official API
-trm_hf-org-cross-encoder,HF Org: cross-encoder,Company,active,huggingface organization from official API
-trm_hf-org-crynux-network,HF Org: crynux-network,Company,active,huggingface organization from official API
-trm_hf-org-cyankiwi,HF Org: cyankiwi,Company,active,huggingface organization from official API
-trm_hf-org-cyberagent,HF Org: cyberagent,Company,active,huggingface organization from official API
-trm_hf-org-cybersectony,HF Org: cybersectony,Company,active,huggingface organization from official API
-trm_hf-org-datalab-to,HF Org: datalab-to,Company,active,huggingface organization from official API
-trm_hf-org-davebulaval,HF Org: davebulaval,Company,active,huggingface organization from official API
-trm_hf-org-dbmdz,HF Org: dbmdz,Company,active,huggingface organization from official API
-trm_hf-org-dccuchile,HF Org: dccuchile,Company,active,huggingface organization from official API
-trm_hf-org-deepbeepmeep,HF Org: DeepBeepMeep,Company,active,huggingface organization from official API
-trm_hf-org-deephat,HF Org: DeepHat,Company,active,huggingface organization from official API
-trm_hf-org-deeppavlov,HF Org: DeepPavlov,Company,active,huggingface organization from official API
-trm_hf-org-deepseek-ai,HF Org: deepseek-ai,Company,active,huggingface organization from official API
-trm_hf-org-deepset,HF Org: deepset,Company,active,huggingface organization from official API
-trm_hf-org-deepvk,HF Org: deepvk,Company,active,huggingface organization from official API
-trm_hf-org-depth-anything,HF Org: depth-anything,Company,active,huggingface organization from official API
-trm_hf-org-descript,HF Org: descript,Company,active,huggingface organization from official API
-trm_hf-org-dima806,HF Org: dima806,Company,active,huggingface organization from official API
-trm_hf-org-distil-whisper,HF Org: distil-whisper,Company,active,huggingface organization from official API
-trm_hf-org-distilbert,HF Org: distilbert,Company,active,huggingface organization from official API
-trm_hf-org-dmis-lab,HF Org: dmis-lab,Company,active,huggingface organization from official API
-trm_hf-org-docling-project,HF Org: docling-project,Company,active,huggingface organization from official API
-trm_hf-org-dphn,HF Org: dphn,Company,active,huggingface organization from official API
-trm_hf-org-dropbox-dash,HF Org: dropbox-dash,Company,active,huggingface organization from official API
-trm_hf-org-dslim,HF Org: dslim,Company,active,huggingface organization from official API
-trm_hf-org-dunzhang,HF Org: dunzhang,Company,active,huggingface organization from official API
-trm_hf-org-e-mimic,HF Org: E-MIMIC,Company,active,huggingface organization from official API
-trm_hf-org-eleutherai,HF Org: EleutherAI,Company,active,huggingface organization from official API
-trm_hf-org-emilyalsentzer,HF Org: emilyalsentzer,Company,active,huggingface organization from official API
-trm_hf-org-essentialai,HF Org: EssentialAI,Company,active,huggingface organization from official API
-trm_hf-org-eth-cvg,HF Org: ETH-CVG,Company,active,huggingface organization from official API
-trm_hf-org-eugenesiow,HF Org: eugenesiow,Company,active,huggingface organization from official API
-trm_hf-org-evamxb,HF Org: evamxb,Company,active,huggingface organization from official API
-trm_hf-org-facebook,HF Org: facebook,Company,active,huggingface organization from official API
-trm_hf-org-facebookai,HF Org: FacebookAI,Company,active,huggingface organization from official API
-trm_hf-org-falconsai,HF Org: Falconsai,Company,active,huggingface organization from official API
-trm_hf-org-finiteautomata,HF Org: finiteautomata,Company,active,huggingface organization from official API
-trm_hf-org-fixie-ai,HF Org: fixie-ai,Company,active,huggingface organization from official API
-trm_hf-org-flair,HF Org: flair,Company,active,huggingface organization from official API
-trm_hf-org-flax-sentence-embeddings,HF Org: flax-sentence-embeddings,Company,active,huggingface organization from official API
-trm_hf-org-freds0,HF Org: freds0,Company,active,huggingface organization from official API
-trm_hf-org-freelawproject,HF Org: freelawproject,Company,active,huggingface organization from official API
-trm_hf-org-freepik,HF Org: Freepik,Company,active,huggingface organization from official API
-trm_hf-org-gadflyii,HF Org: GadflyII,Company,active,huggingface organization from official API
-trm_hf-org-gerbejon,HF Org: gerbejon,Company,active,huggingface organization from official API
-trm_hf-org-ggml-org,HF Org: ggml-org,Company,active,huggingface organization from official API
-trm_hf-org-gilf,HF Org: gilf,Company,active,huggingface organization from official API
-trm_hf-org-google,HF Org: google,Company,active,huggingface organization from official API
-trm_hf-org-google-bert,HF Org: google-bert,Company,active,huggingface organization from official API
-trm_hf-org-google-t5,HF Org: google-t5,Company,active,huggingface organization from official API
-trm_hf-org-gptcache,HF Org: GPTCache,Company,active,huggingface organization from official API
-trm_hf-org-gsai-ml,HF Org: GSAI-ML,Company,active,huggingface organization from official API
-trm_hf-org-h2oai,HF Org: h2oai,Company,active,huggingface organization from official API
-trm_hf-org-h94,HF Org: h94,Company,active,huggingface organization from official API
-trm_hf-org-hadriansecurity,HF Org: HadrianSecurity,Company,active,huggingface organization from official API
-trm_hf-org-harsha901,HF Org: Harsha901,Company,active,huggingface organization from official API
-trm_hf-org-helsinki-nlp,HF Org: Helsinki-NLP,Company,active,huggingface organization from official API
-trm_hf-org-hexgrad,HF Org: hexgrad,Company,active,huggingface organization from official API
-trm_hf-org-hkunlp,HF Org: hkunlp,Company,active,huggingface organization from official API
-trm_hf-org-hmellor,HF Org: hmellor,Company,active,huggingface organization from official API
-trm_hf-org-hubertsiuzdak,HF Org: hubertsiuzdak,Company,active,huggingface organization from official API
-trm_hf-org-hugging-quants,HF Org: hugging-quants,Company,active,huggingface organization from official API
-trm_hf-org-huggingfacetb,HF Org: HuggingFaceTB,Company,active,huggingface organization from official API
-trm_hf-org-hustvl,HF Org: hustvl,Company,active,huggingface organization from official API
-trm_hf-org-iamjb,HF Org: IAMJB,Company,active,huggingface organization from official API
-trm_hf-org-iarfmoose,HF Org: iarfmoose,Company,active,huggingface organization from official API
-trm_hf-org-ibm-granite,HF Org: ibm-granite,Company,active,huggingface organization from official API
-trm_hf-org-ibm-research,HF Org: ibm-research,Company,active,huggingface organization from official API
-trm_hf-org-idea-research,HF Org: IDEA-Research,Company,active,huggingface organization from official API
-trm_hf-org-iitolstykh,HF Org: iitolstykh,Company,active,huggingface organization from official API
-trm_hf-org-ilyagusev,HF Org: IlyaGusev,Company,active,huggingface organization from official API
-trm_hf-org-indobenchmark,HF Org: indobenchmark,Company,active,huggingface organization from official API
-trm_hf-org-indonesian-nlp,HF Org: indonesian-nlp,Company,active,huggingface organization from official API
-trm_hf-org-intel,HF Org: Intel,Company,active,huggingface organization from official API
-trm_hf-org-intfloat,HF Org: intfloat,Company,active,huggingface organization from official API
-trm_hf-org-iquestlab,HF Org: IQuestLab,Company,active,huggingface organization from official API
-trm_hf-org-isee-laboratory,HF Org: iSEE-Laboratory,Company,active,huggingface organization from official API
-trm_hf-org-isotonic,HF Org: Isotonic,Company,active,huggingface organization from official API
-trm_hf-org-istupakov,HF Org: istupakov,Company,active,huggingface organization from official API
-trm_hf-org-j-hartmann,HF Org: j-hartmann,Company,active,huggingface organization from official API
-trm_hf-org-jackaduma,HF Org: jackaduma,Company,active,huggingface organization from official API
-trm_hf-org-janhq,HF Org: janhq,Company,active,huggingface organization from official API
-trm_hf-org-jbetker,HF Org: jbetker,Company,active,huggingface organization from official API
-trm_hf-org-jean-baptiste,HF Org: Jean-Baptiste,Company,active,huggingface organization from official API
-trm_hf-org-jhgan,HF Org: jhgan,Company,active,huggingface organization from official API
-trm_hf-org-jhu-clsp,HF Org: jhu-clsp,Company,active,huggingface organization from official API
-trm_hf-org-jinaai,HF Org: jinaai,Company,active,huggingface organization from official API
-trm_hf-org-johahi,HF Org: johahi,Company,active,huggingface organization from official API
-trm_hf-org-john6666,HF Org: John6666,Company,active,huggingface organization from official API
-trm_hf-org-jonatasgrosman,HF Org: jonatasgrosman,Company,active,huggingface organization from official API
-trm_hf-org-jonathandinu,HF Org: jonathandinu,Company,active,huggingface organization from official API
-trm_hf-org-kaitchup,HF Org: kaitchup,Company,active,huggingface organization from official API
-trm_hf-org-kakaobank,HF Org: kakaobank,Company,active,huggingface organization from official API
-trm_hf-org-kb,HF Org: KB,Company,active,huggingface organization from official API
-trm_hf-org-kernels-community,HF Org: kernels-community,Company,active,huggingface organization from official API
-trm_hf-org-kha-white,HF Org: kha-white,Company,active,huggingface organization from official API
-trm_hf-org-kijai,HF Org: Kijai,Company,active,huggingface organization from official API
-trm_hf-org-knc6,HF Org: knc6,Company,active,huggingface organization from official API
-trm_hf-org-knifeayumu,HF Org: knifeayumu,Company,active,huggingface organization from official API
-trm_hf-org-komeijiforce,HF Org: KomeijiForce,Company,active,huggingface organization from official API
-trm_hf-org-kontur-ai,HF Org: kontur-ai,Company,active,huggingface organization from official API
-trm_hf-org-kosbu,HF Org: kosbu,Company,active,huggingface organization from official API
-trm_hf-org-kredor,HF Org: kredor,Company,active,huggingface organization from official API
-trm_hf-org-kresnik,HF Org: kresnik,Company,active,huggingface organization from official API
-trm_hf-org-krlvi,HF Org: krlvi,Company,active,huggingface organization from official API
-trm_hf-org-kyutai,HF Org: kyutai,Company,active,huggingface organization from official API
-trm_hf-org-laion,HF Org: laion,Company,active,huggingface organization from official API
-trm_hf-org-lazarusnlp,HF Org: LazarusNLP,Company,active,huggingface organization from official API
-trm_hf-org-lengyue233,HF Org: lengyue233,Company,active,huggingface organization from official API
-trm_hf-org-lgris,HF Org: lgris,Company,active,huggingface organization from official API
-trm_hf-org-lightonai,HF Org: lightonai,Company,active,huggingface organization from official API
-trm_hf-org-lightricks,HF Org: Lightricks,Company,active,huggingface organization from official API
-trm_hf-org-lightx2v,HF Org: lightx2v,Company,active,huggingface organization from official API
-trm_hf-org-liheyoung,HF Org: LiheYoung,Company,active,huggingface organization from official API
-trm_hf-org-liquidai,HF Org: LiquidAI,Company,active,huggingface organization from official API
-trm_hf-org-liuhaotian,HF Org: liuhaotian,Company,active,huggingface organization from official API
-trm_hf-org-llamafactory,HF Org: llamafactory,Company,active,huggingface organization from official API
-trm_hf-org-llava-hf,HF Org: llava-hf,Company,active,huggingface organization from official API
-trm_hf-org-llm-jp,HF Org: llm-jp,Company,active,huggingface organization from official API
-trm_hf-org-lmg-anon,HF Org: lmg-anon,Company,active,huggingface organization from official API
-trm_hf-org-lmstudio-community,HF Org: lmstudio-community,Company,active,huggingface organization from official API
-trm_hf-org-lmsys,HF Org: lmsys,Company,active,huggingface organization from official API
-trm_hf-org-lpiccinelli,HF Org: lpiccinelli,Company,active,huggingface organization from official API
-trm_hf-org-lucadiliello,HF Org: lucadiliello,Company,active,huggingface organization from official API
-trm_hf-org-lxyuan,HF Org: lxyuan,Company,active,huggingface organization from official API
-trm_hf-org-m-fac,HF Org: M-FAC,Company,active,huggingface organization from official API
-trm_hf-org-madebyollin,HF Org: madebyollin,Company,active,huggingface organization from official API
-trm_hf-org-magic-leap-community,HF Org: magic-leap-community,Company,active,huggingface organization from official API
-trm_hf-org-mahmoudashraf,HF Org: MahmoudAshraf,Company,active,huggingface organization from official API
-trm_hf-org-maple728,HF Org: Maple728,Company,active,huggingface organization from official API
-trm_hf-org-marqo,HF Org: Marqo,Company,active,huggingface organization from official API
-trm_hf-org-mattmdjaga,HF Org: mattmdjaga,Company,active,huggingface organization from official API
-trm_hf-org-maziyarpanahi,HF Org: MaziyarPanahi,Company,active,huggingface organization from official API
-trm_hf-org-mbzuai,HF Org: MBZUAI,Company,active,huggingface organization from official API
-trm_hf-org-meta-llama,HF Org: meta-llama,Company,active,huggingface organization from official API
-trm_hf-org-microsoft,HF Org: microsoft,Company,active,huggingface organization from official API
-trm_hf-org-minimaxai,HF Org: MiniMaxAI,Company,active,huggingface organization from official API
-trm_hf-org-minishlab,HF Org: minishlab,Company,active,huggingface organization from official API
-trm_hf-org-mistralai,HF Org: mistralai,Company,active,huggingface organization from official API
-trm_hf-org-mit,HF Org: MIT,Company,active,huggingface organization from official API
-trm_hf-org-mixedbread-ai,HF Org: mixedbread-ai,Company,active,huggingface organization from official API
-trm_hf-org-mlx-community,HF Org: mlx-community,Company,active,huggingface organization from official API
-trm_hf-org-moonshotai,HF Org: moonshotai,Company,active,huggingface organization from official API
-trm_hf-org-moritzlaurer,HF Org: MoritzLaurer,Company,active,huggingface organization from official API
-trm_hf-org-mrm8488,HF Org: mrm8488,Company,active,huggingface organization from official API
-trm_hf-org-myshell-ai,HF Org: myshell-ai,Company,active,huggingface organization from official API
-trm_hf-org-nanonets,HF Org: nanonets,Company,active,huggingface organization from official API
-trm_hf-org-nateraw,HF Org: nateraw,Company,active,huggingface organization from official API
-trm_hf-org-naturalantibody,HF Org: NaturalAntibody,Company,active,huggingface organization from official API
-trm_hf-org-naver,HF Org: naver,Company,active,huggingface organization from official API
-trm_hf-org-nbailab,HF Org: NbAiLab,Company,active,huggingface organization from official API
-trm_hf-org-neoquasar,HF Org: NeoQuasar,Company,active,huggingface organization from official API
-trm_hf-org-neuralmind,HF Org: neuralmind,Company,active,huggingface organization from official API
-trm_hf-org-nguyenvulebinh,HF Org: nguyenvulebinh,Company,active,huggingface organization from official API
-trm_hf-org-nie3e,HF Org: nie3e,Company,active,huggingface organization from official API
-trm_hf-org-nlpaueb,HF Org: nlpaueb,Company,active,huggingface organization from official API
-trm_hf-org-nlpconnect,HF Org: nlpconnect,Company,active,huggingface organization from official API
-trm_hf-org-nlptown,HF Org: nlptown,Company,active,huggingface organization from official API
-trm_hf-org-nomic-ai,HF Org: nomic-ai,Company,active,huggingface organization from official API
-trm_hf-org-nousresearch,HF Org: NousResearch,Company,active,huggingface organization from official API
-trm_hf-org-novasearch,HF Org: NovaSearch,Company,active,huggingface organization from official API
-trm_hf-org-nreimers,HF Org: nreimers,Company,active,huggingface organization from official API
-trm_hf-org-numind,HF Org: numind,Company,active,huggingface organization from official API
-trm_hf-org-numz,HF Org: numz,Company,active,huggingface organization from official API
-trm_hf-org-nvidia,HF Org: nvidia,Company,active,huggingface organization from official API
-trm_hf-org-obi,HF Org: obi,Company,active,huggingface organization from official API
-trm_hf-org-oliverguhr,HF Org: oliverguhr,Company,active,huggingface organization from official API
-trm_hf-org-omni-research,HF Org: omni-research,Company,active,huggingface organization from official API
-trm_hf-org-openai,HF Org: openai,Company,active,huggingface organization from official API
-trm_hf-org-openai-community,HF Org: openai-community,Company,active,huggingface organization from official API
-trm_hf-org-opendatalab,HF Org: opendatalab,Company,active,huggingface organization from official API
-trm_hf-org-opengvlab,HF Org: OpenGVLab,Company,active,huggingface organization from official API
-trm_hf-org-openmed,HF Org: OpenMed,Company,active,huggingface organization from official API
-trm_hf-org-openmuq,HF Org: OpenMuQ,Company,active,huggingface organization from official API
-trm_hf-org-openpipe,HF Org: OpenPipe,Company,active,huggingface organization from official API
-trm_hf-org-opensearch-project,HF Org: opensearch-project,Company,active,huggingface organization from official API
-trm_hf-org-openvla,HF Org: openvla,Company,active,huggingface organization from official API
-trm_hf-org-optimum-intel-internal-testing,HF Org: optimum-intel-internal-testing,Company,active,huggingface organization from official API
-trm_hf-org-orcadb,HF Org: OrcaDB,Company,active,huggingface organization from official API
-trm_hf-org-paddlepaddle,HF Org: PaddlePaddle,Company,active,huggingface organization from official API
-trm_hf-org-padmajabfrl,HF Org: padmajabfrl,Company,active,huggingface organization from official API
-trm_hf-org-papluca,HF Org: papluca,Company,active,huggingface organization from official API
-trm_hf-org-parler-tts,HF Org: parler-tts,Company,active,huggingface organization from official API
-trm_hf-org-patrickjohncyh,HF Org: patrickjohncyh,Company,active,huggingface organization from official API
-trm_hf-org-peft-internal-testing,HF Org: peft-internal-testing,Company,active,huggingface organization from official API
-trm_hf-org-pekingu,HF Org: PekingU,Company,active,huggingface organization from official API
-trm_hf-org-playgroundai,HF Org: playgroundai,Company,active,huggingface organization from official API
-trm_hf-org-prajjwal1,HF Org: prajjwal1,Company,active,huggingface organization from official API
-trm_hf-org-prithivida,HF Org: prithivida,Company,active,huggingface organization from official API
-trm_hf-org-prithivmlmods,HF Org: prithivMLmods,Company,active,huggingface organization from official API
-trm_hf-org-prosusai,HF Org: ProsusAI,Company,active,huggingface organization from official API
-trm_hf-org-proteinsequenceannotation,HF Org: ProteinSequenceAnnotation,Company,active,huggingface organization from official API
-trm_hf-org-prov-gigapath,HF Org: prov-gigapath,Company,active,huggingface organization from official API
-trm_hf-org-pyannote,HF Org: pyannote,Company,active,huggingface organization from official API
-trm_hf-org-pysentimiento,HF Org: pysentimiento,Company,active,huggingface organization from official API
-trm_hf-org-pytorch,HF Org: pytorch,Company,active,huggingface organization from official API
-trm_hf-org-qandos0,HF Org: qandos0,Company,active,huggingface organization from official API
-trm_hf-org-qdrant,HF Org: Qdrant,Company,active,huggingface organization from official API
-trm_hf-org-quantstack,HF Org: QuantStack,Company,active,huggingface organization from official API
-trm_hf-org-quanttrio,HF Org: QuantTrio,Company,active,huggingface organization from official API
-trm_hf-org-qwen,HF Org: Qwen,Company,active,huggingface organization from official API
-trm_hf-org-redhatai,HF Org: RedHatAI,Company,active,huggingface organization from official API
-trm_hf-org-rednote-hilab,HF Org: rednote-hilab,Company,active,huggingface organization from official API
-trm_hf-org-refactai,HF Org: refactai,Company,active,huggingface organization from official API
-trm_hf-org-resembleai,HF Org: ResembleAI,Company,active,huggingface organization from official API
-trm_hf-org-revai,HF Org: Revai,Company,active,huggingface organization from official API
-trm_hf-org-rhasspy,HF Org: rhasspy,Company,active,huggingface organization from official API
-trm_hf-org-rizvandwiki,HF Org: rizvandwiki,Company,active,huggingface organization from official API
-trm_hf-org-roadz,HF Org: roadz,Company,active,huggingface organization from official API
-trm_hf-org-rostlab,HF Org: Rostlab,Company,active,huggingface organization from official API
-trm_hf-org-salesforce,HF Org: Salesforce,Company,active,huggingface organization from official API
-trm_hf-org-samlowe,HF Org: SamLowe,Company,active,huggingface organization from official API
-trm_hf-org-sdadas,HF Org: sdadas,Company,active,huggingface organization from official API
-trm_hf-org-sentence-transformers,HF Org: sentence-transformers,Company,active,huggingface organization from official API
-trm_hf-org-sentence-transformers-testing,HF Org: sentence-transformers-testing,Company,active,huggingface organization from official API
-trm_hf-org-seyonec,HF Org: seyonec,Company,active,huggingface organization from official API
-trm_hf-org-sg161222,HF Org: SG161222,Company,active,huggingface organization from official API
-trm_hf-org-shi-labs,HF Org: shi-labs,Company,active,huggingface organization from official API
-trm_hf-org-shibing624,HF Org: shibing624,Company,active,huggingface organization from official API
-trm_hf-org-shushant,HF Org: Shushant,Company,active,huggingface organization from official API
-trm_hf-org-skt,HF Org: skt,Company,active,huggingface organization from official API
-trm_hf-org-smp-hub,HF Org: smp-hub,Company,active,huggingface organization from official API
-trm_hf-org-snowflake,HF Org: Snowflake,Company,active,huggingface organization from official API
-trm_hf-org-snunlp,HF Org: snunlp,Company,active,huggingface organization from official API
-trm_hf-org-softcatala,HF Org: softcatala,Company,active,huggingface organization from official API
-trm_hf-org-solidrust,HF Org: solidrust,Company,active,huggingface organization from official API
-trm_hf-org-spacepxl,HF Org: spacepxl,Company,active,huggingface organization from official API
-trm_hf-org-spanbert,HF Org: SpanBERT,Company,active,huggingface organization from official API
-trm_hf-org-speechbrain,HF Org: speechbrain,Company,active,huggingface organization from official API
-trm_hf-org-sshleifer,HF Org: sshleifer,Company,active,huggingface organization from official API
-trm_hf-org-stabilityai,HF Org: stabilityai,Company,active,huggingface organization from official API
-trm_hf-org-stable-diffusion-v1-5,HF Org: stable-diffusion-v1-5,Company,active,huggingface organization from official API
-trm_hf-org-stanfordaimi,HF Org: StanfordAIMI,Company,active,huggingface organization from official API
-trm_hf-org-stelterlab,HF Org: stelterlab,Company,active,huggingface organization from official API
-trm_hf-org-stepfun-ai,HF Org: stepfun-ai,Company,active,huggingface organization from official API
-trm_hf-org-studio-ousia,HF Org: studio-ousia,Company,active,huggingface organization from official API
-trm_hf-org-supabase,HF Org: Supabase,Company,active,huggingface organization from official API
-trm_hf-org-superb,HF Org: superb,Company,active,huggingface organization from official API
-trm_hf-org-swiss-ai,HF Org: swiss-ai,Company,active,huggingface organization from official API
-trm_hf-org-swivid,HF Org: SWivid,Company,active,huggingface organization from official API
-trm_hf-org-systran,HF Org: Systran,Company,active,huggingface organization from official API
-trm_hf-org-t-tech,HF Org: t-tech,Company,active,huggingface organization from official API
-trm_hf-org-tabularisai,HF Org: tabularisai,Company,active,huggingface organization from official API
-trm_hf-org-tahadouaji,HF Org: TahaDouaji,Company,active,huggingface organization from official API
-trm_hf-org-tarn59,HF Org: tarn59,Company,active,huggingface organization from official API
-trm_hf-org-tencent,HF Org: tencent,Company,active,huggingface organization from official API
-trm_hf-org-tencentbac,HF Org: TencentBAC,Company,active,huggingface organization from official API
-trm_hf-org-thebloke,HF Org: TheBloke,Company,active,huggingface organization from official API
-trm_hf-org-thenlper,HF Org: thenlper,Company,active,huggingface organization from official API
-trm_hf-org-thuml,HF Org: thuml,Company,active,huggingface organization from official API
-trm_hf-org-timm,HF Org: timm,Company,active,huggingface organization from official API
-trm_hf-org-tinyllama,HF Org: TinyLlama,Company,active,huggingface organization from official API
-trm_hf-org-tohoku-nlp,HF Org: tohoku-nlp,Company,active,huggingface organization from official API
-trm_hf-org-tomaarsen,HF Org: tomaarsen,Company,active,huggingface organization from official API
-trm_hf-org-tomh,HF Org: tomh,Company,active,huggingface organization from official API
-trm_hf-org-tongyi-mai,HF Org: Tongyi-MAI,Company,active,huggingface organization from official API
-trm_hf-org-tristayqc,HF Org: tristayqc,Company,active,huggingface organization from official API
-trm_hf-org-trl-internal-testing,HF Org: trl-internal-testing,Company,active,huggingface organization from official API
-trm_hf-org-ubc-nlp,HF Org: UBC-NLP,Company,active,huggingface organization from official API
-trm_hf-org-unsloth,HF Org: unsloth,Company,active,huggingface organization from official API
-trm_hf-org-unslothai,HF Org: unslothai,Company,active,huggingface organization from official API
-trm_hf-org-usyd-community,HF Org: usyd-community,Company,active,huggingface organization from official API
-trm_hf-org-valentinafeve,HF Org: valentinafeve,Company,active,huggingface organization from official API
-trm_hf-org-valhalla,HF Org: valhalla,Company,active,huggingface organization from official API
-trm_hf-org-vectara,HF Org: vectara,Company,active,huggingface organization from official API
-trm_hf-org-vennify,HF Org: vennify,Company,active,huggingface organization from official API
-trm_hf-org-vikhyatk,HF Org: vikhyatk,Company,active,huggingface organization from official API
-trm_hf-org-vikp,HF Org: vikp,Company,active,huggingface organization from official API
-trm_hf-org-vinai,HF Org: vinai,Company,active,huggingface organization from official API
-trm_hf-org-vinid,HF Org: vinid,Company,active,huggingface organization from official API
-trm_hf-org-vovanphuc,HF Org: VoVanPhuc,Company,active,huggingface organization from official API
-trm_hf-org-w11wo,HF Org: w11wo,Company,active,huggingface organization from official API
-trm_hf-org-whereisai,HF Org: WhereIsAI,Company,active,huggingface organization from official API
-trm_hf-org-xbgoose,HF Org: xbgoose,Company,active,huggingface organization from official API
-trm_hf-org-xenova,HF Org: Xenova,Company,active,huggingface organization from official API
-trm_hf-org-xiaomimimo,HF Org: XiaomiMiMo,Company,active,huggingface organization from official API
-trm_hf-org-xlnet,HF Org: xlnet,Company,active,huggingface organization from official API
-trm_hf-org-xtuner,HF Org: xtuner,Company,active,huggingface organization from official API
-trm_hf-org-xuhui,HF Org: Xuhui,Company,active,huggingface organization from official API
-trm_hf-org-yehor,HF Org: Yehor,Company,active,huggingface organization from official API
-trm_hf-org-yitutech,HF Org: YituTech,Company,active,huggingface organization from official API
-trm_hf-org-yiyanghkust,HF Org: yiyanghkust,Company,active,huggingface organization from official API
-trm_hf-org-yuhuili,HF Org: yuhuili,Company,active,huggingface organization from official API
-trm_hf-org-yuvalkirstain,HF Org: yuvalkirstain,Company,active,huggingface organization from official API
-trm_hf-org-zai-org,HF Org: zai-org,Company,active,huggingface organization from official API
-trm_hf-org-zerofata,HF Org: zerofata,Company,active,huggingface organization from official API
-trm_hf-org-zhengpeng7,HF Org: ZhengPeng7,Company,active,huggingface organization from official API
-trm_hf-org-zhihan1996,HF Org: zhihan1996,Company,active,huggingface organization from official API
-trm_high-flyer,High-Flyer,Company,active,wikidata ownership relation
-trm_hugging-face,Hugging Face,Company,active,Transformers相关
-trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,active,HY基座模型
-trm_hy-1-8b-2bit,HY-1.8B-2Bit,Model,active,端侧量化模型
-trm_hybrid-attention,Hybrid Attention,Technique,active,Qwen3.5架构机制
-trm_ideate-agent,Ideate Agent,Product,active,Stitch创意Agent
-trm_iflytek,iFlytek,Company,active,讯飞星火X2发布方
-trm_igor-babuschkin,Igor Babuschkin,Person,active,wikidata founder relation
-trm_ilya-sutskever,Ilya Sutskever,Person,active,wikidata founder relation
-trm_jack-ma,Jack Ma,Person,active,wikidata founder relation
-trm_jared-kaplan,Jared Kaplan,Person,active,wikidata founder relation
-trm_jetbrains,JetBrains,Company,active,IDE厂商
-trm_jetbrains-n-v,JetBrains N.V.,Company,active,wikidata ownership relation
-trm_john-schulman,John Schulman,Person,active,wikidata founder relation
-trm_jpmorgan-chase,JPMorgan Chase,Company,active,wikidata ownership relation
-trm_kilo-code,Kilo Code,Company,active,Pony Alpha联动平台
-trm_kingdom-holding-company,Kingdom Holding Company,Company,active,wikidata ownership relation
-trm_larry-page,Larry Page,Person,active,wikidata founder relation
-trm_liang-wenfeng,Liang Wenfeng,Person,active,wikidata founder relation
-trm_liu-qingfeng,Liu Qingfeng,Person,active,wikidata founder relation
-trm_llada2-1,LLaDA2.1,Model,active,扩散大语言模型
-trm_llada2-1-flash,LLaDA2.1-Flash,Model,active,100B版本
-trm_llada2-1-mini,LLaDA2.1-Mini,Model,active,16B版本
-trm_longcat,LongCat,Product,active,美团智能体品牌
-trm_longcat-flash-lite,LongCat-Flash-Lite,Model,active,美团开源模型
-trm_ma-huateng,Ma Huateng,Person,active,wikidata founder relation
-trm_mark-zuckerberg,Mark Zuckerberg,Person,active,Meta核心人物
-trm_meta,Meta,Company,active,Avocado测试线索
-trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,active,蚂蚁全模态模型
-trm_minicpm-sala,MiniCPM-SALA,Model,active,百万上下文模型
-trm_minimax,MiniMax,Company,active,M2.5模型线
-trm_minimax-m2-5,MiniMax M2.5,Model,active,MiniMax旗舰模型
-trm_mistral-ai,Mistral AI,Company,active,瑞典数据中心投资
-trm_model-council,Model Council,Product,active,多模型聚合问答
-trm_modelscope,ModelScope,Company,active,OpenAPI
-trm_mosi-ai,MOSI.AI,Company,active,MOSS-TTS
-trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,Model,active,统一音频tokenizer
-trm_moss-soundeffect,MOSS-SoundEffect,Model,active,可控音效
-trm_moss-tts,MOSS-TTS,Model,active,语音模型家族
-trm_moss-tts-realtime,MOSS-TTS-Realtime,Model,active,实时语音体
-trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,Model,active,多说话人对话
-trm_moss-voicegenerator,MOSS-VoiceGenerator,Model,active,音色生成
-trm_mossttsdelay,MossTTSDelay,Model,active,8B长上下文
-trm_mossttslocal,MossTTSLocal,Model,active,1.7B轻量
-trm_mtp,MTP,Technique,active,多标记预测
-trm_myriad-international-holdings,Myriad International Holdings,Company,active,wikidata ownership relation
-trm_nanbeige4-1-3b,Nanbeige4.1-3B,Model,active,开源3B模型
-trm_naspers,Naspers,Company,active,wikidata ownership relation
-trm_nebius,Nebius,Company,active,收购Tavily
-trm_nebius-group,Nebius Group,Company,active,wikidata ownership relation
-trm_obsidian,Obsidian,Company,active,CLI发布
-trm_obsidian-cli,Obsidian CLI,Product,active,Early Access
-trm_omnibar,Omnibar,Product,active,Google AI Studio功能
-trm_openai,OpenAI,Company,active,头部平台公司
-trm_openai-api,OpenAI API,Product,active,external expansion from official source
-trm_openai-for-countries,OpenAI for Countries,Project,active,本土化计划
-trm_openai-platform-docs,OpenAI Platform Docs,Platform,active,external expansion from official source
-trm_openbmb,OpenBMB,Company,active,MiniCPM-SALA发布方
-trm_openmoss,OpenMOSS,Community,active,MOSS-TTS
-trm_openrouter,OpenRouter,Company,active,Aurora Alpha
-trm_oz,Oz,Platform,active,Warp云原生Agent平台
-trm_pamela-vagata,Pamela Vagata,Person,active,wikidata founder relation
-trm_perplexity,Perplexity,Company,active,Model Council发布方
-trm_pinea-pi,Pinea Pi,Product,active,面壁AI开发板
-trm_plawbench,PLawBench,Metric,active,法律评测基准
-trm_pony-alpha,Pony Alpha,Model,active,stealth模型
-trm_prime-intellect,Prime Intellect,Company,active,agentic后训练平台
-trm_prime-intellect-lab,Prime Intellect Lab,Platform,active,Lab平台
-trm_qwen-3-5,Qwen 3.5,Product,active,待发布系列
-trm_qwen-image-2-0,Qwen-Image-2.0,Product,active,图像生成与编辑统一模型
-trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,Model,active,PR中出现
-trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,active,PR中出现
-trm_responses-api,Responses API,Product,active,OpenAI API能力更新
-trm_runway,Runway,Company,active,E轮融资
-trm_sam-altman,Sam Altman,Person,active,OpenAI核心人物
-trm_sebastian-thrun,Sebastian Thrun,Person,active,wikidata founder relation
-trm_seedance-2-0,Seedance 2.0,Model,active,字节视频生成模型
-trm_seedream-5-0-preview,Seedream 5.0-Preview,Model,active,字节预览版
-trm_sergey-brin,Sergey Brin,Person,active,wikidata founder relation
-trm_sergey-dmitriev,Sergey Dmitriev,Person,active,wikidata founder relation
-trm_sierra,Sierra,Model,active,Meta browser agent代号
-trm_sim,SIM,Metric,active,相似度指标
-trm_sora,Sora,Product,active,OpenAI视频模型
-trm_sora-extensions,Sora Extensions,Product,active,视频续写
-trm_soul-ailab,Soul-AILab,Company,active,SoulX-Singer发布方
-trm_soulx-singer,SoulX-Singer,Model,active,歌声合成模型
-trm_spark-x2,Spark X2,Model,active,讯飞星火X2模型
-trm_stitch,Stitch,Product,active,Google设计产品
-trm_sugon,Sugon,Company,active,中科曙光英文名
-trm_tavily,Tavily,Company,active,agentic search
-trm_tencent,Tencent,Company,active,混元与CodeBuddy线
-trm_doubao-new-year-cn,豆包过年,Campaign,active,春晚联名活动
-trm_thomas-dohmke,Thomas Dohmke,Person,active,Entire创始人
-trm_timoth-e-lacroix,Timothée Lacroix,Person,active,wikidata founder relation
-trm_tony-wu,Tony Wu,Person,active,wikidata founder relation
-trm_transformers-js-v4,Transformers.js v4,Framework,active,WebGPU Runtime预览
-trm_trevor-blackwell,Trevor Blackwell,Person,active,wikidata founder relation
-trm_unsloth,Unsloth,Company,active,MoE优化
-trm_valentin-kipyatkov,Valentin Kipyatkov,Person,active,wikidata founder relation
-trm_vicki-cheung,Vicki Cheung,Person,active,wikidata founder relation
-trm_warp,Warp,Company,active,Oz平台
-trm_waymo,Waymo,Company,active,自动驾驶公司
-trm_waymo-holding,Waymo Holding,Company,active,wikidata ownership relation
-trm_waymo-world-model,Waymo World Model,Model,active,自动驾驶仿真模型
-trm_webmcp,WebMCP,Standard,active,Chrome 146预览
-trm_wer,WER,Metric,active,识别错误率指标
-trm_wojciech-zaremba,Wojciech Zaremba,Person,active,wikidata founder relation
-trm_workbuddy,WorkBuddy,Product,active,AI桌面工作台
-trm_x-developer-platform,X Developer Platform,Platform,active,X开发者平台
-trm_xai,xAI,Company,active,图像API发布
-trm_xai-api,xAI API,Product,active,external expansion from official source
-trm_z-code,Z Code,Product,active,智谱AI编程工具
-trm_zeng-liqing,Zeng Liqing,Person,active,wikidata founder relation
-trm_zhang-yiming,Zhang Yiming,Person,active,wikidata founder relation
-trm_zhang-zhidong,Zhang Zhidong,Person,active,wikidata founder relation
-trm_zhipu-ai,Zhipu AI,Company,active,GLM-5传闻
+term_id,term,term_type,notes
+trm_acc,ACC,Metric,准确率指标
+trm_alejandro-matamala,Alejandro Matamala,Person,Runway联合创始人
+trm_alphabet-inc,Alphabet Inc.,Company,wikidata ownership relation
+trm_amc-networks-international-central-europe,AMC Networks International Central Europe,Company,wikidata ownership relation
+trm_anastasis-germanidis,Anastasis Germanidis,Person,Runway联合创始人
+trm_andrej-karpathy,Andrej Karpathy,Person,243行GPT实现作者
+trm_andrew-mccollum,Andrew McCollum,Person,wikidata founder relation
+trm_ant-group,Ant Group,Company,LLaDA2.1
+trm_anthony-levandowski,Anthony Levandowski,Person,wikidata founder relation
+trm_anthropic,Anthropic,Company,头部平台公司
+trm_arthur-mensch,Arthur Mensch,Person,wikidata founder relation
+trm_augment-code,Augment Code,Company,Context Engine MCP
+trm_aurora-alpha,Aurora Alpha,Model,OpenRouter stealth模型
+trm_avocado,Avocado,Model,Meta测试代号
+trm_avocado-thinking,Avocado Thinking,Model,Meta测试代号
+trm_big-brain,Big Brain,Concept,Meta多agent并行概念
+trm_blackrock,BlackRock,Company,wikidata ownership relation
+trm_boss-zhipin,BOSS Zhipin,Company,Nanbeige模型发布方
+trm_brendan-gregg,Brendan Gregg,Person,OpenAI性能工程
+trm_bytedance,ByteDance,Company,含豆包与Seedream线
+trm_carplay,CarPlay,Product,苹果车载系统
+trm_catpaw,CatPaw,Product,美团AI编程工具
+trm_chatgpt,ChatGPT,Product,external expansion from official source
+trm_chatgpt-ads-test,ChatGPT Ads Test,Product,广告商业化测试
+trm_chatgpt-deep-research,ChatGPT Deep Research,Product,升级到GPT-5.2
+trm_chen-yidan,Chen Yidan,Person,wikidata founder relation
+trm_chris-hughes,Chris Hughes,Person,wikidata founder relation
+trm_chris-olah,Chris Olah,Person,wikidata founder relation
+trm_claude,Claude,Product,external expansion from official source
+trm_claude-app-voice-mode,Claude App voice mode,Product,语音模式分阶段开放
+trm_claude-code,Claude Code,Product,external expansion from official source
+trm_claude-code-desktop,Claude Code Desktop,Product,YOLO模式
+trm_claude-cowork,Claude Cowork,Product,Windows版
+trm_claude-opus-4-6,Claude Opus 4.6,Product,Antigravity可用
+trm_codex-alpha,Codex Alpha,Product,Windows候补
+trm_codex-app,Codex App,Product,external expansion from official source
+trm_composer-1-5,Composer 1.5,Model,Cursor编程模型
+trm_context-engine-mcp,Context Engine MCP,Product,MCP语义引擎
+trm_cristobal-valenzuela,Cristobal Valenzuela,Person,Runway联合创始人
+trm_cursor,Cursor,Company,Composer 1.5
+trm_dangerously-skip-permissions,--dangerously-skip-permissions,Flag,Claude Code参数
+trm_daniel-xu,Daniel Xu,Person,wikidata founder relation
+trm_daniela-amodei,Daniela Amodei,Person,Anthropic联合创始人
+trm_dario-amodei,Dario Amodei,Person,Anthropic联合创始人
+trm_deepseek,DeepSeek,Company,1M上下文模型线
+trm_diederik-p-kingma,Diederik P. Kingma,Person,wikidata founder relation
+trm_dime,Dime,Product,OpenAI硬件传闻名
+trm_draw-io,draw.io,Company,MCP server
+trm_droid-agent,Droid Agent,Product,Factory集成Agent
+trm_dsa,DSA,Technique,稀疏注意力机制
+trm_dustin-moskovitz,Dustin Moskovitz,Person,wikidata founder relation
+trm_eduardo-saverin,Eduardo Saverin,Person,wikidata founder relation
+trm_elon-musk,Elon Musk,Person,xAI关联人物
+trm_entire,Entire,Company,初创+融资
+trm_factory,Factory,Company,与JetBrains合作
+trm_gated-deltanet,Gated DeltaNet,Technique,Qwen3.5架构机制
+trm_gemini,Gemini,Product,external expansion from official source
+trm_gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,Model,传闻型号
+trm_gemini-api,Gemini API,Product,external expansion from official source
+trm_gemini-deep-think,Gemini Deep Think,Model,科研推理模式
+trm_gemini-skills,gemini-skills,Project,Gemini技能库
+trm_gh-repo-anthropics-anthropic-retrieval-demo,GH Repo: anthropics/anthropic-retrieval-demo,Project,github official repository
+trm_gh-repo-anthropics-anthropic-sdk-csharp,GH Repo: anthropics/anthropic-sdk-csharp,Project,github official repository
+trm_gh-repo-anthropics-anthropic-sdk-go,GH Repo: anthropics/anthropic-sdk-go,Project,github official repository
+trm_gh-repo-anthropics-anthropic-sdk-php,GH Repo: anthropics/anthropic-sdk-php,Project,github official repository
+trm_gh-repo-anthropics-anthropic-sdk-typescript,GH Repo: anthropics/anthropic-sdk-typescript,Project,github official repository
+trm_gh-repo-anthropics-attribution-graphs-frontend,GH Repo: anthropics/attribution-graphs-frontend,Project,github official repository
+trm_gh-repo-anthropics-beam,GH Repo: anthropics/beam,Project,github official repository
+trm_gh-repo-anthropics-claude-agent-sdk-demos,GH Repo: anthropics/claude-agent-sdk-demos,Project,github official repository
+trm_gh-repo-anthropics-claude-agent-sdk-python,GH Repo: anthropics/claude-agent-sdk-python,Project,github official repository
+trm_gh-repo-anthropics-claude-agent-sdk-typescript,GH Repo: anthropics/claude-agent-sdk-typescript,Project,github official repository
+trm_gh-repo-anthropics-claude-ai-mcp,GH Repo: anthropics/claude-ai-mcp,Project,github official repository
+trm_gh-repo-anthropics-claude-code,GH Repo: anthropics/claude-code,Project,github official repository
+trm_gh-repo-anthropics-claude-code-security-review,GH Repo: anthropics/claude-code-security-review,Project,github official repository
+trm_gh-repo-anthropics-claude-cookbooks,GH Repo: anthropics/claude-cookbooks,Project,github official repository
+trm_gh-repo-anthropics-constitutionalharmlessnesspaper,GH Repo: anthropics/ConstitutionalHarmlessnessPaper,Project,github official repository
+trm_gh-repo-anthropics-decompositionfaithfulnesspaper,GH Repo: anthropics/DecompositionFaithfulnessPaper,Project,github official repository
+trm_gh-repo-anthropics-devcontainer-features,GH Repo: anthropics/devcontainer-features,Project,github official repository
+trm_gh-repo-anthropics-evals,GH Repo: anthropics/evals,Project,github official repository
+trm_gh-repo-anthropics-hh-rlhf,GH Repo: anthropics/hh-rlhf,Project,github official repository
+trm_gh-repo-anthropics-model-cards,GH Repo: anthropics/model-cards,Project,github official repository
+trm_gh-repo-anthropics-nix-eval-jobs,GH Repo: anthropics/nix-eval-jobs,Project,github official repository
+trm_gh-repo-anthropics-political-neutrality-eval,GH Repo: anthropics/political-neutrality-eval,Project,github official repository
+trm_gh-repo-anthropics-prompt-eng-interactive-tutorial,GH Repo: anthropics/prompt-eng-interactive-tutorial,Project,github official repository
+trm_gh-repo-anthropics-pysvelte,GH Repo: anthropics/PySvelte,Project,github official repository
+trm_gh-repo-anthropics-rclone,GH Repo: anthropics/rclone,Project,github official repository
+trm_gh-repo-anthropics-riv2025-long-horizon-coding-agent-demo,GH Repo: anthropics/riv2025-long-horizon-coding-agent-demo,Project,github official repository
+trm_gh-repo-anthropics-rogue-deploy-eval,GH Repo: anthropics/rogue-deploy-eval,Project,github official repository
+trm_gh-repo-anthropics-skills,GH Repo: anthropics/skills,Project,github official repository
+trm_gh-repo-anthropics-sleeper-agents-paper,GH Repo: anthropics/sleeper-agents-paper,Project,github official repository
+trm_gh-repo-anthropics-tailscale-hint-extension,GH Repo: anthropics/tailscale-hint-extension,Project,github official repository
+trm_gh-repo-anthropics-toy-models-of-superposition,GH Repo: anthropics/toy-models-of-superposition,Project,github official repository
+trm_gh-repo-google-adk-docs,GH Repo: google/adk-docs,Project,github official repository
+trm_gh-repo-google-adk-go,GH Repo: google/adk-go,Project,github official repository
+trm_gh-repo-google-adk-java,GH Repo: google/adk-java,Project,github official repository
+trm_gh-repo-google-adk-js,GH Repo: google/adk-js,Project,github official repository
+trm_gh-repo-google-adk-python,GH Repo: google/adk-python,Project,github official repository
+trm_gh-repo-google-adk-samples,GH Repo: google/adk-samples,Project,github official repository
+trm_gh-repo-google-adk-web,GH Repo: google/adk-web,Project,github official repository
+trm_gh-repo-google-eclipsa-audio-plugin,GH Repo: google/eclipsa-audio-plugin,Project,github official repository
+trm_gh-repo-google-embardiment,GH Repo: google/embardiment,Project,github official repository
+trm_gh-repo-google-evt-air-risk-aiaa-scitech-2026,GH Repo: google/evt-air-risk-aiaa-scitech-2026,Project,github official repository
+trm_gh-repo-google-gemma-unity-plugin,GH Repo: google/gemma-unity-plugin,Project,github official repository
+trm_gh-repo-google-hackable-diffusion,GH Repo: google/hackable_diffusion,Project,github official repository
+trm_gh-repo-google-langextract,GH Repo: google/langextract,Project,github official repository
+trm_gh-repo-google-llm-sidebar-with-context,GH Repo: google/llm-sidebar-with-context,Project,github official repository
+trm_gh-repo-google-ml-flashpoint,GH Repo: google/ml-flashpoint,Project,github official repository
+trm_gh-repo-google-mobly-bluetooth-ref-validation,GH Repo: google/mobly-bluetooth-ref-validation,Project,github official repository
+trm_gh-repo-google-pubmed-rag,GH Repo: google/pubmed-rag,Project,github official repository
+trm_gh-repo-google-rago,GH Repo: google/rago,Project,github official repository
+trm_gh-repo-google-ragvis,GH Repo: google/ragvis,Project,github official repository
+trm_gh-repo-google-saif-data,GH Repo: google/saif-data,Project,github official repository
+trm_gh-repo-google-sec-gemini,GH Repo: google/sec-gemini,Project,github official repository
+trm_gh-repo-google-torchax,GH Repo: google/torchax,Project,github official repository
+trm_gh-repo-google-tunix,GH Repo: google/tunix,Project,github official repository
+trm_gh-repo-google-unblocking-detail-caption,GH Repo: google/unblocking-detail-caption,Project,github official repository
+trm_gh-repo-google-xrblocks,GH Repo: google/xrblocks,Project,github official repository
+trm_gh-repo-huggingface-agents-course,GH Repo: huggingface/agents-course,Project,github official repository
+trm_gh-repo-huggingface-ai-blueprint,GH Repo: huggingface/ai-blueprint,Project,github official repository
+trm_gh-repo-huggingface-ai-deadlines,GH Repo: huggingface/ai-deadlines,Project,github official repository
+trm_gh-repo-huggingface-ai-hardware-leaderboard,GH Repo: huggingface/ai-hardware-leaderboard,Project,github official repository
+trm_gh-repo-huggingface-aisheets,GH Repo: huggingface/aisheets,Project,github official repository
+trm_gh-repo-huggingface-arena-hard-auto,GH Repo: huggingface/arena-hard-auto,Project,github official repository
+trm_gh-repo-huggingface-candle-wax,GH Repo: huggingface/candle_wax,Project,github official repository
+trm_gh-repo-huggingface-community-evals,GH Repo: huggingface/community-evals,Project,github official repository
+trm_gh-repo-huggingface-datasets-course,GH Repo: huggingface/datasets-course,Project,github official repository
+trm_gh-repo-huggingface-dell-ai,GH Repo: huggingface/dell-ai,Project,github official repository
+trm_gh-repo-huggingface-egl-probe,GH Repo: huggingface/egl_probe,Project,github official repository
+trm_gh-repo-huggingface-ember,GH Repo: huggingface/ember,Project,github official repository
+trm_gh-repo-huggingface-gorilla,GH Repo: huggingface/gorilla,Project,github official repository
+trm_gh-repo-huggingface-gpt-oss-recipes,GH Repo: huggingface/gpt-oss-recipes,Project,github official repository
+trm_gh-repo-huggingface-hf-agent,GH Repo: huggingface/hf_agent,Project,github official repository
+trm_gh-repo-huggingface-hfendpoints,GH Repo: huggingface/hfendpoints,Project,github official repository
+trm_gh-repo-huggingface-hugex,GH Repo: huggingface/hugex,Project,github official repository
+trm_gh-repo-huggingface-huggingface-gemma-recipes,GH Repo: huggingface/huggingface-gemma-recipes,Project,github official repository
+trm_gh-repo-huggingface-huggingface-vscode-chat,GH Repo: huggingface/huggingface-vscode-chat,Project,github official repository
+trm_gh-repo-huggingface-inference-providers-starter-app,GH Repo: huggingface/inference-providers-starter-app,Project,github official repository
+trm_gh-repo-huggingface-jupyter-agent,GH Repo: huggingface/jupyter-agent,Project,github official repository
+trm_gh-repo-huggingface-llm-course,GH Repo: huggingface/llm-course,Project,github official repository
+trm_gh-repo-huggingface-lor-e,GH Repo: huggingface/lor-e,Project,github official repository
+trm_gh-repo-huggingface-lora-fast,GH Repo: huggingface/lora-fast,Project,github official repository
+trm_gh-repo-huggingface-mcp-bench,GH Repo: huggingface/mcp-bench,Project,github official repository
+trm_gh-repo-huggingface-mergekit,GH Repo: huggingface/mergekit,Project,github official repository
+trm_gh-repo-huggingface-meta-agents-research-environments,GH Repo: huggingface/meta-agents-research-environments,Project,github official repository
+trm_gh-repo-huggingface-multi-if,GH Repo: huggingface/Multi-IF,Project,github official repository
+trm_gh-repo-huggingface-nanovlm,GH Repo: huggingface/nanoVLM,Project,github official repository
+trm_gh-repo-huggingface-new-model-addition-cwm,GH Repo: huggingface/new-model-addition-cwm,Project,github official repository
+trm_gh-repo-huggingface-optimum-onnx,GH Repo: huggingface/optimum-onnx,Project,github official repository
+trm_gh-repo-huggingface-prime,GH Repo: huggingface/prime,Project,github official repository
+trm_gh-repo-huggingface-qwen2-5-coder,GH Repo: huggingface/Qwen2.5-Coder,Project,github official repository
+trm_gh-repo-huggingface-responses-js,GH Repo: huggingface/responses.js,Project,github official repository
+trm_gh-repo-huggingface-screenenv,GH Repo: huggingface/screenenv,Project,github official repository
+trm_gh-repo-huggingface-screensuite,GH Repo: huggingface/screensuite,Project,github official repository
+trm_gh-repo-huggingface-swift-huggingface,GH Repo: huggingface/swift-huggingface,Project,github official repository
+trm_gh-repo-huggingface-tau2-bench,GH Repo: huggingface/tau2-bench,Project,github official repository
+trm_gh-repo-huggingface-torchtitan,GH Repo: huggingface/torchtitan,Project,github official repository
+trm_gh-repo-huggingface-transformers-js-benchmarking,GH Repo: huggingface/transformers.js-benchmarking,Project,github official repository
+trm_gh-repo-huggingface-transformers-research-projects,GH Repo: huggingface/transformers-research-projects,Project,github official repository
+trm_gh-repo-huggingface-trl-jobs,GH Repo: huggingface/trl-jobs,Project,github official repository
+trm_gh-repo-huggingface-ultravox,GH Repo: huggingface/ultravox,Project,github official repository
+trm_gh-repo-huggingface-upskill,GH Repo: huggingface/upskill,Project,github official repository
+trm_gh-repo-huggingface-video-dataset-scripts,GH Repo: huggingface/video-dataset-scripts,Project,github official repository
+trm_gh-repo-huggingface-vllm-dca,GH Repo: huggingface/vllm-dca,Project,github official repository
+trm_gh-repo-huggingface-wikirace-llms,GH Repo: huggingface/wikirace-llms,Project,github official repository
+trm_gh-repo-huggingface-yourbench,GH Repo: huggingface/yourbench,Project,github official repository
+trm_gh-repo-meta-llama-codellama,GH Repo: meta-llama/codellama,Project,github official repository
+trm_gh-repo-meta-llama-llama,GH Repo: meta-llama/llama,Project,github official repository
+trm_gh-repo-meta-llama-llama-cookbook,GH Repo: meta-llama/llama-cookbook,Project,github official repository
+trm_gh-repo-meta-llama-llama-models,GH Repo: meta-llama/llama-models,Project,github official repository
+trm_gh-repo-meta-llama-llama-verifications,GH Repo: meta-llama/llama-verifications,Project,github official repository
+trm_gh-repo-meta-llama-prompt-ops,GH Repo: meta-llama/prompt-ops,Project,github official repository
+trm_gh-repo-meta-llama-purplellama,GH Repo: meta-llama/PurpleLlama,Project,github official repository
+trm_gh-repo-mistralai-agent-client-protocol,GH Repo: mistralai/agent-client-protocol,Project,github official repository
+trm_gh-repo-mistralai-client-js,GH Repo: mistralai/client-js,Project,github official repository
+trm_gh-repo-mistralai-client-python,GH Repo: mistralai/client-python,Project,github official repository
+trm_gh-repo-mistralai-client-ts,GH Repo: mistralai/client-ts,Project,github official repository
+trm_gh-repo-mistralai-cookbook,GH Repo: mistralai/cookbook,Project,github official repository
+trm_gh-repo-mistralai-fastchat-release,GH Repo: mistralai/FastChat-release,Project,github official repository
+trm_gh-repo-mistralai-flyte,GH Repo: mistralai/flyte,Project,github official repository
+trm_gh-repo-mistralai-gateway-api-inference-extension-public,GH Repo: mistralai/gateway-api-inference-extension-public,Project,github official repository
+trm_gh-repo-mistralai-llm-d-inference-scheduler-public,GH Repo: mistralai/llm-d-inference-scheduler-public,Project,github official repository
+trm_gh-repo-mistralai-llm-d-kv-cache-manager-public,GH Repo: mistralai/llm-d-kv-cache-manager-public,Project,github official repository
+trm_gh-repo-mistralai-mistral-common,GH Repo: mistralai/mistral-common,Project,github official repository
+trm_gh-repo-mistralai-mistral-evals,GH Repo: mistralai/mistral-evals,Project,github official repository
+trm_gh-repo-mistralai-mistral-inference,GH Repo: mistralai/mistral-inference,Project,github official repository
+trm_gh-repo-mistralai-mistral-vibe,GH Repo: mistralai/mistral-vibe,Project,github official repository
+trm_gh-repo-mistralai-sagemaker-docs,GH Repo: mistralai/sagemaker-docs,Project,github official repository
+trm_gh-repo-mistralai-tensorrt-llm,GH Repo: mistralai/TensorRT-LLM,Project,github official repository
+trm_gh-repo-mistralai-transformers-release,GH Repo: mistralai/transformers-release,Project,github official repository
+trm_gh-repo-mistralai-vllm-release,GH Repo: mistralai/vllm-release,Project,github official repository
+trm_gh-repo-openai-bugbounty-gpt,GH Repo: openai/bugbounty-gpt,Project,github official repository
+trm_gh-repo-openai-chatgpt-retrieval-plugin,GH Repo: openai/chatgpt-retrieval-plugin,Project,github official repository
+trm_gh-repo-openai-chef-cookbook-hostname,GH Repo: openai/chef-cookbook-hostname,Project,github official repository
+trm_gh-repo-openai-codex,GH Repo: openai/codex,Project,github official repository
+trm_gh-repo-openai-completions-responses-migration-pack,GH Repo: openai/completions-responses-migration-pack,Project,github official repository
+trm_gh-repo-openai-compose-richtext,GH Repo: openai/compose-richtext,Project,github official repository
+trm_gh-repo-openai-consistency-models,GH Repo: openai/consistency_models,Project,github official repository
+trm_gh-repo-openai-consistency-models-cifar10,GH Repo: openai/consistency_models_cifar10,Project,github official repository
+trm_gh-repo-openai-dalle3-eval-samples,GH Repo: openai/dalle3-eval-samples,Project,github official repository
+trm_gh-repo-openai-dallify-discord-bot,GH Repo: openai/dallify-discord-bot,Project,github official repository
+trm_gh-repo-openai-emoclassifiers,GH Repo: openai/emoclassifiers,Project,github official repository
+trm_gh-repo-openai-evals,GH Repo: openai/evals,Project,github official repository
+trm_gh-repo-openai-frontier-evals,GH Repo: openai/frontier-evals,Project,github official repository
+trm_gh-repo-openai-gabriel,GH Repo: openai/GABRIEL,Project,github official repository
+trm_gh-repo-openai-gpt-5-coding-examples,GH Repo: openai/gpt-5-coding-examples,Project,github official repository
+trm_gh-repo-openai-gpt-discord-bot,GH Repo: openai/gpt-discord-bot,Project,github official repository
+trm_gh-repo-openai-gpt-oss,GH Repo: openai/gpt-oss,Project,github official repository
+trm_gh-repo-openai-gpt-oss-safeguard,GH Repo: openai/gpt-oss-safeguard,Project,github official repository
+trm_gh-repo-openai-gpts-are-gpts,GH Repo: openai/GPTs-are-GPTs,Project,github official repository
+trm_gh-repo-openai-harmony,GH Repo: openai/harmony,Project,github official repository
+trm_gh-repo-openai-human-eval-infilling,GH Repo: openai/human-eval-infilling,Project,github official repository
+trm_gh-repo-openai-main-branch-check-action,GH Repo: openai/main-branch-check-action,Project,github official repository
+trm_gh-repo-openai-mle-bench,GH Repo: openai/mle-bench,Project,github official repository
+trm_gh-repo-openai-model-spec,GH Repo: openai/model_spec,Project,github official repository
+trm_gh-repo-openai-openai-agents-js,GH Repo: openai/openai-agents-js,Project,github official repository
+trm_gh-repo-openai-openai-agents-python,GH Repo: openai/openai-agents-python,Project,github official repository
+trm_gh-repo-openai-openai-apps-sdk-examples,GH Repo: openai/openai-apps-sdk-examples,Project,github official repository
+trm_gh-repo-openai-openai-assistants-quickstart,GH Repo: openai/openai-assistants-quickstart,Project,github official repository
+trm_gh-repo-openai-openai-builder-lab,GH Repo: openai/openai-builder-lab,Project,github official repository
+trm_gh-repo-openai-openai-builder-lab-solution,GH Repo: openai/openai-builder-lab-solution,Project,github official repository
+trm_gh-repo-openai-openai-chatkit-advanced-samples,GH Repo: openai/openai-chatkit-advanced-samples,Project,github official repository
+trm_gh-repo-openai-openai-chatkit-starter-app,GH Repo: openai/openai-chatkit-starter-app,Project,github official repository
+trm_gh-repo-openai-openai-cookbook,GH Repo: openai/openai-cookbook,Project,github official repository
+trm_gh-repo-openai-openai-cs-agents-demo,GH Repo: openai/openai-cs-agents-demo,Project,github official repository
+trm_gh-repo-openai-openai-cua-sample-app,GH Repo: openai/openai-cua-sample-app,Project,github official repository
+trm_gh-repo-openai-openai-deno-build,GH Repo: openai/openai-deno-build,Project,github official repository
+trm_gh-repo-openai-openai-dotnet,GH Repo: openai/openai-dotnet,Project,github official repository
+trm_gh-repo-openai-openai-fm,GH Repo: openai/openai-fm,Project,github official repository
+trm_gh-repo-openai-openai-go,GH Repo: openai/openai-go,Project,github official repository
+trm_gh-repo-openai-openai-guardrails-js,GH Repo: openai/openai-guardrails-js,Project,github official repository
+trm_gh-repo-openai-openai-guardrails-python,GH Repo: openai/openai-guardrails-python,Project,github official repository
+trm_gh-repo-openai-openai-icpc-2025,GH Repo: openai/openai-icpc-2025,Project,github official repository
+trm_gh-repo-openai-openai-java,GH Repo: openai/openai-java,Project,github official repository
+trm_gh-repo-openai-openai-knowledge-retrieval,GH Repo: openai/openai-knowledge-retrieval,Project,github official repository
+trm_gh-repo-openai-openai-mcpkit,GH Repo: openai/openai-mcpkit,Project,github official repository
+trm_gh-repo-openai-openai-quickstart-node,GH Repo: openai/openai-quickstart-node,Project,github official repository
+trm_gh-repo-openai-openai-realtime-agents,GH Repo: openai/openai-realtime-agents,Project,github official repository
+trm_gh-repo-openai-openai-realtime-api-beta,GH Repo: openai/openai-realtime-api-beta,Project,github official repository
+trm_gh-repo-openai-openai-realtime-console,GH Repo: openai/openai-realtime-console,Project,github official repository
+trm_gh-repo-openai-openai-realtime-embedded,GH Repo: openai/openai-realtime-embedded,Project,github official repository
+trm_gh-repo-openai-openai-realtime-solar-system,GH Repo: openai/openai-realtime-solar-system,Project,github official repository
+trm_gh-repo-openai-openai-realtime-twilio-demo,GH Repo: openai/openai-realtime-twilio-demo,Project,github official repository
+trm_gh-repo-openai-openai-reflect,GH Repo: openai/openai-reflect,Project,github official repository
+trm_gh-repo-openai-openai-responses-starter-app,GH Repo: openai/openai-responses-starter-app,Project,github official repository
+trm_gh-repo-openai-openai-ruby,GH Repo: openai/openai-ruby,Project,github official repository
+trm_gh-repo-openai-openai-security-bots,GH Repo: openai/openai-security-bots,Project,github official repository
+trm_gh-repo-openai-openai-sora-sample-app,GH Repo: openai/openai-sora-sample-app,Project,github official repository
+trm_gh-repo-openai-openai-structured-outputs-samples,GH Repo: openai/openai-structured-outputs-samples,Project,github official repository
+trm_gh-repo-openai-openai-support-agent-demo,GH Repo: openai/openai-support-agent-demo,Project,github official repository
+trm_gh-repo-openai-openai-testing-agent-demo,GH Repo: openai/openai-testing-agent-demo,Project,github official repository
+trm_gh-repo-openai-openai-voice-agent-sdk-sample,GH Repo: openai/openai-voice-agent-sdk-sample,Project,github official repository
+trm_gh-repo-openai-plugins-quickstart,GH Repo: openai/plugins-quickstart,Project,github official repository
+trm_gh-repo-openai-point-e,GH Repo: openai/point-e,Project,github official repository
+trm_gh-repo-openai-prm800k,GH Repo: openai/prm800k,Project,github official repository
+trm_gh-repo-openai-safety-rbr-code-and-data,GH Repo: openai/safety-rbr-code-and-data,Project,github official repository
+trm_gh-repo-openai-simple-evals,GH Repo: openai/simple-evals,Project,github official repository
+trm_gh-repo-openai-swarm,GH Repo: openai/swarm,Project,github official repository
+trm_gh-repo-openai-swelancer-benchmark,GH Repo: openai/SWELancer-Benchmark,Project,github official repository
+trm_gh-repo-openai-tiktoken,GH Repo: openai/tiktoken,Project,github official repository
+trm_gh-repo-openai-transformer-debugger,GH Repo: openai/transformer-debugger,Project,github official repository
+trm_gh-repo-openai-video-pre-training,GH Repo: openai/Video-Pre-Training,Project,github official repository
+trm_gh-repo-openai-web-crawl-q-and-a-example,GH Repo: openai/web-crawl-q-and-a-example,Project,github official repository
+trm_gh-repo-openai-whisper,GH Repo: openai/whisper,Project,github official repository
+trm_gh-repo-tencent-ai-infra-guard,GH Repo: Tencent/AI-Infra-Guard,Project,github official repository
+trm_gh-repo-tencent-aicgseceval,GH Repo: Tencent/AICGSecEval,Project,github official repository
+trm_gh-repo-tencent-angelslim,GH Repo: Tencent/AngelSlim,Project,github official repository
+trm_gh-repo-tencent-blazerml-tvm,GH Repo: Tencent/BlazerML-tvm,Project,github official repository
+trm_gh-repo-tencent-cognitivekernel-pro,GH Repo: Tencent/CognitiveKernel-Pro,Project,github official repository
+trm_gh-repo-tencent-embedx,GH Repo: Tencent/embedx,Project,github official repository
+trm_gh-repo-tencent-fast-causal-inference,GH Repo: Tencent/fast-causal-inference,Project,github official repository
+trm_gh-repo-tencent-finllm-eval,GH Repo: Tencent/finLLM-Eval,Project,github official repository
+trm_gh-repo-tencent-haplovlm,GH Repo: Tencent/HaploVLM,Project,github official repository
+trm_gh-repo-tencent-hel,GH Repo: Tencent/hel,Project,github official repository
+trm_gh-repo-tencent-hpc-ops,GH Repo: Tencent/hpc-ops,Project,github official repository
+trm_gh-repo-tencent-ksanadit,GH Repo: Tencent/KsanaDiT,Project,github official repository
+trm_gh-repo-tencent-ksanallm,GH Repo: Tencent/KsanaLLM,Project,github official repository
+trm_gh-repo-tencent-lightdiffusionflow,GH Repo: Tencent/LightDiffusionFlow,Project,github official repository
+trm_gh-repo-tencent-llm-hunyuan-t1,GH Repo: Tencent/llm.hunyuan.T1,Project,github official repository
+trm_gh-repo-tencent-nf-tencentcloud,GH Repo: Tencent/nf-tencentcloud,Project,github official repository
+trm_gh-repo-tencent-raif,GH Repo: Tencent/RAIF,Project,github official repository
+trm_gh-repo-tencent-selfevolvingagent,GH Repo: Tencent/SelfEvolvingAgent,Project,github official repository
+trm_gh-repo-tencent-tat-agent,GH Repo: Tencent/tat-agent,Project,github official repository
+trm_gh-repo-tencent-tclainit,GH Repo: Tencent/TClaInit,Project,github official repository
+trm_gh-repo-tencent-tdesign-miniprogram-starter-retail,GH Repo: Tencent/tdesign-miniprogram-starter-retail,Project,github official repository
+trm_gh-repo-tencent-tencentkonasmsuite,GH Repo: Tencent/TencentKonaSMSuite,Project,github official repository
+trm_gh-repo-tencent-tencentpretrain,GH Repo: Tencent/TencentPretrain,Project,github official repository
+trm_gh-repo-tencent-vita,GH Repo: Tencent/VITA,Project,github official repository
+trm_gh-repo-tencent-wedlm,GH Repo: Tencent/WeDLM,Project,github official repository
+trm_gh-repo-tencent-weknora,GH Repo: Tencent/WeKnora,Project,github official repository
+trm_gh-repo-tencent-wildspeech-bench,GH Repo: Tencent/WildSpeech-Bench,Project,github official repository
+trm_gh-repo-tencent-yolo-master,GH Repo: Tencent/YOLO-Master,Project,github official repository
+trm_gh-repo-xai-org-grok-prompts,GH Repo: xai-org/grok-prompts,Project,github official repository
+trm_gh-repo-xai-org-xai-cookbook,GH Repo: xai-org/xai-cookbook,Project,github official repository
+trm_gh-repo-xai-org-xai-proto,GH Repo: xai-org/xai-proto,Project,github official repository
+trm_gh-repo-xai-org-xai-sdk-python,GH Repo: xai-org/xai-sdk-python,Project,github official repository
+trm_glm-5,GLM-5,Model,智谱新模型传闻
+trm_glm-coding-plan,GLM Coding Plan,Product,智谱订阅方案
+trm_glm-in-excel,GLM in Excel,Product,智谱Excel插件
+trm_google,Google,Company,含Gemini/Stitch/Chrome线
+trm_google-ai-studio,Google AI Studio,Product,谷歌开发平台更新
+trm_google-stitch-figma-export,Google Stitch Figma Export,Product,Figma导出
+trm_gpt-5-2,GPT-5.2,Model,路由/升级目标
+trm_gpt-5-2-instant,GPT-5.2 Instant,Model,OpenAI更新型号
+trm_gpt-5-3-codex,GPT-5.3-Codex,Model,编程模型
+trm_greg-brockman,Greg Brockman,Person,wikidata founder relation
+trm_grok,Grok,Product,external expansion from official source
+trm_grok-imagine-image,Grok Imagine Image,Model,xAI图像模型标准版
+trm_grok-imagine-image-pro,Grok Imagine Image Pro,Model,xAI图像模型
+trm_guillaume-lample,Guillaume Lample,Person,wikidata founder relation
+trm_hf-org-1-800-bad-code,HF Org: 1-800-BAD-CODE,Company,huggingface organization from official API
+trm_hf-org-abhishekchohan,HF Org: abhishekchohan,Company,huggingface organization from official API
+trm_hf-org-adamcodd,HF Org: AdamCodd,Company,huggingface organization from official API
+trm_hf-org-adibvafa,HF Org: adibvafa,Company,huggingface organization from official API
+trm_hf-org-ahotrod,HF Org: ahotrod,Company,huggingface organization from official API
+trm_hf-org-ai-forever,HF Org: ai-forever,Company,huggingface organization from official API
+trm_hf-org-ai-sage,HF Org: ai-sage,Company,huggingface organization from official API
+trm_hf-org-ai21labs,HF Org: ai21labs,Company,huggingface organization from official API
+trm_hf-org-alana89,HF Org: alana89,Company,huggingface organization from official API
+trm_hf-org-albert,HF Org: albert,Company,huggingface organization from official API
+trm_hf-org-alibaba-nlp,HF Org: Alibaba-NLP,Company,huggingface organization from official API
+trm_hf-org-allegro,HF Org: allegro,Company,huggingface organization from official API
+trm_hf-org-allenai,HF Org: allenai,Company,huggingface organization from official API
+trm_hf-org-almanach,HF Org: almanach,Company,huggingface organization from official API
+trm_hf-org-amazon,HF Org: amazon,Company,huggingface organization from official API
+trm_hf-org-amunchet,HF Org: amunchet,Company,huggingface organization from official API
+trm_hf-org-answerdotai,HF Org: answerdotai,Company,huggingface organization from official API
+trm_hf-org-apple,HF Org: apple,Company,huggingface organization from official API
+trm_hf-org-argmaxinc,HF Org: argmaxinc,Company,huggingface organization from official API
+trm_hf-org-astramindai,HF Org: AstraMindAI,Company,huggingface organization from official API
+trm_hf-org-atotti,HF Org: Atotti,Company,huggingface organization from official API
+trm_hf-org-aubmindlab,HF Org: aubmindlab,Company,huggingface organization from official API
+trm_hf-org-audeering,HF Org: audeering,Company,huggingface organization from official API
+trm_hf-org-autogluon,HF Org: autogluon,Company,huggingface organization from official API
+trm_hf-org-autoweeb,HF Org: autoweeb,Company,huggingface organization from official API
+trm_hf-org-avsolatorio,HF Org: avsolatorio,Company,huggingface organization from official API
+trm_hf-org-baai,HF Org: BAAI,Company,huggingface organization from official API
+trm_hf-org-babelscape,HF Org: Babelscape,Company,huggingface organization from official API
+trm_hf-org-bardsai,HF Org: bardsai,Company,huggingface organization from official API
+trm_hf-org-bartowski,HF Org: bartowski,Company,huggingface organization from official API
+trm_hf-org-beomi,HF Org: beomi,Company,huggingface organization from official API
+trm_hf-org-bibabobbb,HF Org: bibabobbb,Company,huggingface organization from official API
+trm_hf-org-bigscience,HF Org: bigscience,Company,huggingface organization from official API
+trm_hf-org-bingsu,HF Org: Bingsu,Company,huggingface organization from official API
+trm_hf-org-biu-nlp,HF Org: biu-nlp,Company,huggingface organization from official API
+trm_hf-org-black-forest-labs,HF Org: black-forest-labs,Company,huggingface organization from official API
+trm_hf-org-boltzgen,HF Org: boltzgen,Company,huggingface organization from official API
+trm_hf-org-briaai,HF Org: briaai,Company,huggingface organization from official API
+trm_hf-org-buildborderless,HF Org: buildborderless,Company,huggingface organization from official API
+trm_hf-org-cagliostrolab,HF Org: cagliostrolab,Company,huggingface organization from official API
+trm_hf-org-caidas,HF Org: caidas,Company,huggingface organization from official API
+trm_hf-org-cambridgeltl,HF Org: cambridgeltl,Company,huggingface organization from official API
+trm_hf-org-cardiffnlp,HF Org: cardiffnlp,Company,huggingface organization from official API
+trm_hf-org-casperhansen,HF Org: casperhansen,Company,huggingface organization from official API
+trm_hf-org-cforge42,HF Org: cforge42,Company,huggingface organization from official API
+trm_hf-org-charactr,HF Org: charactr,Company,huggingface organization from official API
+trm_hf-org-cidas,HF Org: CIDAS,Company,huggingface organization from official API
+trm_hf-org-cl-nagoya,HF Org: cl-nagoya,Company,huggingface organization from official API
+trm_hf-org-cointegrated,HF Org: cointegrated,Company,huggingface organization from official API
+trm_hf-org-colbert-ir,HF Org: colbert-ir,Company,huggingface organization from official API
+trm_hf-org-comfy-org,HF Org: Comfy-Org,Company,huggingface organization from official API
+trm_hf-org-comodoro,HF Org: comodoro,Company,huggingface organization from official API
+trm_hf-org-compvis,HF Org: CompVis,Company,huggingface organization from official API
+trm_hf-org-coqui,HF Org: coqui,Company,huggingface organization from official API
+trm_hf-org-cross-encoder,HF Org: cross-encoder,Company,huggingface organization from official API
+trm_hf-org-crynux-network,HF Org: crynux-network,Company,huggingface organization from official API
+trm_hf-org-cyankiwi,HF Org: cyankiwi,Company,huggingface organization from official API
+trm_hf-org-cyberagent,HF Org: cyberagent,Company,huggingface organization from official API
+trm_hf-org-cybersectony,HF Org: cybersectony,Company,huggingface organization from official API
+trm_hf-org-datalab-to,HF Org: datalab-to,Company,huggingface organization from official API
+trm_hf-org-davebulaval,HF Org: davebulaval,Company,huggingface organization from official API
+trm_hf-org-dbmdz,HF Org: dbmdz,Company,huggingface organization from official API
+trm_hf-org-dccuchile,HF Org: dccuchile,Company,huggingface organization from official API
+trm_hf-org-deepbeepmeep,HF Org: DeepBeepMeep,Company,huggingface organization from official API
+trm_hf-org-deephat,HF Org: DeepHat,Company,huggingface organization from official API
+trm_hf-org-deeppavlov,HF Org: DeepPavlov,Company,huggingface organization from official API
+trm_hf-org-deepseek-ai,HF Org: deepseek-ai,Company,huggingface organization from official API
+trm_hf-org-deepset,HF Org: deepset,Company,huggingface organization from official API
+trm_hf-org-deepvk,HF Org: deepvk,Company,huggingface organization from official API
+trm_hf-org-depth-anything,HF Org: depth-anything,Company,huggingface organization from official API
+trm_hf-org-descript,HF Org: descript,Company,huggingface organization from official API
+trm_hf-org-dima806,HF Org: dima806,Company,huggingface organization from official API
+trm_hf-org-distil-whisper,HF Org: distil-whisper,Company,huggingface organization from official API
+trm_hf-org-distilbert,HF Org: distilbert,Company,huggingface organization from official API
+trm_hf-org-dmis-lab,HF Org: dmis-lab,Company,huggingface organization from official API
+trm_hf-org-docling-project,HF Org: docling-project,Company,huggingface organization from official API
+trm_hf-org-dphn,HF Org: dphn,Company,huggingface organization from official API
+trm_hf-org-dropbox-dash,HF Org: dropbox-dash,Company,huggingface organization from official API
+trm_hf-org-dslim,HF Org: dslim,Company,huggingface organization from official API
+trm_hf-org-dunzhang,HF Org: dunzhang,Company,huggingface organization from official API
+trm_hf-org-e-mimic,HF Org: E-MIMIC,Company,huggingface organization from official API
+trm_hf-org-eleutherai,HF Org: EleutherAI,Company,huggingface organization from official API
+trm_hf-org-emilyalsentzer,HF Org: emilyalsentzer,Company,huggingface organization from official API
+trm_hf-org-essentialai,HF Org: EssentialAI,Company,huggingface organization from official API
+trm_hf-org-eth-cvg,HF Org: ETH-CVG,Company,huggingface organization from official API
+trm_hf-org-eugenesiow,HF Org: eugenesiow,Company,huggingface organization from official API
+trm_hf-org-evamxb,HF Org: evamxb,Company,huggingface organization from official API
+trm_hf-org-facebook,HF Org: facebook,Company,huggingface organization from official API
+trm_hf-org-facebookai,HF Org: FacebookAI,Company,huggingface organization from official API
+trm_hf-org-falconsai,HF Org: Falconsai,Company,huggingface organization from official API
+trm_hf-org-finiteautomata,HF Org: finiteautomata,Company,huggingface organization from official API
+trm_hf-org-fixie-ai,HF Org: fixie-ai,Company,huggingface organization from official API
+trm_hf-org-flair,HF Org: flair,Company,huggingface organization from official API
+trm_hf-org-flax-sentence-embeddings,HF Org: flax-sentence-embeddings,Company,huggingface organization from official API
+trm_hf-org-freds0,HF Org: freds0,Company,huggingface organization from official API
+trm_hf-org-freelawproject,HF Org: freelawproject,Company,huggingface organization from official API
+trm_hf-org-freepik,HF Org: Freepik,Company,huggingface organization from official API
+trm_hf-org-gadflyii,HF Org: GadflyII,Company,huggingface organization from official API
+trm_hf-org-gerbejon,HF Org: gerbejon,Company,huggingface organization from official API
+trm_hf-org-ggml-org,HF Org: ggml-org,Company,huggingface organization from official API
+trm_hf-org-gilf,HF Org: gilf,Company,huggingface organization from official API
+trm_hf-org-google,HF Org: google,Company,huggingface organization from official API
+trm_hf-org-google-bert,HF Org: google-bert,Company,huggingface organization from official API
+trm_hf-org-google-t5,HF Org: google-t5,Company,huggingface organization from official API
+trm_hf-org-gptcache,HF Org: GPTCache,Company,huggingface organization from official API
+trm_hf-org-gsai-ml,HF Org: GSAI-ML,Company,huggingface organization from official API
+trm_hf-org-h2oai,HF Org: h2oai,Company,huggingface organization from official API
+trm_hf-org-h94,HF Org: h94,Company,huggingface organization from official API
+trm_hf-org-hadriansecurity,HF Org: HadrianSecurity,Company,huggingface organization from official API
+trm_hf-org-harsha901,HF Org: Harsha901,Company,huggingface organization from official API
+trm_hf-org-helsinki-nlp,HF Org: Helsinki-NLP,Company,huggingface organization from official API
+trm_hf-org-hexgrad,HF Org: hexgrad,Company,huggingface organization from official API
+trm_hf-org-hkunlp,HF Org: hkunlp,Company,huggingface organization from official API
+trm_hf-org-hmellor,HF Org: hmellor,Company,huggingface organization from official API
+trm_hf-org-hubertsiuzdak,HF Org: hubertsiuzdak,Company,huggingface organization from official API
+trm_hf-org-hugging-quants,HF Org: hugging-quants,Company,huggingface organization from official API
+trm_hf-org-huggingfacetb,HF Org: HuggingFaceTB,Company,huggingface organization from official API
+trm_hf-org-hustvl,HF Org: hustvl,Company,huggingface organization from official API
+trm_hf-org-iamjb,HF Org: IAMJB,Company,huggingface organization from official API
+trm_hf-org-iarfmoose,HF Org: iarfmoose,Company,huggingface organization from official API
+trm_hf-org-ibm-granite,HF Org: ibm-granite,Company,huggingface organization from official API
+trm_hf-org-ibm-research,HF Org: ibm-research,Company,huggingface organization from official API
+trm_hf-org-idea-research,HF Org: IDEA-Research,Company,huggingface organization from official API
+trm_hf-org-iitolstykh,HF Org: iitolstykh,Company,huggingface organization from official API
+trm_hf-org-ilyagusev,HF Org: IlyaGusev,Company,huggingface organization from official API
+trm_hf-org-indobenchmark,HF Org: indobenchmark,Company,huggingface organization from official API
+trm_hf-org-indonesian-nlp,HF Org: indonesian-nlp,Company,huggingface organization from official API
+trm_hf-org-intel,HF Org: Intel,Company,huggingface organization from official API
+trm_hf-org-intfloat,HF Org: intfloat,Company,huggingface organization from official API
+trm_hf-org-iquestlab,HF Org: IQuestLab,Company,huggingface organization from official API
+trm_hf-org-isee-laboratory,HF Org: iSEE-Laboratory,Company,huggingface organization from official API
+trm_hf-org-isotonic,HF Org: Isotonic,Company,huggingface organization from official API
+trm_hf-org-istupakov,HF Org: istupakov,Company,huggingface organization from official API
+trm_hf-org-j-hartmann,HF Org: j-hartmann,Company,huggingface organization from official API
+trm_hf-org-jackaduma,HF Org: jackaduma,Company,huggingface organization from official API
+trm_hf-org-janhq,HF Org: janhq,Company,huggingface organization from official API
+trm_hf-org-jbetker,HF Org: jbetker,Company,huggingface organization from official API
+trm_hf-org-jean-baptiste,HF Org: Jean-Baptiste,Company,huggingface organization from official API
+trm_hf-org-jhgan,HF Org: jhgan,Company,huggingface organization from official API
+trm_hf-org-jhu-clsp,HF Org: jhu-clsp,Company,huggingface organization from official API
+trm_hf-org-jinaai,HF Org: jinaai,Company,huggingface organization from official API
+trm_hf-org-johahi,HF Org: johahi,Company,huggingface organization from official API
+trm_hf-org-john6666,HF Org: John6666,Company,huggingface organization from official API
+trm_hf-org-jonatasgrosman,HF Org: jonatasgrosman,Company,huggingface organization from official API
+trm_hf-org-jonathandinu,HF Org: jonathandinu,Company,huggingface organization from official API
+trm_hf-org-kaitchup,HF Org: kaitchup,Company,huggingface organization from official API
+trm_hf-org-kakaobank,HF Org: kakaobank,Company,huggingface organization from official API
+trm_hf-org-kb,HF Org: KB,Company,huggingface organization from official API
+trm_hf-org-kernels-community,HF Org: kernels-community,Company,huggingface organization from official API
+trm_hf-org-kha-white,HF Org: kha-white,Company,huggingface organization from official API
+trm_hf-org-kijai,HF Org: Kijai,Company,huggingface organization from official API
+trm_hf-org-knc6,HF Org: knc6,Company,huggingface organization from official API
+trm_hf-org-knifeayumu,HF Org: knifeayumu,Company,huggingface organization from official API
+trm_hf-org-komeijiforce,HF Org: KomeijiForce,Company,huggingface organization from official API
+trm_hf-org-kontur-ai,HF Org: kontur-ai,Company,huggingface organization from official API
+trm_hf-org-kosbu,HF Org: kosbu,Company,huggingface organization from official API
+trm_hf-org-kredor,HF Org: kredor,Company,huggingface organization from official API
+trm_hf-org-kresnik,HF Org: kresnik,Company,huggingface organization from official API
+trm_hf-org-krlvi,HF Org: krlvi,Company,huggingface organization from official API
+trm_hf-org-kyutai,HF Org: kyutai,Company,huggingface organization from official API
+trm_hf-org-laion,HF Org: laion,Company,huggingface organization from official API
+trm_hf-org-lazarusnlp,HF Org: LazarusNLP,Company,huggingface organization from official API
+trm_hf-org-lengyue233,HF Org: lengyue233,Company,huggingface organization from official API
+trm_hf-org-lgris,HF Org: lgris,Company,huggingface organization from official API
+trm_hf-org-lightonai,HF Org: lightonai,Company,huggingface organization from official API
+trm_hf-org-lightricks,HF Org: Lightricks,Company,huggingface organization from official API
+trm_hf-org-lightx2v,HF Org: lightx2v,Company,huggingface organization from official API
+trm_hf-org-liheyoung,HF Org: LiheYoung,Company,huggingface organization from official API
+trm_hf-org-liquidai,HF Org: LiquidAI,Company,huggingface organization from official API
+trm_hf-org-liuhaotian,HF Org: liuhaotian,Company,huggingface organization from official API
+trm_hf-org-llamafactory,HF Org: llamafactory,Company,huggingface organization from official API
+trm_hf-org-llava-hf,HF Org: llava-hf,Company,huggingface organization from official API
+trm_hf-org-llm-jp,HF Org: llm-jp,Company,huggingface organization from official API
+trm_hf-org-lmg-anon,HF Org: lmg-anon,Company,huggingface organization from official API
+trm_hf-org-lmstudio-community,HF Org: lmstudio-community,Company,huggingface organization from official API
+trm_hf-org-lmsys,HF Org: lmsys,Company,huggingface organization from official API
+trm_hf-org-lpiccinelli,HF Org: lpiccinelli,Company,huggingface organization from official API
+trm_hf-org-lucadiliello,HF Org: lucadiliello,Company,huggingface organization from official API
+trm_hf-org-lxyuan,HF Org: lxyuan,Company,huggingface organization from official API
+trm_hf-org-m-fac,HF Org: M-FAC,Company,huggingface organization from official API
+trm_hf-org-madebyollin,HF Org: madebyollin,Company,huggingface organization from official API
+trm_hf-org-magic-leap-community,HF Org: magic-leap-community,Company,huggingface organization from official API
+trm_hf-org-mahmoudashraf,HF Org: MahmoudAshraf,Company,huggingface organization from official API
+trm_hf-org-maple728,HF Org: Maple728,Company,huggingface organization from official API
+trm_hf-org-marqo,HF Org: Marqo,Company,huggingface organization from official API
+trm_hf-org-mattmdjaga,HF Org: mattmdjaga,Company,huggingface organization from official API
+trm_hf-org-maziyarpanahi,HF Org: MaziyarPanahi,Company,huggingface organization from official API
+trm_hf-org-mbzuai,HF Org: MBZUAI,Company,huggingface organization from official API
+trm_hf-org-meta-llama,HF Org: meta-llama,Company,huggingface organization from official API
+trm_hf-org-microsoft,HF Org: microsoft,Company,huggingface organization from official API
+trm_hf-org-minimaxai,HF Org: MiniMaxAI,Company,huggingface organization from official API
+trm_hf-org-minishlab,HF Org: minishlab,Company,huggingface organization from official API
+trm_hf-org-mistralai,HF Org: mistralai,Company,huggingface organization from official API
+trm_hf-org-mit,HF Org: MIT,Company,huggingface organization from official API
+trm_hf-org-mixedbread-ai,HF Org: mixedbread-ai,Company,huggingface organization from official API
+trm_hf-org-mlx-community,HF Org: mlx-community,Company,huggingface organization from official API
+trm_hf-org-moonshotai,HF Org: moonshotai,Company,huggingface organization from official API
+trm_hf-org-moritzlaurer,HF Org: MoritzLaurer,Company,huggingface organization from official API
+trm_hf-org-mrm8488,HF Org: mrm8488,Company,huggingface organization from official API
+trm_hf-org-myshell-ai,HF Org: myshell-ai,Company,huggingface organization from official API
+trm_hf-org-nanonets,HF Org: nanonets,Company,huggingface organization from official API
+trm_hf-org-nateraw,HF Org: nateraw,Company,huggingface organization from official API
+trm_hf-org-naturalantibody,HF Org: NaturalAntibody,Company,huggingface organization from official API
+trm_hf-org-naver,HF Org: naver,Company,huggingface organization from official API
+trm_hf-org-nbailab,HF Org: NbAiLab,Company,huggingface organization from official API
+trm_hf-org-neoquasar,HF Org: NeoQuasar,Company,huggingface organization from official API
+trm_hf-org-neuralmind,HF Org: neuralmind,Company,huggingface organization from official API
+trm_hf-org-nguyenvulebinh,HF Org: nguyenvulebinh,Company,huggingface organization from official API
+trm_hf-org-nie3e,HF Org: nie3e,Company,huggingface organization from official API
+trm_hf-org-nlpaueb,HF Org: nlpaueb,Company,huggingface organization from official API
+trm_hf-org-nlpconnect,HF Org: nlpconnect,Company,huggingface organization from official API
+trm_hf-org-nlptown,HF Org: nlptown,Company,huggingface organization from official API
+trm_hf-org-nomic-ai,HF Org: nomic-ai,Company,huggingface organization from official API
+trm_hf-org-nousresearch,HF Org: NousResearch,Company,huggingface organization from official API
+trm_hf-org-novasearch,HF Org: NovaSearch,Company,huggingface organization from official API
+trm_hf-org-nreimers,HF Org: nreimers,Company,huggingface organization from official API
+trm_hf-org-numind,HF Org: numind,Company,huggingface organization from official API
+trm_hf-org-numz,HF Org: numz,Company,huggingface organization from official API
+trm_hf-org-nvidia,HF Org: nvidia,Company,huggingface organization from official API
+trm_hf-org-obi,HF Org: obi,Company,huggingface organization from official API
+trm_hf-org-oliverguhr,HF Org: oliverguhr,Company,huggingface organization from official API
+trm_hf-org-omni-research,HF Org: omni-research,Company,huggingface organization from official API
+trm_hf-org-openai,HF Org: openai,Company,huggingface organization from official API
+trm_hf-org-openai-community,HF Org: openai-community,Company,huggingface organization from official API
+trm_hf-org-opendatalab,HF Org: opendatalab,Company,huggingface organization from official API
+trm_hf-org-opengvlab,HF Org: OpenGVLab,Company,huggingface organization from official API
+trm_hf-org-openmed,HF Org: OpenMed,Company,huggingface organization from official API
+trm_hf-org-openmuq,HF Org: OpenMuQ,Company,huggingface organization from official API
+trm_hf-org-openpipe,HF Org: OpenPipe,Company,huggingface organization from official API
+trm_hf-org-opensearch-project,HF Org: opensearch-project,Company,huggingface organization from official API
+trm_hf-org-openvla,HF Org: openvla,Company,huggingface organization from official API
+trm_hf-org-optimum-intel-internal-testing,HF Org: optimum-intel-internal-testing,Company,huggingface organization from official API
+trm_hf-org-orcadb,HF Org: OrcaDB,Company,huggingface organization from official API
+trm_hf-org-paddlepaddle,HF Org: PaddlePaddle,Company,huggingface organization from official API
+trm_hf-org-padmajabfrl,HF Org: padmajabfrl,Company,huggingface organization from official API
+trm_hf-org-papluca,HF Org: papluca,Company,huggingface organization from official API
+trm_hf-org-parler-tts,HF Org: parler-tts,Company,huggingface organization from official API
+trm_hf-org-patrickjohncyh,HF Org: patrickjohncyh,Company,huggingface organization from official API
+trm_hf-org-peft-internal-testing,HF Org: peft-internal-testing,Company,huggingface organization from official API
+trm_hf-org-pekingu,HF Org: PekingU,Company,huggingface organization from official API
+trm_hf-org-playgroundai,HF Org: playgroundai,Company,huggingface organization from official API
+trm_hf-org-prajjwal1,HF Org: prajjwal1,Company,huggingface organization from official API
+trm_hf-org-prithivida,HF Org: prithivida,Company,huggingface organization from official API
+trm_hf-org-prithivmlmods,HF Org: prithivMLmods,Company,huggingface organization from official API
+trm_hf-org-prosusai,HF Org: ProsusAI,Company,huggingface organization from official API
+trm_hf-org-proteinsequenceannotation,HF Org: ProteinSequenceAnnotation,Company,huggingface organization from official API
+trm_hf-org-prov-gigapath,HF Org: prov-gigapath,Company,huggingface organization from official API
+trm_hf-org-pyannote,HF Org: pyannote,Company,huggingface organization from official API
+trm_hf-org-pysentimiento,HF Org: pysentimiento,Company,huggingface organization from official API
+trm_hf-org-pytorch,HF Org: pytorch,Company,huggingface organization from official API
+trm_hf-org-qandos0,HF Org: qandos0,Company,huggingface organization from official API
+trm_hf-org-qdrant,HF Org: Qdrant,Company,huggingface organization from official API
+trm_hf-org-quantstack,HF Org: QuantStack,Company,huggingface organization from official API
+trm_hf-org-quanttrio,HF Org: QuantTrio,Company,huggingface organization from official API
+trm_hf-org-qwen,HF Org: Qwen,Company,huggingface organization from official API
+trm_hf-org-redhatai,HF Org: RedHatAI,Company,huggingface organization from official API
+trm_hf-org-rednote-hilab,HF Org: rednote-hilab,Company,huggingface organization from official API
+trm_hf-org-refactai,HF Org: refactai,Company,huggingface organization from official API
+trm_hf-org-resembleai,HF Org: ResembleAI,Company,huggingface organization from official API
+trm_hf-org-revai,HF Org: Revai,Company,huggingface organization from official API
+trm_hf-org-rhasspy,HF Org: rhasspy,Company,huggingface organization from official API
+trm_hf-org-rizvandwiki,HF Org: rizvandwiki,Company,huggingface organization from official API
+trm_hf-org-roadz,HF Org: roadz,Company,huggingface organization from official API
+trm_hf-org-rostlab,HF Org: Rostlab,Company,huggingface organization from official API
+trm_hf-org-salesforce,HF Org: Salesforce,Company,huggingface organization from official API
+trm_hf-org-samlowe,HF Org: SamLowe,Company,huggingface organization from official API
+trm_hf-org-sdadas,HF Org: sdadas,Company,huggingface organization from official API
+trm_hf-org-sentence-transformers,HF Org: sentence-transformers,Company,huggingface organization from official API
+trm_hf-org-sentence-transformers-testing,HF Org: sentence-transformers-testing,Company,huggingface organization from official API
+trm_hf-org-seyonec,HF Org: seyonec,Company,huggingface organization from official API
+trm_hf-org-sg161222,HF Org: SG161222,Company,huggingface organization from official API
+trm_hf-org-shi-labs,HF Org: shi-labs,Company,huggingface organization from official API
+trm_hf-org-shibing624,HF Org: shibing624,Company,huggingface organization from official API
+trm_hf-org-shushant,HF Org: Shushant,Company,huggingface organization from official API
+trm_hf-org-skt,HF Org: skt,Company,huggingface organization from official API
+trm_hf-org-smp-hub,HF Org: smp-hub,Company,huggingface organization from official API
+trm_hf-org-snowflake,HF Org: Snowflake,Company,huggingface organization from official API
+trm_hf-org-snunlp,HF Org: snunlp,Company,huggingface organization from official API
+trm_hf-org-softcatala,HF Org: softcatala,Company,huggingface organization from official API
+trm_hf-org-solidrust,HF Org: solidrust,Company,huggingface organization from official API
+trm_hf-org-spacepxl,HF Org: spacepxl,Company,huggingface organization from official API
+trm_hf-org-spanbert,HF Org: SpanBERT,Company,huggingface organization from official API
+trm_hf-org-speechbrain,HF Org: speechbrain,Company,huggingface organization from official API
+trm_hf-org-sshleifer,HF Org: sshleifer,Company,huggingface organization from official API
+trm_hf-org-stabilityai,HF Org: stabilityai,Company,huggingface organization from official API
+trm_hf-org-stable-diffusion-v1-5,HF Org: stable-diffusion-v1-5,Company,huggingface organization from official API
+trm_hf-org-stanfordaimi,HF Org: StanfordAIMI,Company,huggingface organization from official API
+trm_hf-org-stelterlab,HF Org: stelterlab,Company,huggingface organization from official API
+trm_hf-org-stepfun-ai,HF Org: stepfun-ai,Company,huggingface organization from official API
+trm_hf-org-studio-ousia,HF Org: studio-ousia,Company,huggingface organization from official API
+trm_hf-org-supabase,HF Org: Supabase,Company,huggingface organization from official API
+trm_hf-org-superb,HF Org: superb,Company,huggingface organization from official API
+trm_hf-org-swiss-ai,HF Org: swiss-ai,Company,huggingface organization from official API
+trm_hf-org-swivid,HF Org: SWivid,Company,huggingface organization from official API
+trm_hf-org-systran,HF Org: Systran,Company,huggingface organization from official API
+trm_hf-org-t-tech,HF Org: t-tech,Company,huggingface organization from official API
+trm_hf-org-tabularisai,HF Org: tabularisai,Company,huggingface organization from official API
+trm_hf-org-tahadouaji,HF Org: TahaDouaji,Company,huggingface organization from official API
+trm_hf-org-tarn59,HF Org: tarn59,Company,huggingface organization from official API
+trm_hf-org-tencent,HF Org: tencent,Company,huggingface organization from official API
+trm_hf-org-tencentbac,HF Org: TencentBAC,Company,huggingface organization from official API
+trm_hf-org-thebloke,HF Org: TheBloke,Company,huggingface organization from official API
+trm_hf-org-thenlper,HF Org: thenlper,Company,huggingface organization from official API
+trm_hf-org-thuml,HF Org: thuml,Company,huggingface organization from official API
+trm_hf-org-timm,HF Org: timm,Company,huggingface organization from official API
+trm_hf-org-tinyllama,HF Org: TinyLlama,Company,huggingface organization from official API
+trm_hf-org-tohoku-nlp,HF Org: tohoku-nlp,Company,huggingface organization from official API
+trm_hf-org-tomaarsen,HF Org: tomaarsen,Company,huggingface organization from official API
+trm_hf-org-tomh,HF Org: tomh,Company,huggingface organization from official API
+trm_hf-org-tongyi-mai,HF Org: Tongyi-MAI,Company,huggingface organization from official API
+trm_hf-org-tristayqc,HF Org: tristayqc,Company,huggingface organization from official API
+trm_hf-org-trl-internal-testing,HF Org: trl-internal-testing,Company,huggingface organization from official API
+trm_hf-org-ubc-nlp,HF Org: UBC-NLP,Company,huggingface organization from official API
+trm_hf-org-unsloth,HF Org: unsloth,Company,huggingface organization from official API
+trm_hf-org-unslothai,HF Org: unslothai,Company,huggingface organization from official API
+trm_hf-org-usyd-community,HF Org: usyd-community,Company,huggingface organization from official API
+trm_hf-org-valentinafeve,HF Org: valentinafeve,Company,huggingface organization from official API
+trm_hf-org-valhalla,HF Org: valhalla,Company,huggingface organization from official API
+trm_hf-org-vectara,HF Org: vectara,Company,huggingface organization from official API
+trm_hf-org-vennify,HF Org: vennify,Company,huggingface organization from official API
+trm_hf-org-vikhyatk,HF Org: vikhyatk,Company,huggingface organization from official API
+trm_hf-org-vikp,HF Org: vikp,Company,huggingface organization from official API
+trm_hf-org-vinai,HF Org: vinai,Company,huggingface organization from official API
+trm_hf-org-vinid,HF Org: vinid,Company,huggingface organization from official API
+trm_hf-org-vovanphuc,HF Org: VoVanPhuc,Company,huggingface organization from official API
+trm_hf-org-w11wo,HF Org: w11wo,Company,huggingface organization from official API
+trm_hf-org-whereisai,HF Org: WhereIsAI,Company,huggingface organization from official API
+trm_hf-org-xbgoose,HF Org: xbgoose,Company,huggingface organization from official API
+trm_hf-org-xenova,HF Org: Xenova,Company,huggingface organization from official API
+trm_hf-org-xiaomimimo,HF Org: XiaomiMiMo,Company,huggingface organization from official API
+trm_hf-org-xlnet,HF Org: xlnet,Company,huggingface organization from official API
+trm_hf-org-xtuner,HF Org: xtuner,Company,huggingface organization from official API
+trm_hf-org-xuhui,HF Org: Xuhui,Company,huggingface organization from official API
+trm_hf-org-yehor,HF Org: Yehor,Company,huggingface organization from official API
+trm_hf-org-yitutech,HF Org: YituTech,Company,huggingface organization from official API
+trm_hf-org-yiyanghkust,HF Org: yiyanghkust,Company,huggingface organization from official API
+trm_hf-org-yuhuili,HF Org: yuhuili,Company,huggingface organization from official API
+trm_hf-org-yuvalkirstain,HF Org: yuvalkirstain,Company,huggingface organization from official API
+trm_hf-org-zai-org,HF Org: zai-org,Company,huggingface organization from official API
+trm_hf-org-zerofata,HF Org: zerofata,Company,huggingface organization from official API
+trm_hf-org-zhengpeng7,HF Org: ZhengPeng7,Company,huggingface organization from official API
+trm_hf-org-zhihan1996,HF Org: zhihan1996,Company,huggingface organization from official API
+trm_high-flyer,High-Flyer,Company,wikidata ownership relation
+trm_hugging-face,Hugging Face,Company,Transformers相关
+trm_hunyuan-1-8b-instruct,Hunyuan-1.8B-Instruct,Model,HY基座模型
+trm_hy-1-8b-2bit,HY-1.8B-2Bit,Model,端侧量化模型
+trm_hybrid-attention,Hybrid Attention,Technique,Qwen3.5架构机制
+trm_ideate-agent,Ideate Agent,Product,Stitch创意Agent
+trm_iflytek,iFlytek,Company,讯飞星火X2发布方
+trm_igor-babuschkin,Igor Babuschkin,Person,wikidata founder relation
+trm_ilya-sutskever,Ilya Sutskever,Person,wikidata founder relation
+trm_jack-ma,Jack Ma,Person,wikidata founder relation
+trm_jared-kaplan,Jared Kaplan,Person,wikidata founder relation
+trm_jetbrains,JetBrains,Company,IDE厂商
+trm_jetbrains-n-v,JetBrains N.V.,Company,wikidata ownership relation
+trm_john-schulman,John Schulman,Person,wikidata founder relation
+trm_jpmorgan-chase,JPMorgan Chase,Company,wikidata ownership relation
+trm_kilo-code,Kilo Code,Company,Pony Alpha联动平台
+trm_kingdom-holding-company,Kingdom Holding Company,Company,wikidata ownership relation
+trm_larry-page,Larry Page,Person,wikidata founder relation
+trm_liang-wenfeng,Liang Wenfeng,Person,wikidata founder relation
+trm_liu-qingfeng,Liu Qingfeng,Person,wikidata founder relation
+trm_llada2-1,LLaDA2.1,Model,扩散大语言模型
+trm_llada2-1-flash,LLaDA2.1-Flash,Model,100B版本
+trm_llada2-1-mini,LLaDA2.1-Mini,Model,16B版本
+trm_longcat,LongCat,Product,美团智能体品牌
+trm_longcat-flash-lite,LongCat-Flash-Lite,Model,美团开源模型
+trm_ma-huateng,Ma Huateng,Person,wikidata founder relation
+trm_mark-zuckerberg,Mark Zuckerberg,Person,Meta核心人物
+trm_meta,Meta,Company,Avocado测试线索
+trm_ming-flash-omni-2-0,Ming-flash-omni 2.0,Model,蚂蚁全模态模型
+trm_minicpm-sala,MiniCPM-SALA,Model,百万上下文模型
+trm_minimax,MiniMax,Company,M2.5模型线
+trm_minimax-m2-5,MiniMax M2.5,Model,MiniMax旗舰模型
+trm_mistral-ai,Mistral AI,Company,瑞典数据中心投资
+trm_model-council,Model Council,Product,多模型聚合问答
+trm_modelscope,ModelScope,Company,OpenAPI
+trm_mosi-ai,MOSI.AI,Company,MOSS-TTS
+trm_moss-audio-tokenizer,MOSS-Audio-Tokenizer,Model,统一音频tokenizer
+trm_moss-soundeffect,MOSS-SoundEffect,Model,可控音效
+trm_moss-tts,MOSS-TTS,Model,语音模型家族
+trm_moss-tts-realtime,MOSS-TTS-Realtime,Model,实时语音体
+trm_moss-ttsd-v1-0,MOSS-TTSD v1.0,Model,多说话人对话
+trm_moss-voicegenerator,MOSS-VoiceGenerator,Model,音色生成
+trm_mossttsdelay,MossTTSDelay,Model,8B长上下文
+trm_mossttslocal,MossTTSLocal,Model,1.7B轻量
+trm_mtp,MTP,Technique,多标记预测
+trm_myriad-international-holdings,Myriad International Holdings,Company,wikidata ownership relation
+trm_nanbeige4-1-3b,Nanbeige4.1-3B,Model,开源3B模型
+trm_naspers,Naspers,Company,wikidata ownership relation
+trm_nebius,Nebius,Company,收购Tavily
+trm_nebius-group,Nebius Group,Company,wikidata ownership relation
+trm_obsidian,Obsidian,Company,CLI发布
+trm_obsidian-cli,Obsidian CLI,Product,Early Access
+trm_omnibar,Omnibar,Product,Google AI Studio功能
+trm_openai,OpenAI,Company,头部平台公司
+trm_openai-api,OpenAI API,Product,external expansion from official source
+trm_openai-for-countries,OpenAI for Countries,Project,本土化计划
+trm_openai-platform-docs,OpenAI Platform Docs,Platform,external expansion from official source
+trm_openbmb,OpenBMB,Company,MiniCPM-SALA发布方
+trm_openmoss,OpenMOSS,Community,MOSS-TTS
+trm_openrouter,OpenRouter,Company,Aurora Alpha
+trm_oz,Oz,Platform,Warp云原生Agent平台
+trm_pamela-vagata,Pamela Vagata,Person,wikidata founder relation
+trm_perplexity,Perplexity,Company,Model Council发布方
+trm_pinea-pi,Pinea Pi,Product,面壁AI开发板
+trm_plawbench,PLawBench,Metric,法律评测基准
+trm_pony-alpha,Pony Alpha,Model,stealth模型
+trm_prime-intellect,Prime Intellect,Company,agentic后训练平台
+trm_prime-intellect-lab,Prime Intellect Lab,Platform,Lab平台
+trm_qwen-3-5,Qwen 3.5,Product,待发布系列
+trm_qwen-image-2-0,Qwen-Image-2.0,Product,图像生成与编辑统一模型
+trm_qwen3-5-35b-a3b-instruct,Qwen3.5-35B-A3B-Instruct,Model,PR中出现
+trm_qwen3-5-9b-instruct,Qwen3.5-9B-Instruct,Model,PR中出现
+trm_responses-api,Responses API,Product,OpenAI API能力更新
+trm_runway,Runway,Company,E轮融资
+trm_sam-altman,Sam Altman,Person,OpenAI核心人物
+trm_sebastian-thrun,Sebastian Thrun,Person,wikidata founder relation
+trm_seedance-2-0,Seedance 2.0,Model,字节视频生成模型
+trm_seedream-5-0-preview,Seedream 5.0-Preview,Model,字节预览版
+trm_sergey-brin,Sergey Brin,Person,wikidata founder relation
+trm_sergey-dmitriev,Sergey Dmitriev,Person,wikidata founder relation
+trm_sierra,Sierra,Model,Meta browser agent代号
+trm_sim,SIM,Metric,相似度指标
+trm_sora,Sora,Product,OpenAI视频模型
+trm_sora-extensions,Sora Extensions,Product,视频续写
+trm_soul-ailab,Soul-AILab,Company,SoulX-Singer发布方
+trm_soulx-singer,SoulX-Singer,Model,歌声合成模型
+trm_spark-x2,Spark X2,Model,讯飞星火X2模型
+trm_stitch,Stitch,Product,Google设计产品
+trm_sugon,Sugon,Company,中科曙光英文名
+trm_tavily,Tavily,Company,agentic search
+trm_tencent,Tencent,Company,混元与CodeBuddy线
+trm_doubao-new-year-cn,豆包过年,Campaign,春晚联名活动
+trm_thomas-dohmke,Thomas Dohmke,Person,Entire创始人
+trm_timoth-e-lacroix,Timothée Lacroix,Person,wikidata founder relation
+trm_tony-wu,Tony Wu,Person,wikidata founder relation
+trm_transformers-js-v4,Transformers.js v4,Framework,WebGPU Runtime预览
+trm_trevor-blackwell,Trevor Blackwell,Person,wikidata founder relation
+trm_unsloth,Unsloth,Company,MoE优化
+trm_valentin-kipyatkov,Valentin Kipyatkov,Person,wikidata founder relation
+trm_vicki-cheung,Vicki Cheung,Person,wikidata founder relation
+trm_warp,Warp,Company,Oz平台
+trm_waymo,Waymo,Company,自动驾驶公司
+trm_waymo-holding,Waymo Holding,Company,wikidata ownership relation
+trm_waymo-world-model,Waymo World Model,Model,自动驾驶仿真模型
+trm_webmcp,WebMCP,Standard,Chrome 146预览
+trm_wer,WER,Metric,识别错误率指标
+trm_wojciech-zaremba,Wojciech Zaremba,Person,wikidata founder relation
+trm_workbuddy,WorkBuddy,Product,AI桌面工作台
+trm_x-developer-platform,X Developer Platform,Platform,X开发者平台
+trm_xai,xAI,Company,图像API发布
+trm_xai-api,xAI API,Product,external expansion from official source
+trm_z-code,Z Code,Product,智谱AI编程工具
+trm_zeng-liqing,Zeng Liqing,Person,wikidata founder relation
+trm_zhang-yiming,Zhang Yiming,Person,wikidata founder relation
+trm_zhang-zhidong,Zhang Zhidong,Person,wikidata founder relation
+trm_zhipu-ai,Zhipu AI,Company,GLM-5传闻

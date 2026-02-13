@@ -329,3 +329,6 @@
 - 同步完成高价值关系类型细化：`open_source_project -> open_source_repository`、`maintains -> maintains_project`。
 - 新增 `wiki/index/high_value_relation_taxonomy.md` 固化关系命名与迁移规则，并更新 `wiki/README.md` 说明。
 - 验证结果：processed 与 wiki core 共现 pair/计数完全一致；关系层 term_id 引用无悬空。
+- 执行 Phase 36（Wiki 无状态化）：批量移除 wiki 索引 CSV 的 `status` 字段，保持其他字段与数据值不变。
+- 完成文档口径同步：新增 AGENTS 无状态规则，并同步 README/wiki README/taxonomy 描述。
+- 更新 `task_plan.md`：新增 Phase 36 并标记完成。

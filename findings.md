@@ -968,3 +968,22 @@
   - `maintains -> maintains_project`（5 条）
 - 新增关系字典：`wiki/index/high_value_relation_taxonomy.md`。
 - 关系层完整性复核通过：`high_value_relations` 与 `term_external_edges` 对 `terms.csv` 的 term_id 引用均无悬空。
+
+## 2026-02-13 无状态化对齐（用户新约束）
+- 用户确认：high-value 不应采用“候选->确认”状态门，状态判断应在对话层完成，不进入项目数据层。
+- 现状扫描：wiki 核心与扩展 CSV 中存在多个 `status` 列：
+  - `wiki/index/high_value_relations.csv`
+  - `wiki/index/term_external_edges.csv`
+  - `wiki/index/terms.csv`
+  - `wiki/index/term_expansion_queue.csv`
+  - `wiki/index/relation_research_queue.csv`
+- 对齐决策：执行 wiki 层“无状态 schema”收敛，移除上述 `status` 字段，并更新 AGENTS/README/wiki 文档规则。
+## 2026-02-13 Phase 36 完成（Wiki 无状态化）
+- 已从 wiki 索引 CSV 移除 `status` 字段：
+  - `wiki/index/terms.csv`
+  - `wiki/index/term_external_edges.csv`
+  - `wiki/index/high_value_relations.csv`
+  - `wiki/index/term_expansion_queue.csv`
+  - `wiki/index/relation_research_queue.csv`
+- 关系与节点内容保持不变，仅删除流程状态维度。
+- 文档同步完成：`AGENTS.md`、`README.md`、`wiki/README.md`、`wiki/index/high_value_relation_taxonomy.md` 均已写明“状态在对话层，不入数据层”。

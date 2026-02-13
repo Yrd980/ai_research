@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complete)
+Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complete), Phase 36 (complete)
 
 ## Phases
 
@@ -324,5 +324,13 @@ Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complet
 - [x] 将 `high_value_relations.csv` 中 GitHub 仓库语义关系细化为 `open_source_repository`
 - [x] 将 `maintains` 关系细化为 `maintains_project`
 - [x] 新增 `wiki/index/high_value_relation_taxonomy.md` 固化关系类型定义
+- [x] 执行一致性校验与完成性检查
+- **Status:** complete
+
+### Phase 36: Wiki 层无状态化（Status 字段清理）
+- [x] 从 wiki 索引 CSV 中移除 `status` 字段（core + extension + relation queues）
+- [x] 保持 `high_value_relations.csv`、`term_external_edges.csv`、`terms.csv` 数据完整性不变
+- [x] 更新 `AGENTS.md` 无状态规则（状态仅存在于对话与日志）
+- [x] 更新 `README.md` / `wiki/README.md` / taxonomy 文档到无状态口径
 - [x] 执行一致性校验与完成性检查
 - **Status:** complete

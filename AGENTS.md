@@ -55,6 +55,12 @@ Do not delete these three files during cleanup/refactor.
 9. Maintain `high_value_relations.csv` for M&A/founder/open-source/product ownership.
 10. Update `task_plan.md`, `findings.md`, and `progress.md`.
 
+## Agentic No-Status Rule
+
+- Core and extension index CSVs should not carry workflow state fields such as `status`.
+- Do not use `candidate/verified/in_progress/done` in data-layer tables.
+- Keep uncertainty handling in agent conversation and planning logs (`task_plan.md`, `findings.md`, `progress.md`), not in graph indexes.
+
 ## Research Principles
 
 - Prioritize first-hand/primary evidence over reposted summaries.
