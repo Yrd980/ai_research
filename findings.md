@@ -987,3 +987,15 @@
   - `wiki/index/relation_research_queue.csv`
 - 关系与节点内容保持不变，仅删除流程状态维度。
 - 文档同步完成：`AGENTS.md`、`README.md`、`wiki/README.md`、`wiki/index/high_value_relation_taxonomy.md` 均已写明“状态在对话层，不入数据层”。
+
+## 2026-02-13 ingest_manifest 无状态迁移启动
+- 现状冲突：wiki 层已无 `status` 字段，但 raw 层文档仍要求 `ingest_manifest.csv` 使用 `pending_sync/captured` 状态语义。
+- 对齐目标：将 ingest 清单改为布尔门控（`is_full_text` / `needs_backfill`），保留完整性约束但去掉状态词汇。
+## 2026-02-13 Phase 37 完成（ingest manifest 无状态迁移）
+- `data/raw/wechat/ingest_manifest.csv` schema 已迁移为：
+  - `date,title,input_method,input_reference,raw_file,is_full_text,needs_backfill,notes`
+- 映射规则已执行：
+  - `captured -> is_full_text=true, needs_backfill=false`
+  - `pending_sync -> is_full_text=false, needs_backfill=true`
+- 当前数据校验：12 行全部为 `is_full_text=true` 与 `needs_backfill=false`，布尔值合法性检查通过（bad rows=0）。
+- 文档口径同步完成：`AGENTS.md`、`README.md`、`data/raw/wechat/README.md`。

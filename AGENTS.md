@@ -35,7 +35,7 @@ Do not delete these three files during cleanup/refactor.
 - Raw files under `data/raw/wechat/YYYY-MM-DD.md` must preserve full original text.
 - Do not replace original text with summaries in raw files.
 - Keep links, numeric metrics, benchmark values, mechanism names, and caveats exactly as provided.
-- If only partial text is available, mark the day as `pending_sync` in `ingest_manifest.csv` until full text is backfilled.
+- If only partial text is available, set `is_full_text=false` and `needs_backfill=true` in `ingest_manifest.csv` until full text is backfilled.
 
 ## Default Workflow For New Daily Input
 

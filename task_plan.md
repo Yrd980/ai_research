@@ -4,7 +4,7 @@
 定位公众号与对应早报内容，连续倒推几十天抽取公司/产品/投融资/创始人信息，并构建可持续更新的分析网络框架。
 
 ## Current Phase
-Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complete), Phase 36 (complete)
+Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complete), Phase 36 (complete), Phase 37 (complete)
 
 ## Phases
 
@@ -333,4 +333,12 @@ Phase 31 (complete), Phase 33 (complete), Phase 34 (complete), Phase 35 (complet
 - [x] 更新 `AGENTS.md` 无状态规则（状态仅存在于对话与日志）
 - [x] 更新 `README.md` / `wiki/README.md` / taxonomy 文档到无状态口径
 - [x] 执行一致性校验与完成性检查
+- **Status:** complete
+
+### Phase 37: Ingest Manifest 无状态迁移
+- [x] 将 `data/raw/wechat/ingest_manifest.csv` 从 `status` 字段迁移到 `is_full_text` + `needs_backfill`
+- [x] 完成历史值映射（`captured -> true/false`，`pending_sync -> false/true`）
+- [x] 更新 `AGENTS.md` / `README.md` / `data/raw/wechat/README.md` 的清单口径
+- [x] 校验布尔字段合法性与行数一致性
+- [x] 执行完成性检查并记录
 - **Status:** complete

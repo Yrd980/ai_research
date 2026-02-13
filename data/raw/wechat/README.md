@@ -11,7 +11,7 @@
 
 1. 原文必须完整落盘（含原始链接、数字细节、机制描述、限制条件）；禁止摘要压缩替代原文。
 2. 当日文件写入后，必须同步更新 `ingest_manifest.csv`。
-3. 如果原文不完整，`ingest_manifest.csv` 状态标记为 `pending_sync`。
+3. 如果原文不完整，`ingest_manifest.csv` 必须设置 `is_full_text=false` 且 `needs_backfill=true`。
 4. 不在原文文件中写推断性字段。
 
 ## 与下游关系

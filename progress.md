@@ -332,3 +332,6 @@
 - 执行 Phase 36（Wiki 无状态化）：批量移除 wiki 索引 CSV 的 `status` 字段，保持其他字段与数据值不变。
 - 完成文档口径同步：新增 AGENTS 无状态规则，并同步 README/wiki README/taxonomy 描述。
 - 更新 `task_plan.md`：新增 Phase 36 并标记完成。
+- 执行 Phase 37：将 ingest manifest 从 `status` 列迁移到 `is_full_text`/`needs_backfill` 双布尔门控。
+- 已完成三处规则文档更新，去除 `pending_sync/captured` 文案依赖。
+- 迁移验证通过：`rows=12`、`bad_bool_rows=0`。

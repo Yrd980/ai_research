@@ -16,7 +16,7 @@
 
 - `data/raw/wechat/YYYY-MM-DD.md` 必须保存完整原文，不允许用摘要替代。
 - 原文中的数值指标、机制名称、限制条件与来源链接必须保留。
-- 若当天仅有部分正文，`ingest_manifest.csv` 必须标记为 `pending_sync`，待全文补齐后再改为 `captured`。
+- 若当天仅有部分正文，`ingest_manifest.csv` 必须设置 `is_full_text=false` 且 `needs_backfill=true`，待全文补齐后改为 `is_full_text=true` 与 `needs_backfill=false`。
 
 ## 核心目录
 
