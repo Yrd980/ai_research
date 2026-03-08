@@ -360,3 +360,18 @@ R1359,owned_by,trm_waymo,Waymo,trm_google,Google,,https://www.wikidata.org/wiki/
 R1360,owned_by,trm_waymo,Waymo,trm_alphabet-inc,Alphabet Inc.,,https://www.wikidata.org/wiki/Q15330,secondary_reference,2026-02-12,wikidata_P127_or_P749; normalized_from_acquired_by
 R1361,owned_by,trm_xai,xAI,trm_elon-musk,Elon Musk,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,2026-02-12,wikidata_P127_or_P749; normalized_from_acquired_by
 R1362,owned_by,trm_xai,xAI,trm_kingdom-holding-company,Kingdom Holding Company,,https://www.wikidata.org/wiki/Q120599684,secondary_reference,2026-02-12,wikidata_P127_or_P749; normalized_from_acquired_by
+R1363,develops_model,trm_google,Google,trm_gemini-3-deep-think,Gemini 3 Deep Think,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1364,develops_model,trm_openai,OpenAI,trm_gpt-5-3-codex-spark,GPT-5.3-Codex-Spark,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1365,develops_model,trm_ant-group,Ant Group,trm_ring-2-5-1t,Ring-2.5-1T,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1366,develops_model,trm_xiaomi,Xiaomi,trm_mimo-v2-flash-0204,MiMo-V2-Flash-0204,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1367,develops_model,trm_aidc-ai,AIDC-AI,trm_ovis2-6-30b-a3b,Ovis2.6-30B-A3B,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1368,develops_model,trm_fireredteam,FireRedTeam,trm_firered-image-edit-1-0,FireRed-Image-Edit-1.0,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1369,develops_model,trm_fireredteam,FireRedTeam,trm_fireredasr2s,FireRedASR2S,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1370,owns_product,trm_fireredteam,FireRedTeam,trm_firered-openstoryline,FireRed-OpenStoryline,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1371,owns_product,trm_zhipu-ai,Zhipu AI,trm_glm-coding-pro,GLM Coding Pro,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1372,owns_product,trm_qoder-ai,Qoder AI,trm_qoderwork-for-mac,QoderWork for Mac,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1373,owns_product,trm_youdao,Youdao,trm_lobsterai,LobsterAI,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1374,owns_product,trm_meta,Meta,trm_dear-algo,Dear Algo,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1375,owns_product,trm_exa-ai,Exa AI,trm_exa-instant,Exa Instant,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1376,owns_product,trm_spotify,Spotify,trm_honk,Honk,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge
+R1377,owns_product,trm_arena-ai,Arena.ai,trm_academic-partner-program,Academic Partner Program,2026-02-13,data/raw/wechat/2026-02-13.md,daily_primary,2026-02-13,inferred_from_term_edge

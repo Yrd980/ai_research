@@ -999,3 +999,268 @@
   - `pending_sync -> is_full_text=false, needs_backfill=true`
 - 当前数据校验：12 行全部为 `is_full_text=true` 与 `needs_backfill=false`，布尔值合法性检查通过（bad rows=0）。
 - 文档口径同步完成：`AGENTS.md`、`README.md`、`data/raw/wechat/README.md`。
+
+## 2026-02-13 日报接入后首次核查（本轮会话）
+- 已存在原文文件：`data/raw/wechat/2026-02-13.md`。
+- `data/raw/wechat/ingest_manifest.csv` 当前仅覆盖到 `2026-02-12`，尚未登记 `2026-02-13`。
+- 规划记忆文件存在且可用：`task_plan.md`、`findings.md`、`progress.md`。
+- 下一步执行：补录 ingest manifest，并按既有流水线更新 primitives/occurrences/hyperedges 与 wiki 索引。
+- 仓库当前未发现独立 pipeline 脚本；日更流程依 README/AGENTS 约束直接维护核心 CSV（ingest + primitives + occurrences + hyperedges + wiki index）。
+- 核查结果：`data/processed/*` 与 `wiki/index/*` 目前仅更新到 `2026-02-12`，尚无 `2026-02-13` 相关行。
+- `data/raw/wechat/2026-02-13.md` 为完整长文（包含 24 条编号新闻项），可直接用于当日增量抽取。
+- `primitive_occurrences.csv` 采用连续 `Oxxxxx` 编号，当前末尾为 `O00279`（`2026-02-12`）。
+- `primitives.csv` 维护全局去重原语，按追加维护；`source_scope` 采用日期区间简写（如 `2/1-2/12`、`2/12`）。
+- `primitive_hyperedges.csv` 使用连续 `Hxxxxx` 编号，当前末尾为 `H00077`（`2026-02-12`）。
+- `wiki/index/terms.csv` 主键为 `trm_*`，需与 `term_edges.csv` 引用保持一致；2.13 新原语需同步补入该表。
+- `wiki/index/term_aliases.csv` 当前仅保留表头，无 alias 数据行。
+- `wiki/index/term_edges.csv` 使用 `TExxxxx` 连续编号，当前末尾为 `TE00260`；后续需基于新增 hyperedge 推导并追加。
+- `high_value_relations.csv` 已混合 daily + external 扩展关系；若仅做日报接入，优先追加 daily 侧明确关系，避免误改外部扩展批量行。
+- `term_aliases.csv` 为空表，当前增量流程不依赖 alias 维护。
+- `2026-02-13.md` 包含 24 条编号条目（#1~#24），对应范围覆盖精选/模型发布/开发生态/产品应用/行业动态/前瞻。
+- 原文末尾含提示文案与噪声尾行（如 `亲爱的` / `interjection: 卿!`），抽取时应忽略非新闻正文行。
+- 已存在旧原语：`Gemini Deep Think`、`GPT-5.3-Codex`、`Seedance 2.0`、`Composer 1.5` 等；2.13 需要在这些基础上补充“新变体名词”而非重复旧词。
+- 2.13 高概率新增词包括：`Gemini 3 Deep Think`、`GPT-5.3-Codex-Spark`、`Ring-2.5-1T`、`Ovis2.6-30B-A3B`、`FireRed-Image-Edit-1.0`、`FireRedASR2S`、`Exa Instant`、`AI Slides` 等。
+- 2.13 涉及的大公司原语（如 `Ant Group`、`ByteDance`、`Meta`、`Anthropic`、`Cursor`、`Zhipu AI`）多数已存在，可复用。
+- 新增重点将集中在新模型/新功能/新产品名词，减少公司层重复增量。
+- `progress.md` 已记录到 Phase 37 完成（ingest manifest 无状态迁移），本轮需在此基础上追加“2/13 日更接入”增量记录。
+- `task_plan.md` 顶部 Current Phase 尚未包含 2/13 增量阶段，需要新增并标记本轮执行状态。
+- 原语/term 类型集合一致：`Campaign/Community/Company/Concept/Flag/Framework/Metric/Model/Person/Platform/Product/Project/Standard/Technique`。
+- 本轮新增原语需复用上述类型集合，避免引入新类型字段。
+- 闭环检查：`occurrences_not_in_primitives=0`，`primitives_not_in_occurrences=21`（以补充背景原语为主）。
+- 因存在 21 个“仅 primitives 存在”的背景词，`primitives.csv` 不宜纯由 occurrences 全量重建；本轮采用“增量追加 + 仅更新受影响词 source_scope”策略。
+- 候选新词初筛：71 个候选中，`primitives` 缺失 54 个，`terms` 缺失 52 个；需做明显收敛，避免把投资方/泛词全部纳入。
+- 已确认可复用但 primitives 尚缺的历史词：如 `Codex App`、`Claude Code`（已在 `terms.csv`，未在 `primitives.csv`）。本轮按“日报出现即入 primitives”的规则补齐。
+- 检索确认：`Claude`/`Claude Code`/`Codex App`/`Doubao` 仅在 `wiki/index/terms.csv` 存在（或变体存在），`primitives.csv` 尚无对应行，本轮可按日报事实补齐到 primitives。
+- 2.13 增量已落盘：`primitive_occurrences.csv` 新增 82 行，编号推进至 `O00361`。
+- `ingest_manifest.csv` 已补录 `2026-02-13`，字段为 `is_full_text=true`、`needs_backfill=false`。
+- `primitive_hyperedges.csv` 新增 24 行（`H00078`~`H00101`），覆盖 2.13 的 24 条日报项。
+- `primitives.csv` 新增 56 个原语，并更新了已有词的 `source_scope`（如 `Seedance 2.0` 扩展到 `2/7-2/13`）。
+- `wiki/index/terms.csv` 已新增 53 行，新增 term_id 使用 `trm_*` slug 规则生成（例如 `trm_gpt-5-3-codex-spark`、`trm_exa-instant`）。
+- `wiki/index/term_edges.csv` 已按全量 hyperedge 重建为 373 条（`TE00001`~`TE00373`），并包含 2.13 新共现对。
+- `high_value_relations.csv` 已追加 15 条 2.13 daily 关系（`R1363`~`R1377`）。
+- 发现命名冲突：历史已有 `Qwen-Image-2.0`（Product），本轮新增了 `Qwen-Image 2.0`（Model）导致 term_id 变体 `trm_qwen-image-2-0-2`；需要统一命名避免同义重复节点。
+- 已完成命名归一：`Qwen-Image 2.0` 全部并入既有 `Qwen-Image-2.0`，清除了重复 term（`trm_qwen-image-2-0-2` 已移除）。
+- 归一后 `Qwen-Image-2.0` 的 `source_scope` 更新为 `2/11-2/13`，2.13 相关共现边自动对齐到 `trm_qwen-image-2-0`。
+- 一致性校验通过：ID 唯一、`occ/hyperedge/term_edges/high_value` 引用均无悬空，2.13 覆盖 `item_no=1~24`。
+- 当前变更规模（`git diff --stat`）：8 个文件，约 `+662/-278`，其中 `term_edges.csv` 为按最新 hyperedge 全量重建导致的结构性变更。
+- `task_plan.md` 当前最新阶段停留在 Phase 37，需要新增本轮 Phase 38（2.13 日报接入）并更新 Current Phase。
+- `Errors Encountered` 区已有历史错误表，可追加本轮一次 `rg` 无匹配导致退出码 1 的记录，满足“错误显式留痕”要求。
+- `git status` 显示本轮改动集中在 10 个数据/记忆文件；`data/raw/wechat/2026-02-13.md` 目前为未跟踪文件（由用户引入）。
+- 行号确认：2.13 occurrence 起始于 `O00280`，manifest 2.13 行位于 `ingest_manifest.csv:14`。
+- 规划日志已同步：`task_plan.md` 新增 Phase 38 并标记 complete；`progress.md` 已追加本轮 2.13 接入执行记录。
+
+## 2026-02-13 脚本化增量（daily_sync）启动
+- 用户要求新增 `scripts/daily_sync.py`，定位为“给 AI 用的工具”，并明确禁止硬编码日报内容。
+- 约束理解：脚本应处理通用数据编排与一致性，不内置某日条目或固定实体清单。
+- 仓库当前无 `scripts/` 目录与现成 pipeline 脚本；现流程依赖手工维护多张 CSV。
+- 文档层面已定义默认日更流程（ingest -> processed -> wiki），但未给出脚本化入口。
+- 一次 `find ... | rg` 查询返回退出码 1（无匹配），确认是当前仓库确实不存在目标脚本文件。
+- 模板层仅定义了 3 张 processed 表（primitives/occurrences/hyperedges）字段，未覆盖 wiki 与高价值关系更新逻辑。
+- 当前核心 CSV 字段稳定，可由脚本直接读取并计算 ID（`Oxxxxx/Hxxxxx/TExxxxx/Rxxxx`）而非硬编码常量映射。
+- `term_edges.csv` 已是“全量重建”模式（按 hyperedge 反推 pair），脚本可复用该模式保证 deterministic。
+- raw 文件的条目编号模式可通过通用正则提取（`... #<n>`），跨 2/01~2/13 样式变化仍可兼容（有 `- ` 列表前缀与 `###` 标题两类）。
+- `term_aliases.csv` 当前为空，建议在脚本中支持“可选规范化映射输入文件”，而不是依赖现有 alias 表。
+- `term_external_edges.csv` 是外部扩展层，不应被日更脚本直接重建；脚本应仅触达 ingest + processed + terms + term_edges + high_value_relations。
+- `task_plan.md` 当前已完成到 Phase 38，适合新增脚本化阶段（Phase 39）承接本次需求。
+- 现有 phases 已验证 `term_edges` 采用全量重建策略，脚本接口应遵循这一既定行为以避免语义漂移。
+- `README.md` 当前仍写“默认不新增本地构建脚本”，需按本次用户明确授权补充 `daily_sync.py` 作为例外说明。
+- `data/templates/` 目前只有 CSV 模板，尚无 daily JSON 输入模板；需要新增给 AI 直接填写的 spec 模板。
+- 已新增 `scripts/daily_sync.py`，提供 `scaffold/apply/validate` 三子命令；默认非破坏（空 item 不删除），仅 `--reconcile-day` 开启当日严格对齐删除行为。
+- 已新增 AI 输入模板：`data/templates/daily_sync_input_template.json`。
+- README 已补充工具化流程与参数说明，明确该脚本是用户授权下的例外工具。
+- 关键定位确认：`scripts/daily_sync.py` 已暴露 `scaffold/apply/validate`，且 README 与 task_plan/progress 已同步到 Phase 39 完成态。
+- 已执行极简化改造：计划移除 `scaffold` 与 `--reconcile-day`，改为仅 `apply/validate` 两步主链。
+- 现有 README 与 JSON 模板仍包含旧入口（`scaffold`）和旧开关（`--reconcile-day`），需同步更新文档与模板。
+- 极简化方向确认：工具链从 `scaffold/apply/validate` 收敛为 `apply/validate`，输入骨架由模板文件提供。
+- 关系写入策略改为 opt-in：默认 core-only，显式 `--with-high-value` 才写 `high_value_relations.csv`。
+- 极简脚本重写后出现一次语法错误：`scripts/daily_sync.py:309` 残留 `+` 字符导致 `SyntaxError`。
+- 已修复该行函数签名并准备重跑验证。
+- README 与脚本已去除 `scaffold`/`--reconcile-day` 语义，保留 `apply/validate` 主流程，并将高价值关系写入改为 `--with-high-value` 显式开关。
+- 输入模板已收敛为 core-only 字段集（date/title/raw_file + items[].primitives），更适合 AI 直接填充。
+- 已将 `daily_sync.py` 增强为 AI 单指令模式：新增 `sync`（apply+validate 一次完成），并支持默认 spec 发现链（`--spec` -> `DAILY_SYNC_SPEC` -> `data/ai/inbox/daily_sync.json`）。
+- `sync` 在非 dry-run 下默认写结果到 `data/ai/outbox/daily_sync_result.json`，便于 AI 下游读取执行回执。
+- 已创建 AI I/O 约定目录：`data/ai/inbox/` 与 `data/ai/outbox/`，用于单指令 `sync` 的默认输入输出。
+- README 仍是多命令“人工步骤”文案，需要改写为 AI 协议（inbox 写 spec -> sync -> outbox 读结果）。
+- README 已从“人工多步命令”改为 AI 协议：默认 `python scripts/daily_sync.py --root .` 即单次 `sync`。
+- 新增 `data/ai/README.md` 说明 inbox/outbox 契约，并加入 `.gitkeep` 保持目录可追踪。
+- `sync` 默认执行在写盘模式会产出 `data/ai/outbox/daily_sync_result.json`；为避免运行产物误提交，新增 `data/ai/.gitignore` 忽略 inbox/outbox JSON。
+- 已清理本轮测试回执文件，保留 `.gitkeep` 作为目录占位。
+- 默认 AI 路径验证通过：将 spec 放入 `data/ai/inbox/daily_sync.json` 后，直接执行 `python scripts/daily_sync.py --root .` 可完成 `sync`（apply+validate）。
+- 已清理测试输入/输出 JSON，运行目录保持干净（仅保留契约目录与占位文件）。
+- `daily_sync.py` 目前支持三种调用层级：默认无子命令 `sync`（AI 单次）、显式 `sync`、保留 `apply/validate` 兼容高级场景。
+- 核验通过：默认 `sync` 可从 inbox spec 完成 apply+validate，并在 outbox 生成 JSON 回执。
+
+## 2026-01-31 实战检验启动（daily_sync）
+- raw 目录当前覆盖 `2026-02-01`~`2026-02-13`，尚无 `2026-01-31.md`。
+- `ingest_manifest.csv` 也尚未登记 `2026-01-31`，本轮将先补 raw 与 manifest。
+
+## 2026-02-13 AI实战检验（2026-01-31日报）-阶段记录
+- 已按 `planning-with-files` 规范读取技能文档，并执行 `session-catchup.py`（无额外恢复输出）。
+- 仓库当前为脏工作区，存在大量既有修改，包含 `README.md`、`task_plan.md`、`findings.md`、`progress.md` 与多份 `data/processed/*`、`wiki/index/*` 文件。
+- AI同步入口与模板已存在：`scripts/daily_sync.py`、`data/templates/daily_sync_input_template.json`、`data/ai/README.md`、`data/ai/inbox/.gitkeep`、`data/ai/outbox/.gitkeep`。
+- 新增原始日报文件已存在：`data/raw/wechat/2026-01-31.md`（待通过 AI spec 驱动同步）与 `data/raw/wechat/2026-02-13.md`。
+- 从 `task_plan.md` 与 `progress.md` 读取到：`daily_sync.py` 已收敛为 AI 优先入口（默认 `sync`），并约定 spec 自动发现链与 outbox 回执落盘。
+- 当前实战任务应聚焦：为 `2026-01-31` 生成 `data/ai/inbox/daily_sync.json`，执行 `python scripts/daily_sync.py --root .`，再独立执行 `validate` 并落盘日志。
+- `data/templates/daily_sync_input_template.json` 字段确认：`date/title/raw_file/input_method/input_reference/is_full_text/needs_backfill/notes/normalization_map/items[*].primitives[*]`。
+- `data/ai/README.md` 契约确认：默认 inbox=`data/ai/inbox/daily_sync.json`，默认 outbox=`data/ai/outbox/daily_sync_result.json`，单次调用 `python scripts/daily_sync.py --root .`。
+- `daily_sync.py` 解析规则确认：`spec.items` 必须非空；每条 item 需含 `item_no/item_title`，`primitives` 为对象数组。
+- 原语类型受限于 `ALLOWED_PRIMITIVE_TYPES`（如 Company/Product/Model/Person/Project/Platform 等），不在枚举内会直接报错。
+- 同步行为确认：按输入增量 upsert `manifest/occurrences/hyperedges`，并从全量 `occurrences` 回刷 `primitives` 与 `terms`，再基于全量 `hyperedges` 全量重建 `term_edges`。
+- `sync` 默认执行 `apply + validate`，并在非 dry-run 下默认写回执到 `data/ai/outbox/daily_sync_result.json`。
+- `validate` 校验包含：`occurrence_id/hyperedge_id/term_id/edge_id/relation_id` 唯一性，以及 `occurrences/hyperedges/term_edges/high_value_relations` 到 `primitives/terms` 的引用闭环。
+- `--with-high-value` 未开启时仅更新 core 表（符合“先简化再扩展”策略）。
+- `data/raw/wechat/2026-01-31.md` 条目结构可稳定提取为 `#1..#22`，标题在导览区与正文区各出现一次。
+- 当前实战可直接以 22 条 item 构建 spec（使用正文标题作为 `item_title`），无需额外解析脚本。
+- 历史类型冲突关键点已确认：`Claude` 在现有 `primitives.csv` 中类型为 `Product`（不是 `Model`），新 spec 需保持一致以避免 `primitive_type conflict`。
+- 当前 primitive 类型分布以 `Company/Product/Model` 为主，适合继续沿用该三类作为 1/31 日报最小抽取类型。
+- 已补查历史原语：`Google`/`OpenAI` 既有类型均为 `Company`；`Qwen-Image-2.0` 为 `Product`。
+- 关键词抽样显示命名习惯中 `Claude` 体系多按 `Product` 归类，`Gemini Deep Think` 已存在且为 `Model`；新增 1/31 spec 时应保持同口径。
+- 已生成 `data/ai/inbox/daily_sync.json`（22 items）。
+- 运行错误记录：`python scripts/daily_sync.py --root . --dry-run` 失败（`unrecognized arguments: --dry-run`），原因是 `--dry-run` 属于 `sync` 子命令参数；后续改用 `python scripts/daily_sync.py --root . sync --dry-run`。
+- 修正后 dry-run 成功：`python scripts/daily_sync.py --root . sync --dry-run` 返回 `ok=true`。
+- dry-run 预估增量：`occurrences +86`、`hyperedges +22`、`terms +66`、`term_edges` 将重建到 `498`（未启用 `with_high_value`）。
+- apply 前基线 `validate` 通过：`ok=true`，当前计数为 `primitives=191, occurrences=361, hyperedges=101, terms=819, term_edges=373, high_value_relations=376`。
+- 正式执行 `python scripts/daily_sync.py --root .` 成功，`ok=true`，并已自动写回执 `data/ai/outbox/daily_sync_result.json`。
+- 并行执行中的一次 `validate` 先返回旧计数（时序问题，非数据错误）；按顺序复跑后与 outbox 一致：`primitives=258, occurrences=447, hyperedges=123, terms=885, term_edges=498, high_value_relations=376`。
+- 本次实战未启用 `--with-high-value`，因此仅 core 表更新，`high_value_relations` 计数保持不变。
+- `ingest_manifest.csv` 已包含 `2026-01-31` 且字段符合新规则：`is_full_text=true`、`needs_backfill=false`。
+- 日期覆盖核验：`2026-01-31` 在 `primitive_occurrences.csv` 中为 86 行，在 `primitive_hyperedges.csv` 中为 22 行。
+- `task_plan.md` 当前已到 `Phase 39` 且为 `complete`，适合本轮新增 `Phase 40` 记录“2026-01-31 AI 实战检验”。
+- `progress.md` 为“追加型日志”结构（含 Validation/Errors/连续 bullet 记账），本轮应补写命令时序与结果摘要。
+- `task_plan.md` 当前 `Current Phase` 未覆盖本轮实战；将补充 `Phase 40` 并将其标记为 complete。
+- 计划文件 `Errors Encountered` 需新增本轮参数位次错误（`--dry-run` 顶层参数不可用）以满足“记录全部错误”规则。
+- `task_plan.md` 编辑点确认：`Errors Encountered` 表后可追加本轮命令错误，`Phase 39` 后可新增 `Phase 40`。
+- `data/ai/inbox/daily_sync.json` 结构确认：`date=2026-01-31`，`items=22`，覆盖 #1 到 #22。
+- 完成性检查已通过：`sh ~/.codex/skills/planning-with-files/scripts/check-complete.sh` 返回 `ALL PHASES COMPLETE (40/40)`。
+
+## 2026-03-07 Session Start
+- Goal: 梳理项目结构、现状、缺口与下一步建议。
+- Initial findings: planning skill loaded; session catchup clean; root planning files already exist; repo contains raw ingest, wiki, and processed-data related docs.
+
+## 2026-03-07 Structural Findings A
+- Historical planning files are stale relative to current repo state: prior phases mention deleted scripts, but `scripts/daily_sync.py` exists and `scripts/__pycache__/` remains.
+- Repo currently centers on three layers: raw ingest (`data/raw/wechat`), processed primitives/co-occurrence (`data/processed`), and wiki noun graph (`wiki/index`).
+- `ingest_manifest.csv` is mostly reverse-chronological for 2026-02-12..2026-02-01 but then places `2026-02-13` after `2026-02-01`, indicating ordering drift.
+- `terms.csv` is materially larger than `primitives.csv`, suggesting the wiki graph has expanded beyond direct daily primitive extraction.
+
+## 2026-03-07 Structural Findings B
+- Repository is currently dirty in Git: multiple tracked CSVs and docs are modified, and `data/ai/`, `scripts/`, `2026-01-31.md`, `2026-02-13.md`, and the JSON template are untracked.
+- The project has effectively evolved from pure manual agentic maintenance to a hybrid mode: docs still emphasize agentic updates, but `scripts/daily_sync.py` introduces a formal AI I/O contract for single-shot sync.
+- `data/ai/README.md`, `README.md`, and `scripts/daily_sync.py` are mutually aligned around the AI inbox/outbox flow.
+- `wiki/README.md` remains consistent with the noun-graph objective and preserves separation from the daily event stream.
+
+## 2026-03-07 Structural Findings C
+- `scripts/daily_sync.py` is a focused ingest/update tool for manifest, primitives, occurrences, hyperedges, terms, term_edges, and optionally `high_value_relations.csv`.
+- The script does **not** manage `term_aliases.csv`, `term_expansion_queue.csv`, `term_external_edges.csv`, or `relation_research_queue.csv`; those remain outside the automated sync path.
+- `upsert_manifest()` preserves insertion order and does not re-sort the manifest, which explains the observed date-order drift.
+- Core writes are overwrite-style CSV rewrites; validation exists, but ordering/normalization policy is only partially encoded.
+
+## 2026-03-07 Validation Findings
+- `python3 scripts/daily_sync.py --root . validate` passes with zero errors.
+- Current validated counts: primitives=258, occurrences=447, hyperedges=123, terms=885, term_edges=498, high_value_relations=376.
+- Repository lacks a root-level `.gitignore`; only `data/ai/.gitignore` exists, which helps explain the visible `scripts/__pycache__/` noise.
+- Data consistency is currently acceptable, but repo hygiene and deterministic ordering remain weaker than content integrity.
+
+## 2026-03-07 Governance Findings
+- `validate_all()` currently checks referential integrity and duplicate IDs, but it does not enforce ordering policies such as manifest date order.
+- `ingest_manifest.csv` currently contains 14 rows and only needs a deterministic descending-date reorder; content integrity itself looks intact.
+
+## 2026-03-07 Cleanup Outcomes
+- Added a root `.gitignore` to suppress Python cache noise.
+- Removed `scripts/__pycache__/` and verified repository hygiene improvement.
+- Updated `scripts/daily_sync.py` so manifest rows are sorted descending on write, and validation now checks that policy.
+- Reordered `data/raw/wechat/ingest_manifest.csv` to match descending-date policy.
+- Refreshed `README.md` to clarify the four-layer architecture and the boundary of `daily_sync.py`.
+
+## 2026-03-07 Delivery Notes
+- Key file anchors captured for final handoff: `.gitignore`, `README.md`, `scripts/daily_sync.py`, `data/raw/wechat/ingest_manifest.csv`, and `task_plan.md`.
+- Final validation after cleanup is green.
+
+## 2026-03-07 Codex Renaming Findings
+- `data/ai` 语义主要出现在 `README.md`、`data/ai/README.md` 与 `scripts/daily_sync.py`；其职责是机器输入/输出契约，而不是泛化的“AI”目录。
+- 当前最清晰的治理方向是将该层正名为 Codex I/O，并在脚本中保留对旧 `data/ai` 路径的读取兼容。
+- `data/ai/inbox/daily_sync.json` 与 `data/ai/outbox/daily_sync_result.json` 属于运行产物，已有局部 `.gitignore` 保护，不适合作为常规跟踪文件。
+- `scripts/` 目前只有一个入口脚本，说明该仓库已经从“多脚本散落”收缩成“单入口同步工具”。
+
+## 2026-03-08 Codex Cleanup Findings
+- `data/ai` has been migrated to `data/codex`; machine I/O naming now matches the actual executor (Codex).
+- `scripts/daily_sync.py` now prefers `data/codex/*` by default while preserving legacy read/write fallback for `data/ai/*`.
+- `README.md` and `data/codex/README.md` now describe the machine contract as Codex-native rather than generic AI automation.
+
+## 2026-03-08 Final Verification Findings
+- `python3 -m py_compile scripts/daily_sync.py` passed.
+- Default `python3 scripts/daily_sync.py --root .` now reads from `data/codex/inbox/daily_sync.json` and writes to `data/codex/outbox/daily_sync_result.json`.
+- Standalone validation still passes: manifest=14, primitives=258, occurrences=447, hyperedges=123, terms=885, term_edges=498, high_value_relations=376.
+- Runtime artifact paths and documented paths are now consistent.
+
+## 2026-03-08 Manual-First Findings
+- 用户已明确：唯一固定入口是手动写入 `data/raw/wechat/YYYY-MM-DD.md`；这比机器 JSON 入参契约更高优先级。
+- 当前冗余层主要集中在 `data/codex/`、`scripts/daily_sync.py` 与 `data/templates/daily_sync_input_template.json`，它们服务于机器入参/回执，而非手动原文主链。
+- `data/raw/wechat/README.md` 与 `wiki/README.md` 已经与 manual-first 模式相容，无需大改。
+- 下一步应收缩仓库到：手动原文 + 直接维护 processed/wiki 索引 + 规划日志，不再保留 Codex I/O 契约层。
+
+## 2026-03-08 Cleanup Prep Findings
+- 当前工作区磁盘上不存在 `./AGENTS.md`，仓库规则来自会话注入而非本地文件；因此无需同步修改本地 AGENTS 文档。
+- `README.md` 是这次清理的主要文档入口；`data/raw/wechat/README.md` 与 `wiki/README.md` 已基本符合手动主流程。
+
+## 2026-03-08 Manual-First Cleanup Results
+- 已删除 `data/codex/` 及其 inbox/outbox 契约文件。
+- 已删除 `scripts/daily_sync.py` 与 `data/templates/daily_sync_input_template.json`。
+- 非日志文件中已无 `daily_sync`、`data/codex`、`data/ai`、`scripts/` 残留引用。
+- 仓库结构现已收缩为：手动原文层 + processed 派生表 + wiki 图层 + 规划日志。
+
+## 2026-03-08 Final Simplification Findings
+- 仓库已回到 manual-first：用户手动维护原文，Codex 直接维护所有派生表。
+- `AGENTS.md` 已以更精简的 manual-first 版本恢复，避免仓库失去长期操作规则。
+- 非日志文件中已无 `daily_sync`、`data/codex`、`data/ai` 引用。
+- 无脚本校验通过：核心文件齐全、manifest 倒序正确、manifest 引用的 raw 文件全部存在。
+
+## 2026-03-08 Remaining Surface Findings
+- `viz/graph_data.js` 仍是旧快照格式，含 `status` 字段，已与当前“核心索引无状态字段”规则冲突。
+- `viz/` 当前没有任何文档入口引用，属于高概率历史残留层。
+- `data/templates/` 仍保留 primitive CSV 模板，但在当前 manual-first 模式下是否保留取决于其是否仍作为人工参考；需要再看内容后决定。
+
+## 2026-03-08 Minimal Surface Findings
+- 已删除 `data/templates/` 中仅作表头示例的 CSV 模板文件。
+- 已删除未接入主流程、且含历史快照残留的 `viz/` 可视化层。
+- 目前仓库顶层已收缩为：README / AGENTS / raw / processed / wiki / planning logs。
+- 非日志文件中已无 template/viz 自动化或快照残留引用。
+
+## 2026-03-08 Final Integrity Findings
+- 核心 CSV 与说明文档中已无 `status` 字段残留。
+- 当前最小仓库表面为：`AGENTS.md`、`README.md`、`data/raw/wechat`、`data/processed`、`wiki/index`、规划日志。
+- 两个未跟踪原文文件 `data/raw/wechat/2026-01-31.md` 与 `data/raw/wechat/2026-02-13.md` 仍被 manifest 正常引用，属于有效新增原文，不应删除。
+
+## 2026-03-08 Alignment Audit Basis
+- 当前对齐基线已确认：manual-first、raw 为唯一固定入口、processed 是 event-derived、wiki 是 time-agnostic noun graph。
+- 本轮审计重点应放在“引用完整性 + 派生一致性 + 字段规则一致性”，而不是旧自动化链路。
+
+## 2026-03-08 Alignment Audit Findings
+- `raw` 与 `manifest` 当前对齐良好：14 个 raw 文件、14 行 manifest、全部倒序且无悬空引用。
+- `processed` 内部派生关系大体成立：occurrence -> hyperedge -> term_edges 的引用与计数一致。
+- 发现两个核心对齐缺口：
+  1. `primitives.csv` 中有 19 个原语没有任何 occurrence 支撑。
+  2. 多日 raw 中的编号新闻条目未进入 occurrence 主链，缺口从单条到多条不等，尤其集中在 2026-02-01 至 2026-02-06。
+- 因此当前真正需要补强的是“条目覆盖对齐”与“primitives 严格从 occurrences 派生”两条规则。
+
+## 2026-03-08 Coverage Summary
+- 条目覆盖率最差的日期为：2026-02-02（50%）、2026-02-05（51.7%）、2026-02-04（58.3%）、2026-02-06（71.4%）。
+- 最近日期对齐较好：2026-02-13 / 2026-02-10 / 2026-02-08 已达 100%；2026-02-12 与 2026-02-11 仅各缺 1 条。
+- 现阶段最值得优先补齐的是 2026-02-04 至 2026-02-06 以及 2026-02-02 的 occurrence 覆盖。
+
+## 2026-03-08 Detailed Alignment Observations
+- 当前最大缺口不是引用断裂，而是“原文编号条目没有进入 occurrence 主链”。
+- 逐日覆盖率显示：2026-02-05、2026-02-04、2026-02-06、2026-02-02 是最优先补齐日期。
+- `primitives.csv` 中的 19 个 orphan primitives 分为两类：一类可通过补现有日报条目的 occurrence 解决（如 `ChatGPT Ads Test`、`Claude App voice mode`、`Seedream 5.0-Preview`、`Sugon`、`Tencent`、`iFlytek` 等）；另一类更像外部扩展误落主表（待进一步确认）。
+
+## 2026-03-08 Alignment Repair Result
+- 已补齐全部缺失 `#序号` 条目的 occurrence 覆盖，当前 raw 条目覆盖缺口为 0。
+- 已按 occurrence 严格重算 `primitives.csv` 与 `primitive_hyperedges.csv`，orphan primitives 已清零。
+- 已同步补充缺失 terms，并将 term_edges 更新到至少覆盖全部日报共现 pair。
+- 当前对齐审计结果为全绿：raw/manifest、occurrences、hyperedges、primitives、terms、term_edges、high_value_relations 均无结构性缺口。
+
+## 2026-03-08 Final Repair Metrics
+- 修复后计数：primitives=302，occurrences=532，hyperedges=158，terms=935，term_edges=549，high_value_relations=376。
+- 本轮新增 occurrence 85 条，清除 orphan primitives 6 条（均为外部扩展误落主表的人名）。
+- raw 编号条目缺口已全部补齐，当前 missing item coverage = 0。
+- term_edges 已补足日报主链 pair 覆盖，当前无 undercount 或缺失 pair。

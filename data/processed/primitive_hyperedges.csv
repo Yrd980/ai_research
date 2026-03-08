@@ -1,78 +1,159 @@
 hyperedge_id,date,item_no,item_title,primitive_count,primitives,raw_file
-H00001,2026-02-01,5,苹果AI核心团队动荡，多人转投Meta谷歌,2,Google; Meta,data/raw/wechat/2026-02-01.md
-H00002,2026-02-01,7,nanochat百美元内成本训练出GPT-2级别模型,2,Andrej Karpathy; OpenAI,data/raw/wechat/2026-02-01.md
-H00003,2026-02-03,9,Snowflake与OpenAI达成2亿美元模型集成合作,2,GPT-5.2; OpenAI,data/raw/wechat/2026-02-03.md
-H00004,2026-02-03,12,多家厂商二月新模型发布计划前瞻,9,Anthropic; DeepSeek; GLM-5; Google; MiniMax; MiniMax M2.5; OpenAI; Qwen 3.5; xAI,data/raw/wechat/2026-02-03.md
-H00005,2026-02-04,2,OpenAI 宣布 GPT-5.2 系列模型提速 40%,2,GPT-5.2; OpenAI,data/raw/wechat/2026-02-04.md
-H00006,2026-02-04,3,OpenBMB发布多模态模型MiniCPM-o 4.5,2,OpenBMB; WER,data/raw/wechat/2026-02-04.md
-H00007,2026-02-04,16,OpenAI任命新负责人应对强模型相关风险,2,OpenAI; Sam Altman,data/raw/wechat/2026-02-04.md
-H00008,2026-02-04,24,Anthropic被曝开发图像生成模型,2,Anthropic; Google,data/raw/wechat/2026-02-04.md
-H00009,2026-02-05,1,上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro,2,Hugging Face; OpenAI,data/raw/wechat/2026-02-05.md
-H00010,2026-02-05,2,Mistral AI开源40亿参数实时语音模型Voxtral Mini 4B Realtime 2602,2,Mistral AI; WER,data/raw/wechat/2026-02-05.md
-H00011,2026-02-05,8,GitHub更新Copilot支持第三方Agent,4,Anthropic; Google; OpenAI; xAI,data/raw/wechat/2026-02-05.md
-H00012,2026-02-05,9,Kilo推出 Kilo CLI 1.0,2,JetBrains; MiniMax,data/raw/wechat/2026-02-05.md
-H00013,2026-02-05,13,Claude Cowork整合GSuite与Slack服务,2,Claude Cowork; Google,data/raw/wechat/2026-02-05.md
-H00014,2026-02-05,16,Perplexity AI发布Deep Research升级版,2,Google; Perplexity,data/raw/wechat/2026-02-05.md
-H00015,2026-02-05,19,Anthropic宣布Claude保持无广告,2,Anthropic; OpenAI,data/raw/wechat/2026-02-05.md
-H00016,2026-02-06,1,Anthropic发布Claude Opus 4.6,4,Anthropic; Claude Opus 4.6; Cursor; GPT-5.2,data/raw/wechat/2026-02-06.md
-H00017,2026-02-06,2,OpenAI发布GPT-5.3-Codex,3,GPT-5.2; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-06.md
-H00018,2026-02-06,5,OpenAI 推出 Trusted Access for Cyber 试点项目,2,GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-06.md
-H00019,2026-02-06,8,讯飞星辰 MaaS平台推出模型限免优惠,2,DeepSeek; MiniMax,data/raw/wechat/2026-02-06.md
-H00020,2026-02-06,15,OpenAI揭晓Codex核心架构,2,JetBrains; OpenAI,data/raw/wechat/2026-02-06.md
-H00021,2026-02-06,17,Anthropic揭示基础设施配置影响 Agent 评估,2,Anthropic; Google,data/raw/wechat/2026-02-06.md
-H00022,2026-02-07,1,美团推出LongCat-Flash-Lite模型,4,Hugging Face; LongCat; LongCat-Flash-Lite; ModelScope,data/raw/wechat/2026-02-07.md
-H00023,2026-02-07,3,OpenRouter与Kilo Code上线 Pony Alpha 模型,4,GLM-5; Kilo Code; OpenRouter; Pony Alpha,data/raw/wechat/2026-02-07.md
-H00024,2026-02-07,4,Waymo推出Waymo World Model,3,Google; Waymo; Waymo World Model,data/raw/wechat/2026-02-07.md
-H00025,2026-02-07,5,X开发者平台上线API按量计费及xAI联动,2,X Developer Platform; xAI,data/raw/wechat/2026-02-07.md
-H00026,2026-02-07,6,OpenAI开放Sora真人角色视频生成功能,2,OpenAI; Sora,data/raw/wechat/2026-02-07.md
-H00027,2026-02-07,7,Perplexity推出多模型聚合问答功能,3,Claude Opus 4.6; Model Council; Perplexity,data/raw/wechat/2026-02-07.md
-H00028,2026-02-07,10,OpenAI 将于今年推出AI硬件 Dime 智能耳机,2,Dime; OpenAI,data/raw/wechat/2026-02-07.md
-H00029,2026-02-08,1,Anthropic推出Claude Opus 4.6快速模式,3,Anthropic; Claude Opus 4.6; Cursor,data/raw/wechat/2026-02-08.md
-H00030,2026-02-08,2,Augment Code正式上线Context Engine MCP,3,Augment Code; Context Engine MCP; Cursor,data/raw/wechat/2026-02-08.md
-H00031,2026-02-08,3,OpenAI引入性能专家优化数据中心成本,2,Brendan Gregg; OpenAI,data/raw/wechat/2026-02-08.md
-H00032,2026-02-08,4,OpenAI 推进AI模型本土化策略,2,OpenAI; OpenAI for Countries,data/raw/wechat/2026-02-08.md
-H00033,2026-02-08,5,千问Qwen等联合推出法律评测基准PLawBench,2,GPT-5.2; PLawBench,data/raw/wechat/2026-02-08.md
-H00034,2026-02-08,6,苹果计划为CarPlay引入第三方AI语音,2,CarPlay; OpenAI,data/raw/wechat/2026-02-08.md
-H00035,2026-02-09,1,Qwen 3.5系列模型即将发布,5,Gated DeltaNet; Hugging Face; Qwen 3.5; Qwen3.5-35B-A3B-Instruct; Qwen3.5-9B-Instruct,data/raw/wechat/2026-02-09.md
-H00036,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API,3,Grok Imagine Image; Grok Imagine Image Pro; xAI,data/raw/wechat/2026-02-09.md
-H00037,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado,5,Avocado; Avocado Thinking; Big Brain; Meta; Sierra,data/raw/wechat/2026-02-09.md
-H00038,2026-02-10,2,Sam Altman 宣布 Codex 将保持免费用户可用,2,OpenAI; Sam Altman,data/raw/wechat/2026-02-10.md
-H00039,2026-02-10,3,OpenRouter上线 stealth 模型 Aurora Alpha,2,Aurora Alpha; OpenRouter,data/raw/wechat/2026-02-10.md
-H00040,2026-02-10,4,Cursor 上线编程模型 Composer 1.5,2,Composer 1.5; Cursor,data/raw/wechat/2026-02-10.md
-H00041,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,3,Cursor; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-10.md
-H00042,2026-02-10,6,美团AI编程工具CatPaw全量开放,2,CatPaw; Cursor,data/raw/wechat/2026-02-10.md
-H00043,2026-02-10,7,Hugging Face发布Transformers.js v4预览版,2,Hugging Face; Transformers.js v4,data/raw/wechat/2026-02-10.md
-H00044,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,4,DeepSeek; DSA; GLM-5; MTP,data/raw/wechat/2026-02-10.md
-H00045,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,13,ACC; MOSI.AI; MOSS-Audio-Tokenizer; MOSS-SoundEffect; MOSS-TTS; MOSS-TTS-Realtime; MOSS-TTSD v1.0; MOSS-VoiceGenerator; MossTTSDelay; MossTTSLocal; OpenMOSS; SIM; WER,data/raw/wechat/2026-02-11.md
-H00046,2026-02-11,3,蚂蚁集团发布LLaDA2.1扩散大语言模型,2,LLaDA2.1; LLaDA2.1-Flash,data/raw/wechat/2026-02-11.md
-H00047,2026-02-11,4,腾讯混元发布HY-1.8B-2Bit端侧量化模型,2,Hunyuan-1.8B-Instruct; HY-1.8B-2Bit,data/raw/wechat/2026-02-11.md
-H00048,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,3,GPT-5.2; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-11.md
-H00049,2026-02-11,6,OpenAI更新Responses API支持Agent任务,2,OpenAI; Responses API,data/raw/wechat/2026-02-11.md
-H00050,2026-02-11,7,Claude Code Desktop引入YOLO模式,2,--dangerously-skip-permissions; Claude Code Desktop,data/raw/wechat/2026-02-11.md
-H00051,2026-02-11,8,Warp推出Oz云原生Agent编排平台,2,Oz; Warp,data/raw/wechat/2026-02-11.md
-H00052,2026-02-11,9,Antigravity 向 Pro 账户提供 Claude Opus 4.6,2,Claude Opus 4.6; Google,data/raw/wechat/2026-02-11.md
-H00053,2026-02-11,10,Gemini 发布 Gemini API skills,2,gemini-skills; Google,data/raw/wechat/2026-02-11.md
-H00054,2026-02-11,11,Entire成立并获6000万美元种子融资,4,Anthropic; Entire; Google; Thomas Dohmke,data/raw/wechat/2026-02-11.md
-H00055,2026-02-11,13,Anthropic发布Windows版Claude Cowork,2,Anthropic; Claude Cowork,data/raw/wechat/2026-02-11.md
-H00056,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,3,ChatGPT Deep Research; GPT-5.2; OpenAI,data/raw/wechat/2026-02-11.md
-H00057,2026-02-11,16,Google Stitch推出Figma设计导出功能,2,Google; Stitch,data/raw/wechat/2026-02-11.md
-H00058,2026-02-11,17,Obsidian发布Obsidian CLI,2,Obsidian; Obsidian CLI,data/raw/wechat/2026-02-11.md
-H00059,2026-02-11,20,Nebius收购Tavily,3,Factory; Nebius; Tavily,data/raw/wechat/2026-02-11.md
-H00060,2026-02-12,1,智谱AI发布并开源GLM-5模型,7,DeepSeek; DSA; GLM Coding Plan; GLM in Excel; GLM-5; Hugging Face; ModelScope,data/raw/wechat/2026-02-12.md
-H00061,2026-02-12,3,MiniMax上线MiniMax M2.5,2,MiniMax; MiniMax M2.5,data/raw/wechat/2026-02-12.md
-H00062,2026-02-12,4,OpenAI 更新 GPT-5.2 Instant 模型,3,GPT-5.2; GPT-5.2 Instant; OpenAI,data/raw/wechat/2026-02-12.md
-H00063,2026-02-12,5,蚂蚁集团发布全模态大模型Ming-flash-omni 2.0,3,Hugging Face; Ming-flash-omni 2.0; ModelScope,data/raw/wechat/2026-02-12.md
-H00064,2026-02-12,7,OpenBMB发布MiniCPM-SALA百万上下文模型,3,Hugging Face; MiniCPM-SALA; OpenBMB,data/raw/wechat/2026-02-12.md
-H00065,2026-02-12,8,BOSS直聘推出Nanbeige4.1-3B模型,2,Hugging Face; Nanbeige4.1-3B,data/raw/wechat/2026-02-12.md
-H00066,2026-02-12,9,Soul推出SoulX-Singer歌声合成模型,3,Hugging Face; Soul-AILab; SoulX-Singer,data/raw/wechat/2026-02-12.md
-H00067,2026-02-12,10,智谱正式发布AI编程工具 Z Code,5,Anthropic; DeepSeek; Google; OpenAI; Z Code,data/raw/wechat/2026-02-12.md
-H00068,2026-02-12,12,Google AI Studio 更新，新增omnibar功能,3,Google; Google AI Studio; Omnibar,data/raw/wechat/2026-02-12.md
-H00069,2026-02-12,13,Factory与JetBrains合作集成Droid Agent,3,Droid Agent; Factory; JetBrains,data/raw/wechat/2026-02-12.md
-H00070,2026-02-12,15,智谱发布GLM in Excel插件,2,GLM in Excel; GLM-5,data/raw/wechat/2026-02-12.md
-H00071,2026-02-12,17,Stitch推出Ideate Agent,3,Google; Ideate Agent; Stitch,data/raw/wechat/2026-02-12.md
-H00072,2026-02-12,18,Mistral AI投资12亿欧元瑞典数据中心,2,Mistral AI; OpenAI,data/raw/wechat/2026-02-12.md
-H00073,2026-02-12,20,xAI进行重组与人事变动,2,Elon Musk; xAI,data/raw/wechat/2026-02-12.md
-H00074,2026-02-12,22,Gemini Deep Think 攻克科研级难题,2,Gemini Deep Think; Google,data/raw/wechat/2026-02-12.md
-H00075,2026-02-12,24,Anthropic发布Claude Opus 4.6破坏风险报告,2,Anthropic; Claude Opus 4.6,data/raw/wechat/2026-02-12.md
-H00076,2026-02-12,25,OpenAI开放Windows版Codex Alpha候补,2,Codex Alpha; OpenAI,data/raw/wechat/2026-02-12.md
+H00101,2026-02-13,24,Qwen Chat将上线AI Slides功能,4,AI Slides; Qwen Agent; Qwen Chat; Qwen-Image-2.0,data/raw/wechat/2026-02-13.md
+H00100,2026-02-13,23,Spotify称内部顶尖开发者不再手写代码,3,Claude Code; Honk; Spotify,data/raw/wechat/2026-02-13.md
+H00099,2026-02-13,22,Simile推出AI模拟平台获1亿美元融资,4,Andrej Karpathy; Fei-Fei Li; Index Ventures; Simile,data/raw/wechat/2026-02-13.md
+H00098,2026-02-13,21,Arena.ai推出AI评估研究资助计划,2,Academic Partner Program; Arena.ai,data/raw/wechat/2026-02-13.md
+H00097,2026-02-13,20,Anthropic完成G轮融资，估值3800亿美元,6,Anthropic; Claude; Coatue; GIC; Microsoft; NVIDIA,data/raw/wechat/2026-02-13.md
+H00096,2026-02-13,19,Exa AI发布AI专用200毫秒搜索引擎,4,Brave; Exa AI; Exa Instant; Tavily,data/raw/wechat/2026-02-13.md
+H00095,2026-02-13,18,Meta推出Dear Algo AI算法定制功能,3,Dear Algo; Meta; Threads,data/raw/wechat/2026-02-13.md
+H00094,2026-02-13,17,网易有道推出桌面级Agent有道龙虾,2,LobsterAI; Youdao,data/raw/wechat/2026-02-13.md
+H00093,2026-02-13,16,QoderWork for Mac全面开放,2,Qoder AI; QoderWork for Mac,data/raw/wechat/2026-02-13.md
+H00092,2026-02-13,15,小红书开源FireRed-OpenStoryline视频创作Agent,2,FireRed-OpenStoryline; FireRedTeam,data/raw/wechat/2026-02-13.md
+H00091,2026-02-13,14,即梦上线多模态视频与图片生成模型,3,Jimeng AI; Seedance 2.0 Fast; Seedream 5.0 Lite,data/raw/wechat/2026-02-13.md
+H00090,2026-02-13,13,Gemini CLI发布每周更新,5,Apiiro; Gemini CLI; Gemini CLI v0.28.0; Google; Miro,data/raw/wechat/2026-02-13.md
+H00089,2026-02-13,12,Cursor开放长时间运行Agent研究预览功能,2,Cursor; Long-running Agent,data/raw/wechat/2026-02-13.md
+H00088,2026-02-13,11,Cursor调整个人订阅方案配额,2,Composer 1.5; Cursor,data/raw/wechat/2026-02-13.md
+H00087,2026-02-13,10,智谱向GLM Coding Pro用户开放GLM-5,3,GLM Coding Pro; GLM-5; Zhipu AI,data/raw/wechat/2026-02-13.md
+H00086,2026-02-13,9,小红书开源语音识别FireRedASR2S系统,5,FireRedASR2-AED; FireRedASR2S; FireRedTeam; Hugging Face; ModelScope,data/raw/wechat/2026-02-13.md
+H00085,2026-02-13,8,小红书开源FireRed-Image-Edit模型,3,FireRed-Image-Edit-1.0; FireRedTeam; REDEdit-Bench,data/raw/wechat/2026-02-13.md
+H00084,2026-02-13,7,阿里AIDC-AI开源多模态大模型Ovis2.6-30B-A3B,3,AIDC-AI; Hugging Face; Ovis2.6-30B-A3B,data/raw/wechat/2026-02-13.md
+H00083,2026-02-13,6,小米 MiMo 发布 MiMo-V2-Flash-0204,2,MiMo-V2-Flash-0204; Xiaomi,data/raw/wechat/2026-02-13.md
+H00082,2026-02-13,5,字节跳动正式发布视频创作模型Seedance 2.0,5,ByteDance; Doubao; Jimeng AI; Seedance 2.0; Volcano Engine Ark,data/raw/wechat/2026-02-13.md
+H00081,2026-02-13,4,蚂蚁集团开源 Ring-2.5-1T,4,Ant Group; Hugging Face; ModelScope; Ring-2.5-1T,data/raw/wechat/2026-02-13.md
+H00080,2026-02-13,3,OpenAI发布GPT-5.3-Codex-Spark,6,Cerebras; ChatGPT Pro; Codex App; GPT-5.3-Codex; GPT-5.3-Codex-Spark; OpenAI,data/raw/wechat/2026-02-13.md
+H00079,2026-02-13,2,MiniMax正式发布MiniMax M2.5模型,4,MiniMax; MiniMax Agent; MiniMax M2.5; MiniMax M2.5-Lightning,data/raw/wechat/2026-02-13.md
+H00078,2026-02-13,1,Google 发布 Gemini 3 Deep Think 重大更新,3,Gemini 3 Deep Think; Google; Google AI Ultra,data/raw/wechat/2026-02-13.md
 H00077,2026-02-12,26,传谷歌拟推出Gemini 3.1 Pro Preview,2,Gemini 3.1 Pro Preview; Google,data/raw/wechat/2026-02-12.md
+H00076,2026-02-12,25,OpenAI开放Windows版Codex Alpha候补,2,Codex Alpha; OpenAI,data/raw/wechat/2026-02-12.md
+H00075,2026-02-12,24,Anthropic发布Claude Opus 4.6破坏风险报告,2,Anthropic; Claude Opus 4.6,data/raw/wechat/2026-02-12.md
+H00074,2026-02-12,22,Gemini Deep Think 攻克科研级难题,2,Gemini Deep Think; Google,data/raw/wechat/2026-02-12.md
+H00124,2026-02-12,21,Prime Intellect推出全栈agentic训练平台,2,Prime Intellect; Prime Intellect Lab,data/raw/wechat/2026-02-12.md
+H00073,2026-02-12,20,xAI进行重组与人事变动,2,Elon Musk; xAI,data/raw/wechat/2026-02-12.md
+H00072,2026-02-12,18,Mistral AI投资12亿欧元瑞典数据中心,2,Mistral AI; OpenAI,data/raw/wechat/2026-02-12.md
+H00071,2026-02-12,17,Stitch推出Ideate Agent,3,Google; Ideate Agent; Stitch,data/raw/wechat/2026-02-12.md
+H00070,2026-02-12,15,智谱发布GLM in Excel插件,2,GLM in Excel; GLM-5,data/raw/wechat/2026-02-12.md
+H00069,2026-02-12,13,Factory与JetBrains合作集成Droid Agent,3,Droid Agent; Factory; JetBrains,data/raw/wechat/2026-02-12.md
+H00068,2026-02-12,12,Google AI Studio 更新，新增omnibar功能,3,Google; Google AI Studio; Omnibar,data/raw/wechat/2026-02-12.md
+H00067,2026-02-12,10,智谱正式发布AI编程工具 Z Code,5,Anthropic; DeepSeek; Google; OpenAI; Z Code,data/raw/wechat/2026-02-12.md
+H00066,2026-02-12,9,Soul推出SoulX-Singer歌声合成模型,3,Hugging Face; Soul-AILab; SoulX-Singer,data/raw/wechat/2026-02-12.md
+H00065,2026-02-12,8,BOSS直聘推出Nanbeige4.1-3B模型,3,BOSS Zhipin; Hugging Face; Nanbeige4.1-3B,data/raw/wechat/2026-02-12.md
+H00064,2026-02-12,7,OpenBMB发布MiniCPM-SALA百万上下文模型,3,Hugging Face; MiniCPM-SALA; OpenBMB,data/raw/wechat/2026-02-12.md
+H00125,2026-02-12,6,科大讯飞推出讯飞星火X2大模型,2,iFlytek; Spark X2,data/raw/wechat/2026-02-12.md
+H00063,2026-02-12,5,蚂蚁集团发布全模态大模型Ming-flash-omni 2.0,3,Hugging Face; Ming-flash-omni 2.0; ModelScope,data/raw/wechat/2026-02-12.md
+H00062,2026-02-12,4,OpenAI 更新 GPT-5.2 Instant 模型,3,GPT-5.2; GPT-5.2 Instant; OpenAI,data/raw/wechat/2026-02-12.md
+H00061,2026-02-12,3,MiniMax上线MiniMax M2.5,2,MiniMax; MiniMax M2.5,data/raw/wechat/2026-02-12.md
+H00060,2026-02-12,1,智谱AI发布并开源GLM-5模型,7,DeepSeek; DSA; GLM Coding Plan; GLM in Excel; GLM-5; Hugging Face; ModelScope,data/raw/wechat/2026-02-12.md
+H00059,2026-02-11,20,Nebius收购Tavily,3,Factory; Nebius; Tavily,data/raw/wechat/2026-02-11.md
+H00058,2026-02-11,17,Obsidian发布Obsidian CLI,2,Obsidian; Obsidian CLI,data/raw/wechat/2026-02-11.md
+H00057,2026-02-11,16,Google Stitch推出Figma设计导出功能,3,Google; Google Stitch Figma Export; Stitch,data/raw/wechat/2026-02-11.md
+H00056,2026-02-11,15,OpenAI更新ChatGPT Deep Research至GPT-5.2,3,ChatGPT Deep Research; GPT-5.2; OpenAI,data/raw/wechat/2026-02-11.md
+H00126,2026-02-11,14,Claude App更新交互回复，开放语音模式,2,Claude; Claude App voice mode,data/raw/wechat/2026-02-11.md
+H00055,2026-02-11,13,Anthropic发布Windows版Claude Cowork,2,Anthropic; Claude Cowork,data/raw/wechat/2026-02-11.md
+H00054,2026-02-11,11,Entire成立并获6000万美元种子融资,4,Anthropic; Entire; Google; Thomas Dohmke,data/raw/wechat/2026-02-11.md
+H00053,2026-02-11,10,Gemini 发布 Gemini API skills,2,gemini-skills; Google,data/raw/wechat/2026-02-11.md
+H00052,2026-02-11,9,Antigravity 向 Pro 账户提供 Claude Opus 4.6,2,Claude Opus 4.6; Google,data/raw/wechat/2026-02-11.md
+H00051,2026-02-11,8,Warp推出Oz云原生Agent编排平台,2,Oz; Warp,data/raw/wechat/2026-02-11.md
+H00050,2026-02-11,7,Claude Code Desktop引入YOLO模式,2,--dangerously-skip-permissions; Claude Code Desktop,data/raw/wechat/2026-02-11.md
+H00049,2026-02-11,6,OpenAI更新Responses API支持Agent任务,2,OpenAI; Responses API,data/raw/wechat/2026-02-11.md
+H00048,2026-02-11,5,OpenAI 将高风险 GPT-5.3-Codex 请求路由至 GPT-5.2,3,GPT-5.2; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-11.md
+H00047,2026-02-11,4,腾讯混元发布HY-1.8B-2Bit端侧量化模型,3,Hunyuan-1.8B-Instruct; HY-1.8B-2Bit; Tencent,data/raw/wechat/2026-02-11.md
+H00046,2026-02-11,3,蚂蚁集团发布LLaDA2.1扩散大语言模型,3,LLaDA2.1; LLaDA2.1-Flash; LLaDA2.1-Mini,data/raw/wechat/2026-02-11.md
+H00045,2026-02-11,2,MOSI.AI与OpenMOSS发布MOSS-TTS家族,13,ACC; MOSI.AI; MOSS-Audio-Tokenizer; MOSS-SoundEffect; MOSS-TTS; MOSS-TTS-Realtime; MOSS-TTSD v1.0; MOSS-VoiceGenerator; MossTTSDelay; MossTTSLocal; OpenMOSS; SIM; WER,data/raw/wechat/2026-02-11.md
+H00044,2026-02-10,10,智谱GLM-5架构细节曝光总参数或达700B,5,DeepSeek; DSA; GLM-5; Hybrid Attention; MTP,data/raw/wechat/2026-02-10.md
+H00127,2026-02-10,9,Sora上线Extensions续写功能,2,Sora; Sora Extensions,data/raw/wechat/2026-02-10.md
+H00043,2026-02-10,7,Hugging Face发布Transformers.js v4预览版,2,Hugging Face; Transformers.js v4,data/raw/wechat/2026-02-10.md
+H00042,2026-02-10,6,美团AI编程工具CatPaw全量开放,2,CatPaw; Cursor,data/raw/wechat/2026-02-10.md
+H00041,2026-02-10,5,OpenAI 逐步向第三方开放 GPT-5.3-Codex,3,Cursor; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-10.md
+H00040,2026-02-10,4,Cursor 上线编程模型 Composer 1.5,2,Composer 1.5; Cursor,data/raw/wechat/2026-02-10.md
+H00039,2026-02-10,3,OpenRouter上线 stealth 模型 Aurora Alpha,2,Aurora Alpha; OpenRouter,data/raw/wechat/2026-02-10.md
+H00038,2026-02-10,2,Sam Altman 宣布 Codex 将保持免费用户可用,2,OpenAI; Sam Altman,data/raw/wechat/2026-02-10.md
+H00128,2026-02-10,1,OpenAI正式启动ChatGPT广告测试,2,ChatGPT Ads Test; OpenAI,data/raw/wechat/2026-02-10.md
+H00037,2026-02-09,5,Meta AI 已在官网测试最新模型 Avocado,5,Avocado; Avocado Thinking; Big Brain; Meta; Sierra,data/raw/wechat/2026-02-09.md
+H00129,2026-02-09,4,字节即将推出Seedream 5.0预览版,2,ByteDance; Seedream 5.0-Preview,data/raw/wechat/2026-02-09.md
+H00036,2026-02-09,2,xAI上线Grok Imagine Image Pro 模型 API,3,Grok Imagine Image; Grok Imagine Image Pro; xAI,data/raw/wechat/2026-02-09.md
+H00035,2026-02-09,1,Qwen 3.5系列模型即将发布,5,Gated DeltaNet; Hugging Face; Qwen 3.5; Qwen3.5-35B-A3B-Instruct; Qwen3.5-9B-Instruct,data/raw/wechat/2026-02-09.md
+H00034,2026-02-08,6,苹果计划为CarPlay引入第三方AI语音,2,CarPlay; OpenAI,data/raw/wechat/2026-02-08.md
+H00033,2026-02-08,5,千问Qwen等联合推出法律评测基准PLawBench,2,GPT-5.2; PLawBench,data/raw/wechat/2026-02-08.md
+H00032,2026-02-08,4,OpenAI 推进AI模型本土化策略,2,OpenAI; OpenAI for Countries,data/raw/wechat/2026-02-08.md
+H00031,2026-02-08,3,OpenAI引入性能专家优化数据中心成本,2,Brendan Gregg; OpenAI,data/raw/wechat/2026-02-08.md
+H00030,2026-02-08,2,Augment Code正式上线Context Engine MCP,3,Augment Code; Context Engine MCP; Cursor,data/raw/wechat/2026-02-08.md
+H00029,2026-02-08,1,Anthropic推出Claude Opus 4.6快速模式,3,Anthropic; Claude Opus 4.6; Cursor,data/raw/wechat/2026-02-08.md
+H00028,2026-02-07,10,OpenAI 将于今年推出AI硬件 Dime 智能耳机,2,Dime; OpenAI,data/raw/wechat/2026-02-07.md
+H00027,2026-02-07,7,Perplexity推出多模型聚合问答功能,3,Claude Opus 4.6; Model Council; Perplexity,data/raw/wechat/2026-02-07.md
+H00026,2026-02-07,6,OpenAI开放Sora真人角色视频生成功能,2,OpenAI; Sora,data/raw/wechat/2026-02-07.md
+H00025,2026-02-07,5,X开发者平台上线API按量计费及xAI联动,2,X Developer Platform; xAI,data/raw/wechat/2026-02-07.md
+H00024,2026-02-07,4,Waymo推出Waymo World Model,3,Google; Waymo; Waymo World Model,data/raw/wechat/2026-02-07.md
+H00023,2026-02-07,3,OpenRouter与Kilo Code上线 Pony Alpha 模型,4,GLM-5; Kilo Code; OpenRouter; Pony Alpha,data/raw/wechat/2026-02-07.md
+H00022,2026-02-07,1,美团推出LongCat-Flash-Lite模型,4,Hugging Face; LongCat; LongCat-Flash-Lite; ModelScope,data/raw/wechat/2026-02-07.md
+H00130,2026-02-06,18,AI2发布OpenScholar攻克学术“幻觉”,2,AI2; OpenScholar,data/raw/wechat/2026-02-06.md
+H00021,2026-02-06,17,Anthropic揭示基础设施配置影响 Agent 评估,2,Anthropic; Google,data/raw/wechat/2026-02-06.md
+H00020,2026-02-06,15,OpenAI揭晓Codex核心架构,2,JetBrains; OpenAI,data/raw/wechat/2026-02-06.md
+H00131,2026-02-06,14,阿里千问大模型成为冬奥首个官方大模型,2,Alibaba; Qwen,data/raw/wechat/2026-02-06.md
+H00132,2026-02-06,13,Fundamental完成融资并推出表格模型,2,Fundamental; Nexus,data/raw/wechat/2026-02-06.md
+H00133,2026-02-06,12,生数科技完成超6亿元A+轮融资,2,Vidu; 生数科技,data/raw/wechat/2026-02-06.md
+H00134,2026-02-06,10,Figma推出位图AI矢量化工具Vectorize,2,Figma; Vectorize,data/raw/wechat/2026-02-06.md
+H00019,2026-02-06,8,讯飞星辰 MaaS平台推出模型限免优惠,2,DeepSeek; MiniMax,data/raw/wechat/2026-02-06.md
+H00135,2026-02-06,6,GitHub升级Copilot并简化模型访问,2,GitHub; GitHub Copilot,data/raw/wechat/2026-02-06.md
+H00018,2026-02-06,5,OpenAI 推出 Trusted Access for Cyber 试点项目,2,GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-06.md
+H00017,2026-02-06,2,OpenAI发布GPT-5.3-Codex,3,GPT-5.2; GPT-5.3-Codex; OpenAI,data/raw/wechat/2026-02-06.md
+H00016,2026-02-06,1,Anthropic发布Claude Opus 4.6,4,Anthropic; Claude Opus 4.6; Cursor; GPT-5.2,data/raw/wechat/2026-02-06.md
+H00136,2026-02-05,27,字节跳动开源AI Agent上下文数据库,2,ByteDance; OpenViking,data/raw/wechat/2026-02-05.md
+H00137,2026-02-05,26,腾讯混元推出HPC-Ops推理算子库,2,HPC-Ops; Tencent,data/raw/wechat/2026-02-05.md
+H00138,2026-02-05,25,阿里Qwen构建SWE-Universe训练框架,2,Qwen; SWE-Universe,data/raw/wechat/2026-02-05.md
+H00139,2026-02-05,23,Positron完成2.3亿美元B轮融资,2,Atlas; Positron,data/raw/wechat/2026-02-05.md
+H00140,2026-02-05,22,ElevenLabs完成由红杉领投5亿美元融资,2,ElevenLabs; Sequoia Capital,data/raw/wechat/2026-02-05.md
+H00141,2026-02-05,20,Mozilla赋能用户AI拒绝权,2,AI controls; Mozilla,data/raw/wechat/2026-02-05.md
+H00015,2026-02-05,19,Anthropic宣布Claude保持无广告,2,Anthropic; OpenAI,data/raw/wechat/2026-02-05.md
+H00014,2026-02-05,16,Perplexity AI发布Deep Research升级版,2,Google; Perplexity,data/raw/wechat/2026-02-05.md
+H00142,2026-02-05,15,Amazon向全美用户推出AI助手Alexa+,2,Alexa+; Amazon,data/raw/wechat/2026-02-05.md
+H00143,2026-02-05,14,Arena.ai推出基于投票的智能路由模型,2,Arena.ai; Max,data/raw/wechat/2026-02-05.md
+H00013,2026-02-05,13,Claude Cowork整合GSuite与Slack服务,2,Claude Cowork; Google,data/raw/wechat/2026-02-05.md
+H00144,2026-02-05,10,Windsurf推出Tab v2可调节预测模型,2,Tab v2; Windsurf,data/raw/wechat/2026-02-05.md
+H00012,2026-02-05,9,Kilo推出 Kilo CLI 1.0,2,JetBrains; MiniMax,data/raw/wechat/2026-02-05.md
+H00011,2026-02-05,8,GitHub更新Copilot支持第三方Agent,4,Anthropic; Google; OpenAI; xAI,data/raw/wechat/2026-02-05.md
+H00010,2026-02-05,2,Mistral AI开源40亿参数实时语音模型Voxtral Mini 4B Realtime 2602,2,Mistral AI; WER,data/raw/wechat/2026-02-05.md
+H00009,2026-02-05,1,上海AI实验室推出万亿参数多模态科学推理模型Intern-S1-Pro,2,Hugging Face; OpenAI,data/raw/wechat/2026-02-05.md
+H00008,2026-02-04,24,Anthropic被曝开发图像生成模型,2,Anthropic; Google,data/raw/wechat/2026-02-04.md
+H00145,2026-02-04,21,Kimi团队发布WorldVQA基准,2,Kimi; WorldVQA,data/raw/wechat/2026-02-04.md
+H00146,2026-02-04,19,腾讯混元新研究揭示大模型上下文学习短板,2,CL-bench; Tencent,data/raw/wechat/2026-02-04.md
+H00147,2026-02-04,17,软银英特尔合作开发下一代AI内存ZAM,3,Intel; SoftBank; ZAM,data/raw/wechat/2026-02-04.md
+H00007,2026-02-04,16,OpenAI任命新负责人应对强模型相关风险,2,OpenAI; Sam Altman,data/raw/wechat/2026-02-04.md
+H00148,2026-02-04,15,微软构建内容授权市场应对AI版权问题,2,Microsoft; Publisher Content Marketplace,data/raw/wechat/2026-02-04.md
+H00149,2026-02-04,13,Claude推出Slack连接实现对话内操作,2,Claude; Slack,data/raw/wechat/2026-02-04.md
+H00150,2026-02-04,12,ima上线混元图像3.0图生图功能,2,ima; 混元图像3.0,data/raw/wechat/2026-02-04.md
+H00151,2026-02-04,11,NotebookLM移动应用推出视频概要功能,2,NotebookLM; Video Overview,data/raw/wechat/2026-02-04.md
+H00152,2026-02-04,4,ACE Studio 与 StepFun 联合发布开源音乐模型ACE-Step 1.5,3,ACE Studio; ACE-Step 1.5; StepFun,data/raw/wechat/2026-02-04.md
+H00006,2026-02-04,3,OpenBMB发布多模态模型MiniCPM-o 4.5,2,OpenBMB; WER,data/raw/wechat/2026-02-04.md
+H00005,2026-02-04,2,OpenAI 宣布 GPT-5.2 系列模型提速 40%,2,GPT-5.2; OpenAI,data/raw/wechat/2026-02-04.md
+H00004,2026-02-03,12,多家厂商二月新模型发布计划前瞻,9,Anthropic; DeepSeek; GLM-5; Google; MiniMax; MiniMax M2.5; OpenAI; Qwen 3.5; xAI,data/raw/wechat/2026-02-03.md
+H00003,2026-02-03,9,Snowflake与OpenAI达成2亿美元模型集成合作,2,GPT-5.2; OpenAI,data/raw/wechat/2026-02-03.md
+H00153,2026-02-03,8,"阿里宣布投入30亿元启动千问App""春节请客计划""",2,Alibaba; Qwen App,data/raw/wechat/2026-02-03.md
+H00154,2026-02-03,7,优必选开源具身智能大模型Thinker,2,Thinker; 优必选,data/raw/wechat/2026-02-03.md
+H00155,2026-02-03,5,ElevenLabs宣布TTS模型Eleven v3结束测试正式上线,2,Eleven v3; ElevenLabs,data/raw/wechat/2026-02-03.md
+H00156,2026-02-02,6,Kimi与南大发布SimpleSeg赋能模型像素感知,2,Kimi; SimpleSeg,data/raw/wechat/2026-02-02.md
+H00157,2026-02-02,2,CircleStone发布文生图模型Anima预览版,2,Anima; CircleStone Labs,data/raw/wechat/2026-02-02.md
+H00002,2026-02-01,7,nanochat百美元内成本训练出GPT-2级别模型,2,Andrej Karpathy; OpenAI,data/raw/wechat/2026-02-01.md
+H00001,2026-02-01,5,苹果AI核心团队动荡，多人转投Meta谷歌,2,Google; Meta,data/raw/wechat/2026-02-01.md
+H00158,2026-02-01,3,V0新增导入GitHub项目功能,2,GitHub; v0,data/raw/wechat/2026-02-01.md
+H00123,2026-01-31,22,马斯克证实Grok 4.20因电力问题延期 #22,5,COLOSSUS 2; Elon Musk; Grok 4.20; Grok 5; xAI,data/raw/wechat/2026-01-31.md
+H00122,2026-01-31,21,Google测试Gemini商业版接入Claude模型 #21,4,Anthropic; Claude Sonnet 4.5; Gemini for Business; Google,data/raw/wechat/2026-01-31.md
+H00121,2026-01-31,20,Google AI 独立证明数学难题 #20,4,Aletheia; Erdős-Graham Problem 1051; Gemini Deep Think; Google,data/raw/wechat/2026-01-31.md
+H00120,2026-01-31,19,Kimi.ai发布K2.5技术报告 #19,4,Agent Swarm; Kimi K2.5; Kimi.ai; PARL,data/raw/wechat/2026-01-31.md
+H00119,2026-01-31,18,Anthropic研究揭示AI辅助对编程技能损害 #18,3,Anthropic; Python; Trio,data/raw/wechat/2026-01-31.md
+H00118,2026-01-31,17,腾讯任命庞天宇为混元多模态负责人 #17,3,庞天宇; 混元大模型; 腾讯,data/raw/wechat/2026-01-31.md
+H00117,2026-01-31,16,Perplexity与微软签约7.5亿美元云服务 #16,4,Azure; Foundry; Microsoft; Perplexity,data/raw/wechat/2026-01-31.md
+H00116,2026-01-31,15,Qoder 发布桌面 AI Agent QoderWork #15,3,MCP; Qoder; QoderWork,data/raw/wechat/2026-01-31.md
+H00115,2026-01-31,14,Anthropic推出Cowork插件 #14,3,Anthropic; Claude; Cowork,data/raw/wechat/2026-01-31.md
+H00114,2026-01-31,13,DeepLearning.AI与Anthropic合作发布Agent Skills课 #13,4,Agent Skills with Anthropic; Anthropic; DeepLearning.AI; Elie Schoppik,data/raw/wechat/2026-01-31.md
+H00113,2026-01-31,12,Firecrawl发布CLI与Skill 助力AI获取网页数据 #12,5,Claude Code; Firecrawl; Firecrawl CLI; Firecrawl Skill; OpenAI Codex,data/raw/wechat/2026-01-31.md
+H00112,2026-01-31,11,月之暗面升级Kimi Code模型与计费模式 #11,4,Kimi Code; Kimi K2.5; Token计费; 月之暗面,data/raw/wechat/2026-01-31.md
+H00111,2026-01-31,10,OpenCode 上线免费 Kimi K2.5 #10,4,GLM 4.7; Kimi K2.5; MiniMax M2.1; OpenCode,data/raw/wechat/2026-01-31.md
+H00110,2026-01-31,9,生数科技Vidu Q3正式发布支持音视频生成 #9,4,Artificial Analysis; Vidu Q3; Vidu Q3 Pro; 生数科技,data/raw/wechat/2026-01-31.md
+H00109,2026-01-31,8,宇树开源UnifoLM-VLA-0赋能具身智能 #8,4,Gemini-Robotics-ER 1.5; Qwen2.5-VL-7B; UnifoLM-VLA-0; Unitree,data/raw/wechat/2026-01-31.md
+H00108,2026-01-31,7,蚂蚁灵波开源LingBot-VA机器人世界模型 #7,4,LIBERO; LingBot-VA; RoboTwin 2.0; 蚂蚁灵波科技,data/raw/wechat/2026-01-31.md
+H00107,2026-01-31,6,StepFun更新Audio-EditX增强声音表现力 #6,3,Step-Audio-EditX; StepFun; StepFun Audio Studio,data/raw/wechat/2026-01-31.md
+H00106,2026-01-31,5,商汤开源多模态推理模型SenseNova-MARS #5,4,HR-MMSearch; SenseNova-MARS-32B; SenseNova-MARS-8B; 商汤科技,data/raw/wechat/2026-01-31.md
+H00105,2026-01-31,4,Grok 设置页新增 NSFW 开关选项 #4,3,Grok; NSFW; xAI,data/raw/wechat/2026-01-31.md
+H00104,2026-01-31,3,Windsurf 发布IDE内模型竞技场，首周免费 #3,4,Arena Mode; Cascade Agent; Wave 14; Windsurf,data/raw/wechat/2026-01-31.md
+H00103,2026-01-31,2,Moltbook 催生 AI Agent 自组织社交引争议 #2,5,AI Agent; Andrej Karpathy; Moltbook; OpenClaw; Simon Willison,data/raw/wechat/2026-01-31.md
+H00102,2026-01-31,1,Anthropic Claude首次规划NASA火星车路线 #1,5,Anthropic; Claude; NASA; Perseverance Rover; Rover Markup Language,data/raw/wechat/2026-01-31.md

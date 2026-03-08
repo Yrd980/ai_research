@@ -1,4 +1,5 @@
 date,title,input_method,input_reference,raw_file,is_full_text,needs_backfill,notes
+2026-02-13,AI 早报 2026-02-13,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-13.md,true,false,用户粘贴原文已归档（全文保真）
 2026-02-12,AI 早报 2026-02-12,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-12.md,true,false,用户粘贴原文已归档（全文保真）
 2026-02-11,AI 早报 2026-02-11,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-11.md,true,false,用户粘贴原文已归档（全文保真）
 2026-02-10,AI 早报 2026-02-10,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-10.md,true,false,用户粘贴原文已归档（全文保真）
@@ -11,3 +12,4 @@ date,title,input_method,input_reference,raw_file,is_full_text,needs_backfill,not
 2026-02-03,AI 早报 2026-02-03,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-03.md,true,false,用户粘贴原文已归档（全文保真）
 2026-02-02,AI 早报 2026-02-02,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-02.md,true,false,用户粘贴原文已归档（全文保真）
 2026-02-01,AI 早报 2026-02-01,manual_paste_in_chat,chat_session,data/raw/wechat/2026-02-01.md,true,false,用户粘贴原文已归档（全文保真）
+2026-01-31,AI 早报 2026-01-31,manual_paste_in_chat,chat_session,data/raw/wechat/2026-01-31.md,true,false,用户粘贴原文已归档（全文保真）

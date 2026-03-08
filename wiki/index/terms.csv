@@ -766,3 +766,171 @@ trm_zeng-liqing,Zeng Liqing,Person,wikidata founder relation
 trm_zhang-yiming,Zhang Yiming,Person,wikidata founder relation
 trm_zhang-zhidong,Zhang Zhidong,Person,wikidata founder relation
 trm_zhipu-ai,Zhipu AI,Company,GLM-5传闻
+trm_gemini-3-deep-think,Gemini 3 Deep Think,Model,Google科研推理更新
+trm_google-ai-ultra,Google AI Ultra,Product,Gemini应用订阅层
+trm_minimax-m2-5-lightning,MiniMax M2.5-Lightning,Model,MiniMax高速版
+trm_minimax-agent,MiniMax Agent,Product,MiniMax Agent接入
+trm_gpt-5-3-codex-spark,GPT-5.3-Codex-Spark,Model,OpenAI实时编码模型
+trm_cerebras,Cerebras,Company,Codex-Spark合作方
+trm_chatgpt-pro,ChatGPT Pro,Product,Codex-Spark可用层级
+trm_ring-2-5-1t,Ring-2.5-1T,Model,蚂蚁开源推理模型
+trm_jimeng-ai,Jimeng AI,Product,字节即梦平台
+trm_doubao,Doubao,Product,字节豆包产品
+trm_volcano-engine-ark,Volcano Engine Ark,Platform,火山方舟平台
+trm_xiaomi,Xiaomi,Company,MiMo模型发布方
+trm_mimo-v2-flash-0204,MiMo-V2-Flash-0204,Model,Xiaomi MiMo版本更新
+trm_aidc-ai,AIDC-AI,Company,阿里国际AI团队
+trm_ovis2-6-30b-a3b,Ovis2.6-30B-A3B,Model,AIDC-AI多模态模型
+trm_fireredteam,FireRedTeam,Company,小红书开源团队
+trm_firered-image-edit-1-0,FireRed-Image-Edit-1.0,Model,图像编辑模型
+trm_rededit-bench,REDEdit-Bench,Metric,图像编辑评测基准
+trm_fireredasr2s,FireRedASR2S,Model,工业级ASR系统
+trm_fireredasr2-aed,FireRedASR2-AED,Model,ASR子模型权重
+trm_glm-coding-pro,GLM Coding Pro,Product,智谱订阅方案
+trm_long-running-agent,Long-running Agent,Product,Cursor研究预览功能
+trm_gemini-cli,Gemini CLI,Product,Google命令行助手
+trm_gemini-cli-v0-28-0,Gemini CLI v0.28.0,Product,Gemini CLI版本
+trm_miro,Miro,Company,Gemini CLI官方扩展
+trm_apiiro,Apiiro,Company,Gemini CLI官方扩展
+trm_seedance-2-0-fast,Seedance 2.0 Fast,Model,即梦视频模型
+trm_seedream-5-0-lite,Seedream 5.0 Lite,Model,即梦图片模型
+trm_firered-openstoryline,FireRed-OpenStoryline,Product,视频创作智能体
+trm_qoder-ai,Qoder AI,Company,QoderWork发布方
+trm_qoderwork-for-mac,QoderWork for Mac,Product,Mac端AI开发工具
+trm_youdao,Youdao,Company,网易有道
+trm_lobsterai,LobsterAI,Product,有道龙虾Agent
+trm_threads,Threads,Product,Meta社交平台
+trm_dear-algo,Dear Algo,Product,Threads算法定制功能
+trm_exa-ai,Exa AI,Company,AI搜索公司
+trm_exa-instant,Exa Instant,Product,低延迟搜索产品
+trm_brave,Brave,Company,搜索竞品参照
+trm_gic,GIC,Company,Anthropic G轮投资方
+trm_coatue,Coatue,Company,Anthropic G轮投资方
+trm_microsoft,Microsoft,Company,Anthropic投资方
+trm_nvidia,NVIDIA,Company,Anthropic投资方
+trm_arena-ai,Arena.ai,Company,AI评估资助计划发布方
+trm_academic-partner-program,Academic Partner Program,Project,Arena学术资助计划
+trm_simile,Simile,Company,AI社会模拟平台
+trm_index-ventures,Index Ventures,Company,Simile融资领投
+trm_fei-fei-li,Fei-Fei Li,Person,Simile投资人
+trm_spotify,Spotify,Company,Honk内部实践
+trm_honk,Honk,Product,Spotify内部系统
+trm_qwen-chat,Qwen Chat,Product,Qwen产品入口
+trm_ai-slides,AI Slides,Product,Qwen演示文稿功能
+trm_qwen-agent,Qwen Agent,Framework,Qwen Agent框架
+trm_nasa,NASA,Company,from 2026-01-31 #1
+trm_perseverance-rover,Perseverance Rover,Product,from 2026-01-31 #1
+trm_rover-markup-language,Rover Markup Language,Standard,from 2026-01-31 #1
+trm_moltbook,Moltbook,Platform,from 2026-01-31 #2
+trm_ai-agent,AI Agent,Concept,from 2026-01-31 #2
+trm_simon-willison,Simon Willison,Person,from 2026-01-31 #2
+trm_openclaw,OpenClaw,Project,from 2026-01-31 #2
+trm_windsurf,Windsurf,Company,from 2026-01-31 #3
+trm_arena-mode,Arena Mode,Product,from 2026-01-31 #3
+trm_cascade-agent,Cascade Agent,Product,from 2026-01-31 #3
+trm_wave-14,Wave 14,Product,from 2026-01-31 #3
+trm_nsfw,NSFW,Flag,from 2026-01-31 #4
+trm_term,商汤科技,Company,from 2026-01-31 #5
+trm_sensenova-mars-8b,SenseNova-MARS-8B,Model,from 2026-01-31 #5
+trm_sensenova-mars-32b,SenseNova-MARS-32B,Model,from 2026-01-31 #5
+trm_hr-mmsearch,HR-MMSearch,Project,from 2026-01-31 #5
+trm_stepfun,StepFun,Company,from 2026-01-31 #6
+trm_step-audio-editx,Step-Audio-EditX,Model,from 2026-01-31 #6
+trm_stepfun-audio-studio,StepFun Audio Studio,Product,from 2026-01-31 #6
+trm_term-2,蚂蚁灵波科技,Company,from 2026-01-31 #7
+trm_lingbot-va,LingBot-VA,Model,from 2026-01-31 #7
+trm_robotwin-2-0,RoboTwin 2.0,Project,from 2026-01-31 #7
+trm_libero,LIBERO,Project,from 2026-01-31 #7
+trm_unitree,Unitree,Company,from 2026-01-31 #8
+trm_unifolm-vla-0,UnifoLM-VLA-0,Model,from 2026-01-31 #8
+trm_qwen2-5-vl-7b,Qwen2.5-VL-7B,Model,from 2026-01-31 #8
+trm_gemini-robotics-er-1-5,Gemini-Robotics-ER 1.5,Model,from 2026-01-31 #8
+trm_term-3,生数科技,Company,from 2026-01-31 #9
+trm_vidu-q3,Vidu Q3,Product,from 2026-01-31 #9
+trm_vidu-q3-pro,Vidu Q3 Pro,Product,from 2026-01-31 #9
+trm_artificial-analysis,Artificial Analysis,Platform,from 2026-01-31 #9
+trm_opencode,OpenCode,Platform,from 2026-01-31 #10
+trm_kimi-k2-5,Kimi K2.5,Model,from 2026-01-31 #19
+trm_glm-4-7,GLM 4.7,Model,from 2026-01-31 #10
+trm_minimax-m2-1,MiniMax M2.1,Model,from 2026-01-31 #10
+trm_term-4,月之暗面,Company,from 2026-01-31 #11
+trm_kimi-code,Kimi Code,Product,from 2026-01-31 #11
+trm_token,Token计费,Concept,from 2026-01-31 #11
+trm_firecrawl,Firecrawl,Product,from 2026-01-31 #12
+trm_firecrawl-cli,Firecrawl CLI,Product,from 2026-01-31 #12
+trm_firecrawl-skill,Firecrawl Skill,Product,from 2026-01-31 #12
+trm_openai-codex,OpenAI Codex,Product,from 2026-01-31 #12
+trm_deeplearning-ai,DeepLearning.AI,Company,from 2026-01-31 #13
+trm_agent-skills-with-anthropic,Agent Skills with Anthropic,Project,from 2026-01-31 #13
+trm_elie-schoppik,Elie Schoppik,Person,from 2026-01-31 #13
+trm_cowork,Cowork,Product,from 2026-01-31 #14
+trm_qoder,Qoder,Company,from 2026-01-31 #15
+trm_qoderwork,QoderWork,Product,from 2026-01-31 #15
+trm_mcp,MCP,Framework,from 2026-01-31 #15
+trm_azure,Azure,Product,from 2026-01-31 #16
+trm_foundry,Foundry,Product,from 2026-01-31 #16
+trm_term-5,腾讯,Company,from 2026-01-31 #17
+trm_term-6,庞天宇,Person,from 2026-01-31 #17
+trm_term-7,混元大模型,Product,from 2026-01-31 #17
+trm_trio,Trio,Framework,from 2026-01-31 #18
+trm_python,Python,Concept,from 2026-01-31 #18
+trm_kimi-ai,Kimi.ai,Product,from 2026-01-31 #19
+trm_agent-swarm,Agent Swarm,Framework,from 2026-01-31 #19
+trm_parl,PARL,Framework,from 2026-01-31 #19
+trm_aletheia,Aletheia,Product,from 2026-01-31 #20
+trm_erd-s-graham-problem-1051,Erdős-Graham Problem 1051,Project,from 2026-01-31 #20
+trm_gemini-for-business,Gemini for Business,Product,from 2026-01-31 #21
+trm_claude-sonnet-4-5,Claude Sonnet 4.5,Product,from 2026-01-31 #21
+trm_grok-4-20,Grok 4.20,Model,from 2026-01-31 #22
+trm_grok-5,Grok 5,Model,from 2026-01-31 #22
+trm_colossus-2,COLOSSUS 2,Platform,from 2026-01-31 #22
+trm_ace-studio,ACE Studio,Company,音乐模型协作方
+trm_ace-step-1-5,ACE-Step 1.5,Model,音乐生成模型
+trm_ai-controls,AI controls,Product,AI 拒绝权
+trm_ai2,AI2,Company,OpenScholar
+trm_alexa,Alexa+,Product,AI 助手
+trm_alibaba,Alibaba,Company,Qwen 相关
+trm_amazon,Amazon,Company,Alexa+
+trm_anima,Anima,Model,文生图模型
+trm_atlas,Atlas,Product,AI 推理芯片
+trm_circlestone-labs,CircleStone Labs,Company,Anima 发布方
+trm_cl-bench,CL-bench,Project,上下文学习基准
+trm_eleven-v3,Eleven v3,Model,TTS 模型
+trm_elevenlabs,ElevenLabs,Company,语音 AI 公司
+trm_figma,Figma,Company,Vectorize
+trm_fundamental,Fundamental,Company,表格模型 Nexus
+trm_github,GitHub,Platform,Copilot 更新
+trm_github-copilot,GitHub Copilot,Product,Copilot 产品
+trm_hpc-ops,HPC-Ops,Framework,推理算子库
+trm_ima,ima,Product,图生图功能
+trm_intel,Intel,Company,ZAM
+trm_kimi,Kimi,Product,多模态产品线
+trm_kling-3-0,Kling 3.0,Product,可灵 3.0
+trm_lotus-health,Lotus Health,Company,AI 医疗公司
+trm_max,Max,Model,路由模型
+trm_mozilla,Mozilla,Company,AI controls
+trm_nexus,Nexus,Model,表格模型
+trm_notebooklm,NotebookLM,Product,视频概要
+trm_openscholar,OpenScholar,Model,学术检索模型
+trm_openviking,OpenViking,Project,上下文数据库
+trm_positron,Positron,Company,AI 推理芯片
+trm_publisher-content-marketplace,Publisher Content Marketplace,Platform,内容授权市场
+trm_qwen,Qwen,Product,阿里通用模型品牌
+trm_qwen-app,Qwen App,Product,春节请客计划
+trm_sequoia-capital,Sequoia Capital,Company,领投方
+trm_simpleseg,SimpleSeg,Technique,像素感知方法
+trm_slack,Slack,Platform,Claude 连接
+trm_softbank,SoftBank,Company,ZAM
+trm_swe-universe,SWE-Universe,Framework,软件工程训练框架
+trm_tab-v2,Tab v2,Model,代码补全模型
+trm_thinker,Thinker,Model,具身智能模型
+trm_v0,v0,Product,开发全流程
+trm_vectorize,Vectorize,Product,AI 矢量化工具
+trm_video-overview,Video Overview,Product,视频概要功能
+trm_vidu,Vidu,Product,视频生成模型
+trm_worldvqa,WorldVQA,Project,视觉知识基准
+trm_yuri,Yuri,Product,AI 虚拟偶像
+trm_zam,ZAM,Technique,AI 内存技术
+trm_zed,Zed,Product,编辑预测
+trm_term-8,优必选,Company,具身智能公司
+trm_3-0,混元图像3.0,Model,图生图模型

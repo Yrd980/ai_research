@@ -1,60 +1,91 @@
 # AI Research Workspace
 
-面向每日 "AI 早报" 的 agentic 维护仓库。
+围绕每日“AI 早报”维护的名词化知识库仓库。
 
-## 目标
+## 仓库目标
 
-- 主目标：抽取不可再分名词原语。
-- 次目标：构建无时间语义的全局名词图谱（节点/边/别名）。
+- 主目标：从每日输入中抽取不可再分名词原语。
+- 次目标：维护一个与日历解耦的全局名词图谱，支持查询、关联与后续扩展。
 
-## 分层边界
+## 固定入口
 
-- 日报层（event stream）：记录每日输入与时序上下文。
-- wiki 层（global graph）：累计名词节点与关联，不复刻日报事件。
+- 用户手动写入 `data/raw/wechat/YYYY-MM-DD.md`。
+- 这是当前唯一固定工作流；其余派生文件都由 Codex 直接维护。
 
-## 原文保真要求
+## 当前架构
 
-- `data/raw/wechat/YYYY-MM-DD.md` 必须保存完整原文，不允许用摘要替代。
-- 原文中的数值指标、机制名称、限制条件与来源链接必须保留。
-- 若当天仅有部分正文，`ingest_manifest.csv` 必须设置 `is_full_text=false` 且 `needs_backfill=true`，待全文补齐后改为 `is_full_text=true` 与 `needs_backfill=false`。
+### 1. 原文层（source of truth）
 
-## 核心目录
+- `data/raw/wechat/YYYY-MM-DD.md`：保存每日原文，必须全文保真。
+- `data/raw/wechat/ingest_manifest.csv`：登记每日输入，按日期倒序维护。
 
-- `data/raw/wechat/`：日报原文
-- `data/processed/`：原语与共现结果
-- `data/templates/`：CSV 模板
-- `wiki/index/`：全局名词图谱索引
-- `wiki/entities/`：按需创建的名词笔记页
+### 2. 提取层（event-derived）
 
-## 必须维护的产物
+- `data/processed/primitives.csv`：原语主表。
+- `data/processed/primitive_occurrences.csv`：原语在每日条目中的出现。
+- `data/processed/primitive_hyperedges.csv`：同条目原语共现的 N 元关系。
+
+### 3. Wiki 层（time-agnostic noun graph）
+
+- `wiki/index/terms.csv`：全局名词节点。
+- `wiki/index/term_aliases.csv`：别名归一。
+- `wiki/index/term_edges.csv`：名词之间的核心关联。
+- `wiki/index/term_expansion_queue.csv`、`wiki/index/term_external_edges.csv`：外部扩展层。
+- `wiki/index/high_value_relations.csv`、`wiki/index/relation_research_queue.csv`：高价值关系层。
+- `wiki/entities/`：按需创建的长期实体说明页。
+
+仓库默认不再保留额外的模板层、机器契约层或独立可视化层；只保留主链需要的最小结构。
+
+## 维护边界
+
+### 核心必维护
 
 - `data/raw/wechat/ingest_manifest.csv`
 - `data/processed/primitives.csv`
 - `data/processed/primitive_occurrences.csv`
 - `data/processed/primitive_hyperedges.csv`
 - `wiki/index/terms.csv`
-- `wiki/index/term_aliases.csv`
 - `wiki/index/term_edges.csv`
+- `wiki/index/high_value_relations.csv`
+
+### 按需维护
+- `wiki/index/term_aliases.csv`
 - `wiki/index/term_expansion_queue.csv`
 - `wiki/index/term_external_edges.csv`
-- `wiki/index/high_value_relations.csv`
 - `wiki/index/relation_research_queue.csv`
+- `wiki/entities/*.md`
 
-## Agentic 日常流程
+## 数据对齐要求
+
+- `ingest_manifest.csv` 与 `data/raw/wechat/*.md` 必须一一对应，并保持日期倒序。
+- 原文中每个带 `#序号` 的日报条目，原则上都应在 `primitive_occurrences.csv` 中留下至少一条对应记录。
+- `primitives.csv` 应当是 `primitive_occurrences.csv` 的唯一原语投影，不保留无 occurrence 支撑的孤立行。
+- `primitive_hyperedges.csv` 应当由同一 `(date, item_no)` 下的 occurrence 自动推导；少于 2 个唯一原语则不生成。
+- `terms.csv` 对所有 primitives 必须有同名 term，且类型一致。
+- `term_edges.csv` 至少覆盖日报 hyperedge 产生的全部 pair，且共现计数不能低于日报主链。
+- `high_value_relations.csv` 可以扩展到日报之外，但其 term 引用必须能回到 `terms.csv`。
+
+## 推荐工作流
+
+### Manual-first
 
 1. 新增或更新 `data/raw/wechat/YYYY-MM-DD.md`。
 2. 更新 `data/raw/wechat/ingest_manifest.csv`。
-3. 维护 `data/processed/primitives.csv`（只保留名词原语）。
-4. 同步更新 `primitive_occurrences.csv` 与 `primitive_hyperedges.csv`。
-5. 同步更新 `wiki/index/terms.csv`、`wiki/index/term_aliases.csv`、`wiki/index/term_edges.csv`。
-6. 维护高价值关系表：`wiki/index/high_value_relations.csv`（收购/创始人/开源/产品归属）。
-6. 仅在必要时补充 `wiki/entities/*.md`（不全量预建）。
+3. 由 Codex 在同一轮会话内直接更新 `data/processed/*.csv`。
+4. 再直接回写 `wiki/index/terms.csv`、`wiki/index/term_edges.csv` 与必要的高价值关系。
+5. 只有在确有长期价值时，才补充 alias、external edge、research queue 与实体页。
 
-## 约束
+## 原文保真规则
 
-- 全程客观、原子化、可追溯。
-- 优先第一手链接；去除社媒转述噪声。
-- 默认不新增本地构建脚本；直接在 agentic 编辑中维护结果。
-- 数据层索引 CSV 不引入 `status` 字段与候选状态门（如 `candidate/verified/in_progress`）。
-- 不确定性留在对话与日志（`task_plan.md`、`findings.md`、`progress.md`），不写入核心索引表。
+- 原文中的链接、数字、机制名、基准值、限制条件必须保留。
+- 若仅有部分正文，必须在 `ingest_manifest.csv` 中设置 `is_full_text=false` 与 `needs_backfill=true`。
+- 不在原文文件中写入推断性字段。
+
+## 维护约束
+
+- 数据层索引 CSV 不引入 `status` 字段。
+- 不确定性只留在 `task_plan.md`、`findings.md`、`progress.md`。
+- 优先一手来源，不把社媒转述当主证据。
+- `wiki/` 保持为全局名词层，不复制日报事件叙事。
+- 不再保留机器 JSON 入参/回执契约层；派生表直接由 Codex 修改。
 - 详细规则以 `AGENTS.md` 为准。
